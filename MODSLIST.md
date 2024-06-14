@@ -72,6 +72,7 @@
 | KubeJS Create | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | [✅](https://modrinth.com/mod/kubejs-create) | Compatibility mod between KubeJS and Create |
 | Mod Menu | [✅](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [✅](https://modrinth.com/mod/modmenu) | Manages mods |
 | Mouse Tweaks | [✅](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [✅](https://modrinth.com/mod/mouse-tweaks) | Adds LMB and RMB tweaks |
+| Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | No Night Vision Flickering | [✅](https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flickering) | [✅](https://modrinth.com/mod/no-night-vision-flickering) | Makes expiring night vision fade out |
 | Paxi | [✅](https://www.curseforge.com/minecraft/mc-mods/paxi-fabric) | [✅](https://modrinth.com/mod/paxi) | Manages data and resource packs |
 | Polymorph | [✅](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric) | [✅](https://modrinth.com/mod/polymorph) | Solves recipe conflicts |
@@ -264,7 +265,7 @@
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - MmmMmmMmmMmm <br> - Supplementaries |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
-| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Stylish Effects |
+| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
 | Satin API [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
