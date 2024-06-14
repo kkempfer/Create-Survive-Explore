@@ -35,7 +35,7 @@
 
 > [!NOTE]
 >
-> **[1]**: Memory Leak Fix latest updates are not available for Minecraft 1.19.2 on CurseForge.
+> **[1]**: Memory Leak Fix latest updates are not available on CurseForge.
 
 ## Utilities
 
@@ -51,7 +51,7 @@
 | Building Wands | [✅](https://www.curseforge.com/minecraft/mc-mods/building-wands) | [✅](https://modrinth.com/mod/building-wands) | Makes building easier |
 | Camera Utils | [✅](https://www.curseforge.com/minecraft/mc-mods/camera-utils) | [✅](https://modrinth.com/mod/camera-utils) | Configurable camera view |
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
-| ChatMove | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
+| ChatMove [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
 | Custom Credit | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
 | Default Options | [✅](https://www.curseforge.com/minecraft/mc-mods/default-options-fabric) | [✅](https://modrinth.com/mod/default-options) | Improves distribution of default options and keybindings |
@@ -78,13 +78,19 @@
 | Ponder for KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/ponder) | [✅](https://modrinth.com/mod/ponder) | Allows to create custom Create Ponder scenes with KubeJS |
 | Potion Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/potion-descriptions-fabric) | [✅](https://modrinth.com/mod/potion-descriptions) | Improves tooltip |
 | ProbeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/probejs) | [✅](https://modrinth.com/mod/probejs) | Generates KubeJS typing in VSCode. Requires KubeJS |
-| Roughly Enough Items | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
+| Roughly Enough Items [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
 | SeasonHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric) | [✅](https://modrinth.com/mod/seasonhud-fabric) | Compatibility mod between Fabric Seasons and Xaero's Minimap |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
 | Textile Backup | [✅](https://www.curseforge.com/minecraft/mc-mods/textile-backup) | [✅](https://modrinth.com/mod/textile_backup) | Manages backup |
 | Toast Manager | [✅](https://www.curseforge.com/minecraft/mc-mods/toast-manager) | ❌ | Gives control over toasts |
 | What's That Slot? | [✅](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot) | [✅](https://modrinth.com/mod/whats-that-slot) | Helps the player determine which items can fit into a specific slot, including Trinkets accessories |
 | Wild Tool Access | [✅](https://www.curseforge.com/minecraft/mc-mods/wta) | [✅](https://modrinth.com/mod/wta) | Adds an item quick select bar |
+
+> [!NOTE]
+>
+> **[1]**: ChatMove is not available on Modrinth for Minecraft 1.19.2.
+>
+> **[2]**: Versions above 9.1.695 are incompatible with the cutting board from Farmer's Delight 1.19.2-1.3.10.2. A click onto the cutting board tab in the GUI will crash the game. Tested up to version 9.2.724.
 
 ## World generation
 
@@ -114,7 +120,7 @@
 | AmbientSounds | [✅](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) | [✅](https://modrinth.com/mod/ambientsounds) | Adds more sounds |
 | Cave Dust | [✅](https://www.curseforge.com/minecraft/mc-mods/cave-dust) | [✅](https://modrinth.com/mod/cave-dust) | Adds dust particles in caves. Do we need Architectury API? |
 | Drip Sounds | [✅](https://www.curseforge.com/minecraft/mc-mods/dripsounds-fabric) | [✅](https://modrinth.com/mod/dripsounds-fabric) | Adds sounds for drip particles landing. Works with Create pipes |
-| Effective | [✅](https://www.curseforge.com/minecraft/mc-mods/effective) | [✅](https://modrinth.com/mod/effective) | Improves water effects and more |
+| Effective [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/effective) | [✅](https://modrinth.com/mod/effective) | Improves water effects and more |
 | Falling Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-fabric) | [✅](https://modrinth.com/mod/fallingleaves) | Lets leaves fall from trees |
 | Head in the Clouds | [✅](https://www.curseforge.com/minecraft/mc-mods/head-in-the-clouds) | [✅](https://modrinth.com/mod/head-in-the-clouds) | Makes it not rain over cloud level |
 | Iris Shaders | [✅](https://www.curseforge.com/minecraft/mc-mods/irisshaders) | [✅](https://modrinth.com/mod/iris) | Adds shaders support. Requires Sodium |
@@ -125,6 +131,10 @@
 | Sounds Physics Remastered | [✅](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered) | [✅](https://modrinth.com/mod/sound-physics-remastered) | Adds realistic sound physics |
 | Snow Under Trees | [✅](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees-remastered) | [✅](https://modrinth.com/mod/snow-under-trees-remastered) | Adds snow under trees. Do we need Mineblock's Repeated Utilities? |
 | Snow! Real Magic! | [✅](https://www.curseforge.com/minecraft/mc-mods/snow-real-magic-fabric) | [✅](https://modrinth.com/mod/snow-real-magic) | Adds snow gravity and accumulation onto various blocks. Notes: <br> - Create: Copycats+ blocks are not supported <br> - CreateDeco Bricks are not supported, but CreateDeco Metals look good <br> - Decorative Blocks blocks are not supported |
+
+> [!NOTE]
+>
+> **[1]**: Effective 2.X versions are not available on CurseForge.
 
 ## Game mechanics
 
@@ -159,24 +169,28 @@
 | Create Chunkloading [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-chunkloading) | ❌ | Adds chunk loaders |
 | Create Crafts & Additions | [✅](https://www.curseforge.com/minecraft/mc-mods/createaddition) | [✅](https://modrinth.com/mod/createaddition) | Adds electricity |
 | Create Deco [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-deco-fabric) | [✅](https://modrinth.com/mod/create-deco) | Adds industrial decorations |
-| Create Enchantment Industry Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-fabric) | [✅](https://modrinth.com/mod/create-enchantment-industry-fabric) | Automates enchantments and books |
+| Create Enchantment Industry Fabric [3] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-enchantment-industry-fabric) | [✅](https://modrinth.com/mod/create-enchantment-industry-fabric) | Automates enchantments and books |
 | Create Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-fabric) | [✅](https://modrinth.com/mod/create-fabric) | The best mod ever |
 | Create Goggles | [✅](https://www.curseforge.com/minecraft/mc-mods/create-goggles) | [✅](https://modrinth.com/mod/create-goggles) | Adds goggle helmets and armored backtanks |
-| Create Jetpack | [✅](https://www.curseforge.com/minecraft/mc-mods/create-jetpack) | [✅](https://modrinth.com/mod/create-jetpack) | Adds jetpacks |
+| Create Jetpack [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-jetpack) | [✅](https://modrinth.com/mod/create-jetpack) | Adds jetpacks |
 | Create Slice & Dice | [✅](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice) | [✅](https://modrinth.com/mod/slice-and-dice) | Compatibility mod between Create and Farmer's Delight |
 | Create: Bells and Whistles | [✅](https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles) | [✅](https://modrinth.com/mod/bellsandwhistles) | Adds industrial decorations |
-| Create: Copycats+ | [✅](https://www.curseforge.com/minecraft/mc-mods/copycats) | [✅](https://modrinth.com/mod/copycats) | Adds copycats |
+| Create: Copycats+ [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/copycats) | [✅](https://modrinth.com/mod/copycats) | Adds copycats |
 | Create: Extended Cogwheels Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-extended-cogwheels-fabric) | [✅](https://modrinth.com/mod/extended-cogwheels) | Adds more cog types |
 | Create: Foundry | [✅](https://www.curseforge.com/minecraft/mc-mods/create-foundry) | [✅](https://modrinth.com/mod/createfoundry) | Adds liquid metals |
-| Create: Steam 'n' Rails | [✅](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails) | [✅](https://modrinth.com/mod/create-steam-n-rails) | Extends the train and rail systems |
+| Create: Steam 'n' Rails [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails) | [✅](https://modrinth.com/mod/create-steam-n-rails) | Extends the train and rail systems |
 | Create: Train Perspective Fix | [✅](https://www.curseforge.com/minecraft/mc-mods/create-train-perspective-fix) | [✅](https://modrinth.com/mod/create-train-perspective-fix) | Allows a player sitting in a train to rotate with it |
 | Delightful Creators | [✅](https://www.curseforge.com/minecraft/mc-mods/delightful-creators-fabric) | [✅](https://modrinth.com/mod/delightful-creators-fabric) | Compatibility mod between Create and Farmer's Delight |
 
 > [!NOTE]
 >
-> **[1]**: Create Chunkloading is being ported to Create: Power Loader. The latter is available on both [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-power-loader-fabric) and [Modrinth](https://modrinth.com/mod/create-power-loader/). However, it is not compatible with our version of Create.
+> **[1]**: Create Chunkloading is being ported to Create: Power Loader. The latter is available on both [CurseForge](https://www.curseforge.com/minecraft/mc-mods/create-power-loader-fabric) and [Modrinth](https://modrinth.com/mod/create-power-loader/). However, it is not compatible with Create v0.5.1c.
 >
 > **[2]**: Create Deco is not available for Minecraft 1.19.2 on Modrinth.
+>
+> **[3]**: Create Enchantment Industry Fabric 1.0.1.b requires Create Fabric v0.5.1c.
+>
+> **[4]**: Create Jetpack 3.4.1, Create: Copycats+ 1.1.1 and Create: Steam 'n' Rails 1.5.1 are compatible with Create Fabric v0.5.1c.
 
 ## Farmer's Delight series
 
@@ -238,7 +252,7 @@
 | CTM Refabricated | [✅](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) | [✅](https://modrinth.com/mod/ctm-refabricated) | - Chipped |
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
-| Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
+| Fabric API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
 | Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Inventory Profiles Next <br> - libIPN |
 | Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD <br> - Toast Manager |
 | FTB Library | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | ❌ | - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat |
@@ -253,7 +267,15 @@
 | Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
-| Satin API | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
+| Satin API [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
 | Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison |
-| YetAnotherConfigLib | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
+| YetAnotherConfigLib [3] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
 | YUNG's API | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric) | [✅](https://modrinth.com/mod/yungs-api) | All of YUNG's mods, including Paxi |
+
+> [!NOTE]
+>
+> **[1]**: Fabric API 0.76+1.19.2 is required by Create Fabric v0.5.1c.
+>
+> **[2]**: Satin API 1.9.0 is compatible with Effective 1.4, while Satin 1.9.2 makes the game crash.
+>
+> **[3]**: YetAnotherConfigLib 2.2.0 for Minecraft 1.19.2 is broken.
