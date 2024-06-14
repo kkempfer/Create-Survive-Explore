@@ -10,6 +10,7 @@
 | Create Immersive Aircrafts | [✅](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-resource-pack) | ❌ | Compatibility resource pack between Create and Immersive Aircrafts |
 | Andesite Chests + Crafting Table | [✅](https://www.curseforge.com/minecraft/texture-packs/andesite-chests-crafting-table) | ❌ | Adds Create-themed chests and crafting table |
 | Create Style Modded Compats | [✅](https://www.curseforge.com/minecraft/texture-packs/create-style-modded-compats) | ❌ | Adds Create-themed vanilla redstone items |
+| Create Quests | [✅](https://www.curseforge.com/minecraft/texture-packs/create-quests) | ❌ | Adds a Create-theme FTB Quests book |
 | Da Vinci Gliders | ❌ | ❌ | Uptades Elytra's texture. Available on [Planet Minecraft](https://www.planetminecraft.com/texture-pack/da-vinci-gliders/) |
 | CircularSunMoon | ❌ | ❌ | Adds circular sun and moon. Available on [VanillaTweaks](https://vanillatweaks.net/) |
 | LowerShield | ❌ | ❌ | Lowers the shield. Available on [VanillaTweaks](https://vanillatweaks.net/) |
