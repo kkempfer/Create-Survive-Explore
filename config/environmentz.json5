@@ -5,7 +5,7 @@
 	"easy_world_spawn": true,
 	"icon_x": 7,
 	"icon_y": 52,
-	"thermometer_icon_x": 115,
+	"thermometer_icon_x": 140,
 	"thermometer_icon_y": 32,
 	"show_thermometer": true,
 	// Handle with care!
