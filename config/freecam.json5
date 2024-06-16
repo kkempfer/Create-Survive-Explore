@@ -1,0 +1,30 @@
+{
+	"movement": {
+		"flightMode": "DEFAULT",
+		"horizontalSpeed": 0.4,
+		"verticalSpeed": 0.4
+	},
+	"collision": {
+		"ignoreTransparent": true,
+		"ignoreOpenable": true,
+		"ignoreAll": true,
+		"alwaysCheck": false
+	},
+	"visual": {
+		"perspective": "INSIDE",
+		"showPlayer": true,
+		"showHand": false,
+		"fullBright": false,
+		"showSubmersion": false
+	},
+	"utility": {
+		"disableOnDamage": true,
+		"freezePlayer": false,
+		"allowInteract": false,
+		"interactionMode": "CAMERA"
+	},
+	"notification": {
+		"notifyFreecam": false,
+		"notifyTripod": false
+	}
+}
