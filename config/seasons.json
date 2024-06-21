@@ -13,7 +13,7 @@
     "minecraft:overworld"
   ],
   "doTemperatureChanges": true,
-  "shouldSnowyBiomesMeltInSummer": true,
+  "shouldSnowyBiomesMeltInSummer": false,
   "shouldIceNearWaterMelt": false,
   "biomeDenylist": [
     "terralith:glacial_chasm"
