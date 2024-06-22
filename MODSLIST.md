@@ -200,8 +200,8 @@
 | Chef's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric) | [✅](https://modrinth.com/mod/chefs-delight) | Adds chef and cook professions to villagers |
 | Corn Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/corn-delight-fabric) | ❌ | Adds corn and its derivatives |
 | Crate Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/crate-delight-fabric) | [✅](https://modrinth.com/mod/crate-delight) | Adds extra crates, including for items from Create and Naturalist |
-| Expanded Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/expanded-delight) | [✅](https://modrinth.com/mod/expanded-delight) | Expands Farmers's Delight |
-| Farmers's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) | [✅](https://modrinth.com/mod/farmers-delight-fabric) | Improves farming and cooking mechanics |
+| Expanded Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/expanded-delight) | [✅](https://modrinth.com/mod/expanded-delight) | Expands Farmer's Delight |
+| Farmer's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) | [✅](https://modrinth.com/mod/farmers-delight-fabric) | Improves farming and cooking mechanics |
 | Nether's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric) | ❌ | Adds food from the Nether |
 | Ocean's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/oceans-delight) | [✅](https://modrinth.com/mod/oceans-delight) | Adds food from the ocean |
 
@@ -227,6 +227,7 @@
 | Decorative Blocks | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
 | Display Case | [✅](https://www.curseforge.com/minecraft/mc-mods/displaycase) | [✅](https://modrinth.com/mod/displaycase) | Adds a display case block |
 | Eating Animation | [✅](https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric) | [✅](https://modrinth.com/mod/eating-animation) | Improves eating animation |
+| Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
 | Invisible Frames [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
 | MmmMmmMmmMmm | [✅](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) | [✅](https://modrinth.com/mod/mmmmmmmmmmmm) | Adds target dummies |
@@ -263,7 +264,7 @@
 | Item Filters | [✅](https://www.curseforge.com/minecraft/mc-mods/item-filters) | [✅](https://modrinth.com/mod/item-filters) | - FTB Quests |
 | Kiwi | [✅](https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric) | [✅](https://modrinth.com/mod/kiwi) | - Snow! Real Magic! |
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
-| Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - MmmMmmMmmMmm <br> - Supplementaries |
+| Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - MmmMmmMmmMmm <br> - Supplementaries |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
 | Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
