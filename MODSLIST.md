@@ -225,7 +225,6 @@
 | Chipped | [✅](https://www.curseforge.com/minecraft/mc-mods/chipped) | [✅](https://modrinth.com/mod/chipped) | Adds many building blocks variants |
 | Continuity | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures |
 | Decorative Blocks | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
-| Display Case | [✅](https://www.curseforge.com/minecraft/mc-mods/displaycase) | [✅](https://modrinth.com/mod/displaycase) | Adds a display case block |
 | Eating Animation | [✅](https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric) | [✅](https://modrinth.com/mod/eating-animation) | Improves eating animation |
 | Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
