@@ -11,6 +11,55 @@ REIEvents.hide('item', event => {
         // We use the zinc sheets from Create Deco
         'createaddition:zinc_sheet',
 
+        // Supplementaries
+
+        // Redstone
+        // The speaker block is not compatible with the Mindful Darkness mod
+        'supplementaries:speaker_block',
+        'supplementaries:bellows',
+        'supplementaries:spring_launcher',
+        'supplementaries:turn_table',
+        'supplementaries:pulley_block',
+        'supplementaries:crystal_display',
+        'supplementaries:clock_block',
+        'supplementaries:crank',
+        'supplementaries:cog_block',
+        'supplementaries:lock_block',
+        'supplementaries:dispenser_minecart',
+        'supplementaries:relayer',
+
+        // Functional
+        'supplementaries:urn',
+
+        // Building
+        // The blackboard is not compatible with the Mindful Darkness mod
+        'supplementaries:blackboard',
+        /supplementaries:timber_[a-z][a-z_]*[a-z]\b/,
+        'supplementaries:notice_board',
+        /supplementaries:flag_[a-z][a-z_]*[a-z]\b/,
+        /supplementaries:lapis_bricks(_[_a-z]*[a-z])?\b/,
+        /supplementaries:[a-z][a-z_]*[a-z]_lamp\b/,
+        /supplementaries:stone_tile(_[_a-z]*[a-z])?\b/,
+        /supplementaries:blackstone_tile(_[_a-z]*[a-z])?\b/,
+        /supplementaries:sconce(_[_a-z]*[a-z])?\b/,
+        // There is no silver in this modpack
+        /supplementaries:silver(_[_a-z]*[a-z])?\b/,
+        // There is no lead in this modpack
+        /supplementaries:lead(_[_a-z]*[a-z])?\b/,
+        'supplementaries:crimson_lantern',
+        // The Quark mod is not in this modpack
+        'supplementaries:checker_vertical_slab',
+        'supplementaries:raked_gravel',
+
+        // Tools
+        // The Create Wrench is the one and only
+        'supplementaries:wrench',
+        // The Oreganized mod is not in this modpack
+        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/,
+
+        // I have no clue what this is, let's get rid of it
+        'supplementaries:placeable_item',
+
     ];
 
     itemsToHide.forEach(item => {
