@@ -1,0 +1,32 @@
+name: Configuration Change
+description: Suggest a modification of the default settings (config, keybinds, kubejs, etc.) in Create Survive & Explore.
+title: "[CONFIG] "
+labels: config
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a modification, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: textarea
+    id: what
+    attributes:
+      label: What configuration should we change in this modpack?
+      description: Describe the change you would like to happen, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should it be changed?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
