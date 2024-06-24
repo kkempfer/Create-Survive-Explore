@@ -1,5 +1,5 @@
 name: Bug Report
-description: Report an issue to help us improve.
+description: Report an issue with Create Survive & Explore.
 title: "[BUG] "
 labels: bug
 
@@ -92,3 +92,9 @@ body:
     attributes:
       label: User Modifications
       description: If you answered "Yes" above, please briefly explain what you did.
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
