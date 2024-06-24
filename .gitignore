@@ -10,6 +10,7 @@ config/voicechat/username-cache.json
 data/
 irisUpdateInfo.json
 knownkeys.txt
+kubejs/assets/ponderjs_generated/
 kubejs/exported/
 kubejs/jsconfig.json
 kubejs/probe/
