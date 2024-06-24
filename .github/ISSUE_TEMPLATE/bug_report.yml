@@ -1,0 +1,94 @@
+name: Bug Report
+description: Report an issue to help us improve.
+title: "[BUG] "
+labels: bug
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before reporting an issue, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been reported.
+
+  - type: dropdown
+    id: modpack_version
+    attributes:
+      label: Modpack Version
+      options:
+        - "Unreleased for Minecraft 1.19.2"
+        - "Version 1.0.0-1.19.2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue_environment
+    attributes:
+      label: Did the issue happen in singleplayer or on a server?
+      options:
+        - "Singleplayer"
+        - "Server"
+        - "Both"
+    validations:
+      required: true
+
+  - type: textarea
+    id: describe_bug
+    attributes:
+      label: Describe the bug
+      description: Describe your issue, please be concise and clear.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected_behavior
+    attributes:
+      label: Expected behavior
+      description: What would you expect to happen?
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: If applicable, add screenshots to help explain your problem.
+      placeholder: "Drag and drop or paste images here to upload."
+
+  - type: textarea
+    id: to_reproduce
+    attributes:
+      label: To Reproduce
+      description: If applicable, describe the steps to reproduce the behavior.
+      placeholder: |
+        1. Go to '...'
+        2. Click on '....'
+        3. Scroll down to '....'
+        4. See error
+
+  - type: textarea
+    id: crash_report
+    attributes:
+      label: Crash Report
+      description: If you crashed, upload your crash report.
+      placeholder: "Drag and drop your crash report here. Do not paste its content here."
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs
+      description: Please attach the latest.log file found in your logs folder.
+      placeholder: "Drag and drop your log file here. Do not paste its content here."
+
+  - type: dropdown
+    id: have_you_modified
+    attributes:
+      label: Have you modified the modpack?
+      description: Have you added mods, changed configs, changed scripts or similar?
+      options:
+        - "No"
+        - "Yes"
+    validations:
+      required: true
+  
+  - type: textarea
+    id: user_modifications
+    attributes:
+      label: User Modifications
+      description: If you answered "Yes" above, please briefly explain what you did.
