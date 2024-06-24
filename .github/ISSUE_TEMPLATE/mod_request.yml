@@ -1,0 +1,42 @@
+name: Mod Request
+description: Suggest a new mod to be added or replaced in Create Survive & Explore.
+title: "[MOD] "
+labels: mod
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a mod, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: input
+    id: curseforge_url
+    attributes:
+      label: CurseForge URL
+      description: Link to the mod on CurseForge.
+
+  - type: input
+    id: modrinth_url
+    attributes:
+      label: Modrinth URL
+      description: Link to the mod on Modrinth.
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source/Other URL
+      description: For example, share the link to the project's GitHub repository.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we add this mod in this modpack?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?

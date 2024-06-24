@@ -1,0 +1,32 @@
+name: Mod Removal
+description: Suggest a mod to be removed from Create Survive & Explore.
+title: "[MOD] "
+labels: mod, remove
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a mod removal, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we remove this mod from the modpack?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: This is not a mod replacement request. For that purpose, I should use the normal mod request form.
+          required: true
