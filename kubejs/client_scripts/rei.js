@@ -29,6 +29,8 @@ REIEvents.hide('item', event => {
         'supplementaries:relayer',
 
         // Functional
+        // We use the rope from Farmer's Delight
+        'supplementaries:rope',
         'supplementaries:urn',
 
         // Building
