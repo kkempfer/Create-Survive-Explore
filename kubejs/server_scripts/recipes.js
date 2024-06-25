@@ -14,4 +14,14 @@ ServerEvents.recipes(event => {
         'farmersdelight:rope',
     );
 
+    // Fix broken gold gate recipe
+    event.shaped('2x supplementaries:gold_gate', [
+        'ABA',
+        'ABA',
+        '   '
+    ], {
+        A: 'minecraft:gold_nugget',
+        B: 'minecraft:gold_ingot'
+    });
+
 });
