@@ -14,4 +14,8 @@ ServerEvents.tags('item', event => {
     event.add('c:tools', 'supplementaries:slice_map')
     event.add('c:tools', 'supplementaries:slingshot')
 
+    // Compact seeds to make seed oil from Create Crafts & Additions
+    event.add('c:seeds', 'supplementaries:flax_seeds')
+    event.add('c:seeds', 'corndelight:corn_seeds')
+
 });
