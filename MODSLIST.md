@@ -60,6 +60,7 @@
 | Enchanting Table Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/enchanting-table-descriptions) | [✅](https://modrinth.com/mod/enchanting-table-descriptions) | Improves tooltip. Requires EnchantmentDescriptions |
 | EnchantmentDescriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) | [✅](https://modrinth.com/mod/enchantment-descriptions) | Improves tooltip |
 | First Join Message | [✅](https://www.curseforge.com/minecraft/mc-mods/first-join-message) | [✅](https://modrinth.com/mod/first-join-message) | Adds a welcome message |
+| Food Effect Tooltips | [✅](https://www.curseforge.com/minecraft/mc-mods/food-effect-tooltips) | [✅](https://modrinth.com/mod/foodeffecttooltips) | Improves tooltip |
 | Freecam | [✅](https://www.curseforge.com/minecraft/mc-mods/free-cam) | [✅](https://modrinth.com/mod/freecam) | Adds a separate camera from the player |
 | FTB Quests | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-quests-fabric) | ❌ | Adds quests |
 | FTB XMod Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-xmod-compat) | ❌ | Compatibility mod between FTB, KubeJS and Roughly Enough Items |
@@ -247,7 +248,7 @@
 | Balm | [✅](https://www.curseforge.com/minecraft/mc-mods/balm-fabric) | [✅](https://modrinth.com/mod/balm) | - Default Options |
 | Bookshelf | [✅](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | [✅](https://modrinth.com/mod/bookshelf-lib) | - EnchantmentDescriptions |
 | CIT Resewn | [✅](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) | [✅](https://modrinth.com/mod/cit-resewn) | - Incendium |
-| Cloth Config API | [✅](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [✅](https://modrinth.com/mod/cloth-config) | Core configuration  library for most mods |
+| Cloth Config API | [✅](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [✅](https://modrinth.com/mod/cloth-config) | Core configuration library for most mods |
 | Collective | [✅](https://www.curseforge.com/minecraft/mc-mods/collective) | [✅](https://modrinth.com/mod/collective) | - Cave Spider Spawn <br> - Custom Credits <br> - First Join Message <br> - Improved Sign Editing <br> - Naturally Charged Creepers |
 | CreativeCore | [✅](https://www.curseforge.com/minecraft/mc-mods/creativecore) | [✅](https://modrinth.com/mod/creativecore) | - AmbientSounds |
 | CTM Refabricated | [✅](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) | [✅](https://modrinth.com/mod/ctm-refabricated) | - Chipped |
