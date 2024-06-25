@@ -50,6 +50,7 @@
 | BetterF3 | [✅](https://www.curseforge.com/minecraft/mc-mods/betterf3) | [✅](https://modrinth.com/mod/betterf3) | Improves debug HUD |
 | Building Wands | [✅](https://www.curseforge.com/minecraft/mc-mods/building-wands) | [✅](https://modrinth.com/mod/building-wands) | Makes building easier |
 | Camera Utils | [✅](https://www.curseforge.com/minecraft/mc-mods/camera-utils) | [✅](https://modrinth.com/mod/camera-utils) | Configurable camera view |
+| Carpet | [✅](https://www.curseforge.com/minecraft/mc-mods/carpet) | [✅](https://modrinth.com/mod/carpet) | Gives control over the game |
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
 | ChatMove [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
@@ -162,6 +163,7 @@
 | Naturally Charged Creepers | [✅](https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers) | [✅](https://modrinth.com/mod/naturally-charged-creepers) | Allows creepers to spawn charged |
 | On Soul Fire | [✅](https://www.curseforge.com/minecraft/mc-mods/on-soul-fire) | [✅](https://modrinth.com/mod/on-soul-fire) | Makes soul fire blue |
 | Realistic Fire Spread | [✅](https://www.curseforge.com/minecraft/mc-mods/realistic-fire-spread) | [✅](https://modrinth.com/mod/realistic-fire-spread) | Spreads fire more easily |
+| Separated Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/separatedleaves) | [✅](https://modrinth.com/mod/separatedleaves) | Makes leaves stick only to their own log type |
 | You're in Grave Danger | [✅](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) | [✅](https://modrinth.com/mod/yigd) | Adds graves |
 
 ## Create series
