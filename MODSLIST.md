@@ -83,6 +83,7 @@
 | ProbeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/probejs) | [✅](https://modrinth.com/mod/probejs) | Generates KubeJS typing in VSCode. Requires KubeJS |
 | Roughly Enough Items [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
 | SeasonHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric) | [✅](https://modrinth.com/mod/seasonhud-fabric) | Compatibility mod between Fabric Seasons and Xaero's Minimap |
+| Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
 | Textile Backup | [✅](https://www.curseforge.com/minecraft/mc-mods/textile-backup) | [✅](https://modrinth.com/mod/textile_backup) | Manages backup |
 | Toast Manager | [✅](https://www.curseforge.com/minecraft/mc-mods/toast-manager) | ❌ | Gives control over toasts |
@@ -164,7 +165,12 @@
 | On Soul Fire | [✅](https://www.curseforge.com/minecraft/mc-mods/on-soul-fire) | [✅](https://modrinth.com/mod/on-soul-fire) | Makes soul fire blue |
 | Realistic Fire Spread | [✅](https://www.curseforge.com/minecraft/mc-mods/realistic-fire-spread) | [✅](https://modrinth.com/mod/realistic-fire-spread) | Spreads fire more easily |
 | Separated Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/separatedleaves) | [✅](https://modrinth.com/mod/separatedleaves) | Makes leaves stick only to their own log type |
+| Voice Chat Interaction [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction) | [✅](https://modrinth.com/mod/voice-chat-interaction) | Adds voice chat skulk sensor activation and warden detection |
 | You're in Grave Danger | [✅](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) | [✅](https://modrinth.com/mod/yigd) | Adds graves |
+
+> [!NOTE]
+>
+> **[1]**: Voice Chat Interaction 1.0.3 is compatible with Fabric API 0.76.1+1.19.2. Versions above 1.0.3 require Fabric API 0.77.0+1.19.2. Tested up to version 1.0.6.
 
 ## Create series
 
@@ -256,7 +262,7 @@
 | CTM Refabricated | [✅](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) | [✅](https://modrinth.com/mod/ctm-refabricated) | - Chipped |
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
-| Fabric API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
+| Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
 | Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Inventory Profiles Next <br> - libIPN |
 | Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD <br> - Toast Manager |
 | FTB Library | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | ❌ | - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat |
@@ -271,15 +277,13 @@
 | Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
-| Satin API [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
+| Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
 | Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison |
-| YetAnotherConfigLib [3] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
+| YetAnotherConfigLib [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
 | YUNG's API | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric) | [✅](https://modrinth.com/mod/yungs-api) | All of YUNG's mods, including Paxi |
 
 > [!NOTE]
 >
-> **[1]**: Fabric API 0.76+1.19.2 is required by Create Fabric v0.5.1c.
+> **[1]**: Satin API 1.9.0 is compatible with Effective 1.4, while Satin 1.9.2 makes the game crash.
 >
-> **[2]**: Satin API 1.9.0 is compatible with Effective 1.4, while Satin 1.9.2 makes the game crash.
->
-> **[3]**: YetAnotherConfigLib 2.2.0 for Minecraft 1.19.2 is broken.
+> **[2]**: YetAnotherConfigLib 2.2.0 for Minecraft 1.19.2 is broken.
