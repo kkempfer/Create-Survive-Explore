@@ -1,5 +1,10 @@
 ServerEvents.recipes(event => {
 
+    // Building Wands
+
+    // Fix missing netherite wand recipe
+    event.smithing('wands:netherite_wand', 'wands:diamond_wand', 'minecraft:netherite_ingot')
+
     // Create Deco
 
     // Fix broken ladders
