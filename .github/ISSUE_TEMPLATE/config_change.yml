@@ -1,7 +1,7 @@
 name: Configuration Change
 description: Suggest a modification of the default settings (config, keybinds, kubejs, etc.) in Create Survive & Explore.
 title: "[CONFIG] "
-labels: config
+labels: enhancement
 
 body:
   - type: markdown
