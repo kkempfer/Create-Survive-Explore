@@ -72,9 +72,9 @@
 | Just Enough Effect Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed) | [✅](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) | Shows information on all status effects. Requires Roughly Enough Items |
 | KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs) | [✅](https://modrinth.com/mod/kubejs) | Takes control of the game in JavaScript |
 | KubeJS Create | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | [✅](https://modrinth.com/mod/kubejs-create) | Compatibility mod between KubeJS and Create |
+| Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | Mod Menu | [✅](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [✅](https://modrinth.com/mod/modmenu) | Manages mods |
 | Mouse Tweaks | [✅](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [✅](https://modrinth.com/mod/mouse-tweaks) | Adds LMB and RMB tweaks |
-| Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | No Night Vision Flickering | [✅](https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flickering) | [✅](https://modrinth.com/mod/no-night-vision-flickering) | Makes expiring night vision fade out |
 | Paxi | [✅](https://www.curseforge.com/minecraft/mc-mods/paxi-fabric) | [✅](https://modrinth.com/mod/paxi) | Manages data and resource packs |
 | Polymorph | [✅](https://www.curseforge.com/minecraft/mc-mods/polymorph-fabric) | [✅](https://modrinth.com/mod/polymorph) | Solves recipe conflicts |
