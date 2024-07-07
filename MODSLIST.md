@@ -55,7 +55,6 @@
 | ChatMove [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
 | Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
-| Default Options | [✅](https://www.curseforge.com/minecraft/mc-mods/default-options-fabric) | [✅](https://modrinth.com/mod/default-options) | Improves distribution of default options and keybindings |
 | Dynamic Crosshair | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair) | [✅](https://modrinth.com/mod/dynamiccrosshair) | Improves the crosshair |
 | Dynamic Crosshair Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair-compat) | [✅](https://modrinth.com/mod/dynamiccrosshaircompat) | Improves support for many mods. Requires Dynamic Crosshair |
 | Enchanting Table Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/enchanting-table-descriptions) | [✅](https://modrinth.com/mod/enchanting-table-descriptions) | Improves tooltip. Requires EnchantmentDescriptions |
@@ -253,7 +252,6 @@
 |:-:|:-:|:-:|:-:|
 | Architectury API | [✅](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | [✅](https://modrinth.com/mod/architectury-api) | - Building Wands <br> - Cave Dust? <br> - Create Chunkloading <br> - Create Goggles <br> - FTB Library <br> - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat <br> - KubeJS <br> - ProbeJS <br> - Roughly Enough Items |
 | AutoTag | [✅](https://www.curseforge.com/minecraft/mc-mods/autotag) | [✅](https://modrinth.com/mod/autotag) | - EnvironmentZ |
-| Balm | [✅](https://www.curseforge.com/minecraft/mc-mods/balm-fabric) | [✅](https://modrinth.com/mod/balm) | - Default Options |
 | Bookshelf | [✅](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | [✅](https://modrinth.com/mod/bookshelf-lib) | - EnchantmentDescriptions |
 | CIT Resewn | [✅](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) | [✅](https://modrinth.com/mod/cit-resewn) | - Incendium |
 | Cloth Config API | [✅](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [✅](https://modrinth.com/mod/cloth-config) | Core configuration library for most mods |
