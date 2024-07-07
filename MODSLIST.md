@@ -131,10 +131,10 @@
 | LambDynamicLights | [✅](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) | [✅](https://modrinth.com/mod/lambdynamiclights) | Adds dynamic lights |
 | Make Bubbles Pop | [✅](https://www.curseforge.com/minecraft/mc-mods/make-bubbles-pop) | [✅](https://modrinth.com/mod/make_bubbles_pop) | Makes bubbles realistic |
 | Presence Footsteps | [✅](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps) | [✅](https://modrinth.com/mod/presence-footsteps) | Adds more sounds |
-| Visuality | [✅](https://www.curseforge.com/minecraft/mc-mods/visuality) | [✅](https://modrinth.com/mod/visuality) | Adds pretty particles |
 | Sounds Physics Remastered | [✅](https://www.curseforge.com/minecraft/mc-mods/sound-physics-remastered) | [✅](https://modrinth.com/mod/sound-physics-remastered) | Adds realistic sound physics |
 | Snow Under Trees | [✅](https://www.curseforge.com/minecraft/mc-mods/snow-under-trees-remastered) | [✅](https://modrinth.com/mod/snow-under-trees-remastered) | Adds snow under trees. Do we need Mineblock's Repeated Utilities? |
 | Snow! Real Magic! | [✅](https://www.curseforge.com/minecraft/mc-mods/snow-real-magic-fabric) | [✅](https://modrinth.com/mod/snow-real-magic) | Adds snow gravity and accumulation onto various blocks. Notes: <br> - Create: Copycats+ blocks are not supported <br> - CreateDeco Bricks are not supported, but CreateDeco Metals look good <br> - Decorative Blocks blocks are not supported |
+| Visuality | [✅](https://www.curseforge.com/minecraft/mc-mods/visuality) | [✅](https://modrinth.com/mod/visuality) | Adds pretty particles |
 
 > [!NOTE]
 >
