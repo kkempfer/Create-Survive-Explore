@@ -54,7 +54,7 @@
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
 | ChatMove [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
-| Custom Credit | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
+| Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
 | Default Options | [✅](https://www.curseforge.com/minecraft/mc-mods/default-options-fabric) | [✅](https://modrinth.com/mod/default-options) | Improves distribution of default options and keybindings |
 | Dynamic Crosshair | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair) | [✅](https://modrinth.com/mod/dynamiccrosshair) | Improves the crosshair |
 | Dynamic Crosshair Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair-compat) | [✅](https://modrinth.com/mod/dynamiccrosshaircompat) | Improves support for many mods. Requires Dynamic Crosshair |
