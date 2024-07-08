@@ -18,6 +18,8 @@
 | Seasonal Lush Caves | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons) | [✅](https://modrinth.com/mod/fabric-seasons) | Adds seasons to lush caves. Built-in Fabric Seasons |
 | continuity/glass_pane_culling_fix | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Fixes glass pane culling. Built-in Continuity |
 | continuity/default | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures. Built-in Continuity |
+| Supplementaries Generated Pack | [✅]() | [✅]() | Built-in Supplementaries |
+| Everycomp Generated Pack | [✅]() | [✅]() | Built-in Every Compat |
 
 > [!NOTE]
 >
