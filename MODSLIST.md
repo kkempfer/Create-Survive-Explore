@@ -70,6 +70,7 @@
 | Just Enough Effect Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/just-enough-effect-descriptions-jeed) | [✅](https://modrinth.com/mod/just-enough-effect-descriptions-jeed) | Shows information on all status effects. Requires Roughly Enough Items |
 | KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs) | [✅](https://modrinth.com/mod/kubejs) | Takes control of the game in JavaScript |
 | KubeJS Create | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | [✅](https://modrinth.com/mod/kubejs-create) | Compatibility mod between KubeJS and Create |
+| Leave My Bars Alone | [✅](https://www.curseforge.com/minecraft/mc-mods/leave-my-bars-alone) | [✅](https://modrinth.com/mod/leave-my-bars-alone) | Improves HUD |
 | Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | Mod Menu | [✅](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [✅](https://modrinth.com/mod/modmenu) | Manages mods |
 | Mouse Tweaks | [✅](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [✅](https://modrinth.com/mod/mouse-tweaks) | Adds LMB and RMB tweaks |
@@ -269,7 +270,7 @@
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - MmmMmmMmmMmm <br> - Supplementaries |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
-| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Mindful Darkness <br> - Stylish Effects |
+| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
