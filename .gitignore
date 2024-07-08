@@ -7,6 +7,7 @@ XaeroWaypoints_BACKUP*/
 XaeroWorldMap/
 backup/
 config/voicechat/username-cache.json
+config/inventoryprofilesnext/integrationHints/
 data/
 irisUpdateInfo.json
 knownkeys.txt
