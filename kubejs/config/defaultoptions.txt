@@ -57,7 +57,7 @@ chatHeightFocused:1.0
 chatDelay:0.0
 chatHeightUnfocused:0.4375
 chatScale:1.0
-chatWidth:0.9225352112676056
+chatWidth:0.823943661971831
 mipmapLevels:4
 useNativeTransport:true
 mainHand:"right"
