@@ -52,7 +52,6 @@
 | Camera Utils | [✅](https://www.curseforge.com/minecraft/mc-mods/camera-utils) | [✅](https://modrinth.com/mod/camera-utils) | Configurable camera view |
 | Carpet | [✅](https://www.curseforge.com/minecraft/mc-mods/carpet) | [✅](https://modrinth.com/mod/carpet) | Gives control over the game |
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
-| ChatMove [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/chatmove) | [✅](https://modrinth.com/mod/chatmove) | Allows the player to move the chat box |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
 | Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
 | Dynamic Crosshair | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair) | [✅](https://modrinth.com/mod/dynamiccrosshair) | Improves the crosshair |
@@ -80,7 +79,7 @@
 | Ponder for KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/ponder) | [✅](https://modrinth.com/mod/ponder) | Allows to create custom Create Ponder scenes with KubeJS |
 | Potion Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/potion-descriptions-fabric) | [✅](https://modrinth.com/mod/potion-descriptions) | Improves tooltip |
 | ProbeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/probejs) | [✅](https://modrinth.com/mod/probejs) | Generates KubeJS typing in VSCode. Requires KubeJS |
-| Roughly Enough Items [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
+| Roughly Enough Items [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
 | SeasonHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric) | [✅](https://modrinth.com/mod/seasonhud-fabric) | Compatibility mod between Fabric Seasons and Xaero's Minimap |
 | Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
@@ -91,9 +90,7 @@
 
 > [!NOTE]
 >
-> **[1]**: ChatMove is not available on Modrinth for Minecraft 1.19.2.
->
-> **[2]**: Versions above 9.1.695 are incompatible with the cutting board from Farmer's Delight 1.19.2-1.3.10.2. A click onto the cutting board tab in the GUI will crash the game. Tested up to version 9.2.724.
+> **[1]**: Versions above 9.1.695 are incompatible with the cutting board from Farmer's Delight 1.19.2-1.3.10.2. A click onto the cutting board tab in the GUI will crash the game. Tested up to version 9.2.724.
 
 ## World generation
 
