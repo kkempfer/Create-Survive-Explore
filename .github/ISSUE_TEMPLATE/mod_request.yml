@@ -1,7 +1,7 @@
 name: Mod Request
 description: Suggest a new mod to be added or replaced in Create Survive & Explore.
 title: "[MOD] "
-labels: mod
+labels: mod, request
 
 body:
   - type: markdown
