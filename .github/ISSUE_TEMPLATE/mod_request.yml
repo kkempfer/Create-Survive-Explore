@@ -40,3 +40,13 @@ body:
     attributes:
       label: Additional details
       description: Is there anything else you want to add?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: This is not a mod update request. For that purpose, I should use the mod update form.
+          required: true
+        - label: This is not a mod removal request. For that purpose, I should use the mod removal form.
+          required: true
