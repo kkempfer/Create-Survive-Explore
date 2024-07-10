@@ -8,7 +8,7 @@ REIEvents.hide('item', event => {
         'createaddition:accumulator',
         // We do not use ComputerCraft
         'createaddition:digital_adapter',
-        // We use the zinc sheets from Create Deco
+        // We use the zinc sheet from Create Deco
         'createaddition:zinc_sheet',
 
         // Supplementaries
