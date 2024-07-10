@@ -5,6 +5,16 @@ ServerEvents.recipes(event => {
     // Fix missing netherite wand recipe
     event.smithing('wands:netherite_wand', 'wands:diamond_wand', 'minecraft:netherite_ingot')
 
+    // Create Crafts & Additions
+
+    // Replace the zinc sheet from Create Crafts & Additions by the one from Create Deco
+    event.remove({ output: 'createaddition:zinc_sheet' })
+    event.replaceInput(
+        { input: 'createaddition:zinc_sheet' },
+        'createaddition:zinc_sheet',
+        'createdeco:zinc_sheet',
+    );
+
     // Create Deco
 
     // Fix broken ladders
