@@ -1,6 +1,6 @@
-// Hide multiple items from REI. This does not remove recipes
+// Hide multiple items from REI. This does not remove them from the game
 REIEvents.hide('item', event => {
-    let itemsToHide = [
+    const itemsToHide = [
 
         // Create Crafts & Additions
 
@@ -29,8 +29,10 @@ REIEvents.hide('item', event => {
         'supplementaries:relayer',
 
         // Functional
+        // We do not need to display the statue base
+        'supplementaries:placeable_item',
         // We use the rope from Farmer's Delight
-        // 'supplementaries:rope',
+        'supplementaries:rope',
         'supplementaries:urn',
 
         // Building
@@ -54,23 +56,18 @@ REIEvents.hide('item', event => {
         'supplementaries:raked_gravel',
 
         // Tools
-        // The Create Wrench is the one and only
+        // The Create wrench is the one and only
         'supplementaries:wrench',
         // The Oreganized mod is not in this modpack
-        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/,
-
-        // I have no clue what this is, let's get rid of it
-        'supplementaries:placeable_item',
+        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/
 
     ];
 
-    itemsToHide.forEach(item => {
-        event.hide(item);
-    });
+    event.hide(itemsToHide);
 });
 
 
-// Hide multiple recipes from REI. This does not remove recipes
+// Hide multiple recipes from REI. This does not remove them from the game
 REIEvents.removeRecipes(event => {
     const recipesToHide = [
 
@@ -78,7 +75,7 @@ REIEvents.removeRecipes(event => {
 
         // We are not able to remove broken rope arrow recipes, so we hide them
         'supplementaries:rope_arrow_create_display',
-        'supplementaries:rope_arrow_add_display',
+        'supplementaries:rope_arrow_add_display'
 
     ];
 
