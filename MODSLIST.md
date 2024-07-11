@@ -85,7 +85,6 @@
 | Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
 | Textile Backup | [✅](https://www.curseforge.com/minecraft/mc-mods/textile-backup) | [✅](https://modrinth.com/mod/textile_backup) | Manages backup |
-| Toast Manager | [✅](https://www.curseforge.com/minecraft/mc-mods/toast-manager) | ❌ | Gives control over toasts |
 | What's That Slot? | [✅](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot) | [✅](https://modrinth.com/mod/whats-that-slot) | Helps the player determine which items can fit into a specific slot, including Trinkets accessories |
 | Wild Tool Access | [✅](https://www.curseforge.com/minecraft/mc-mods/wta) | [✅](https://modrinth.com/mod/wta) | Adds an item quick select bar |
 
@@ -260,7 +259,7 @@
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
 | Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
 | Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Inventory Profiles Next <br> - libIPN |
-| Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD <br> - Toast Manager |
+| Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD |
 | FTB Library | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | ❌ | - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat |
 | FTB Teams | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric) | ❌ | - FTB Quests |
 | Geckolib | [✅](https://www.curseforge.com/minecraft/mc-mods/geckolib) | [✅](https://modrinth.com/mod/geckolib) | - Naturalist <br> - Pick Your Poison |
