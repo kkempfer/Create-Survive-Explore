@@ -12,6 +12,7 @@ data/
 irisUpdateInfo.json
 knownkeys.txt
 kubejs/assets/ponderjs_generated/
+kubejs/config/
 kubejs/exported/
 kubejs/jsconfig.json
 kubejs/probe/
