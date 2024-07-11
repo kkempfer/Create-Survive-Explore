@@ -23,7 +23,7 @@
 | Memory Leak Fix [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/memoryleakfix) | [✅](https://modrinth.com/mod/memoryleakfix) | Fixes memory leaks |
 | Model Gap Fix | [✅](https://www.curseforge.com/minecraft/mc-mods/model-gap-fix) | [✅](https://modrinth.com/mod/modelfix) | Fixes visual gaps in block and item models |
 | ModernFix | [✅](https://www.curseforge.com/minecraft/mc-mods/modernfix) | [✅](https://modrinth.com/mod/modernfix) | Improves performance, reduces memory usage, and fixes many bugs |
-| More culling | [✅](https://www.curseforge.com/minecraft/mc-mods/moreculling) | [✅](https://modrinth.com/mod/moreculling) | Handles culling |
+| More Culling | [✅](https://www.curseforge.com/minecraft/mc-mods/moreculling) | [✅](https://modrinth.com/mod/moreculling) | Handles culling |
 | Phosphor | [✅](https://www.curseforge.com/minecraft/mc-mods/phosphor) | [✅](https://modrinth.com/mod/phosphor) | Lighting engine optimization |
 | Raised | [✅](https://www.curseforge.com/minecraft/mc-mods/raised) | [✅](https://modrinth.com/mod/raised) | Raises the hotbar |
 | Reese's Sodium Options | [✅](https://www.curseforge.com/minecraft/mc-mods/reeses-sodium-options) | [✅](https://modrinth.com/mod/reeses-sodium-options) | Alternative options menu for Sodium |
