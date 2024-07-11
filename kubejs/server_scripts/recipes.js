@@ -37,11 +37,19 @@ ServerEvents.recipes(event => {
         'supplementaries:rope',
         'farmersdelight:rope',
     );
-    event.replaceInput(
-        { input: 'supplementaries:rope' },
-        'supplementaries:rope',
-        'farmersdelight:rope',
-    );
+
+    // Fix broken rope arrow recipes
+    // We are not able to fix or remove rope arrow recipes, so we hide them. See `kubejs/client_scripts/rei.js`
+    // event.remove({ id: 'supplementaries:rope_arrow_create_display' })
+    // event.remove({ id: 'supplementaries:rope_arrow_add_display' })
+    const MAX_DAMAGE_ROPE_ARROW = Item.of('supplementaries:rope_arrow').getMaxDamage()
+    // Define the recipe for creating the rope arrow
+    for (let i = 1; i <= 8; i++) {
+        event.shapeless(
+            Item.of('supplementaries:rope_arrow', { Damage: MAX_DAMAGE_ROPE_ARROW - i }),
+            ['minecraft:arrow', `${i}x farmersdelight:rope`]
+        );
+    }
 
     // Fix broken gold gate recipe
     event.shaped('2x supplementaries:gold_gate', [

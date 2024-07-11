@@ -1,4 +1,4 @@
-// Hide multiple items from REI. This does not remove recipes.
+// Hide multiple items from REI. This does not remove recipes
 REIEvents.hide('item', event => {
     let itemsToHide = [
 
@@ -30,7 +30,7 @@ REIEvents.hide('item', event => {
 
         // Functional
         // We use the rope from Farmer's Delight
-        'supplementaries:rope',
+        // 'supplementaries:rope',
         'supplementaries:urn',
 
         // Building
@@ -67,4 +67,20 @@ REIEvents.hide('item', event => {
     itemsToHide.forEach(item => {
         event.hide(item);
     });
+});
+
+
+// Hide multiple recipes from REI. This does not remove recipes
+REIEvents.removeRecipes(event => {
+    const recipesToHide = [
+
+        // Supplementaries
+
+        // We are not able to remove broken rope arrow recipes, so we hide them
+        'supplementaries:rope_arrow_create_display',
+        'supplementaries:rope_arrow_add_display',
+
+    ];
+
+    event.removeFromAll(recipesToHide);
 });
