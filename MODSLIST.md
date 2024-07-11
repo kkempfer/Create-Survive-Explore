@@ -140,7 +140,7 @@
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
 | Animal Feeding Trough | [✅](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough) | [✅](https://modrinth.com/mod/animal_feeding_trough) | Adds a humane feeding method for animals, providing an alternative to using Create deployers |
-| Body Health System | ❌ | [✅](https://modrinth.com/mod/body-health-system) | Revamps the health system. An alternative to First Aid on Modrinth |
+| Body Health System | ❌ | [✅](https://modrinth.com/mod/body-health-system) | Revamps the health system |
 | Cave Spider Spawn | [✅](https://www.curseforge.com/minecraft/mc-mods/cave-spider-spawn) | [✅](https://modrinth.com/mod/cave-spider-spawn) | Allows cave spiders to spawn naturally |
 | CleanCut | [✅](https://www.curseforge.com/minecraft/mc-mods/cleancut) | [✅](https://modrinth.com/mod/cleancut) | Fights through blocks without collision |
 | Comforts | [✅](https://www.curseforge.com/minecraft/mc-mods/comforts-fabric) | [✅](https://modrinth.com/mod/comforts) | Adds sleeping bags and hammocks |
@@ -153,7 +153,6 @@
 | Fabric Seasons: Delight Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-delight-compat) | [✅](https://modrinth.com/mod/fabric-seasons-delight-compat) | Compatibility mod between Fabric Seasons and Farmer's Delight |
 | Fabric Seasons: Extras | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-extras) | [✅](https://modrinth.com/mod/fabric-seasons-extras) | Fabric Seasons addon |
 | Fabric Seasons: Terralith Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-terralith-compat) | [✅](https://modrinth.com/mod/fabric-seasons-terralith-compat) | Compatibility mod between Fabric Seasons and Terralith |
-| First Aid(Fabric) | [✅](https://www.curseforge.com/minecraft/mc-mods/first-aid-fabric) | ❌ | Revamps the health system. An alternative to Body Health System on CurseForge |
 | HerdsPanic | [✅](https://www.curseforge.com/minecraft/mc-mods/herdspanic) | [✅](https://modrinth.com/mod/herdspanic) | Herds panic when one of their member is in danger |
 | Improved Sign Editing | [✅](https://www.curseforge.com/minecraft/mc-mods/improved-sign-editing) | [✅](https://modrinth.com/mod/improved-sign-editing) | Improves sign editing |
 | Naturally Charged Creepers | [✅](https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers) | [✅](https://modrinth.com/mod/naturally-charged-creepers) | Allows creepers to spawn charged |
