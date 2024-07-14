@@ -7,12 +7,12 @@ XaeroWaypoints_BACKUP*/
 XaeroWorldMap/
 backup/
 config/voicechat/username-cache.json
-config/inventoryprofilesnext/integrationHints/
+config/inventoryprofilesnext/*
 data/
 irisUpdateInfo.json
 knownkeys.txt
 kubejs/assets/ponderjs_generated/
-kubejs/config/
+kubejs/config/probejs.json
 kubejs/exported/
 kubejs/jsconfig.json
 kubejs/probe/
