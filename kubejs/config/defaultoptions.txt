@@ -37,7 +37,7 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Supplementaries Generated Pack","continuity/default","continuity/glass_pane_culling_fix","Seasonal Lush Caves","minecraft/supporteatinganimation","LowerShield.zip","CircularSunMoon.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","Create+Style+Modded+Compats+v16.zip","Andesite_Chests+Crafting_Table_1_19.zip","Create Immersive Aircrafts Resource Pack 1.19.2 - 2.0.zip","CIA-AC-Compat-v1.1.0-1.19.2.zip","FreshAnimations_v1.8.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip","Create Survive \u0026 Explore"]
+resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Supplementaries Generated Pack","continuity/default","continuity/glass_pane_culling_fix","Seasonal Lush Caves","minecraft/supporteatinganimation","LowerShield.zip","CircularSunMoon.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","Create+Style+Modded+Compats+v16.zip","Andesite_Chests+Crafting_Table_1_19.zip","Create Immersive Aircrafts Resource Pack 1.19.2 - 2.0.zip","CIA-AC-Compat-v1.1.0-1.19.2.zip","FreshAnimations_v1.8.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
 incompatibleResourcePacks:["LowerShield.zip","CircularSunMoon.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
 lastServer:
 lang:en_us
@@ -166,7 +166,6 @@ key_key.modmenu.open_menu:key.keyboard.home
 key_key.presencefootsteps.settings:key.keyboard.unknown
 key_key.raised.options:key.keyboard.unknown
 key_key.seasonhud.seasonhudOptions:key.keyboard.unknown
-key_key.toastmanager.clear:key.keyboard.unknown
 key_key.push_to_talk:key.keyboard.unknown
 key_key.whisper:key.keyboard.unknown
 key_key.mute_microphone:key.keyboard.end
