@@ -1,0 +1,276 @@
+{
+  "replace": true,
+  "groups": [
+    "grains",
+    "fruits",
+    "vegetables",
+    "proteins",
+    "dairy",
+    "sugars"
+  ],
+  "effects": [
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:hunger",
+          "power": 2
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "grains",
+            "fruits",
+            "vegetables",
+            "proteins",
+            "dairy",
+            "sugars"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:mining_fatigue",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "grains"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "status_effects": [],
+      "conditions": [
+        {
+          "groups": [
+            "grains"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:slowness",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "fruits"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.movement_speed",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "status_effects": [],
+      "conditions": [
+        {
+          "groups": [
+            "fruits"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "xaerominimap:no_waypoints_harmful",
+          "power": 0
+        },
+        {
+          "name": "xaerominimap:no_entity_radar_harmful",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "vegetables"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:luck",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "vegetables"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:weakness",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "proteins"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [
+        {
+          "name": "minecraft:generic.attack_damage",
+          "operation": "multiply_base",
+          "amount": 0.05
+        }
+      ],
+      "status_effects": [],
+      "conditions": [
+        {
+          "groups": [
+            "proteins"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "pickyourpoison:vulnerability",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "dairy"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:resistance",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "dairy"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "supplementaries:overencumbered",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "sugars"
+          ],
+          "match": "every",
+          "above": 0.0,
+          "below": 0.2
+        }
+      ]
+    },
+    {
+      "attributes": [],
+      "status_effects": [
+        {
+          "name": "minecraft:jump_boost",
+          "power": 0
+        },
+        {
+          "name": "ecologics:slippery",
+          "power": 0
+        }
+      ],
+      "conditions": [
+        {
+          "groups": [
+            "sugars"
+          ],
+          "match": "every",
+          "above": 0.8,
+          "below": 1.0
+        }
+      ]
+    }
+  ]
+}
