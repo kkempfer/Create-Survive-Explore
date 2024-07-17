@@ -44,6 +44,12 @@ ServerEvents.recipes(event => {
         ['expandeddelight:ground_salt', Fluid.of('milk:still_milk', 81000)]
     ).heated();
 
+    // Farmer's Delight
+
+    // We use the filling by spout recipe from Create
+    event.remove({ id: 'farmersdelight:milk_bottle' });
+    event.remove({ id: 'farmersdelight:milk_bucket_from_bottles' });
+
     // Supplementaries
 
     // Replace the rope from Supplementaries by the one from Farmer's Delight
