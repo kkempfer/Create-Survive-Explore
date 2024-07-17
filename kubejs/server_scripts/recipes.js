@@ -31,12 +31,18 @@ ServerEvents.recipes(event => {
 
     // Expanded Delight
 
+    // Add salt recipe to make it renewable
+    event.recipes.createMixing(
+        'expandeddelight:ground_salt',
+        [Fluid.of('minecraft:water', 81000)]
+    ).heated();
+
     // Replace cheese recipes
     event.remove({ output: 'expandeddelight:cheese_wheel' });
-    event.recipes.createMixing('expandeddelight:cheese_wheel', [
-        'expandeddelight:ground_salt',
-        Fluid.of('milk:still_milk', 81000)
-    ]).heated();
+    event.recipes.createMixing(
+        'expandeddelight:cheese_wheel',
+        ['expandeddelight:ground_salt', Fluid.of('milk:still_milk', 81000)]
+    ).heated();
 
     // Supplementaries
 
