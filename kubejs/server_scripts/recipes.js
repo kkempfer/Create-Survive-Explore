@@ -29,6 +29,15 @@ ServerEvents.recipes(event => {
     event.stonecutting('2x createdeco:zinc_ladder', 'create:zinc_ingot');
     event.stonecutting('2x createdeco:cast_iron_ladder', 'createdeco:cast_iron_ingot');
 
+    // Expanded Delight
+
+    // Replace cheese recipes
+    event.remove({ output: 'expandeddelight:cheese_wheel' });
+    event.recipes.createMixing('expandeddelight:cheese_wheel', [
+        'expandeddelight:ground_salt',
+        Fluid.of('milk:still_milk', 81000)
+    ]).heated();
+
     // Supplementaries
 
     // Replace the rope from Supplementaries by the one from Farmer's Delight
