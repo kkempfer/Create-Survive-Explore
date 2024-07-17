@@ -41,10 +41,31 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'expandeddelight:cheese_wheel' });
     event.recipes.createMixing(
         'expandeddelight:cheese_wheel',
-        ['expandeddelight:ground_salt', Fluid.of('milk:still_milk', 81000)]
+        [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
     ).heated();
 
     // Farmer's Delight
+
+    // Fix apple cider bottle volume inconsistency
+    event.remove({ type: 'create:filling', output: 'farmersdelight:apple_cider' });
+    event.recipes.createFilling(
+        'farmersdelight:apple_cider',
+        [Fluid.of('delightfulcreators:apple_cider', 27000), 'minecraft:glass_bottle']
+    );
+
+    // Remove hot cocoa recipe from chocolate and fix hot cocoa bottle volume inconsistency
+    event.remove({ type: 'create:filling', output: 'farmersdelight:hot_cocoa' });
+    event.recipes.createFilling(
+        'farmersdelight:hot_cocoa',
+        [Fluid.of('delightfulcreators:hot_cocoa', 27000), 'minecraft:glass_bottle']
+    );
+
+    // Fix melon juice bottle volume inconsistency
+    event.remove({ type: 'create:filling', output: 'farmersdelight:melon_juice' });
+    event.recipes.createFilling(
+        'farmersdelight:melon_juice',
+        [Fluid.of('delightfulcreators:melon_juice', 27000), 'minecraft:glass_bottle']
+    );
 
     // We use the filling by spout recipe from Create
     event.remove({ id: 'farmersdelight:milk_bottle' });
