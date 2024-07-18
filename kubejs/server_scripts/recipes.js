@@ -44,28 +44,53 @@ ServerEvents.recipes(event => {
         [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
     ).heated();
 
-    // Farmer's Delight
+    // Delightful Creators
 
-    // Fix apple cider bottle volume inconsistency
+    // Fix glass bottle volume inconsistency
+    // Apple cider
     event.remove({ type: 'create:filling', output: 'farmersdelight:apple_cider' });
     event.recipes.createFilling(
         'farmersdelight:apple_cider',
         [Fluid.of('delightfulcreators:apple_cider', 27000), 'minecraft:glass_bottle']
     );
-
-    // Remove hot cocoa recipe from chocolate and fix hot cocoa bottle volume inconsistency
+    event.remove({ type: 'create:mixing', output: Fluid.of('delightfulcreators:apple_cider') });
+    event.recipes.createMixing(
+        Fluid.of('delightfulcreators:apple_cider', 27000),
+        ['2x minecraft:apple', 'minecraft:sugar']
+    );
+    // Glow Berry Custard
+    event.remove({ type: 'create:filling', output: 'farmersdelight:glow_berry_custard' });
+    event.recipes.createFilling(
+        'farmersdelight:glow_berry_custard',
+        [Fluid.of('delightfulcreators:glow_berry_custard', 27000), 'minecraft:glass_bottle']
+    );
+    event.remove({ type: 'create:mixing', output: Fluid.of('delightfulcreators:glow_berry_custard') });
+    event.recipes.createMixing(
+        Fluid.of('delightfulcreators:glow_berry_custard', 27000),
+        [Fluid.of('milk:still_milk', 27000), { tag: 'c:eggs' }, 'minecraft:glow_berries', 'minecraft:sugar']
+    );
+    // Hot cocoa
     event.remove({ type: 'create:filling', output: 'farmersdelight:hot_cocoa' });
     event.recipes.createFilling(
         'farmersdelight:hot_cocoa',
         [Fluid.of('delightfulcreators:hot_cocoa', 27000), 'minecraft:glass_bottle']
     );
-
-    // Fix melon juice bottle volume inconsistency
+    // Melon juice
     event.remove({ type: 'create:filling', output: 'farmersdelight:melon_juice' });
     event.recipes.createFilling(
         'farmersdelight:melon_juice',
         [Fluid.of('delightfulcreators:melon_juice', 27000), 'minecraft:glass_bottle']
     );
+
+    // Fix soup bowl volume inconsistency
+    // Pumpkin soup
+    event.remove({ type: 'create:mixing', output: Fluid.of('delightfulcreators:pumpkin_soup') });
+    event.recipes.createMixing(
+        Fluid.of('delightfulcreators:pumpkin_soup', 27000),
+        [Fluid.of('milk:still_milk', 27000), 'farmersdelight:pumpkin_slice', { tag: 'c:crops/cabbage' }, { tag: 'c:raw_pork' }]
+    );
+
+    // Farmer's Delight
 
     // We use the filling by spout recipe from Create
     event.remove({ id: 'farmersdelight:milk_bottle' });
