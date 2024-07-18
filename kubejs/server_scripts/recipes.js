@@ -44,7 +44,25 @@ ServerEvents.recipes(event => {
         [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
     ).heated();
 
+    // Create
+
+    // Fix mixing recipes display inconsistencies
+    // Tea
+    event.remove({ type: 'create:mixing', output: Fluid.of('create:tea') });
+    event.recipes.createMixing(
+        Fluid.of('create:tea', 54000),
+        [{ tag: 'minecraft:leaves' }, Fluid.of('milk:still_milk', 27000), Fluid.of('create:chocolate', 27000)]
+    );
+
     // Delightful Creators
+
+    // Fix mixing recipes display inconsistencies
+    // Hot cocoa
+    event.remove({ type: 'create:mixing', output: Fluid.of('delightfulcreators:hot_cocoa') });
+    event.recipes.createMixing(
+        Fluid.of('delightfulcreators:hot_cocoa', 40500),
+        [Fluid.of('milk:still_milk', 20250), Fluid.of('create:chocolate', 20250)]
+    );
 
     // Fix glass bottle volume inconsistency
     // Apple cider
