@@ -5,6 +5,32 @@ ServerEvents.recipes(event => {
     // Fix missing netherite wand recipe
     event.smithing('wands:netherite_wand', 'wands:diamond_wand', 'minecraft:netherite_ingot');
 
+    // Create
+
+    // We use the sweet roll from Expanded Delight
+    // Remove the Create recipe
+    event.remove({ output: 'create:sweet_roll' });
+    // Add a sequenced assembly recipe for sweet roll
+    let inter = 'expandeddelight:sweet_roll';
+    event.recipes.createSequencedAssembly(
+        ['expandeddelight:sweet_roll'],
+        'farmersdelight:wheat_dough',
+        [
+            event.recipes.createFilling(inter, [inter, Fluid.of('milk:still_milk', 27000)]),
+            event.recipes.createDeploying(inter, [inter, 'minecraft:sugar']),
+            event.recipes.createDeploying(inter, [inter, 'expandeddelight:ground_cinnamon']),
+        ]
+    ).transitionalItem(inter).loops(1);
+    // Add deploying recipes for berry and glow berry sweet rolls
+    event.recipes.createDeploying(
+        'expandeddelight:berry_sweet_roll',
+        ['expandeddelight:sweet_roll', 'minecraft:sweet_berries'],
+    );
+    event.recipes.createDeploying(
+        'expandeddelight:glow_berry_sweet_roll',
+        ['expandeddelight:sweet_roll', 'minecraft:glow_berries'],
+    );
+
     // Create Crafts & Additions
 
     // Replace the zinc sheet from Create Crafts & Additions by the one from Create Deco

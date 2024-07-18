@@ -2,6 +2,11 @@
 REIEvents.hide('item', event => {
     const itemsToHide = [
 
+        // Create
+
+        // We use the sweet roll from Expanded Delight
+        'create:sweet_roll',
+
         // Create Crafts & Additions
 
         // Accumulators are deprecated
