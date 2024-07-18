@@ -55,6 +55,9 @@ ServerEvents.recipes(event => {
 
     // Create Crafts & Additions
 
+    // Remove overpowered pale gold amulet
+    event.remove({ output: 'createaddition:electrum_amulet' });
+
     // Replace the zinc sheet from Create Crafts & Additions by the one from Create Deco
     event.remove({ output: 'createaddition:zinc_sheet' });
     event.replaceInput(
