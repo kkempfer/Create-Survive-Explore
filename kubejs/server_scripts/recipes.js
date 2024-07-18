@@ -17,7 +17,7 @@ ServerEvents.recipes(event => {
 
     // Create Deco
 
-    // Fix broken ladders
+    // Fix broken ladder recipes
     event.remove({ id: 'createdeco:iron_ladder_from_plates_iron_stonecutting' });
     event.remove({ id: 'createdeco:gold_ladder_from_plates_gold_stonecutting' });
     event.remove({ id: 'createdeco:netherite_ladder_from_plates_netherite_stonecutting' });
@@ -147,7 +147,7 @@ ServerEvents.recipes(event => {
         };
     };
 
-    // Fix broken gold gate recipe
+    // Fix missing gold gate recipe
     event.shaped('2x supplementaries:gold_gate', [
         'ABA',
         'ABA',
