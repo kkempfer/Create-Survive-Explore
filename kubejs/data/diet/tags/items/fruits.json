@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "delightfulcreators:incomplete_sweet_berry_cheesecake",
+        "delightfulcreators:incomplete_apple_pie",
+        "delightfulcreators:incomplete_stuffed_pumpkin",
+        "delightfulcreators:incomplete_honey_glazed_ham",
+        "delightfulcreators:incomplete_fruit_salad",
+        "delightfulcreators:incomplete_grilled_salmon",
+        "expandeddelight:cinnamon_apples",
+        "expandeddelight:glow_berry_jelly",
+        "expandeddelight:sweet_berry_jelly",
+        "farmersdelight:fruit_salad",
+        "farmersdelight:glow_berry_custard",
+        "farmersdelight:honey_glazed_ham_block",
+        "farmersdelight:stuffed_pumpkin_block",
+        "farmersdelight:sweet_berry_cheesecake"
+    ]
+}

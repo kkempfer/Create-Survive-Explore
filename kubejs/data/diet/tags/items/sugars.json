@@ -1,0 +1,16 @@
+{
+    "replace": false,
+    "values": [
+        "delightfulcreators:incomplete_pumpkin_pie",
+        "delightfulcreators:incomplete_apple_pie",
+        "delightfulcreators:incomplete_honey_glazed_ham",
+        "expandeddelight:chocolate_cookie",
+        "expandeddelight:cinnamon_apples",
+        "expandeddelight:cinnamon_rice",
+        "expandeddelight:glow_berry_jelly",
+        "expandeddelight:sweet_berry_jelly",
+        "farmersdelight:honey_cookie",
+        "farmersdelight:honey_glazed_ham_block",
+        "minecraft:pumpkin_pie"
+    ]
+}

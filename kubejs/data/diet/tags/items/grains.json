@@ -1,0 +1,32 @@
+{
+    "replace": false,
+    "values": [
+        "corndelight:corn",
+        "corndelight:cornbread_batter",
+        "corndelight:creamed_corn",
+        "corndelight:nachos_bowl",
+        "delightfulcreators:incomplete_pasta_with_meatballs",
+        "delightfulcreators:incomplete_pasta_with_mutton_chop",
+        "delightfulcreators:incomplete_egg_sandwich",
+        "delightfulcreators:incomplete_chicken_sandwich",
+        "delightfulcreators:incomplete_hamburger",
+        "delightfulcreators:incomplete_bacon_sandwich",
+        "delightfulcreators:incomplete_mutton_wrap",
+        "delightfulcreators:incomplete_sweet_berry_cheesecake",
+        "delightfulcreators:incomplete_apple_pie",
+        "delightfulcreators:incomplete_roast_chicken",
+        "delightfulcreators:incomplete_stuffed_pumpkin",
+        "delightfulcreators:incomplete_honey_glazed_ham",
+        "delightfulcreators:incomplete_rice_roll_medley",
+        "delightfulcreators:incomplete_roasted_mutton_chops",
+        "delightfulcreators:incomplete_steak_and_potatoes",
+        "expandeddelight:chocolate_cookie",
+        "expandeddelight:cinnamon_rice",
+        "farmersdelight:glow_berry_custard",
+        "farmersdelight:honey_cookie",
+        "farmersdelight:honey_glazed_ham_block",
+        "farmersdelight:steak_and_potatoes",
+        "farmersdelight:stuffed_pumpkin_block",
+        "farmersdelight:sweet_berry_cheesecake"
+    ]
+}

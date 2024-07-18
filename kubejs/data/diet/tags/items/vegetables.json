@@ -1,0 +1,33 @@
+{
+    "replace": false,
+    "values": [
+        "corndelight:nachos_bowl",
+        "delightfulcreators:incomplete_pasta_with_meatballs",
+        "delightfulcreators:incomplete_pasta_with_mutton_chop",
+        "delightfulcreators:incomplete_chicken_sandwich",
+        "delightfulcreators:incomplete_hamburger",
+        "delightfulcreators:incomplete_bacon_sandwich",
+        "delightfulcreators:incomplete_mutton_wrap",
+        "delightfulcreators:incomplete_pumpkin_pie",
+        "delightfulcreators:incomplete_roast_chicken",
+        "delightfulcreators:incomplete_stuffed_pumpkin",
+        "delightfulcreators:incomplete_shepherds_pie",
+        "delightfulcreators:incomplete_rice_roll_medley",
+        "delightfulcreators:incomplete_mixed_salad",
+        "delightfulcreators:incomplete_nether_salad",
+        "delightfulcreators:incomplete_grilled_salmon",
+        "delightfulcreators:incomplete_roasted_mutton_chops",
+        "delightfulcreators:incomplete_steak_and_potatoes",
+        "expandeddelight:asparagus",
+        "expandeddelight:chili_pepper",
+        "farmersdelight:shepherds_pie_block",
+        "farmersdelight:steak_and_potatoes",
+        "farmersdelight:stuffed_potato",
+        "farmersdelight:stuffed_pumpkin_block",
+        "minecraft:pumpkin_pie",
+        "nethersdelight:plate_of_stuffed_hoglin_ham",
+        "nethersdelight:plate_of_stuffed_hoglin_roast",
+        "nethersdelight:plate_of_stuffed_hoglin_snout",
+        "nethersdelight:propelpearl"
+    ]
+}
