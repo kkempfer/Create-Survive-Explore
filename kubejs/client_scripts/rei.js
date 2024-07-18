@@ -4,6 +4,9 @@ REIEvents.hide('item', event => {
 
         // Create
 
+        // We use the wheat dough from Farmer's Delight
+        'create:dough',
+
         // We use the sweet roll from Expanded Delight
         'create:sweet_roll',
 

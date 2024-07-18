@@ -7,6 +7,28 @@ ServerEvents.recipes(event => {
 
     // Create
 
+    // Replace the dough from Create by the one from Farmer's Delight
+    event.replaceOutput(
+        { output: 'create:dough' },
+        'create:dough',
+        'farmersdelight:wheat_dough',
+    );
+    // Manage Vanilla recipes. We manage the modded ones via a data pack
+    event.remove({ id: 'create:smelting/bread' });
+    event.remove({ id: 'create:smoking/bread' });
+    let vanillaCraftingTypes = [
+        'minecraft:crafting_shaped',
+        'minecraft:crafting_shapeless',
+        'minecraft:campfire_cooking'
+    ];
+    vanillaCraftingTypes.forEach(type => {
+        event.replaceInput(
+            { type: type, input: 'create:dough' },
+            'create:dough',
+            'farmersdelight:wheat_dough',
+        );
+    });
+
     // We use the sweet roll from Expanded Delight
     // Remove the Create recipe
     event.remove({ output: 'create:sweet_roll' });
