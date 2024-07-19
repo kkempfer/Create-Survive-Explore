@@ -1,0 +1,76 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "create_enchantment_industry",
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "kubejs:incomplete_pasta_dish"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "farmersdelight:squid_ink_pasta"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        },
+        {
+          "tag": "c:raw_fishes"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        },
+        {
+          "item": "farmersdelight:tomato"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        }
+      ]
+    },
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        },
+        {
+          "fluid": "create_enchantment_industry:ink",
+          "amount": 20250
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_squid_ink_pasta"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_squid_ink_pasta"
+  }
+}

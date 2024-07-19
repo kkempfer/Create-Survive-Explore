@@ -28,6 +28,8 @@
         "farmersdelight:honey_glazed_ham_block",
         "farmersdelight:steak_and_potatoes",
         "farmersdelight:stuffed_pumpkin_block",
-        "farmersdelight:sweet_berry_cheesecake"
+        "farmersdelight:sweet_berry_cheesecake",
+        "kubejs:incomplete_pasta_dish",
+        "kubejs:incomplete_squid_ink_pasta"
     ]
 }
