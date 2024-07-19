@@ -1,11 +1,22 @@
 ServerEvents.recipes(event => {
 
+    // Initialize transitional item for Create sequenced assembly recipes
+    let inter = 'initial value';
+
     // Building Wands
 
     // Fix missing netherite wand recipe
     event.smithing('wands:netherite_wand', 'wands:diamond_wand', 'minecraft:netherite_ingot');
 
     // Create
+
+    // Fix mixing recipes display inconsistencies
+    // Tea
+    event.remove({ type: 'create:mixing', output: Fluid.of('create:tea') });
+    event.recipes.createMixing(
+        Fluid.of('create:tea', 54000),
+        [{ tag: 'minecraft:leaves' }, Fluid.of('milk:still_milk', 27000), Fluid.of('create:chocolate', 27000)]
+    );
 
     // Replace the dough from Create by the one from Farmer's Delight
     event.replaceOutput(
@@ -30,28 +41,7 @@ ServerEvents.recipes(event => {
     });
 
     // We use the sweet roll from Expanded Delight
-    // Remove the Create recipe
     event.remove({ output: 'create:sweet_roll' });
-    // Add a sequenced assembly recipe for sweet roll
-    let inter = 'expandeddelight:sweet_roll';
-    event.recipes.createSequencedAssembly(
-        ['expandeddelight:sweet_roll'],
-        'farmersdelight:wheat_dough',
-        [
-            event.recipes.createFilling(inter, [inter, Fluid.of('milk:still_milk', 27000)]),
-            event.recipes.createDeploying(inter, [inter, 'minecraft:sugar']),
-            event.recipes.createDeploying(inter, [inter, 'expandeddelight:ground_cinnamon']),
-        ]
-    ).transitionalItem(inter).loops(1);
-    // Add deploying recipes for berry and glow berry sweet rolls
-    event.recipes.createDeploying(
-        'expandeddelight:berry_sweet_roll',
-        ['expandeddelight:sweet_roll', 'minecraft:sweet_berries'],
-    );
-    event.recipes.createDeploying(
-        'expandeddelight:glow_berry_sweet_roll',
-        ['expandeddelight:sweet_roll', 'minecraft:glow_berries'],
-    );
 
     // Create Crafts & Additions
 
@@ -79,31 +69,6 @@ ServerEvents.recipes(event => {
     event.stonecutting('2x createdeco:netherite_ladder', 'minecraft:netherite_ingot');
     event.stonecutting('2x createdeco:zinc_ladder', 'create:zinc_ingot');
     event.stonecutting('2x createdeco:cast_iron_ladder', 'createdeco:cast_iron_ingot');
-
-    // Expanded Delight
-
-    // Add salt recipe to make it renewable
-    event.recipes.createMixing(
-        'expandeddelight:ground_salt',
-        [Fluid.of('minecraft:water', 81000)]
-    ).heated();
-
-    // Replace cheese recipes
-    event.remove({ output: 'expandeddelight:cheese_wheel' });
-    event.recipes.createMixing(
-        'expandeddelight:cheese_wheel',
-        [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
-    ).heated();
-
-    // Create
-
-    // Fix mixing recipes display inconsistencies
-    // Tea
-    event.remove({ type: 'create:mixing', output: Fluid.of('create:tea') });
-    event.recipes.createMixing(
-        Fluid.of('create:tea', 54000),
-        [{ tag: 'minecraft:leaves' }, Fluid.of('milk:still_milk', 27000), Fluid.of('create:chocolate', 27000)]
-    );
 
     // Delightful Creators
 
@@ -157,6 +122,43 @@ ServerEvents.recipes(event => {
     event.recipes.createMixing(
         Fluid.of('delightfulcreators:pumpkin_soup', 27000),
         [Fluid.of('milk:still_milk', 27000), 'farmersdelight:pumpkin_slice', { tag: 'c:crops/cabbage' }, { tag: 'c:raw_pork' }]
+    );
+
+    // Expanded Delight
+
+    // Replace cheese recipes
+    event.remove({ output: 'expandeddelight:cheese_wheel' });
+    event.recipes.createMixing(
+        'expandeddelight:cheese_wheel',
+        [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
+    ).heated();
+
+    // Add salt recipe to make it renewable
+    event.recipes.createMixing(
+        'expandeddelight:ground_salt',
+        [Fluid.of('minecraft:water', 81000)]
+    ).heated();
+
+    // Add a sequenced assembly recipe for sweet roll
+    inter = 'expandeddelight:sweet_roll';
+    event.recipes.createSequencedAssembly(
+        ['expandeddelight:sweet_roll'],
+        'farmersdelight:wheat_dough',
+        [
+            event.recipes.createFilling(inter, [inter, Fluid.of('milk:still_milk', 27000)]),
+            event.recipes.createDeploying(inter, [inter, 'minecraft:sugar']),
+            event.recipes.createDeploying(inter, [inter, 'expandeddelight:ground_cinnamon'])
+        ]
+    ).transitionalItem(inter).loops(1);
+
+    // Add deploying recipes for berry and glow berry sweet rolls
+    event.recipes.createDeploying(
+        'expandeddelight:berry_sweet_roll',
+        ['expandeddelight:sweet_roll', 'minecraft:sweet_berries'],
+    );
+    event.recipes.createDeploying(
+        'expandeddelight:glow_berry_sweet_roll',
+        ['expandeddelight:sweet_roll', 'minecraft:glow_berries'],
     );
 
     // Farmer's Delight
