@@ -1,0 +1,16 @@
+{
+  "type": "create:deploying",
+  "ingredients": [
+    {
+      "item": "expandeddelight:sweet_roll"
+    },
+    {
+      "item": "minecraft:glow_berries"
+    }
+  ],
+  "results": [
+    {
+      "item": "expandeddelight:glow_berry_sweet_roll"
+    }
+  ]
+}

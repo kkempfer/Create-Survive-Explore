@@ -1,8 +1,5 @@
 ServerEvents.recipes(event => {
 
-    // Initialize transitional item for Create sequenced assembly recipes
-    let inter = 'initial value';
-
     // Building Wands
 
     // Fix missing netherite wand recipe
@@ -138,28 +135,6 @@ ServerEvents.recipes(event => {
         'expandeddelight:ground_salt',
         [Fluid.of('minecraft:water', 81000)]
     ).heated();
-
-    // Add a sequenced assembly recipe for sweet roll
-    inter = 'expandeddelight:sweet_roll';
-    event.recipes.createSequencedAssembly(
-        ['expandeddelight:sweet_roll'],
-        'farmersdelight:wheat_dough',
-        [
-            event.recipes.createFilling(inter, [inter, Fluid.of('milk:still_milk', 27000)]),
-            event.recipes.createDeploying(inter, [inter, 'minecraft:sugar']),
-            event.recipes.createDeploying(inter, [inter, 'expandeddelight:ground_cinnamon'])
-        ]
-    ).transitionalItem(inter).loops(1);
-
-    // Add deploying recipes for berry and glow berry sweet rolls
-    event.recipes.createDeploying(
-        'expandeddelight:berry_sweet_roll',
-        ['expandeddelight:sweet_roll', 'minecraft:sweet_berries'],
-    );
-    event.recipes.createDeploying(
-        'expandeddelight:glow_berry_sweet_roll',
-        ['expandeddelight:sweet_roll', 'minecraft:glow_berries'],
-    );
 
     // Farmer's Delight
 

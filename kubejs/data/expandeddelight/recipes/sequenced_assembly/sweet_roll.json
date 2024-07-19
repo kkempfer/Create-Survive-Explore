@@ -1,0 +1,76 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:all_mods_loaded",
+      "values": [
+        "create",
+        "expandeddelight",
+        "farmersdelight"
+      ]
+    }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "farmersdelight:wheat_dough"
+  },
+  "loops": 1,
+  "results": [
+    {
+      "item": "expandeddelight:sweet_roll"
+    }
+  ],
+  "sequence": [
+    {
+      "type": "create:filling",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        },
+        {
+          "fluid": "milk:still_milk",
+          "amount": 27000
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        },
+        {
+          "item": "minecraft:sugar"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        },
+        {
+          "item": "expandeddelight:ground_cinnamon"
+        }
+      ],
+      "results": [
+        {
+          "item": "kubejs:incomplete_sweet_roll"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "kubejs:incomplete_sweet_roll"
+  }
+}

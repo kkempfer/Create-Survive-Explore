@@ -111,6 +111,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "incomplete_sweet_roll": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["kubejs:incomplete_sweet_roll"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "incomplete_apple_pie": {
       "conditions": {
         "items": [
@@ -260,6 +270,7 @@
       "incomplete_mutton_wrap",
       "incomplete_pumpkin_pie",
       "incomplete_sweet_berry_cheesecake",
+      "incomplete_sweet_roll,
       "incomplete_apple_pie",
       "incomplete_roast_chicken",
       "incomplete_stuffed_pumpkin",

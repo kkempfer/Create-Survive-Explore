@@ -20,4 +20,13 @@ StartupEvents.registry('item', event => {
                 .saturation(0.3)
         });
 
+    // Add incomplete squid ink pasta dish for sequenced assembly recipe
+    event.create('incomplete_sweet_roll')
+        .texture('delightfulcreators:item/incomplete_sweet_roll')
+        .food(food => {
+            food
+                .hunger(1)
+                .saturation(0.2)
+        });
+
 });
