@@ -19,6 +19,11 @@ REIEvents.hide('item', event => {
         // We use the zinc sheet from Create Deco
         'createaddition:zinc_sheet',
 
+        // Farmer's Delight
+
+        // We use the cooked egg from Naturalist
+        'farmersdelight:fried_egg',
+
         // Supplementaries
 
         // Redstone

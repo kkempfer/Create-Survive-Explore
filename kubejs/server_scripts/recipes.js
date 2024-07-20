@@ -138,6 +138,14 @@ ServerEvents.recipes(event => {
 
     // Farmer's Delight
 
+    // Replace the fried egg from Farmer's Delight by the cooked egg from Naturalist
+    event.remove({ output: 'farmersdelight:fried_egg' });
+    event.replaceInput(
+        { input: 'farmersdelight:fried_egg' },
+        'farmersdelight:fried_egg',
+        'naturalist:cooked_egg',
+    );
+
     // We use the filling by spout recipe from Create
     event.remove({ id: 'farmersdelight:milk_bottle' });
     event.remove({ id: 'farmersdelight:milk_bucket_from_bottles' });
