@@ -1,0 +1,28 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "create",
+        "ecologics"
+      ]
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "ecologics:coconut_slice"
+    }
+  ],
+  "results": [
+    {
+      "item": "kubejs:coconut_flour"
+    },
+    {
+      "item": "kubejs:coconut_flour",
+      "count": 2,
+      "chance": 0.25
+    }
+  ],
+  "processingTime": 250
+}

@@ -1,0 +1,21 @@
+{
+  "fabric:load_conditions": [
+    {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "create",
+        "ecologics"
+      ]
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "kubejs:coconut_flour_bag"
+    }
+  ],
+  "result": {
+    "item": "kubejs:coconut_flour",
+    "count": 9
+  }
+}

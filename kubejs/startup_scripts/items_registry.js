@@ -29,4 +29,10 @@ StartupEvents.registry('item', event => {
                 .saturation(0.2)
         });
 
+    // Ecologics
+
+    // Add coconut flour
+    event.create('coconut_flour')
+        .texture('kubejs:item/coconut_flour');
+
 });
