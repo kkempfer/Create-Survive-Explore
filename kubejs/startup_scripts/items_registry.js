@@ -29,6 +29,15 @@ StartupEvents.registry('item', event => {
                 .saturation(0.2)
         });
 
+    // Add incomplete vegetable noodles for sequenced assembly recipe
+    event.create('incomplete_vegetable_noodles')
+        .texture('delightfulcreators:item/incomplete_vegetable_noodles')
+        .food(food => {
+            food
+                .hunger(3)
+                .saturation(0.3)
+        });
+
     // Ecologics
 
     // Add coconut flour

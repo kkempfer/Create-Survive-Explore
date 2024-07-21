@@ -41,6 +41,16 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "incomplete_vegetable_noodles": {
+      "conditions": {
+        "items": [
+          {
+            "items": ["kubejs:incomplete_vegetable_noodles"]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "incomplete_egg_sandwich": {
       "conditions": {
         "items": [
@@ -263,6 +273,7 @@
       "incomplete_pasta_with_meatballs",
       "incomplete_pasta_with_mutton_chop",
       "incomplete_squid_ink_pasta",
+      "incomplete_vegetable_noodles",
       "incomplete_egg_sandwich",
       "incomplete_chicken_sandwich",
       "incomplete_hamburger",
