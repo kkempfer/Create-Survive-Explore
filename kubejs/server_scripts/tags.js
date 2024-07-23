@@ -171,6 +171,11 @@ ServerEvents.tags('item', event => {
     event.add('diet:special_food', 'nethersdelight:stuffed_hoglin');
     event.add('diet:special_food', 'oceansdelight:guardian_soup');
 
+    // Farmer's Delight
+
+    // Tools
+    event.add('c:tools', 'farmersdelight:skillet');
+
     // Supplementaries
 
     // Tools
