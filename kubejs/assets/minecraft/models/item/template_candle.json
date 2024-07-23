@@ -1,5 +1,5 @@
 {
-    "parent": "minecraft:block/template_torch",
+    "parent": "minecraft:block/template_candle",
     "gui_light": "front",
     "display": {
         "thirdperson_righthand": {
@@ -95,13 +95,13 @@
             ],
             "translation": [
                 0,
-                3,
+                6,
                 0
             ],
             "scale": [
-                1.2,
-                1.2,
-                1.2
+                1.8,
+                1.8,
+                1.8
             ]
         },
         "head": {
