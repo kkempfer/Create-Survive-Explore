@@ -1,0 +1,6 @@
+{
+  "parent": "chipped:item/template_wood_lantern",
+  "textures": {
+    "0": "chipped:block/lantern/wooden_cage_lantern"
+  }
+}

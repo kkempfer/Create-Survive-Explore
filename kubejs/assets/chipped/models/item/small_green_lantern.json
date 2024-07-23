@@ -1,0 +1,6 @@
+{
+  "parent": "chipped:item/template_jar_lantern",
+  "textures": {
+    "1": "chipped:block/lantern/small_green_lantern"
+  }
+}
