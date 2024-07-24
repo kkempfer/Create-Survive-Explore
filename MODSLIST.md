@@ -159,6 +159,7 @@
 | On Soul Fire | [✅](https://www.curseforge.com/minecraft/mc-mods/on-soul-fire) | [✅](https://modrinth.com/mod/on-soul-fire) | Makes soul fire blue |
 | Realistic Fire Spread | [✅](https://www.curseforge.com/minecraft/mc-mods/realistic-fire-spread) | [✅](https://modrinth.com/mod/realistic-fire-spread) | Spreads fire more easily |
 | Separated Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/separatedleaves) | [✅](https://modrinth.com/mod/separatedleaves) | Makes leaves stick only to their own log type |
+| Scarecrows' Territory | [✅](https://www.curseforge.com/minecraft/mc-mods/scarecrows-territory) | [✅](https://modrinth.com/mod/scarecrows-territory) | Adds scarecrows that keep spawners activated |
 | Voice Chat Interaction [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction) | [✅](https://modrinth.com/mod/voice-chat-interaction) | Adds voice chat skulk sensor activation and warden detection |
 | You're in Grave Danger | [✅](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) | [✅](https://modrinth.com/mod/yigd) | Adds graves |
 
@@ -232,7 +233,6 @@
 | Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
 | Invisible Frames [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
-| MmmMmmMmmMmm | [✅](https://www.curseforge.com/minecraft/mc-mods/mmmmmmmmmmmm) | [✅](https://modrinth.com/mod/mmmmmmmmmmmm) | Adds target dummies |
 | Not Enough Animations | [✅](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | [✅](https://modrinth.com/mod/not-enough-animations) | Improves third person animations |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
 | Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to Vanilla features |
@@ -265,12 +265,14 @@
 | Item Filters | [✅](https://www.curseforge.com/minecraft/mc-mods/item-filters) | [✅](https://modrinth.com/mod/item-filters) | - FTB Quests |
 | Kiwi | [✅](https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric) | [✅](https://modrinth.com/mod/kiwi) | - Snow! Real Magic! |
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
-| Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - MmmMmmMmmMmm <br> - Supplementaries |
+| Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - Supplementaries |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
 | Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
+| SuperMartijn642's Config Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) | [✅](https://modrinth.com/mod/supermartijn642s-config-lib) | - Scarecrows' Territory |
+| SuperMartijn642's Core Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) | [✅](https://modrinth.com/mod/supermartijn642s-core-lib) | - Scarecrows' Territory |
 | Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison |
 | YetAnotherConfigLib [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
 | YUNG's API | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric) | [✅](https://modrinth.com/mod/yungs-api) | All of YUNG's mods, including Paxi |
