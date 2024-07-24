@@ -117,6 +117,7 @@
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
 | AmbientSounds | [✅](https://www.curseforge.com/minecraft/mc-mods/ambientsounds) | [✅](https://modrinth.com/mod/ambientsounds) | Adds more sounds |
+| Auditory | [✅](https://www.curseforge.com/minecraft/mc-mods/auditory) | [✅](https://modrinth.com/mod/auditory) | Improves block and item sounds |
 | Cave Dust | [✅](https://www.curseforge.com/minecraft/mc-mods/cave-dust) | [✅](https://modrinth.com/mod/cave-dust) | Adds dust particles in caves. Do we need Architectury API? |
 | Drip Sounds | [✅](https://www.curseforge.com/minecraft/mc-mods/dripsounds-fabric) | [✅](https://modrinth.com/mod/dripsounds-fabric) | Adds sounds for drip particles landing. Works with Create pipes |
 | Effective [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/effective) | [✅](https://modrinth.com/mod/effective) | Improves water effects and more |
