@@ -170,7 +170,7 @@ ServerEvents.recipes(event => {
             Item.of('supplementaries:rope_arrow', { Damage: MAX_DAMAGE_ROPE_ARROW - i }),
             ['minecraft:arrow', `${i}x farmersdelight:rope`]
         );
-    };
+    }
     // Define the recipe for repairing the rope arrow
     for (let j = 1; j <= MAX_DAMAGE_ROPE_ARROW; j++) {
         for (let i = 1; i <= Math.min(j, 8); i++) {
@@ -180,8 +180,8 @@ ServerEvents.recipes(event => {
                 repairedRopeArrow,
                 [damagedRopeArrow, `${i}x farmersdelight:rope`]
             );
-        };
-    };
+        }
+    }
 
     // Fix missing gold gate recipe
     event.shaped('2x supplementaries:gold_gate', [
