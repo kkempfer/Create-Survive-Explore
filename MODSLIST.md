@@ -96,6 +96,7 @@
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
 | Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
+| Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves portals in both the Overworld and the Nether |
 | Incendium | [✅](https://www.curseforge.com/minecraft/mc-mods/incendium) | [✅](https://modrinth.com/mod/incendium) | Overhauls the Nether |
 | Naturalist | [✅](https://www.curseforge.com/minecraft/mc-mods/naturalist) | [✅](https://modrinth.com/mod/naturalist) | Adds various animals |
 | Nullscape | [✅](https://www.curseforge.com/minecraft/mc-mods/nullscape) | [✅](https://modrinth.com/mod/nullscape) | Overhauls the End |
