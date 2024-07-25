@@ -1,0 +1,177 @@
+{
+    "replace": false,
+    "values": [
+        {
+            "id": "minecraft:glass",
+            "required": false
+        },
+        {
+            "id": "minecraft:glass_pane",
+            "required": false
+        },
+        {
+            "id": "#forge:glass",
+            "required": false
+        },
+        {
+            "id": "#forge:glass_panes",
+            "required": false
+        },
+        {
+            "id": "#c:glass_blocks",
+            "required": false
+        },
+        {
+            "id": "#c:glass_panes",
+            "required": false
+        },
+        {
+            "id": "#chipped:glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:white_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:white_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:orange_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:orange_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:magenta_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:magenta_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:light_blue_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:light_blue_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:yellow_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:yellow_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:lime_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:lime_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:pink_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:pink_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:gray_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:gray_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:light_gray_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:light_gray_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:cyan_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:cyan_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:purple_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:purple_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:blue_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:blue_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:brown_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:brown_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:green_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:green_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:red_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:red_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#chipped:black_stained_glass",
+            "required": false
+        },
+        {
+            "id": "#chipped:black_stained_glass_pane",
+            "required": false
+        },
+        {
+            "id": "#naturalist:froglass",
+            "required": false
+        },
+        {
+            "id": "#naturalist:froglass_pane",
+            "required": false
+        },
+        {
+            "id": "#seasonsextras:greenhouse_glass",
+            "required": false
+        }
+    ]
+}
