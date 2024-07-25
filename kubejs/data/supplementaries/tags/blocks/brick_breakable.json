@@ -2,6 +2,10 @@
     "replace": false,
     "values": [
         {
+            "id": "ecologics:pot",
+            "required": false
+        },
+        {
             "id": "minecraft:glass",
             "required": false
         },
