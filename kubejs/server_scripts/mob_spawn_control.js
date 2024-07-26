@@ -4,7 +4,7 @@
  */
 
 // Define the path to the configuration file
-const configPath = 'kubejs/config/mobspawncontrol.json';
+const configPath = 'kubejs/config/mob_spawn_control.json';
 
 // Read the configuration from the file with error handling
 let config = {};
