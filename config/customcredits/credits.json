@@ -61,6 +61,12 @@
                 ]
             },
             {
+                "title": "Auditory",
+                "names": [
+                    "Sydokiddo"
+                ]
+            },
+            {
                 "title": "Auto Third Person",
                 "names": [
                     "quat"
@@ -567,6 +573,18 @@
                 ]
             },
             {
+                "title": "Hopo Better Ruined Portals",
+                "names": [
+                    "hoponopono"
+                ]
+            },
+            {
+                "title": "Hopo Better Underwater Ruins",
+                "names": [
+                    "hoponopono"
+                ]
+            },
+            {
                 "title": "ImmediatelyFast",
                 "names": [
                     "RaphiMC"
@@ -753,12 +771,6 @@
                 ]
             },
             {
-                "title": "MmmMmmMmmMmm",
-                "names": [
-                    "MehVahdJukaar"
-                ]
-            },
-            {
                 "title": "Naturalist",
                 "names": [
                     "Starfish Studios Team"
@@ -906,6 +918,12 @@
                 "title": "Satin API",
                 "names": [
                     "Ladysnake Team"
+                ]
+            },
+            {
+                "title": "Scarecrows' Territory",
+                "names": [
+                    "Martijn van den Brand (SuperMartijn642)"
                 ]
             },
             {
