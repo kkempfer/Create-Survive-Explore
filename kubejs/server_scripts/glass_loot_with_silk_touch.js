@@ -1,47 +1,36 @@
 ServerEvents.blockLootTables(event => {
 
-    // Chipped
+    const glassPatterns = [
 
-    const glassTags = [
-        '#chipped:glass',
-        '#chipped:white_stained_glass',
-        '#chipped:orange_stained_glass',
-        '#chipped:magenta_stained_glass',
-        '#chipped:light_blue_stained_glass',
-        '#chipped:yellow_stained_glass',
-        '#chipped:lime_stained_glass',
-        '#chipped:pink_stained_glass',
-        '#chipped:gray_stained_glass',
-        '#chipped:light_gray_stained_glass',
-        '#chipped:cyan_stained_glass',
-        '#chipped:purple_stained_glass',
-        '#chipped:blue_stained_glass',
-        '#chipped:brown_stained_glass',
-        '#chipped:green_stained_glass',
-        '#chipped:red_stained_glass',
-        '#chipped:black_stained_glass',
-        '#chipped:glass_pane',
-        '#chipped:white_stained_glass_pane',
-        '#chipped:orange_stained_glass_pane',
-        '#chipped:magenta_stained_glass_pane',
-        '#chipped:light_blue_stained_glass_pane',
-        '#chipped:yellow_stained_glass_pane',
-        '#chipped:lime_stained_glass_pane',
-        '#chipped:pink_stained_glass_pane',
-        '#chipped:gray_stained_glass_pane',
-        '#chipped:light_gray_stained_glass_pane',
-        '#chipped:cyan_stained_glass_pane',
-        '#chipped:purple_stained_glass_pane',
-        '#chipped:blue_stained_glass_pane',
-        '#chipped:brown_stained_glass_pane',
-        '#chipped:green_stained_glass_pane',
-        '#chipped:red_stained_glass_pane',
-        '#chipped:black_stained_glass_pane'
+        // Chipped
+        /chipped:([a-z_]*_)?lead([a-z_]*)?_glass(_[a-z_]*)?\b/,
+        /chipped:([a-z_]*_)?oak_([a-z_]*_)?glass(_[a-z_]*)?\b/,
+        /chipped:([a-z_]*_)?stained_glass(_[a-z_]*)?\b/,
+        /chipped:([a-z_]*_)?stained_glass(_[a-z_]*)?\b/,
+
+        // Create
+
+        // https://github.com/Creators-of-Create/Create/pull/6739
+        'create:framed_glass_door',
+        'create:framed_glass_trapdoor',
+        'create:tiled_glass',
+
+        // Every Compat
+        /everycomp:ch[/]ecologics[/]([a-z_]*_)?coconut_([a-z_]*)?glass(_[a-z_]*)?\b/,
+        /everycomp:ch[/]ecologics[/]([a-z_]*_)?walnut_([a-z_]*)?glass(_[a-z_]*)?\b/,
+        /everycomp:ch[/]ecologics[/]([a-z_]*_)?flowering_azalea_([a-z_]*)?glass(_[a-z_]*)?\b/,
+        /everycomp:ch[/]ecologics[/]([a-z_]*_)?azalea_([a-z_]*)?glass(_[a-z_]*)?\b/,
+
+        // Naturalist
+
+        // https://github.com/starfish-studios/Naturalist/pull/33
+        /naturalist:([a-z_]*_)?froglass_pane/
+
     ];
 
-    glassTags.forEach(tag => {
-        // Retrieve all block item IDs associated with the current tag
-        const glassBlocks = Ingredient.of(tag).getItemIds()
+    glassPatterns.forEach(pattern => {
+        // Retrieve all block item IDs associated with the current pattern
+        const glassBlocks = Ingredient.of(pattern).getItemIds()
         glassBlocks.forEach(block => {
             // Define a loot table for the current block
             event.addBlock(block, table => {
