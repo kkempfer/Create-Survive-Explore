@@ -19,6 +19,11 @@ REIEvents.hide('item', event => {
         // We use the zinc sheet from Create Deco
         'createaddition:zinc_sheet',
 
+        // Decorative Blocks
+
+        // This block should not exist
+        'decorative_blocks:blockstate_copy_item',
+
         // Farmer's Delight
 
         // We use the cooked egg from Naturalist
