@@ -454,6 +454,46 @@
                     ]
                 ]
             }
+        },
+        "minecraft:drowned": {
+            "equipment": {
+                "head": [],
+                "chest": [],
+                "legs": [],
+                "feet": [],
+                "offhand": [
+                    [
+                        "minecraft:nautilus_shell",
+                        0.0300
+                    ]
+                ],
+                "mainhand": [
+                    [
+                        "minecraft:trident",
+                        0.0625
+                    ],
+                    [
+                        "minecraft:fishing_rod",
+                        0.0375
+                    ],
+                    [
+                        "farmersdelight:iron_knife",
+                        0.049
+                    ],
+                    [
+                        "nethersdelight:iron_machete",
+                        0.049
+                    ],
+                    [
+                        "farmersdelight:diamond_knife",
+                        0.001
+                    ],
+                    [
+                        "nethersdelight:diamond_machete",
+                        0.001
+                    ]
+                ]
+            }
         }
     }
 }
