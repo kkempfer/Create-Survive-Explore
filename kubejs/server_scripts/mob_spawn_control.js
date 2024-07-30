@@ -3,7 +3,10 @@
  * GitHub Repo: https://github.com/liopyu/spawn_control
  */
 
-// Define the path to the configuration file
+// Define constants
+const equipmentSlots = [
+    'head', 'chest', 'legs', 'feet', 'offhand', 'mainhand'
+];
 const configPath = 'kubejs/config/mob_spawn_control.json';
 
 // Read the configuration from the file with error handling
@@ -16,6 +19,13 @@ try {
 
 // Extract data from the configuration
 const mobTypeConditions = config.spawnConditions || {};
+
+// Function to clear all equipment slots
+function clearEquipment(entity) {
+    equipmentSlots.forEach(slot => {
+        entity.setItemSlot(slot, '');
+    });
+};
 
 // Function to equip items based on chances specified in the configuration file
 function equipItems(entity, equipment) {
@@ -41,8 +51,8 @@ EntityEvents.spawned(event => {
     // Define constants
     const entity = event.entity;
 
-    // Skip the logic if the entity is a player, is not living, or is a baby
-    if (entity.isPlayer() || !entity.isLiving() || entity.isBaby()) {
+    // Skip the logic if the entity is a player or is not living
+    if (entity.isPlayer() || !entity.isLiving()) {
         return;
     }
 
@@ -54,8 +64,19 @@ EntityEvents.spawned(event => {
         return;
     }
 
-    // Equip items if specified in mobConditions
-    if (mobConditions.equipment) {
+    // Manage adults and babies
+    let equipment = null
+    if (mobConditions.adult && !entity.isBaby()) {
+        equipment = mobConditions.adult.equipment
+    } else if (mobConditions.baby && entity.isBaby()) {
+        equipment = mobConditions.baby.equipment
+    } else {
+        equipment = mobConditions.equipment
+    }
+
+    // Equip items if specified
+    if (equipment) {
+        clearEquipment(entity)
         equipItems(entity, mobConditions.equipment);
     }
 
