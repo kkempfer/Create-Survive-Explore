@@ -91,6 +91,12 @@
 >
 > **[1]**: Versions above 9.1.695 are incompatible with the cutting board from Farmer's Delight 1.19.2-1.3.10.2. A click onto the cutting board tab in the GUI will crash the game. Tested up to version 9.2.724.
 
+## Animations
+
+| Name | CurseForge | Modrinth | Description |
+|:-:|:-:|:-:|:-:|
+| Force Crawl | [✅](https://www.curseforge.com/minecraft/mc-mods/force-crawl) | [✅](https://modrinth.com/mod/force-crawl) | Gives the player the ability to crawl on demand |
+
 ## World generation
 
 | Name | CurseForge | Modrinth | Description |
