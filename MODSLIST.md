@@ -95,12 +95,16 @@
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
+| Animation Overhaul | [✅](https://www.curseforge.com/minecraft/mc-mods/animationoverhaul) | [✅](https://modrinth.com/mod/animationoverhaul) | Adds fancy player animations |
+| Eating Animation | [✅](https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric) | [✅](https://modrinth.com/mod/eating-animation) | Improves eating animation |
 | Force Crawl | [✅](https://www.curseforge.com/minecraft/mc-mods/force-crawl) | [✅](https://modrinth.com/mod/force-crawl) | Gives the player the ability to crawl on demand |
+| Not Enough Animations | [✅](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | [✅](https://modrinth.com/mod/not-enough-animations) | Improves third person animations |
 
 ## World generation
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
+| Beneath the Wetlands | [✅](https://www.curseforge.com/minecraft/mc-mods/beneath-the-wetlands) | [✅](https://modrinth.com/mod/beneath-the-wetlands) | Adds new structures and mobs to swamps |
 | Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
 | Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves portals in both the Overworld and the Nether |
 | Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves ocean ruins |
@@ -238,11 +242,9 @@
 | Chipped | [✅](https://www.curseforge.com/minecraft/mc-mods/chipped) | [✅](https://modrinth.com/mod/chipped) | Adds many building blocks variants |
 | Continuity | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures |
 | Decorative Blocks | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
-| Eating Animation | [✅](https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric) | [✅](https://modrinth.com/mod/eating-animation) | Improves eating animation |
 | Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
 | Invisible Frames [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
-| Not Enough Animations | [✅](https://www.curseforge.com/minecraft/mc-mods/not-enough-animations) | [✅](https://modrinth.com/mod/not-enough-animations) | Improves third person animations |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
 | Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to Vanilla features |
 
@@ -275,6 +277,7 @@
 | Kiwi | [✅](https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric) | [✅](https://modrinth.com/mod/kiwi) | - Snow! Real Magic! |
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - Supplementaries |
+| Necronomicon API | [✅](https://www.curseforge.com/minecraft/mc-mods/necronomicon) | [✅](https://modrinth.com/mod/necronomicon) | - Animation Overhaul |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
 | Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
