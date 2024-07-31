@@ -255,6 +255,7 @@ mode = "fancy"
 				elder_gear_golem = true
 				rust_clump = true
 				gear_golem = true
+				willothewisp = true
 
 		[light_sources.settings.block_entities]
 
