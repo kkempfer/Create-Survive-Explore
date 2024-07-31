@@ -193,4 +193,33 @@ ServerEvents.recipes(event => {
         B: 'minecraft:gold_ingot'
     });
 
+    // Wetlands
+
+    // Add raw bog iron recipe
+    event.recipes.createCompacting(
+        'wetlands:raw_bog_iron',
+        ['minecraft:raw_iron', Fluid.of('minecraft:water', 27000)]
+    );
+
+    // Add bog iron recipe to make it renewable
+    event.recipes.createCompacting(
+        'wetlands:bog_iron_ingot',
+        ['minecraft:iron_ingot', Fluid.of('minecraft:water', 27000)]
+    );
+
+    // Fix missing bog iron grate recipe
+    event.shaped('2x wetlands:bog_iron_grate', [
+        'AAA',
+        'AAA',
+        '   '
+    ], {
+        A: 'wetlands:bog_iron_ingot'
+    });
+
+    // Fix missing tattered bog iron block recipe
+    event.recipes.createCompacting(
+        'wetlands:tattered_bog_iron_block',
+        ['wetlands:bog_iron_block']
+    );
+
 });

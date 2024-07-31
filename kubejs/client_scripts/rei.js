@@ -77,7 +77,16 @@ REIEvents.hide('item', event => {
         // The Create wrench is the one and only
         'supplementaries:wrench',
         // The Oreganized mod is not in this modpack
-        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/
+        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/,
+
+        // Wetlands
+
+        // This block has no texture
+        'wetlands:wisp_block',
+        // This squared valve can spawn in an elder goldem dungeon only
+        'wetlands:copper_valve',
+        // The pipe has no functionality
+        'wetlands:pipe'
 
     ];
 

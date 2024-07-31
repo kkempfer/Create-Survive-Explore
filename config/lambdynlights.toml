@@ -251,6 +251,11 @@ mode = "fancy"
 				rope_arrow = true
 				slingshot_projectile = true
 
+			[light_sources.settings.entities.wetlands]
+				elder_gear_golem = true
+				rust_clump = true
+				gear_golem = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]
