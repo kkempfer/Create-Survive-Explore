@@ -77,7 +77,7 @@ EntityEvents.spawned(event => {
     // Equip items if specified
     if (equipment) {
         clearEquipment(entity)
-        equipItems(entity, mobConditions.equipment);
+        equipItems(entity, equipment);
     }
 
 });
