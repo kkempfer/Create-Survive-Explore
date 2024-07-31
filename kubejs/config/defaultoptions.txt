@@ -234,7 +234,7 @@ soundCategory_weather:0.5
 soundCategory_block:0.7077465
 soundCategory_hostile:0.45774648
 soundCategory_neutral:0.4
-soundCategory_player:0.6566901
+soundCategory_player:0.60387325
 soundCategory_ambient:0.75176054
 soundCategory_voice:1.0
 modelPart_cape:true
