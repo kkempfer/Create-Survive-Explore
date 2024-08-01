@@ -1,0 +1,34 @@
+name: Resource pack Removal
+description: Suggest a resource pack to be removed from Create Survive & Explore.
+title: "[RESOURCE PACK] "
+labels: resource pack, remove
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a resource pack removal, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we remove this resource pack from the modpack?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: This is not a new resource pack addition or resource pack replacement request. For that purpose, I should use the resource pack request form.
+          required: true
+        - label: This is not a resource pack update request. For that purpose, I should use the resource pack update form.
+          required: true

@@ -1,0 +1,52 @@
+name: Resource pack Request
+description: Suggest a new resource pack to be added or replaced in Create Survive & Explore.
+title: "[RESOURCE PACK] "
+labels: resource pack, request
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a resource pack, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: input
+    id: curseforge_url
+    attributes:
+      label: CurseForge URL
+      description: Link to the resource pack on CurseForge.
+
+  - type: input
+    id: modrinth_url
+    attributes:
+      label: Modrinth URL
+      description: Link to the resource pack on Modrinth.
+
+  - type: input
+    id: source_url
+    attributes:
+      label: Source/Other URL
+      description: For example, share the link to the project's GitHub repository.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we add this resource pack in this modpack?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: This is not a resource pack update request. For that purpose, I should use the resource pack update form.
+          required: true
+        - label: This is not a resource pack removal request. For that purpose, I should use the resource pack removal form.
+          required: true

@@ -1,0 +1,34 @@
+name: Data pack Update
+description: Suggest a data pack to be updated in Create Survive & Explore.
+title: "[DATA PACK] "
+labels: data pack, update
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Before suggesting a data pack update, [please search](https://github.com/kkempfer/Create-Survive-Explore/issues) to make sure it has not already been suggested.
+
+  - type: textarea
+    id: why
+    attributes:
+      label: Why should we update this data pack in this modpack?
+      description: Provide some explanations, please be concise and clear.
+    validations:
+        required: true
+
+  - type: textarea
+    id: additional_details
+    attributes:
+      label: Additional details
+      description: Is there anything else you want to add?
+
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Confirm
+      options:
+        - label: This is not a new data pack addition or data pack replacement request. For that purpose, I should use the data pack request form.
+          required: true
+        - label: This is not a data pack removal request. For that purpose, I should use the data pack removal form.
+          required: true
