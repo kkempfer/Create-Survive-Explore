@@ -45,11 +45,9 @@
 | AppleSkin | [✅](https://www.curseforge.com/minecraft/mc-mods/appleskin) | [✅](https://modrinth.com/mod/appleskin) | Improves HUD |
 | Auto Third Person | [✅](https://www.curseforge.com/minecraft/mc-mods/auto-third-person) | [✅](https://modrinth.com/mod/auto-third-person) | Automatically puts the player in third person when using a vehicle |
 | Better Advancements | [✅](https://www.curseforge.com/minecraft/mc-mods/better-advancements) | [✅](https://modrinth.com/mod/better-advancements) | Improves UI |
-| Better Third Person | [✅](https://www.curseforge.com/minecraft/mc-mods/better-third-person) | [✅](https://modrinth.com/mod/better-third-person) | Improves third person camera view |
 | BetterArmorHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/betterarmorhud) | [✅](https://modrinth.com/mod/betterarmorhud) | Improves HUD |
 | BetterF3 | [✅](https://www.curseforge.com/minecraft/mc-mods/betterf3) | [✅](https://modrinth.com/mod/betterf3) | Improves debug HUD |
 | Building Wands | [✅](https://www.curseforge.com/minecraft/mc-mods/building-wands) | [✅](https://modrinth.com/mod/building-wands) | Makes building easier |
-| Camera Utils | [✅](https://www.curseforge.com/minecraft/mc-mods/camera-utils) | [✅](https://modrinth.com/mod/camera-utils) | Configurable camera view |
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
 | Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
@@ -70,6 +68,7 @@
 | KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs) | [✅](https://modrinth.com/mod/kubejs) | Takes control of the game in JavaScript |
 | KubeJS Create | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | [✅](https://modrinth.com/mod/kubejs-create) | Compatibility mod between KubeJS and Create |
 | Leave My Bars Alone | [✅](https://www.curseforge.com/minecraft/mc-mods/leave-my-bars-alone) | [✅](https://modrinth.com/mod/leave-my-bars-alone) | Improves HUD |
+| Leawind's Third Person | [✅](https://www.curseforge.com/minecraft/mc-mods/leawind-third-person) | [✅](https://modrinth.com/mod/leawind-third-person) | Improves third person camera view |
 | Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | Mod Menu | [✅](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [✅](https://modrinth.com/mod/modmenu) | Manages mods |
 | Mouse Tweaks | [✅](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [✅](https://modrinth.com/mod/mouse-tweaks) | Adds LMB and RMB tweaks |
