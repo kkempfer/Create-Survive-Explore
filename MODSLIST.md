@@ -191,7 +191,7 @@
 | Create Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-fabric) | [✅](https://modrinth.com/mod/create-fabric) | The best mod ever |
 | Create Goggles | [✅](https://www.curseforge.com/minecraft/mc-mods/create-goggles) | [✅](https://modrinth.com/mod/create-goggles) | Adds goggle helmets and armored backtanks |
 | Create Jetpack [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-jetpack) | [✅](https://modrinth.com/mod/create-jetpack) | Adds jetpacks |
-| Create Slice & Dice | [✅](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice) | [✅](https://modrinth.com/mod/slice-and-dice) | Compatibility mod between Create and Farmer's Delight |
+| Create Slice & Dice [5] | [✅](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice) | [✅](https://modrinth.com/mod/slice-and-dice) | Compatibility mod between Create and Farmer's Delight |
 | Create: Bells and Whistles | [✅](https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles) | [✅](https://modrinth.com/mod/bellsandwhistles) | Adds industrial decorations |
 | Create: Copycats+ [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/copycats) | [✅](https://modrinth.com/mod/copycats) | Adds copycats |
 | Create: Extended Cogwheels Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-extended-cogwheels-fabric) | [✅](https://modrinth.com/mod/extended-cogwheels) | Adds more cog types |
@@ -209,6 +209,8 @@
 > **[3]**: Create Enchantment Industry Fabric 1.0.1.b requires Create Fabric v0.5.1c.
 >
 > **[4]**: Create Jetpack 3.4.1, Create: Copycats+ 1.1.1 and Create: Steam 'n' Rails 1.5.1 are compatible with Create Fabric v0.5.1c.
+>
+> **[5]**: Versions above 2.3.2 have a bug that prevents slicers from holding knives and axes. Tested up to version 2.3.5.
 
 ## Farmer's Delight series
 
