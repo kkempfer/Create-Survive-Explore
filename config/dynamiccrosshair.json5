@@ -129,10 +129,10 @@
 		}
 	},
 	"enableTweaks": true,
-	"additionalTools": "",
-	"additionalMeleeWeapons": "create:wrench",
-	"additionalRangedWeapons": "",
-	"additionalThrowables": "",
+	"additionalTools": "create:extendo_grip;create:wrench;supplementaries:bubble_blower",
+	"additionalMeleeWeapons": "farmersdelight:skillet",
+	"additionalRangedWeapons": "supplementaries:slingshot;wetlands:oxidizer",
+	"additionalThrowables": "minecraft:brick;minecraft:nether_brick;createdeco:worn_brick;createdeco:dusk_brick;createdeco:blue_brick;createdeco:scarlet_brick;createdeco:dean_brick;createdeco:pearl_brick;supplementaries:ash_brick;supplementaries:bomb;supplementaries:bomb_blue",
 	"additionalUsableItems": "",
 	"additionalInteractableBlocks": ""
 }

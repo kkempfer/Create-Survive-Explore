@@ -97,12 +97,6 @@
                 ]
             },
             {
-                "title": "Better Third Person",
-                "names": [
-                    "Socolio"
-                ]
-            },
-            {
                 "title": "BetterArmorHUD",
                 "names": [
                     "efekos"
@@ -118,12 +112,6 @@
                 "title": "Body Health System",
                 "names": [
                     "SrGnis"
-                ]
-            },
-            {
-                "title": "Camera Utils",
-                "names": [
-                    "Max Henkel (henkelmax)"
                 ]
             },
             {
@@ -708,6 +696,12 @@
                 "title": "Leave My Bars Alone",
                 "names": [
                     "Fuzs"
+                ]
+            },
+            {
+                "title": "Leawind's Third Person",
+                "names": [
+                    "Leawind"
                 ]
             },
             {

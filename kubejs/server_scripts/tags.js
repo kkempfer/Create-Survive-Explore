@@ -8,6 +8,8 @@ ServerEvents.tags('item', event => {
     event.add('c:tools', 'create:wand_of_symmetry');
     event.add('c:tools', 'create:wrench');
     event.add('c:mining_tools', 'create:wrench');
+    event.add('c:melee_weapons', 'create:wrench');
+    event.add('c:weapons', 'create:wrench');
 
     // Upright on belt
     const uprightOnBeltItems = [
@@ -175,6 +177,10 @@ ServerEvents.tags('item', event => {
 
     // Tools
     event.add('c:tools', 'farmersdelight:skillet');
+    event.add('c:melee_weapons', 'farmersdelight:skillet');
+    event.add('c:weapons', 'farmersdelight:skillet');
+    event.add('c:melee_weapons', '#c:tools/knives');
+    event.add('c:weapons', '#c:tools/knives');
 
     // Supplementaries
 
@@ -185,5 +191,12 @@ ServerEvents.tags('item', event => {
     event.add('c:tools', 'supplementaries:quiver');
     event.add('c:tools', 'supplementaries:slice_map');
     event.add('c:tools', 'supplementaries:slingshot');
+
+    // Wetlands
+
+    // Tools
+    event.add('c:tools', 'wetlands:oxidizer');
+    event.add('c:ranged_weapons', 'wetlands:oxidizer');
+    event.add('c:weapons', 'wetlands:oxidizer');
 
 });
