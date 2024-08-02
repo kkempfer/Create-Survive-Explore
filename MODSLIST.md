@@ -48,6 +48,7 @@
 | BetterArmorHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/betterarmorhud) | [✅](https://modrinth.com/mod/betterarmorhud) | Improves HUD |
 | BetterF3 | [✅](https://www.curseforge.com/minecraft/mc-mods/betterf3) | [✅](https://modrinth.com/mod/betterf3) | Improves debug HUD |
 | Building Wands | [✅](https://www.curseforge.com/minecraft/mc-mods/building-wands) | [✅](https://modrinth.com/mod/building-wands) | Makes building easier |
+| CameraOverhaul | [✅](https://www.curseforge.com/minecraft/mc-mods/cameraoverhaul) | [✅](https://modrinth.com/mod/cameraoverhaul) | Improves first person camera view |
 | Charm of Undying | [✅](https://www.curseforge.com/minecraft/mc-mods/charm-of-undying-fabric) | [✅](https://modrinth.com/mod/charm-of-undying) | Adds accessory support for the Totem of Undying |
 | Controlling | [✅](https://www.curseforge.com/minecraft/mc-mods/controlling) | [✅](https://modrinth.com/mod/controlling) | Adds a search bar to the Key-Bindings menu. Do we need Searchables? |
 | Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
