@@ -27,17 +27,17 @@ function clearEquipment(entity) {
     });
 };
 
-// Function to equip items based on chances specified in the configuration file
+// Function to equip items based on probabilities
 function equipItems(entity, equipment) {
     Object.entries(equipment).forEach(([slot, entries]) => {
         // Generate random value to determine which item to choose
-        const randomValue = Math.random();
-        let cumulativeChance = 0;
+        const targetProbability = Math.random();
+        let cumulativeProbability = 0;
 
-        // Iterate through options to find the chosen one
-        for (const [item, chance] of entries) {
-            cumulativeChance += chance;
-            if (randomValue <= cumulativeChance) {
+        // Iterate through items to find the chosen one
+        for (const [item, probability] of entries) {
+            cumulativeProbability += probability;
+            if (targetProbability <= cumulativeProbability) {
                 entity.setItemSlot(slot, item);
                 // Stop iterating once an option is chosen
                 break;
@@ -48,10 +48,9 @@ function equipItems(entity, equipment) {
 
 // Register the function to handle the mob spawning event
 EntityEvents.spawned(event => {
-    // Define constants
     const entity = event.entity;
 
-    // Skip the logic if the entity is a player or is not living
+    // Return early if the entity is a player or is not living
     if (entity.isPlayer() || !entity.isLiving()) {
         return;
     }
