@@ -24,6 +24,11 @@ REIEvents.hide('item', event => {
         // This block should not exist
         'decorative_blocks:blockstate_copy_item',
 
+        // Every Compat
+
+        // The player does not need to see this generic item
+        'everycomp:all_woods',
+
         // Farmer's Delight
 
         // We use the cooked egg from Naturalist
