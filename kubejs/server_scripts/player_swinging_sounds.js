@@ -13,9 +13,9 @@ const soundMappings = {
     'wetlands:oxidizer': 'auditory:item.shield.raise'
 };
 
-// Function to play a sound track a player can hear
+// Function to play a sound track all players can hear
 function playSound(id, category, entity, volume, pitch) {
-    entity.level.runCommandSilent(`playsound ${id} ${category} @p ${entity.x} ${entity.y} ${entity.z} ${volume} ${pitch}`)
+    entity.level.runCommandSilent(`playsound ${id} ${category} @a ${entity.x} ${entity.y} ${entity.z} ${volume} ${pitch}`)
 };
 
 // Register the function to handle the player swinging event
