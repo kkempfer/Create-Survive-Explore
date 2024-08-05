@@ -1,5 +1,5 @@
-const RandomSource = Java.loadClass('net.minecraft.util.RandomSource');
-const TreePlacer = Java.loadClass('com.outrightwings.growth.TreePlacer');
+const $RandomSource = Java.loadClass('net.minecraft.util.RandomSource');
+const $TreePlacer = Java.loadClass('com.outrightwings.growth.TreePlacer');
 
 // Function to play a sound track all players can hear
 function playSound(id, category, entity, volume, pitch) {
@@ -20,9 +20,9 @@ BlockEvents.rightClicked(event => {
         const chunkGenerator = level.getChunkSource().getGenerator();
         const pos = block.pos;
         const state = block.getBlockState();
-        const random = RandomSource.create();
+        const random = $RandomSource.create();
 
-        const errorCode = TreePlacer.growTree(level, chunkGenerator, pos, state, random, false);
+        const errorCode = $TreePlacer.growTree(level, chunkGenerator, pos, state, random, false);
 
         // If the tree growth was successful, perform the following actions 
         if (errorCode !== -1) {

@@ -1,4 +1,3 @@
-// Define a mapping of item IDs/tags to sound IDs
 const soundMappings = {
     'c:bows': 'auditory:item.shield.raise',
     'c:fishing_rods': 'auditory:item.shield.raise',
