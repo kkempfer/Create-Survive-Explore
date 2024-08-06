@@ -10,6 +10,9 @@ REIEvents.hide('item', event => {
         // We use the sweet roll from Expanded Delight
         'create:sweet_roll',
 
+        // The player does not need to see these items
+        /create:[a-z][a-z_]*[a-z]_placeable/,
+
         // Create Crafts & Additions
 
         // Accumulators are deprecated
@@ -19,6 +22,16 @@ REIEvents.hide('item', event => {
         // We use the zinc sheet from Create Deco
         'createaddition:zinc_sheet',
 
+        // Create Goggles
+
+        // The player does not need to see these items
+        /creategoggles:[a-z][a-z_]*[a-z]_placeable/,
+
+        // Create Jetpack
+
+        // The player does not need to see these items
+        /create_jetpack:[a-z][a-z_]*[a-z]_placeable/,
+
         // Decorative Blocks
 
         // This block should not exist
@@ -26,7 +39,7 @@ REIEvents.hide('item', event => {
 
         // Every Compat
 
-        // The player does not need to see this generic item
+        // The player does not need to see this item
         'everycomp:all_woods',
 
         // Farmer's Delight
@@ -52,7 +65,7 @@ REIEvents.hide('item', event => {
         'supplementaries:relayer',
 
         // Functional
-        // We do not need to display the statue base
+        // The player does not need to see this item
         'supplementaries:placeable_item',
         // We use the rope from Farmer's Delight
         'supplementaries:rope',
@@ -65,7 +78,7 @@ REIEvents.hide('item', event => {
         'supplementaries:notice_board',
         /supplementaries:flag_[a-z][a-z_]*[a-z]\b/,
         /supplementaries:lapis_bricks(_[_a-z]*[a-z])?\b/,
-        /supplementaries:[a-z][a-z_]*[a-z]_lamp\b/,
+        /supplementaries:[a-z][a-z_]*[a-z]_lamp/,
         /supplementaries:stone_tile(_[_a-z]*[a-z])?\b/,
         /supplementaries:blackstone_tile(_[_a-z]*[a-z])?\b/,
         /supplementaries:sconce(_[_a-z]*[a-z])?\b/,
