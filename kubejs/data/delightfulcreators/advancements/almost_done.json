@@ -2,20 +2,24 @@
   "parent": "delightfulcreators:root",
   "criteria": {
     "incomplete_pasta_dish": {
-    "conditions": {
-      "items": [
-        {
-          "items": ["delightfulcreators:incomplete_pasta_dish"]
-        }
-      ]
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "delightfulcreators:incomplete_pasta_dish"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
     },
-    "trigger": "minecraft:inventory_changed"
-  },
     "incomplete_pasta_with_meatballs": {
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_pasta_with_meatballs"]
+            "items": [
+              "delightfulcreators:incomplete_pasta_with_meatballs"
+            ]
           }
         ]
       },
@@ -25,7 +29,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_pasta_with_mutton_chop"]
+            "items": [
+              "delightfulcreators:incomplete_pasta_with_mutton_chop"
+            ]
           }
         ]
       },
@@ -35,7 +41,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["kubejs:incomplete_squid_ink_pasta"]
+            "items": [
+              "kubejs:incomplete_squid_ink_pasta"
+            ]
           }
         ]
       },
@@ -45,7 +53,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["kubejs:incomplete_vegetable_noodles"]
+            "items": [
+              "kubejs:incomplete_vegetable_noodles"
+            ]
           }
         ]
       },
@@ -55,7 +65,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_egg_sandwich"]
+            "items": [
+              "delightfulcreators:incomplete_egg_sandwich"
+            ]
           }
         ]
       },
@@ -65,7 +77,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_chicken_sandwich"]
+            "items": [
+              "delightfulcreators:incomplete_chicken_sandwich"
+            ]
           }
         ]
       },
@@ -75,7 +89,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_hamburger"]
+            "items": [
+              "delightfulcreators:incomplete_hamburger"
+            ]
           }
         ]
       },
@@ -85,7 +101,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_bacon_sandwich"]
+            "items": [
+              "delightfulcreators:incomplete_bacon_sandwich"
+            ]
           }
         ]
       },
@@ -95,7 +113,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_mutton_wrap"]
+            "items": [
+              "delightfulcreators:incomplete_mutton_wrap"
+            ]
           }
         ]
       },
@@ -105,7 +125,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_pumpkin_pie"]
+            "items": [
+              "delightfulcreators:incomplete_pumpkin_pie"
+            ]
           }
         ]
       },
@@ -115,7 +137,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_sweet_berry_cheesecake"]
+            "items": [
+              "delightfulcreators:incomplete_sweet_berry_cheesecake"
+            ]
           }
         ]
       },
@@ -125,7 +149,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["kubejs:incomplete_sweet_roll"]
+            "items": [
+              "kubejs:incomplete_sweet_roll"
+            ]
           }
         ]
       },
@@ -135,7 +161,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_apple_pie"]
+            "items": [
+              "delightfulcreators:incomplete_apple_pie"
+            ]
           }
         ]
       },
@@ -145,7 +173,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_roast_chicken"]
+            "items": [
+              "delightfulcreators:incomplete_roast_chicken"
+            ]
           }
         ]
       },
@@ -155,7 +185,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_stuffed_pumpkin"]
+            "items": [
+              "delightfulcreators:incomplete_stuffed_pumpkin"
+            ]
           }
         ]
       },
@@ -165,7 +197,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_honey_glazed_ham"]
+            "items": [
+              "delightfulcreators:incomplete_honey_glazed_ham"
+            ]
           }
         ]
       },
@@ -175,7 +209,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_shepherds_pie"]
+            "items": [
+              "delightfulcreators:incomplete_shepherds_pie"
+            ]
           }
         ]
       },
@@ -185,7 +221,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_rice_roll_medley"]
+            "items": [
+              "delightfulcreators:incomplete_rice_roll_medley"
+            ]
           }
         ]
       },
@@ -195,7 +233,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_fruit_salad"]
+            "items": [
+              "delightfulcreators:incomplete_fruit_salad"
+            ]
           }
         ]
       },
@@ -205,7 +245,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_mixed_salad"]
+            "items": [
+              "delightfulcreators:incomplete_mixed_salad"
+            ]
           }
         ]
       },
@@ -215,7 +257,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_nether_salad"]
+            "items": [
+              "delightfulcreators:incomplete_nether_salad"
+            ]
           }
         ]
       },
@@ -225,7 +269,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_bacon_and_eggs"]
+            "items": [
+              "delightfulcreators:incomplete_bacon_and_eggs"
+            ]
           }
         ]
       },
@@ -235,7 +281,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_grilled_salmon"]
+            "items": [
+              "delightfulcreators:incomplete_grilled_salmon"
+            ]
           }
         ]
       },
@@ -245,7 +293,9 @@
       "conditions": {
         "items": [
           {
-            "items": ["delightfulcreators:incomplete_horse_feed"]
+            "items": [
+              "delightfulcreators:incomplete_horse_feed"
+            ]
           }
         ]
       },
@@ -281,7 +331,7 @@
       "incomplete_mutton_wrap",
       "incomplete_pumpkin_pie",
       "incomplete_sweet_berry_cheesecake",
-      "incomplete_sweet_roll,
+      "incomplete_sweet_roll",
       "incomplete_apple_pie",
       "incomplete_roast_chicken",
       "incomplete_stuffed_pumpkin",
