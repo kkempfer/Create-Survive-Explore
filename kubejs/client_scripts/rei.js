@@ -95,7 +95,9 @@ REIEvents.hide('item', event => {
         // The Create wrench is the one and only
         'supplementaries:wrench',
         // The Oreganized mod is not in this modpack
-        /supplementaries:bomb_spiky(_[_a-z]*[a-z])?\b/,
+        'supplementaries:bomb_spiky',
+        // The player does not need to see these items
+        /supplementaries:bomb(_[a-z_]*[a-z])?_projectile/,
 
         // Wetlands
 
