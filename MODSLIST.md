@@ -247,16 +247,18 @@
 |:-:|:-:|:-:|:-:|
 | Chipped | [✅](https://www.curseforge.com/minecraft/mc-mods/chipped) | [✅](https://modrinth.com/mod/chipped) | Adds many building blocks variants |
 | Continuity | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures |
-| Decorative Blocks | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
+| Decorative Blocks [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
 | Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
-| Invisible Frames [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
+| Invisible Frames [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
 | Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to Vanilla features |
 
 > [!NOTE]
 >
-> **[1]**: Invisible Frames corresponds to two different mods on CurseForge and Modrinth. Their function is similar.
+> **[1]**: Decorative Blocks version 3.0.0 is only available on CurseForge, while version 3.1.1 is only available on Modrinth.
+>
+> **[2]**: Invisible Frames corresponds to two different mods on CurseForge and Modrinth. Their function is similar.
 
 ## Libraries
 
