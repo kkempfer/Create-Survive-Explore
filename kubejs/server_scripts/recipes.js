@@ -1,5 +1,18 @@
 ServerEvents.recipes(event => {
 
+    // Vanilla
+
+    // Add nametag recipe
+    event.shaped('minecraft:name_tag', [
+        ' AA',
+        'BCA',
+        'CB '
+    ], {
+        A: 'minecraft:string',
+        B: 'minecraft:paper',
+        C: 'minecraft:iron_ingot'
+    });
+
     // Create
 
     // Fix mixing recipes display inconsistencies
