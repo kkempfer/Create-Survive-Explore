@@ -219,14 +219,10 @@
 | Chef's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric) | [✅](https://modrinth.com/mod/chefs-delight) | Adds chef and cook professions to villagers |
 | Corn Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/corn-delight-fabric) | ❌ | Adds corn and its derivatives |
 | Crate Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/crate-delight-fabric) | [✅](https://modrinth.com/mod/crate-delight) | Adds extra crates, including for items from Create and Naturalist |
-| Expanded Delight [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/expanded-delight) | [✅](https://modrinth.com/mod/expanded-delight) | Expands Farmer's Delight |
+| Expanded Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/expanded-delight) | [✅](https://modrinth.com/mod/expanded-delight) | Expands Farmer's Delight |
 | Farmer's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) | [✅](https://modrinth.com/mod/farmers-delight-fabric) | Improves farming and cooking mechanics |
 | Nether's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric) | ❌ | Adds food from the Nether |
 | Ocean's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/oceans-delight) | [✅](https://modrinth.com/mod/oceans-delight) | Adds food from the ocean |
-
-> [!NOTE]
->
-> **[1]**: Expanded Delight latest updates are not available on Modrinth.
 
 ## Exploration
 
