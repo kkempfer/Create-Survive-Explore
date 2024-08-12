@@ -169,6 +169,7 @@
 | Fabric Seasons: Delight Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-delight-compat) | [✅](https://modrinth.com/mod/fabric-seasons-delight-compat) | Compatibility mod between Fabric Seasons and Farmer's Delight |
 | Fabric Seasons: Extras | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-extras) | [✅](https://modrinth.com/mod/fabric-seasons-extras) | Fabric Seasons addon |
 | Fabric Seasons: Terralith Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-seasons-terralith-compat) | [✅](https://modrinth.com/mod/fabric-seasons-terralith-compat) | Compatibility mod between Fabric Seasons and Terralith |
+| Fish On The Line | [✅](https://www.curseforge.com/minecraft/mc-mods/fish-on-the-line) | [✅](https://modrinth.com/mod/fish-on-the-line) | Rings a bell held in the offhand when something's on the line while fishing |
 | HerdsPanic | [✅](https://www.curseforge.com/minecraft/mc-mods/herdspanic) | [✅](https://modrinth.com/mod/herdspanic) | Herds panic when one of their member is in danger |
 | Improved Sign Editing | [✅](https://www.curseforge.com/minecraft/mc-mods/improved-sign-editing) | [✅](https://modrinth.com/mod/improved-sign-editing) | Improves sign editing |
 | Naturally Charged Creepers | [✅](https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers) | [✅](https://modrinth.com/mod/naturally-charged-creepers) | Allows creepers to spawn charged |
@@ -268,7 +269,7 @@
 | Bookshelf | [✅](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | [✅](https://modrinth.com/mod/bookshelf-lib) | - EnchantmentDescriptions |
 | CIT Resewn | [✅](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) | [✅](https://modrinth.com/mod/cit-resewn) | - Incendium |
 | Cloth Config API | [✅](https://www.curseforge.com/minecraft/mc-mods/cloth-config) | [✅](https://modrinth.com/mod/cloth-config) | Core configuration library for most mods |
-| Collective | [✅](https://www.curseforge.com/minecraft/mc-mods/collective) | [✅](https://modrinth.com/mod/collective) | - Cave Spider Spawn <br> - Custom Credits <br> - First Join Message <br> - Improved Sign Editing <br> - Naturally Charged Creepers |
+| Collective | [✅](https://www.curseforge.com/minecraft/mc-mods/collective) | [✅](https://modrinth.com/mod/collective) | - Cave Spider Spawn <br> - Custom Credits <br> - First Join Message <br> - Fish On The Line <br> - Improved Sign Editing <br> - Naturally Charged Creepers |
 | CreativeCore | [✅](https://www.curseforge.com/minecraft/mc-mods/creativecore) | [✅](https://modrinth.com/mod/creativecore) | - AmbientSounds |
 | CTM Refabricated | [✅](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) | [✅](https://modrinth.com/mod/ctm-refabricated) | - Chipped |
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
