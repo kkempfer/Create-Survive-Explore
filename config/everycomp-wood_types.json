@@ -30,6 +30,7 @@
       "chipped.ornate_bared_glass": true,
       "chipped.hewn_planks": true,
       "chipped.crossed_planks": true,
+      "another_furniture.planter_box": true,
       "chipped.beach_door": true,
       "chipped.fine_vertical_planks": true,
       "chipped.cross_laced_planks": true,
@@ -50,6 +51,7 @@
       "chipped.woven_glass": true,
       "farmersdelight.cabinet": true,
       "chipped.detailed_planks": true,
+      "another_furniture.shutter": true,
       "chipped.woven_trapdoor": true,
       "chipped.cobweb_trapdoor": true,
       "chipped.gated_door": true,
@@ -64,6 +66,7 @@
       "decorative_blocks.palisade": true,
       "chipped.suspicious_trapdoor": true,
       "chipped.herringbone_planks": true,
+      "another_furniture.drawer": true,
       "chipped.pressed_door": true,
       "chipped.planks_panel": true,
       "chipped.vertically_railed_planks": true,
@@ -74,6 +77,7 @@
       "chipped.boarded_door": true,
       "chipped.dual_paneled_door": true,
       "chipped.square_glass_pane": true,
+      "another_furniture.shelf": true,
       "chipped.meshed_trapdoor": true,
       "chipped.thin_planks": true,
       "chipped.fancy_trapdoor": true,
@@ -85,6 +89,7 @@
       "chipped.enclosed_planks": true,
       "create.window_pane": true,
       "chipped.double_herringbone_planks": true,
+      "another_furniture.bench": true,
       "chipped.crated_planks": true,
       "chipped.horizontal_lined_glass": true,
       "chipped.natural_planks": true,
@@ -120,6 +125,7 @@
       "chipped.snowflake_glass": true,
       "chipped.heavy_door": true,
       "chipped.pointless_trapdoor": true,
+      "another_furniture.table": true,
       "chipped.stacked_planks": true,
       "chipped.planks_shavings": true,
       "chipped.twisted_trapdoor": true,
@@ -127,7 +133,8 @@
       "chipped.woven_glass_pane": true,
       "chipped.windowed_trapdoor": true,
       "chipped.tile_windowed_door": true,
-      "chipped.golden_barred_trapdoor": true
+      "chipped.golden_barred_trapdoor": true,
+      "another_furniture.chair": true
     },
     "leaves_type": {}
   }
