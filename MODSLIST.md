@@ -238,6 +238,7 @@
 | Man of Many Planes | [✅](https://www.curseforge.com/minecraft/mc-mods/man-of-many-planes) | [✅](https://modrinth.com/mod/man-of-many-planes) | Adds two Create-themed aircrafts. Requires Immersive Aircraft |
 | Mining Helmet | [✅](https://www.curseforge.com/minecraft/mc-mods/mining-helmet-fabric) | [✅](https://modrinth.com/mod/mining-helmet-mod) | Adds a mining helmet. Requires LambDynamicLights |
 | Nature's Compass | [✅](https://www.curseforge.com/minecraft/mc-mods/natures-compass) | [✅](https://modrinth.com/mod/natures-compass) | Adds a compass to locate biomes |
+| Spyglass Improvements | [✅](https://www.curseforge.com/minecraft/mc-mods/spyglass-improvements) | [✅](https://modrinth.com/mod/spyglass-improvements) | Adds a zoom functionality to the spyglass |
 | Xaero's Minimap | [✅](https://www.curseforge.com/minecraft/mc-mods/xaeros-minimap) | [✅](https://modrinth.com/mod/xaeros-minimap) | Displays a map of the nearby world |
 | Xaero's World Map | [✅](https://www.curseforge.com/minecraft/mc-mods/xaeros-world-map) | [✅](https://modrinth.com/mod/xaeros-world-map) | Adds a full screen world map |
 
@@ -294,7 +295,7 @@
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
 | SuperMartijn642's Config Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) | [✅](https://modrinth.com/mod/supermartijn642s-config-lib) | - Scarecrows' Territory |
 | SuperMartijn642's Core Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) | [✅](https://modrinth.com/mod/supermartijn642s-core-lib) | - Scarecrows' Territory |
-| Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison |
+| Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison <br> - Spyglass Improvements |
 | YetAnotherConfigLib [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
 | YUNG's API | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric) | [✅](https://modrinth.com/mod/yungs-api) | All of YUNG's mods, including Paxi |
 
