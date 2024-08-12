@@ -54,6 +54,7 @@
 | Custom Credits | [✅](https://www.curseforge.com/minecraft/mc-mods/custom-credits) | [✅](https://modrinth.com/mod/custom-credits) | Allows changing the content and behaviour of the credits screen |
 | Dynamic Crosshair | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair) | [✅](https://modrinth.com/mod/dynamiccrosshair) | Improves the crosshair |
 | Dynamic Crosshair Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/dynamic-crosshair-compat) | [✅](https://modrinth.com/mod/dynamiccrosshaircompat) | Improves support for many mods. Requires Dynamic Crosshair |
+| Easy Shulker Boxes | [✅](https://www.curseforge.com/minecraft/mc-mods/easy-shulker-boxes) | [✅](https://modrinth.com/mod/easy-shulker-boxes) | Improves shulker boxes |
 | Enchanting Table Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/enchanting-table-descriptions) | [✅](https://modrinth.com/mod/enchanting-table-descriptions) | Improves tooltip. Requires EnchantmentDescriptions |
 | EnchantmentDescriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/enchantment-descriptions) | [✅](https://modrinth.com/mod/enchantment-descriptions) | Improves tooltip |
 | First Join Message | [✅](https://www.curseforge.com/minecraft/mc-mods/first-join-message) | [✅](https://modrinth.com/mod/first-join-message) | Adds a welcome message |
@@ -283,7 +284,7 @@
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - Supplementaries |
 | Necronomicon API | [✅](https://www.curseforge.com/minecraft/mc-mods/necronomicon) | [✅](https://modrinth.com/mod/necronomicon) | - Animation Overhaul |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
-| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
+| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Easy Shulker Boxes <br> - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
