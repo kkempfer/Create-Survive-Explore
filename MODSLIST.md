@@ -245,6 +245,7 @@
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
+| Another Furniture | [✅](https://www.curseforge.com/minecraft/mc-mods/another-furniture) | [✅](https://modrinth.com/mod/another-furniture) | Adds decorative blocks |
 | Chipped | [✅](https://www.curseforge.com/minecraft/mc-mods/chipped) | [✅](https://modrinth.com/mod/chipped) | Adds many building blocks variants |
 | Continuity | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures |
 | Decorative Blocks [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
