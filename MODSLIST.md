@@ -139,6 +139,7 @@
 | Falling Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/falling-leaves-fabric) | [✅](https://modrinth.com/mod/fallingleaves) | Lets leaves fall from trees |
 | Head in the Clouds | [✅](https://www.curseforge.com/minecraft/mc-mods/head-in-the-clouds) | [✅](https://modrinth.com/mod/head-in-the-clouds) | Makes it not rain over cloud level |
 | Iris Shaders | [✅](https://www.curseforge.com/minecraft/mc-mods/irisshaders) | [✅](https://modrinth.com/mod/iris) | Adds shaders support. Requires Sodium |
+| Iris & Oculus Flywheel Compat [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/iris-flywheel-compat) | [✅](https://modrinth.com/mod/iris-flw-compat) | Compatibility mod between Iris and Create |
 | LambDynamicLights | [✅](https://www.curseforge.com/minecraft/mc-mods/lambdynamiclights) | [✅](https://modrinth.com/mod/lambdynamiclights) | Adds dynamic lights |
 | Make Bubbles Pop | [✅](https://www.curseforge.com/minecraft/mc-mods/make-bubbles-pop) | [✅](https://modrinth.com/mod/make_bubbles_pop) | Makes bubbles realistic |
 | Presence Footsteps | [✅](https://www.curseforge.com/minecraft/mc-mods/presence-footsteps) | [✅](https://modrinth.com/mod/presence-footsteps) | Adds more sounds |
@@ -150,6 +151,8 @@
 > [!NOTE]
 >
 > **[1]**: Effective 2.X versions are not available on CurseForge.
+>
+> **[2]**: Iris & Oculus Flywheel Compat 0.2.1 is compatible with Iris Shaders 1.6.6.
 
 ## Game mechanics
 
