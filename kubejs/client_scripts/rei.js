@@ -57,7 +57,6 @@ REIEvents.hide('item', event => {
         'supplementaries:turn_table',
         'supplementaries:pulley_block',
         'supplementaries:crystal_display',
-        'supplementaries:clock_block',
         'supplementaries:crank',
         'supplementaries:cog_block',
         'supplementaries:lock_block',
@@ -69,19 +68,22 @@ REIEvents.hide('item', event => {
         'supplementaries:placeable_item',
         // We use the rope from Farmer's Delight
         'supplementaries:rope',
-        'supplementaries:urn',
 
         // Building
         // The blackboard is not compatible with the Mindful Darkness mod
         'supplementaries:blackboard',
-        /supplementaries:timber_[a-z][a-z_]*[a-z]\b/,
-        'supplementaries:notice_board',
         /supplementaries:flag_[a-z][a-z_]*[a-z]\b/,
         /supplementaries:lapis_bricks(_[_a-z]*[a-z])?\b/,
-        /supplementaries:[a-z][a-z_]*[a-z]_lamp/,
         /supplementaries:stone_tile(_[_a-z]*[a-z])?\b/,
         /supplementaries:blackstone_tile(_[_a-z]*[a-z])?\b/,
-        /supplementaries:sconce(_[_a-z]*[a-z])?\b/,
+        // The Endergetic Expansion mod is not in this modpack
+        'supplementaries:sconce_ender',
+        // The Infernal Expansion mod is not in this modpack
+        'supplementaries:sconce_glow',
+        // The Caverns & Chasms mod is not in this modpack
+        'supplementaries:sconce_green',
+        // The Architect's Palette mod is not in this modpack
+        'supplementaries:sconce_nether_brass',
         // There is no silver in this modpack
         /supplementaries:silver(_[_a-z]*[a-z])?\b/,
         // There is no lead in this modpack

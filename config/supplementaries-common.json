@@ -37,7 +37,7 @@
       "display_carry_over": true
     },
     "wind_vane": true,
-    "clock_block": false,
+    "clock_block": true,
     "redstone_illuminator": true,
     "crank": false,
     "faucet": true,
@@ -91,8 +91,8 @@
       "only_allow_harmful_effects": true
     },
     "urn": {
-      "enabled": false,
-      "critter_spawn_chance": 0.009999999776482582,
+      "enabled": true,
+      "critter_spawn_chance": 0.0,
       "cave_urns": {
         "enabled": false,
         "attempts_per_patch": 4,
@@ -127,7 +127,7 @@
       "interaction_mode": "BOTH"
     },
     "timber_frame": {
-      "enabled": false,
+      "enabled": true,
       "swap_on_shift": false,
       "axes_strip": true,
       "replace_daub": true
@@ -150,7 +150,7 @@
       "broken_by_sapling": true
     },
     "notice_board": {
-      "enabled": false,
+      "enabled": true,
       "allow_any_item": false
     },
     "pedestal": {
@@ -191,15 +191,15 @@
     "daub": true,
     "ash_bricks": true,
     "lapis_bricks": false,
-    "deepslate_lamp": false,
-    "end_stone_lamp": false,
-    "blackstone_lamp": false,
-    "stone_lamp": false,
+    "deepslate_lamp": true,
+    "end_stone_lamp": true,
+    "blackstone_lamp": true,
+    "stone_lamp": true,
     "stone_tile": false,
     "blackstone_tile": false,
-    "sconce": false,
-    "sconce_lever": false,
-    "sconce_green": false,
+    "sconce": true,
+    "sconce_lever": true,
+    "sconce_green": true,
     "altimeter": true,
     "pancake": true,
     "netherite_door": true,
