@@ -112,6 +112,7 @@
 | Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves portals in both the Overworld and the Nether |
 | Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves ocean ruins |
 | Incendium | [✅](https://www.curseforge.com/minecraft/mc-mods/incendium) | [✅](https://modrinth.com/mod/incendium) | Overhauls the Nether |
+| Integrated Stronghold | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-stronghold) | [✅](https://modrinth.com/mod/integrated-stronghold) | Revamps strongholds. Requires Create and Supplementaries. Extended by Farmer's Delight |
 | Naturalist | [✅](https://www.curseforge.com/minecraft/mc-mods/naturalist) | [✅](https://modrinth.com/mod/naturalist) | Adds various animals |
 | Nullscape | [✅](https://www.curseforge.com/minecraft/mc-mods/nullscape) | [✅](https://modrinth.com/mod/nullscape) | Overhauls the End |
 | Pick Your Poison | [✅](https://www.curseforge.com/minecraft/mc-mods/pick-your-poison) | [✅](https://modrinth.com/mod/pick-your-poison) | Adds poison darts frogs in jungles |
@@ -122,9 +123,8 @@
 | YUNG's Better End Island | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-end-island-fabric) | [✅](https://modrinth.com/mod/yungs-better-end-island) | Revamps the End main island |
 | YUNG's Better Jungle Temples | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-jungle-temples-fabric) | [✅](https://modrinth.com/mod/yungs-better-jungle-temples) | Revamps jungle temples. Extended by <br> - Create Fabric <br> - Pick Your Poison <br> - Supplementaries |
 | YUNG's Better Mineshafts | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-mineshafts-fabric) | [✅](https://modrinth.com/mod/yungs-better-mineshafts) | Revamps mineshafts |
-| YUNG's Better Nether Fortresses | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric) | [✅](https://modrinth.com/mod/yungs-better-nether-fortresses) | Revamps Nether fortresses. Extended by <br> - Create Fabric |
+| YUNG's Better Nether Fortresses | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric) | [✅](https://modrinth.com/mod/yungs-better-nether-fortresses) | Revamps Nether fortresses. Extended by Create Fabric |
 | YUNG's Better Ocean Monuments | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-fabric) | [✅](https://modrinth.com/mod/yungs-better-ocean-monuments) | Revamps ocean monuments |
-| YUNG's Better Strongholds | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-strongholds-fabric) | [✅](https://modrinth.com/mod/yungs-better-strongholds) | Revamps strongholds |
 | YUNG's Better Witch Huts | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-fabric) | [✅](https://modrinth.com/mod/yungs-better-witch-huts) | Revamps witch huts |
 
 ## Atmosphere
@@ -253,7 +253,7 @@
 | Chipped | [✅](https://www.curseforge.com/minecraft/mc-mods/chipped) | [✅](https://modrinth.com/mod/chipped) | Adds many building blocks variants |
 | Continuity | [✅](https://www.curseforge.com/minecraft/mc-mods/continuity) | [✅](https://modrinth.com/mod/continuity) | Adds connected textures |
 | Decorative Blocks [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/decorative-blocks) | [✅](https://modrinth.com/mod/decorative-blocks-fork) | Adds decorative blocks |
-| Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
+| Every Compat | [✅](https://www.curseforge.com/minecraft/mc-mods/every-compat) | [✅](https://modrinth.com/mod/every-compat) | Compatibility mod between Ecologics and Another Furniture, Chipped, Decorative Blocks, Farmer's Delight, Create (except train tracks, including the ones from Create: Steam 'n' Rails) |
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
 | Invisible Frames [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
@@ -286,6 +286,7 @@
 | FTB Teams | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric) | ❌ | - FTB Quests |
 | Geckolib | [✅](https://www.curseforge.com/minecraft/mc-mods/geckolib) | [✅](https://modrinth.com/mod/geckolib) | - Naturalist <br> - Pick Your Poison |
 | Iceberg | [✅](https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric) | [✅](https://modrinth.com/mod/iceberg) | - Advancement Plaques |
+| Integrated API | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-api) | [✅](https://modrinth.com/mod/integrated-api) | - Integrated Stronghold |
 | Item Filters | [✅](https://www.curseforge.com/minecraft/mc-mods/item-filters) | [✅](https://modrinth.com/mod/item-filters) | - FTB Quests |
 | Kiwi | [✅](https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric) | [✅](https://modrinth.com/mod/kiwi) | - Snow! Real Magic! |
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
