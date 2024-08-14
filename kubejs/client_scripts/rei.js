@@ -106,8 +106,8 @@ REIEvents.hide('item', event => {
 
         // This block has no texture
         'wetlands:wisp_block',
-        // This squared valve can spawn in an elder goldem dungeon only
-        'wetlands:copper_valve',
+        // The copper valve spawns in an elder goldem dungeon
+        // 'wetlands:copper_valve',
         // The pipe has no functionality
         'wetlands:pipe'
 
