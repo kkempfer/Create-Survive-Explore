@@ -1,5 +1,6 @@
 // Hide multiple items from REI. This does not remove them from the game
 REIEvents.hide('item', event => {
+
     const itemsToHide = [
 
         // Create
@@ -111,13 +112,14 @@ REIEvents.hide('item', event => {
         'wetlands:pipe'
 
     ];
-
     event.hide(itemsToHide);
+
 });
 
 
 // Hide multiple recipes from REI. This does not remove them from the game
 REIEvents.removeRecipes(event => {
+
     const recipesToHide = [
 
         // Supplementaries
@@ -127,6 +129,6 @@ REIEvents.removeRecipes(event => {
         'supplementaries:rope_arrow_add_display'
 
     ];
-
     event.removeFromAll(recipesToHide);
+
 });
