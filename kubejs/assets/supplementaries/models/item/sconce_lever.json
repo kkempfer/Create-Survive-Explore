@@ -1,0 +1,8 @@
+{
+	"parent": "supplementaries:item/template_sconce",
+	"textures": {
+		"0": "supplementaries:blocks/sconce",
+		"1": "supplementaries:blocks/sconce_fire_glow",
+		"particle": "supplementaries:blocks/sconce_glow"
+	}
+}
