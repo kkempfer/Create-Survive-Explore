@@ -109,6 +109,7 @@
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
 | Beneath the Wetlands | [✅](https://www.curseforge.com/minecraft/mc-mods/beneath-the-wetlands) | [✅](https://modrinth.com/mod/beneath-the-wetlands) | Adds new structures and mobs to swamps |
+| Better End Cities Vanilla | [✅](https://www.curseforge.com/minecraft/mc-mods/better-end-cities-vanilla) | [✅](https://modrinth.com/mod/better-end-cities-base) | Revamps End cities |
 | Block Swap | [✅](https://www.curseforge.com/minecraft/mc-mods/block-swap-fabric) | [✅](https://modrinth.com/mod/block-swap) | Replaces a block by another |
 | Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
 | Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps portals in both the Overworld and the Nether |
