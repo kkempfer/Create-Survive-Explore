@@ -236,6 +236,7 @@
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
+| End Remastered | [✅](https://www.curseforge.com/minecraft/mc-mods/endremastered-fabric) | [✅](https://modrinth.com/mod/endrem) | Overhauls the way players get to the End |
 | Explorer's Compass | [✅](https://www.curseforge.com/minecraft/mc-mods/explorers-compass) | [✅](https://modrinth.com/mod/explorers-compass) | Adds a compass to locate structures |
 | Hookshot | [✅](https://www.curseforge.com/minecraft/mc-mods/hookshot) | [✅](https://modrinth.com/mod/hookshot) | Adds a grappling hook. Do we need the MidnightLib library? |
 | Immersive Aircraft | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-aircraft) | [✅](https://modrinth.com/mod/immersive-aircraft) | Adds aircrafts |
