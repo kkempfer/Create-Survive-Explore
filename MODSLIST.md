@@ -89,7 +89,7 @@
 | Textile Backup | [✅](https://www.curseforge.com/minecraft/mc-mods/textile-backup) | [✅](https://modrinth.com/mod/textile_backup) | Manages backup |
 | What's That Slot? | [✅](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot) | [✅](https://modrinth.com/mod/whats-that-slot) | Helps identify items that fit a specific slot, including Trinkets |
 | Wild Tool Access | [✅](https://www.curseforge.com/minecraft/mc-mods/wta) | [✅](https://modrinth.com/mod/wta) | Adds an item quick select bar |
-| WITS (What Is This Structure?) | [✅]() | [✅]() | Adds the `\wits` command to identify structures |
+| WITS (What Is This Structure?) | [✅](https://www.curseforge.com/minecraft/mc-mods/wits) | [✅](https://modrinth.com/mod/wits) | Adds the `\wits` command to identify structures |
 
 > [!NOTE]
 >
