@@ -110,10 +110,11 @@
 | Beneath the Wetlands | [✅](https://www.curseforge.com/minecraft/mc-mods/beneath-the-wetlands) | [✅](https://modrinth.com/mod/beneath-the-wetlands) | Adds new structures and mobs to swamps |
 | Block Swap | [✅](https://www.curseforge.com/minecraft/mc-mods/block-swap-fabric) | [✅](https://modrinth.com/mod/block-swap) | Replaces a block by another |
 | Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
-| Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves portals in both the Overworld and the Nether |
-| Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Improves ocean ruins |
+| Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps portals in both the Overworld and the Nether |
+| Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps ocean ruins |
 | Incendium | [✅](https://www.curseforge.com/minecraft/mc-mods/incendium) | [✅](https://modrinth.com/mod/incendium) | Overhauls the Nether |
 | Integrated Stronghold | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-stronghold) | [✅](https://modrinth.com/mod/integrated-stronghold) | Revamps strongholds. Requires Create and Supplementaries. Extended by Farmer's Delight |
+| Luki's Grand Capitals | [✅](https://www.curseforge.com/minecraft/mc-mods/lukis-grand-capitals) | [✅](https://modrinth.com/mod/lukis-grand-capitals) | Revamps vanilla villages, pillager outposts, woodland mansion, and witch huts |
 | Naturalist | [✅](https://www.curseforge.com/minecraft/mc-mods/naturalist) | [✅](https://modrinth.com/mod/naturalist) | Adds various animals |
 | Nullscape | [✅](https://www.curseforge.com/minecraft/mc-mods/nullscape) | [✅](https://modrinth.com/mod/nullscape) | Overhauls the End |
 | Pick Your Poison | [✅](https://www.curseforge.com/minecraft/mc-mods/pick-your-poison) | [✅](https://modrinth.com/mod/pick-your-poison) | Adds poison darts frogs in jungles |
