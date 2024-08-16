@@ -120,6 +120,7 @@
 | Nullscape | [✅](https://www.curseforge.com/minecraft/mc-mods/nullscape) | [✅](https://modrinth.com/mod/nullscape) | Overhauls the End |
 | Pick Your Poison | [✅](https://www.curseforge.com/minecraft/mc-mods/pick-your-poison) | [✅](https://modrinth.com/mod/pick-your-poison) | Adds poison darts frogs in jungles |
 | Terralith | [✅](https://www.curseforge.com/minecraft/mc-mods/terralith) | [✅](https://modrinth.com/mod/terralith) | Overhauls the Overworld |
+| Towns and Towers | [✅](https://www.curseforge.com/minecraft/mc-mods/towns-and-towers) | [✅](https://modrinth.com/mod/towns-and-towers) | Adds new villages and pillager outposts |
 | Treeplacer | [✅](https://www.curseforge.com/minecraft/mc-mods/treeplacer) | [✅](https://modrinth.com/mod/treeplacer) | Allows saplings to generate custom trees |
 | YUNG's Better Desert Temples | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-desert-temples-fabric) | [✅](https://modrinth.com/mod/yungs-better-desert-temples) | Revamps desert temples |
 | YUNG's Better Dungeons | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-dungeons-fabric) | [✅](https://modrinth.com/mod/yungs-better-dungeons) | Revamps dungeons |
