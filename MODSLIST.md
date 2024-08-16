@@ -87,8 +87,9 @@
 | Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
 | Textile Backup | [✅](https://www.curseforge.com/minecraft/mc-mods/textile-backup) | [✅](https://modrinth.com/mod/textile_backup) | Manages backup |
-| What's That Slot? | [✅](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot) | [✅](https://modrinth.com/mod/whats-that-slot) | Helps the player determine which items can fit into a specific slot, including Trinkets accessories |
+| What's That Slot? | [✅](https://www.curseforge.com/minecraft/mc-mods/whats-that-slot) | [✅](https://modrinth.com/mod/whats-that-slot) | Helps identify items that fit a specific slot, including Trinkets |
 | Wild Tool Access | [✅](https://www.curseforge.com/minecraft/mc-mods/wta) | [✅](https://modrinth.com/mod/wta) | Adds an item quick select bar |
+| WITS (What Is This Structure?) | [✅]() | [✅]() | Adds the `\wits` command to identify structures |
 
 > [!NOTE]
 >
