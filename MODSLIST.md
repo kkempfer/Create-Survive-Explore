@@ -183,6 +183,7 @@
 | Naturally Charged Creepers | [✅](https://www.curseforge.com/minecraft/mc-mods/naturally-charged-creepers) | [✅](https://modrinth.com/mod/naturally-charged-creepers) | Allows creepers to spawn charged |
 | On Soul Fire | [✅](https://www.curseforge.com/minecraft/mc-mods/on-soul-fire) | [✅](https://modrinth.com/mod/on-soul-fire) | Makes soul fire blue |
 | Realistic Fire Spread | [✅](https://www.curseforge.com/minecraft/mc-mods/realistic-fire-spread) | [✅](https://modrinth.com/mod/realistic-fire-spread) | Spreads fire more easily |
+| Savage Ender Dragon | [✅](https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon) | ❌ | Adds new mechanics to the Ender Dragon fight |
 | Separated Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/separatedleaves) | [✅](https://modrinth.com/mod/separatedleaves) | Makes leaves stick only to their own log type |
 | Scarecrows' Territory | [✅](https://www.curseforge.com/minecraft/mc-mods/scarecrows-territory) | [✅](https://modrinth.com/mod/scarecrows-territory) | Adds scarecrows that keep spawners activated |
 | Voice Chat Interaction [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction) | [✅](https://modrinth.com/mod/voice-chat-interaction) | Adds voice chat skulk sensor activation and warden detection |
@@ -283,6 +284,7 @@
 | Collective | [✅](https://www.curseforge.com/minecraft/mc-mods/collective) | [✅](https://modrinth.com/mod/collective) | - Cave Spider Spawn <br> - Custom Credits <br> - First Join Message <br> - Fish On The Line <br> - Improved Sign Editing <br> - Naturally Charged Creepers |
 | CreativeCore | [✅](https://www.curseforge.com/minecraft/mc-mods/creativecore) | [✅](https://modrinth.com/mod/creativecore) | - AmbientSounds |
 | CTM Refabricated | [✅](https://www.curseforge.com/minecraft/mc-mods/ctm-refabricated) | [✅](https://modrinth.com/mod/ctm-refabricated) | - Chipped |
+| Cupboard | [✅](https://www.curseforge.com/minecraft/mc-mods/cupboard) | ❌ | - Savage Ender Dragon |
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
 | Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
