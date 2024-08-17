@@ -12,6 +12,7 @@
 | Create Style Modded Compats | [✅](https://www.curseforge.com/minecraft/texture-packs/create-style-modded-compats) | ❌ | Adds Create-themed vanilla redstone items |
 | Create Quests | [✅](https://www.curseforge.com/minecraft/texture-packs/create-quests) | ❌ | Adds a Create-theme FTB Quests book |
 | Da Vinci Gliders | ❌ | ❌ | Uptades Elytra's texture. Available on [Planet Minecraft](https://www.planetminecraft.com/texture-pack/da-vinci-gliders/) |
+| Ender Dragon Boss Fight Theme | [✅](https://www.curseforge.com/minecraft/texture-packs/ender-dragon-boss-fight-theme) | ❌ | Revamps Ender Dragon Boss Fight music |
 | CircularSunMoon | ❌ | ❌ | Adds circular sun and moon. Available on [VanillaTweaks](https://vanillatweaks.net/) |
 | LowerShield | ❌ | ❌ | Lowers the shield. Available on [VanillaTweaks](https://vanillatweaks.net/) |
 | minecraft/supporteatinganimation | [✅](https://www.curseforge.com/minecraft/mc-mods/eating-animation-fabric) | [✅](https://modrinth.com/mod/eating-animation) | Compatibility resource pack between Eating Animation and many mods. Built-in Eating Animation |
