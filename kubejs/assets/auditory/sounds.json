@@ -1,0 +1,44 @@
+{
+  "item.sword.swing": {
+    "sounds": [
+      {
+        "name": "auditory:item/sword/swing1",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/sword/swing2",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/sword/swing3",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/sword/swing4",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/sword/swing5",
+        "volume": 1.5
+      }
+    ],
+    "subtitle": "subtitles.item.weapon.swing"
+  },
+  "item.axe.swing": {
+    "sounds": [
+      {
+        "name": "auditory:item/axe/swing1",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/axe/swing2",
+        "volume": 1.5
+      },
+      {
+        "name": "auditory:item/axe/swing3",
+        "volume": 1.5
+      }
+    ],
+    "subtitle": "subtitles.item.weapon.swing"
+  }
+}
