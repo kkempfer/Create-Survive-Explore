@@ -37,8 +37,8 @@ ao:2
 prioritizeChunkUpdates:0
 biomeBlendRadius:2
 renderClouds:"true"
-resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Supplementaries Generated Pack","continuity/default","continuity/glass_pane_culling_fix","Seasonal Lush Caves","minecraft/supporteatinganimation","LowerShield.zip","CircularSunMoon.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","Create+Style+Modded+Compats+v16.zip","Andesite_Chests+Crafting_Table_1_19.zip","Create Immersive Aircrafts Resource Pack 1.19.2 - 2.0.zip","CIA-AC-Compat-v1.1.0-1.19.2.zip","FreshAnimations_v1.8.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
-incompatibleResourcePacks:["LowerShield.zip","CircularSunMoon.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
+resourcePacks:["vanilla","Fabric Mods","Everycomp Generated Pack","Supplementaries Generated Pack","continuity/default","continuity/glass_pane_culling_fix","Seasonal Lush Caves","minecraft/supporteatinganimation","LowerShield.zip","CircularSunMoon.zip","EnderDragonTheme.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","Create+Style+Modded+Compats+v16.zip","Andesite_Chests+Crafting_Table_1_19.zip","Create Immersive Aircrafts Resource Pack 1.19.2 - 2.0.zip","CIA-AC-Compat-v1.1.0-1.19.2.zip","FreshAnimations_v1.8.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
+incompatibleResourcePacks:["LowerShield.zip","CircularSunMoon.zip","EnderDragonTheme.zip","da-vinci-gliders.zip","Create_FTBQuests.zip","FA+Quivers-v1.1.zip","AL\u0027s Zombies Revamped+FA 1.2.zip","Sparkles_1.20.x_v1.0.6.zip"]
 lastServer:
 lang:en_us
 soundDevice:""
@@ -209,14 +209,14 @@ key_iris.keybind.reload:key.keyboard.unknown
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.unknown
 soundCategory_master:1.0
-soundCategory_music:0.05
-soundCategory_record:0.05
-soundCategory_weather:0.5
-soundCategory_block:0.7077465
-soundCategory_hostile:0.45774648
-soundCategory_neutral:0.4
-soundCategory_player:0.60387325
-soundCategory_ambient:0.75176054
+soundCategory_music:0.20598592
+soundCategory_record:0.0528169
+soundCategory_weather:0.5052817
+soundCategory_block:0.7007042
+soundCategory_hostile:0.2535211
+soundCategory_neutral:0.4084507
+soundCategory_player:0.65316904
+soundCategory_ambient:0.7570422
 soundCategory_voice:1.0
 modelPart_cape:true
 modelPart_jacket:true

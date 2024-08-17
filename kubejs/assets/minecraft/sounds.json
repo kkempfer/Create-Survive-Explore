@@ -1,0 +1,10 @@
+{
+  "music.dragon": {
+    "sounds": [
+      {
+        "name": "minecraft:music/game/end/boss",
+        "volume": 1.5
+      }
+    ]
+  }
+}
