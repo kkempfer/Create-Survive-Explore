@@ -48,6 +48,13 @@ ServerEvents.recipes(event => {
     // There is no silver in this modpack
     event.remove({ type: 'create:mixing', output: 'createaddition:electrum_ingot' });
 
+    // Fix broken small light connector recipe
+    event.remove({ id: 'createaddition:crafting/small_light_connector' })
+    event.shapeless(
+        'createaddition:small_light_connector',
+        ['#c:wires/iron', '#c:colorless_glass', 'createaddition:connector']
+    );
+
     // Replace the zinc sheet from Create Crafts & Additions by the one from Create Deco
     event.remove({ output: 'createaddition:zinc_sheet' });
     event.replaceInput(
