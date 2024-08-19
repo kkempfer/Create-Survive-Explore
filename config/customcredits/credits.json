@@ -639,6 +639,12 @@
                 ]
             },
             {
+                "title": "Hybrid Aquatic",
+                "names": [
+                    "Hybrid Labs Team"
+                ]
+            },
+            {
                 "title": "ImmediatelyFast",
                 "names": [
                     "RaphiMC"
@@ -804,6 +810,13 @@
                 "title": "Memory Leak Fix",
                 "names": [
                     "FX"
+                ]
+            },
+            {
+                "title": "MidnightLib",
+                "names": [
+                    "Martin Prokoph (Motschen)",
+                    "TeamMidnightDust"
                 ]
             },
             {

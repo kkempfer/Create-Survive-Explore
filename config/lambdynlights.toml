@@ -257,6 +257,24 @@ mode = "fancy"
 				gear_golem = true
 				willothewisp = true
 
+			[light_sources.settings.entities.hybrid-aquatic]
+				nautilus = true
+				basking_shark = true
+				frilled_shark = true
+				rockfish = true
+				mahimahi = true
+				opah = true
+				sea_nettle = true
+				needlefish = true
+				yellowfin_tuna = true
+				giant_clam = true
+				sea_urchin = true
+				crab = true
+				starfish = true
+				clownfish = true
+				hermit_crab = true
+				fiddler_crab = true
+
 		[light_sources.settings.block_entities]
 
 			[light_sources.settings.block_entities.minecraft]
