@@ -48,7 +48,7 @@ ServerEvents.recipes(event => {
     // There is no silver in this modpack
     event.remove({ type: 'create:mixing', output: 'createaddition:electrum_ingot' });
 
-    // Fix broken small light connector recipe
+    // Fix broken small connector with light recipe
     event.remove({ id: 'createaddition:crafting/small_light_connector' })
     event.shapeless(
         'createaddition:small_light_connector',
