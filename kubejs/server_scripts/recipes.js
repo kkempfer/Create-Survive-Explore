@@ -45,6 +45,9 @@ ServerEvents.recipes(event => {
     // Remove overpowered pale gold amulet
     event.remove({ output: 'createaddition:electrum_amulet' });
 
+    // There is no silver in this modpack
+    event.remove({ type: 'create:mixing', output: 'createaddition:electrum_ingot' });
+
     // Replace the zinc sheet from Create Crafts & Additions by the one from Create Deco
     event.remove({ output: 'createaddition:zinc_sheet' });
     event.replaceInput(
