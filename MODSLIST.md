@@ -114,6 +114,7 @@
 | Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
 | Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps portals in both the Overworld and the Nether |
 | Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps ocean ruins |
+| Hybrid Aquatic | [✅](https://www.curseforge.com/minecraft/mc-mods/hybrid-aquatic) | [✅](https://modrinth.com/mod/hybrid-aquatic) | Adds aquatic creatures |
 | Incendium | [✅](https://www.curseforge.com/minecraft/mc-mods/incendium) | [✅](https://modrinth.com/mod/incendium) | Overhauls the Nether |
 | Integrated Stronghold | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-stronghold) | [✅](https://modrinth.com/mod/integrated-stronghold) | Revamps strongholds. Requires Create and Supplementaries. Extended by Farmer's Delight |
 | Luki's Grand Capitals | [✅](https://www.curseforge.com/minecraft/mc-mods/lukis-grand-capitals) | [✅](https://modrinth.com/mod/lukis-grand-capitals) | Revamps vanilla villages, pillager outposts, woodland mansion, and witch huts |
@@ -288,16 +289,17 @@
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
 | Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
-| Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Inventory Profiles Next <br> - libIPN |
+| Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Hybrid Aquatic <br> - Inventory Profiles Next <br> - libIPN |
 | Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD |
 | FTB Library | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | ❌ | - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat |
 | FTB Teams | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric) | ❌ | - FTB Quests |
-| Geckolib | [✅](https://www.curseforge.com/minecraft/mc-mods/geckolib) | [✅](https://modrinth.com/mod/geckolib) | - Naturalist <br> - Pick Your Poison |
+| Geckolib | [✅](https://www.curseforge.com/minecraft/mc-mods/geckolib) | [✅](https://modrinth.com/mod/geckolib) | - Hybrid Aquatic <br> - Naturalist <br> - Pick Your Poison |
 | Iceberg | [✅](https://www.curseforge.com/minecraft/mc-mods/iceberg-fabric) | [✅](https://modrinth.com/mod/iceberg) | - Advancement Plaques |
 | Integrated API | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-api) | [✅](https://modrinth.com/mod/integrated-api) | - Integrated Stronghold |
 | Item Filters | [✅](https://www.curseforge.com/minecraft/mc-mods/item-filters) | [✅](https://modrinth.com/mod/item-filters) | - FTB Quests |
 | Kiwi | [✅](https://www.curseforge.com/minecraft/mc-mods/kiwi-fabric) | [✅](https://modrinth.com/mod/kiwi) | - Snow! Real Magic! |
 | libIPN | [✅](https://www.curseforge.com/minecraft/mc-mods/libipn) | [✅](https://modrinth.com/mod/libipn) | - Inventory Profiles Next |
+| MidnightLib | [✅](https://www.curseforge.com/minecraft/mc-mods/midnightlib) | [✅](https://modrinth.com/mod/midnightlib) | - Hybrid Aquatic |
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - Supplementaries |
 | Necronomicon API | [✅](https://www.curseforge.com/minecraft/mc-mods/necronomicon) | [✅](https://modrinth.com/mod/necronomicon) | - Animation Overhaul |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
