@@ -208,6 +208,7 @@
 | Create Slice & Dice [5] | [✅](https://www.curseforge.com/minecraft/mc-mods/slice-and-dice) | [✅](https://modrinth.com/mod/slice-and-dice) | Compatibility mod between Create and Farmer's Delight |
 | Create: Bells and Whistles | [✅](https://www.curseforge.com/minecraft/mc-mods/bellsandwhistles) | [✅](https://modrinth.com/mod/bellsandwhistles) | Adds industrial decorations |
 | Create: Copycats+ [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/copycats) | [✅](https://modrinth.com/mod/copycats) | Adds copycats |
+| Create: Dynamic Lights | [✅](https://www.curseforge.com/minecraft/mc-mods/create-dynamic-lights) | [✅](https://modrinth.com/mod/create-dynamic-lights) | Add dynamic lights to the Create mod. Extended by LambDynamicLights |
 | Create: Extended Cogwheels Fabric | [✅](https://www.curseforge.com/minecraft/mc-mods/create-extended-cogwheels-fabric) | [✅](https://modrinth.com/mod/extended-cogwheels) | Adds more cog types |
 | Create: Foundry | [✅](https://www.curseforge.com/minecraft/mc-mods/create-foundry) | [✅](https://modrinth.com/mod/createfoundry) | Adds liquid metals |
 | Create: Steam 'n' Rails [4] | [✅](https://www.curseforge.com/minecraft/mc-mods/create-steam-n-rails) | [✅](https://modrinth.com/mod/create-steam-n-rails) | Extends the train and rail systems |
