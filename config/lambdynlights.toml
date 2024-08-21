@@ -274,6 +274,18 @@ mode = "fancy"
 				clownfish = true
 				hermit_crab = true
 				fiddler_crab = true
+				moon_jelly = true
+				stonefish = true
+				blue_spotted_stingray = true
+				sea_cucumber = true
+				toadfish = true
+				gourami = true
+				tiger_barb = true
+				zebra_danio = true
+				piranha = true
+				betta = true
+				oscar = true
+				discus = true
 
 		[light_sources.settings.block_entities]
 
