@@ -94,6 +94,8 @@ ServerEvents.tags('block', event => {
         'create:andesite_alloy_block',
         'create:mechanical_piston',
         'create:sticky_mechanical_piston',
+        'create:brass_block',
+        'create:zinc_block',
         'supplementaries:iron_gate',
         'wetlands:bog_iron_block',
         'wetlands:tattered_bog_iron_block',
