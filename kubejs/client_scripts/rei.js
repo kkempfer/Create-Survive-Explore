@@ -102,6 +102,10 @@ REIEvents.hide('item', event => {
         // The player does not need to see these items
         /supplementaries:bomb(_[a-z_]*[a-z])?_projectile/,
 
+        // Tom's Simple Storage Mod
+        // The player does not need to see this item
+        'toms_storage:ts.painted_trim',
+
         // Wetlands
 
         // This block has no texture
