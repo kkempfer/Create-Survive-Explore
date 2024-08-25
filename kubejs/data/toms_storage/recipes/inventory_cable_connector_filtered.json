@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " S ",
+    "cCF",
+    " S "
+  ],
+  "key": {
+    "c": {
+      "item": "toms_storage:ts.inventory_cable"
+    },
+    "C": {
+      "item": "create:chute"
+    },
+    "S": {
+      "tag": "c:cast_iron_plates"
+    },
+    "F": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_connector_filtered"
+  }
+}

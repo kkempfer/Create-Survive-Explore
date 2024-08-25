@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "TGg",
+    "AML"
+  ],
+  "key": {
+    "T": {
+      "item": "create:electron_tube"
+    },
+    "G": {
+      "item": "create:display_link"
+    },
+    "g": {
+      "item": "create:display_board"
+    },
+    "L": {
+      "item": "create:linked_controller"
+    },
+    "M": {
+      "item": "create:precision_mechanism"
+    },
+    "A": {
+      "item": "create:sturdy_sheet"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.wireless_terminal"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "B",
+    "H",
+    "F"
+  ],
+  "key": {
+    "B": {
+      "tag": "c:brass_plates"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    },
+    "F": {
+      "item": "create:electron_tube"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_hopper_basic"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "Ga",
+    "bR"
+  ],
+  "key": {
+    "b": {
+      "tag": "c:iron_nuggets"
+    },
+    "a": {
+      "tag": "c:iron_plates"
+    },
+    "R": {
+      "item": "minecraft:red_dye"
+    },
+    "G": {
+      "item": "minecraft:green_dye"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.paint_kit",
+    "count": 1
+  }
+}

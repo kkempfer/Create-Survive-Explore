@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "PCB"
+  ],
+  "key": {
+    "P": {
+      "tag": "copycats:copycat_block"
+    },
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_proxy",
+    "count": 1
+  }
+}

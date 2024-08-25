@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " B ",
+    "BWB",
+    " B "
+  ],
+  "key": {
+    "B": {
+      "tag": "c:brass_nuggets"
+    },
+    "W": {
+      "tag": "minecraft:wool"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.tag_item_filter",
+    "count": 1
+  }
+}

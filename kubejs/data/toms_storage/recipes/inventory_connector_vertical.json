@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "S",
+    "B",
+    "S"
+  ],
+  "key": {
+    "S": {
+      "tag": "c:cast_iron_plates"
+    },
+    "B": {
+      "item": "create:brass_casing"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_connector",
+    "count": 1
+  }
+}
