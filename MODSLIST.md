@@ -188,6 +188,7 @@
 | Savage Ender Dragon | [✅](https://www.curseforge.com/minecraft/mc-mods/savage-ender-dragon) | ❌ | Adds new mechanics to the Ender Dragon fight |
 | Separated Leaves | [✅](https://www.curseforge.com/minecraft/mc-mods/separatedleaves) | [✅](https://modrinth.com/mod/separatedleaves) | Makes leaves stick only to their own log type |
 | Scarecrows' Territory | [✅](https://www.curseforge.com/minecraft/mc-mods/scarecrows-territory) | [✅](https://modrinth.com/mod/scarecrows-territory) | Adds scarecrows that keep spawners activated |
+| Tom's Simple Storage Mod | [✅](https://www.curseforge.com/minecraft/mc-mods/toms-storage-fabric) | [✅](https://modrinth.com/mod/toms-storage) | Improves storage |
 | Voice Chat Interaction [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/voice-chat-interaction) | [✅](https://modrinth.com/mod/voice-chat-interaction) | Adds voice chat skulk sensor activation and warden detection |
 | You're in Grave Danger | [✅](https://www.curseforge.com/minecraft/mc-mods/youre-in-grave-danger) | [✅](https://modrinth.com/mod/yigd) | Adds graves |
 
@@ -311,7 +312,7 @@
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
 | SuperMartijn642's Config Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-config-lib) | [✅](https://modrinth.com/mod/supermartijn642s-config-lib) | - Scarecrows' Territory |
 | SuperMartijn642's Core Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/supermartijn642s-core-lib) | [✅](https://modrinth.com/mod/supermartijn642s-core-lib) | - Scarecrows' Territory |
-| Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison <br> - Spyglass Improvements |
+| Trinkets | [✅](https://www.curseforge.com/minecraft/mc-mods/trinkets) | [✅](https://modrinth.com/mod/trinkets) | - Charm of Undying <br> - Create Goggles <br> - Mining Helmet <br> - Pick Your Poison <br> - Spyglass Improvements <br> - Tom's Simple Storage Mod |
 | YetAnotherConfigLib [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/yacl) | [✅](https://modrinth.com/mod/yacl) | - Debugify |
 | YUNG's API | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-api-fabric) | [✅](https://modrinth.com/mod/yungs-api) | All of YUNG's mods, including Paxi |
 
