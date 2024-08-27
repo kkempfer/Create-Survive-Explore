@@ -46,6 +46,7 @@
 | Auto Third Person | [✅](https://www.curseforge.com/minecraft/mc-mods/auto-third-person) | [✅](https://modrinth.com/mod/auto-third-person) | Automatically puts the player in third person when using a vehicle |
 | Better Advancements | [✅](https://www.curseforge.com/minecraft/mc-mods/better-advancements) | [✅](https://modrinth.com/mod/better-advancements) | Improves UI |
 | Better Compatibility Checker | [✅](https://www.curseforge.com/minecraft/mc-mods/better-compatibility-checker) | [✅](https://modrinth.com/mod/better-compatibility-checker) | Ensures client and server run the same modpack version |
+| Better Statistics Screen | [✅](https://www.curseforge.com/minecraft/mc-mods/better-stats) | [✅](https://modrinth.com/mod/better-stats) | Improves the statistics screen |
 | BetterArmorHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/betterarmorhud) | [✅](https://modrinth.com/mod/betterarmorhud) | Improves HUD |
 | BetterF3 | [✅](https://www.curseforge.com/minecraft/mc-mods/betterf3) | [✅](https://modrinth.com/mod/betterf3) | Improves debug HUD |
 | Building Wands | [✅](https://www.curseforge.com/minecraft/mc-mods/building-wands) | [✅](https://modrinth.com/mod/building-wands) | Makes building easier |
