@@ -22,8 +22,6 @@ ServerEvents.recipes(event => {
     // There is no quartz in diorite
     event.remove({ input: '#create:stone_types/diorite', output: 'minecraft:quartz' });
 
-    // TODO lapis
-
     // Add nametag recipe
     event.shaped('minecraft:name_tag', [
         ' SS',
@@ -42,24 +40,6 @@ ServerEvents.recipes(event => {
     );
 
     // Create
-
-    // Add rock recipes to make them renewable
-    event.recipes.createCompacting(
-        'create:asurine',
-        ['2x minecraft:tuff', 'minecraft:andesite', Fluid.of('minecraft:lava', 40500)]
-    );
-    event.recipes.createCompacting(
-        'create:crimsite',
-        ['2x minecraft:tuff', 'minecraft:diorite', Fluid.of('minecraft:lava', 40500)]
-    );
-    event.recipes.createCompacting(
-        'create:ochrum',
-        ['2x minecraft:tuff', 'minecraft:granite', Fluid.of('minecraft:lava', 40500)]
-    );
-    event.recipes.createCompacting(
-        'create:veridium',
-        ['2x minecraft:tuff', 'create:limestone', Fluid.of('minecraft:lava', 40500)]
-    );
 
     // Replace the dough from Create by the one from Farmer's Delight
     event.replaceOutput(
@@ -82,6 +62,24 @@ ServerEvents.recipes(event => {
             'farmersdelight:wheat_dough',
         );
     });
+
+    // Add rock recipes to make them renewable
+    event.recipes.createCompacting(
+        'create:asurine',
+        ['2x minecraft:tuff', 'minecraft:andesite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:crimsite',
+        ['2x minecraft:tuff', 'minecraft:diorite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:ochrum',
+        ['2x minecraft:tuff', 'minecraft:granite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:veridium',
+        ['2x minecraft:tuff', 'create:limestone', Fluid.of('minecraft:lava', 40500)]
+    );
 
     // Tea
     event.remove({ type: 'create:mixing', output: Fluid.of('create:tea') });
