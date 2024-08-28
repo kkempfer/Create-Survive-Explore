@@ -2,18 +2,64 @@ ServerEvents.recipes(event => {
 
     // Vanilla
 
+    // We use the Create recipes
+    event.remove({ id: 'minecraft:andesite' });
+    event.remove({ id: 'minecraft:diorite' });
+    event.remove({ id: 'minecraft:granite' });
+
+    // Add calcite recipe to make it renewable
+    event.recipes.createCompacting(
+        'minecraft:calcite',
+        ['2x minecraft:bone_meal', 'minecraft:cobblestone', Fluid.of('minecraft:lava', 8100)]
+    );
+
+    // Add deepslate recipe to make it renewable
+    event.recipes.createCompacting(
+        'minecraft:deepslate',
+        ['4x minecraft:cobblestone', Fluid.of('minecraft:lava', 8100)]
+    ).heated();
+
+    // There is no quartz in diorite
+    event.remove({ input: '#create:stone_types/diorite', output: 'minecraft:quartz' });
+
+    // TODO lapis
+
     // Add nametag recipe
     event.shaped('minecraft:name_tag', [
-        ' AA',
-        'BCA',
-        'CB '
+        ' SS',
+        'PIS',
+        'IP '
     ], {
-        A: 'minecraft:string',
-        B: 'minecraft:paper',
-        C: 'minecraft:iron_ingot'
+        S: 'minecraft:string',
+        P: 'minecraft:paper',
+        I: 'minecraft:iron_ingot'
     });
 
+    // Add tuff recipe to make it renewable
+    event.recipes.createCompacting(
+        'minecraft:tuff',
+        ['2x create:scoria', 'minecraft:cobbled_deepslate', Fluid.of('minecraft:lava', 8100)]
+    );
+
     // Create
+
+    // Add rock recipes to make them renewable
+    event.recipes.createCompacting(
+        'create:asurine',
+        ['2x minecraft:tuff', 'minecraft:andesite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:crimsite',
+        ['2x minecraft:tuff', 'minecraft:diorite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:ochrum',
+        ['2x minecraft:tuff', 'minecraft:granite', Fluid.of('minecraft:lava', 40500)]
+    );
+    event.recipes.createCompacting(
+        'create:veridium',
+        ['2x minecraft:tuff', 'create:limestone', Fluid.of('minecraft:lava', 40500)]
+    );
 
     // Replace the dough from Create by the one from Farmer's Delight
     event.replaceOutput(
