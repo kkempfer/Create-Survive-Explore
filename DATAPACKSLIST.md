@@ -8,7 +8,6 @@
 | Terralith - Create Compat Datapack | [✅](https://www.curseforge.com/minecraft/texture-packs/terralith-create-compat-datapack) | ❌ | Adds andesite generation to Terralith |
 | Treeplacer - Terralith Addon | ❌ | [✅](https://modrinth.com/datapack/treeplacer-terralith-addon) | Compatibility data pack between Treeplacer and Terralith |
 | Remove Terralith Intro Message | [✅](https://www.curseforge.com/minecraft/customization/remove-terralith-intro-message) | [✅](https://modrinth.com/datapack/remove-terralith-intro-message) | Prevents chat spam on first world load |
-| Anti Enderman Grief | ❌ | ❌ | Prevents endermen from picking up blocks. Available on [VanillaTweaks](https://vanillatweaks.net/) |
 
 > [!NOTE]
 >
