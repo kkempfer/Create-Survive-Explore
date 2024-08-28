@@ -1,5 +1,8 @@
 ServerEvents.tags('item', event => {
 
+    // Create
+
+    // Upright on belt
     const uprightOnBeltItems = [
         // Bottles
         'mining_helmet:miner_charm',
@@ -135,5 +138,34 @@ ServerEvents.tags('item', event => {
         'kubejs:incomplete_sweet_roll'
     ];
     event.add('create:upright_on_belt', uprightOnBeltItems);
+
+    // Create Crafts & Additions
+
+    // Compact seeds into seed oil
+    const seedsItems = [
+        'corndelight:corn_seeds',
+        'supplementaries:flax_seeds'
+    ];
+    event.add('c:seeds', seedsItems);
+
+    // Create: Extended Cogwheels Fabric
+
+    // Make steel cogwheels from cast iron
+    event.add('c:steel_ingots', 'createdeco:cast_iron_ingot');
+
+    // Diet
+
+    // Special food
+    const specialFoodItems = [
+        'corndelight:nachos',
+        'farmersdelight:honey_glazed_ham_block',
+        'farmersdelight:rice_roll_medley_block',
+        'farmersdelight:roast_chicken_block',
+        'farmersdelight:shepherds_pie_block',
+        'farmersdelight:stuffed_pumpkin_block',
+        'nethersdelight:stuffed_hoglin',
+        'oceansdelight:guardian_soup'
+    ];
+    event.add('diet:special_food', specialFoodItems);
 
 });
