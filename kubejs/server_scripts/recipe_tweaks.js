@@ -165,6 +165,44 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'farmersdelight:milk_bottle' });
     event.remove({ id: 'farmersdelight:milk_bucket_from_bottles' });
 
+    // Man of many planes
+
+    // Economy plane
+    event.remove({ output: 'man_of_many_planes:economy_plane' });
+    event.recipes.createMechanicalCrafting('man_of_many_planes:economy_plane', [
+        '   S ',
+        'S TSP',
+        'HH_EC',
+        'S TSP',
+        '   S '
+    ], {
+        H: 'immersive_aircraft:hull',
+        E: 'immersive_aircraft:boiler',
+        P: 'immersive_aircraft:propeller',
+        S: 'immersive_aircraft:sail',
+        C: 'immersive_aircraft:industrial_gears',
+        T: 'create:fluid_tank',
+        _: '#create:seats'
+    });
+
+    // Scarlet plane
+    event.remove({ output: 'man_of_many_planes:scarlet_biplane' });
+    event.recipes.createMechanicalCrafting('man_of_many_planes:scarlet_biplane', [
+        '   S ',
+        'S TSp',
+        'HH_EP',
+        'S TSp',
+        '   S '
+    ], {
+        H: 'immersive_aircraft:hull_reinforcement',
+        E: 'immersive_aircraft:engine',
+        P: 'immersive_aircraft:enhanced_propeller',
+        S: 'immersive_aircraft:sail',
+        p: 'immersive_aircraft:sturdy_pipes',
+        T: 'immersive_aircraft:steel_boiler',
+        _: '#create:seats'
+    });
+
     // Supplementaries
 
     // Replace the rope from Supplementaries by the one from Farmer's Delight
