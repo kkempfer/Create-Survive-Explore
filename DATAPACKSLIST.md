@@ -2,7 +2,6 @@
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
-| Create Man of Many Planes | ❌ | [✅](https://modrinth.com/datapack/create-man-of-many-planes) | Compatibility data pack between Create and Man of Many Planes |
 | Create Immersive Aircrafts - Recipes | [✅](https://www.curseforge.com/minecraft/texture-packs/create-immersive-aircrafts-data-pack) | ❌ | Compatibility data pack between Create and Immersive Aircrafts |
 | Create: Chipped Cutting | [✅](https://www.curseforge.com/minecraft/texture-packs/create-chipped-cutting) | [✅](https://www.modrinth.com/datapack/create-chipped-cutting) | Compatibility data pack between Create and Chipped |
 | Create Renewable Ores | ❌ | [✅](https://modrinth.com/datapack/create-renewable-ores) | Adds renewable crimsite/ochrum/veridium/asurine recipes |
