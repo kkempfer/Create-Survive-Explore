@@ -286,6 +286,14 @@ mode = "fancy"
 				betta = true
 				oscar = true
 				discus = true
+				bull_shark = true
+				great_white_shark = true
+				hammerhead_shark = true
+				thresher_shark = true
+				tiger_shark = true
+				whale_shark = true
+				sunfish = true
+				oarfish = true
 
 		[light_sources.settings.block_entities]
 

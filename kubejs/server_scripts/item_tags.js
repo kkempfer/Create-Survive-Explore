@@ -168,6 +168,11 @@ ServerEvents.tags('item', event => {
     ];
     event.add('diet:special_food', specialFoodItems);
 
+    // Hybrid aquatic
+
+    // Shark plushies
+    event.add('hybrid-aquatic:blahaj_plushies', /hybrid-aquatic:([a-z_]*)?shark_blahaj_plushie/)
+
     // KubeJS
 
     // Hide

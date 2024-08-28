@@ -28,7 +28,7 @@ ServerEvents.recipes(event => {
         ['2x create:scoria', 'minecraft:cobbled_deepslate', Fluid.of('minecraft:lava', 8100)]
     );
 
-    // Add bundle recipe
+    // Add bundle recipes
     event.shaped('minecraft:bundle', [
         'SHS',
         'H H',
@@ -234,9 +234,22 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'farmersdelight:milk_bottle' });
     event.remove({ id: 'farmersdelight:milk_bucket_from_bottles' });
 
+    // Hybrid aquatic
+
+    // Add bull shark plushie recipe, following a similar pattern to the teddy bear recipe from Naturalist
+    // We manage the other shark recipes with the Chipped loom table via a data pack
+    event.shaped('hybrid-aquatic:bull_shark_blahaj_plushie', [
+        ' T ',
+        'TWT',
+        ' T '
+    ], {
+        T: 'hybrid-aquatic:shark_tooth',
+        W: '#minecraft:wool'
+    });
+
     // Man of many planes
 
-    // Economy plane
+    // Replace economy plane recipe
     event.remove({ output: 'man_of_many_planes:economy_plane' });
     event.recipes.createMechanicalCrafting('man_of_many_planes:economy_plane', [
         '   S ',
@@ -254,7 +267,7 @@ ServerEvents.recipes(event => {
         _: '#create:seats'
     });
 
-    // Scarlet plane
+    // Replace scarlet plane recipe
     event.remove({ output: 'man_of_many_planes:scarlet_biplane' });
     event.recipes.createMechanicalCrafting('man_of_many_planes:scarlet_biplane', [
         '   S ',
