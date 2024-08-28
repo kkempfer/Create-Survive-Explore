@@ -22,6 +22,37 @@ ServerEvents.recipes(event => {
     // There is no quartz in diorite
     event.remove({ input: '#create:stone_types/diorite', output: 'minecraft:quartz' });
 
+    // Add tuff recipe to make it renewable
+    event.recipes.createCompacting(
+        'minecraft:tuff',
+        ['2x create:scoria', 'minecraft:cobbled_deepslate', Fluid.of('minecraft:lava', 8100)]
+    );
+
+    // Add bundle recipe
+    event.shaped('minecraft:bundle', [
+        'SHS',
+        'H H',
+        'HHH'
+    ], {
+        S: 'minecraft:string',
+        H: '#kubejs:hide'
+    });
+    event.shaped('minecraft:bundle', [
+        'SLS',
+        'L L',
+        ' L '
+    ], {
+        S: 'minecraft:string',
+        L: 'minecraft:leather'
+    });
+
+    // Replace the vanilla rabbit hide by all hide types
+    event.replaceInput(
+        { input: 'minecraft:rabbit_hide' },
+        'minecraft:rabbit_hide',
+        '#kubejs:hide',
+    );
+
     // Add nametag recipe
     event.shaped('minecraft:name_tag', [
         ' SS',
@@ -32,12 +63,6 @@ ServerEvents.recipes(event => {
         P: 'minecraft:paper',
         I: 'minecraft:iron_ingot'
     });
-
-    // Add tuff recipe to make it renewable
-    event.recipes.createCompacting(
-        'minecraft:tuff',
-        ['2x create:scoria', 'minecraft:cobbled_deepslate', Fluid.of('minecraft:lava', 8100)]
-    );
 
     // Create
 

@@ -168,4 +168,13 @@ ServerEvents.tags('item', event => {
     ];
     event.add('diet:special_food', specialFoodItems);
 
+    // KubeJS
+
+    // Hide
+    const hideItems = [
+        'minecraft:rabbit_hide',
+        'naturalist:reptile_hide'
+    ];
+    event.add('kubejs:hide', hideItems);
+
 });
