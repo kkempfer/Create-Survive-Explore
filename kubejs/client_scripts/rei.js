@@ -69,6 +69,8 @@ REIEvents.hide('item', event => {
         'supplementaries:placeable_item',
         // We use the rope from Farmer's Delight
         'supplementaries:rope',
+        // We use the horse feed from Farmer's Delight
+        'supplementaries:sugar_cube',
 
         // Building
         // The blackboard is not compatible with the Mindful Darkness mod

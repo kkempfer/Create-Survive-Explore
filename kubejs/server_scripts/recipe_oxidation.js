@@ -5,11 +5,11 @@ ServerEvents.recipes(event => {
     // Create: Bells & Whistles
 
     // Corrugated metro casing
-    event.recipes.createFilling('bellsandwhistles:corrugated_metro_casing', [Fluid.of('minecraft:water', volume), 'bellsandwhistles:metro_casing'])
+    event.recipes.createFilling('bellsandwhistles:corrugated_metro_casing', [Fluid.of('minecraft:water', volume), 'bellsandwhistles:metro_casing']);
     event.recipes.createSplashing('bellsandwhistles:corrugated_metro_casing', 'bellsandwhistles:metro_casing');
 
     // Corrugated metro panel
-    event.recipes.createFilling('bellsandwhistles:corrugated_metro_panel', [Fluid.of('minecraft:water', volume), 'bellsandwhistles:metro_panel'])
+    event.recipes.createFilling('bellsandwhistles:corrugated_metro_panel', [Fluid.of('minecraft:water', volume), 'bellsandwhistles:metro_panel']);
     event.recipes.createSplashing('bellsandwhistles:corrugated_metro_panel', 'bellsandwhistles:metro_panel');
 
     // Wetlands

@@ -142,7 +142,7 @@
       "climbable_shelves": false
     },
     "sugar_cube": {
-      "enabled": true,
+      "enabled": false,
       "horse_speed_duration": 10
     },
     "planter": {
