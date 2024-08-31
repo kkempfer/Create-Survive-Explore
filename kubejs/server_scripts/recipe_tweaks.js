@@ -225,6 +225,17 @@ ServerEvents.recipes(event => {
     event.remove({ output: 'bellsandwhistles:station_platform' });
     event.stonecutting('bellsandwhistles:station_platform', 'minecraft:smooth_stone');
 
+    // Decorative Blocks
+
+    // Replace lattice recipe to make it compatible with Supplementaries timber frame
+    event.remove({ output: 'decorative_blocks:lattice' });
+    event.shaped('2x decorative_blocks:lattice', [
+        'SSS',
+        'SSS'
+    ], {
+        S: 'minecraft:stick'
+    });
+
     // Delightful Creators
 
     // Apple cider
@@ -276,6 +287,11 @@ ServerEvents.recipes(event => {
         Fluid.of('delightfulcreators:pumpkin_soup', 27000),
         [Fluid.of('milk:still_milk', 27000), 'farmersdelight:pumpkin_slice', { tag: 'c:crops/cabbage' }, { tag: 'c:raw_pork' }]
     ).heated();
+
+    // Every Compat
+
+    // This block should not exist
+    event.remove({ id: 'everycomp:db/ecologics/flowering_azalea_beam' });
 
     // Expanded Delight
 
