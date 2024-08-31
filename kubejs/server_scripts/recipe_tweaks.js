@@ -153,6 +153,61 @@ ServerEvents.recipes(event => {
     event.stonecutting('2x createdeco:zinc_ladder', 'create:zinc_ingot');
     event.stonecutting('2x createdeco:cast_iron_ladder', 'createdeco:cast_iron_ingot');
 
+    // Create: Bells & Whistles
+
+    // Replace corrugated metro casing recipe. See `kubejs/server_scripts/recipe_oxidation.js`
+    event.remove({ output: 'bellsandwhistles:corrugated_metro_casing' });
+
+    // Replace corrugated metro panel recipe. See `kubejs/server_scripts/recipe_oxidation.js`
+    event.remove({ output: 'bellsandwhistles:corrugated_metro_panel' });
+    event.stonecutting('4x bellsandwhistles:corrugated_metro_panel', 'bellsandwhistles:corrugated_metro_casing');
+
+    // Replace metro casing recipe
+    event.remove({ output: 'bellsandwhistles:metro_casing' });
+    event.shapeless(
+        'bellsandwhistles:metro_casing',
+        ['create:industrial_iron_block', 'minecraft:green_dye']
+    );
+
+    // Replace metro panel recipe
+    event.remove({ output: 'bellsandwhistles:metro_panel' });
+    event.stonecutting('4x bellsandwhistles:metro_panel', 'bellsandwhistles:metro_casing');
+
+    // Replace headlight recipe
+    event.replaceInput(
+        { output: 'bellsandwhistles:headlight' },
+        'minecraft:torch',
+        'minecraft:lantern',
+    );
+
+    // Replace metro window recipe
+    event.remove({ output: 'bellsandwhistles:metro_window' });
+    event.shapeless(
+        'bellsandwhistles:metro_window',
+        ['create:framed_glass_trapdoor', 'bellsandwhistles:metro_casing']
+    );
+
+    // Replace metro trapdoor recipe
+    event.remove({ output: 'bellsandwhistles:metro_trapdoor' });
+    event.shapeless(
+        'bellsandwhistles:metro_trapdoor',
+        ['#minecraft:wooden_trapdoors', 'bellsandwhistles:metro_casing']
+    );
+
+    // Replace ornate iron trapdoor recipe
+    event.remove({ output: 'bellsandwhistles:ornate_iron_trapdoor' });
+    event.shaped('bellsandwhistles:ornate_iron_trapdoor', [
+        ' I ',
+        'ITI'
+    ], {
+        I: 'minecraft:iron_nugget',
+        T: 'create:framed_glass_trapdoor'
+    });
+
+    // Replace station platform recipe
+    event.remove({ output: 'bellsandwhistles:station_platform' });
+    event.stonecutting('bellsandwhistles:station_platform', 'minecraft:smooth_stone');
+
     // Delightful Creators
 
     // Apple cider
@@ -285,6 +340,13 @@ ServerEvents.recipes(event => {
         _: '#create:seats'
     });
 
+    // Naturalist
+
+    // Remove duplicate recipes
+    event.remove({ id: 'naturalist:cooked_duck_egg' });
+    event.remove({ id: 'naturalist:cooked_duck_egg_from_campfire_cooking' });
+    event.remove({ id: 'naturalist:cooked_duck_egg_from_smoking' });
+
     // Supplementaries
 
     // Replace the rope from Supplementaries by the one from Farmer's Delight
@@ -329,18 +391,6 @@ ServerEvents.recipes(event => {
     });
 
     // Wetlands
-
-    // Add raw bog iron recipe
-    event.recipes.createCompacting(
-        'wetlands:raw_bog_iron',
-        ['minecraft:raw_iron', Fluid.of('minecraft:water', 27000)]
-    );
-
-    // Add bog iron recipe to make it renewable
-    event.recipes.createCompacting(
-        'wetlands:bog_iron_ingot',
-        ['minecraft:iron_ingot', Fluid.of('minecraft:water', 27000)]
-    );
 
     // Fix missing bog iron grate recipe
     event.shaped('2x wetlands:bog_iron_grate', [

@@ -153,6 +153,22 @@ ServerEvents.tags('item', event => {
     // Make steel cogwheels from cast iron
     event.add('c:steel_ingots', 'createdeco:cast_iron_ingot');
 
+    // Chipped
+
+    // Fix missing wooden trapdoor tag
+    const woodenTrapdoors = [
+        '#chipped:acacia_trapdoor',
+        '#chipped:birch_trapdoor',
+        '#chipped:dark_oak_trapdoor',
+        '#chipped:jungle_trapdoor',
+        '#chipped:mangrove_trapdoor',
+        '#chipped:oak_trapdoor',
+        '#chipped:spruce_trapdoor',
+        '#chipped:crimson_trapdoor',
+        '#chipped:warped_trapdoor'
+    ];
+    event.add('minecraft:wooden_trapdoors', woodenTrapdoors);
+
     // Diet
 
     // Special food
