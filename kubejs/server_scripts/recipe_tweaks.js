@@ -2,7 +2,7 @@ ServerEvents.recipes(event => {
 
     // Vanilla
 
-    // We use the Create recipes
+    // We use Create recipes
     event.remove({ id: 'minecraft:andesite' });
     event.remove({ id: 'minecraft:diorite' });
     event.remove({ id: 'minecraft:granite' });
@@ -44,6 +44,23 @@ ServerEvents.recipes(event => {
     ], {
         S: 'minecraft:string',
         L: 'minecraft:leather'
+    });
+
+    // We use Farmer's Delight recipe
+    event.remove({ id: 'minecraft:cake' });
+
+    // Replace furnace recipe to make it compatible with Nether's Delight blackstone furnace
+    event.replaceInput(
+        { output: 'minecraft:furnace' },
+        '#minecraft:stone_crafting_materials',
+        'minecraft:cobblestone',
+    );
+    event.shaped('minecraft:furnace', [
+        'CCC',
+        'C C',
+        'CCC'
+    ], {
+        C: 'minecraft:cobbled_deepslate'
     });
 
     // Replace the vanilla rabbit hide by all hide types
@@ -285,7 +302,7 @@ ServerEvents.recipes(event => {
         'naturalist:cooked_egg',
     );
 
-    // We use the filling by spout recipe from Create
+    // We use Create recipes
     event.remove({ id: 'farmersdelight:milk_bottle' });
     event.remove({ id: 'farmersdelight:milk_bucket_from_bottles' });
 
@@ -346,6 +363,9 @@ ServerEvents.recipes(event => {
     event.remove({ id: 'naturalist:cooked_duck_egg' });
     event.remove({ id: 'naturalist:cooked_duck_egg_from_campfire_cooking' });
     event.remove({ id: 'naturalist:cooked_duck_egg_from_smoking' });
+
+    // We use Farmer's Delight recipe
+    event.remove({ id: 'naturalist:cake' });
 
     // Supplementaries
 
