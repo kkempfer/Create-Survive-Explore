@@ -71,7 +71,7 @@ skipMultiplayerWarning:false
 skipRealms32bitWarning:false
 hideMatchedNames:true
 joinedFirstServer:false
-hideBundleTutorial:false
+hideBundleTutorial:true
 syncChunkWrites:false
 showAutosaveIndicator:true
 allowServerListing:true
@@ -130,7 +130,7 @@ key_key.jetpack.toggle_active.description:key.keyboard.j
 key_key.jetpack.toggle_hover.description:key.keyboard.h
 key_key.forcecrawl.crawl:key.keyboard.tab
 key_key.freecam.toggle:key.keyboard.f4
-key_key.freecam.playerControl:key.keyboard.unknown
+key_key.freecam.playerControl:key.keyboard.f6
 key_key.freecam.tripodReset:key.keyboard.unknown
 key_key.freecam.configGui:key.keyboard.unknown
 key_key.immersive_aircraft.multi_control_left:key.keyboard.a
