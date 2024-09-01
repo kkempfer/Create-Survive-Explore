@@ -92,11 +92,7 @@ ServerEvents.recipes(event => {
     // Manage Vanilla recipes. We manage the modded ones via a data pack
     event.remove({ id: 'create:smelting/bread' });
     event.remove({ id: 'create:smoking/bread' });
-    let vanillaCraftingTypes = [
-        'minecraft:crafting_shaped',
-        'minecraft:crafting_shapeless',
-        'minecraft:campfire_cooking'
-    ];
+    const vanillaCraftingTypes = ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:campfire_cooking'];
     vanillaCraftingTypes.forEach(type => {
         event.replaceInput(
             { type: type, input: 'create:dough' },
@@ -169,6 +165,74 @@ ServerEvents.recipes(event => {
     event.stonecutting('2x createdeco:netherite_ladder', 'minecraft:netherite_ingot');
     event.stonecutting('2x createdeco:zinc_ladder', 'create:zinc_ingot');
     event.stonecutting('2x createdeco:cast_iron_ladder', 'createdeco:cast_iron_ingot');
+
+    // Fix brick recipes
+    let brickTypes = ['red', 'worn'];
+    const brickShapes = ['bricks', 'brick_tiles', 'long_bricks', 'short_bricks'];
+
+    brickTypes.forEach(type => {
+        const isRed = type === 'red';
+
+        brickShapes.forEach(shape => {
+            const isRedBricks = isRed && shape === 'bricks';
+
+            // Add missing splashing recipes
+            event.recipes.createSplashing(`createdeco:mossy_${type}_${shape}_stairs`, `${isRedBricks ? 'minecraft:brick' : `createdeco:${type}_${shape}`}_stairs`);
+            event.recipes.createSplashing(`createdeco:mossy_${type}_${shape}_slab`, `${isRedBricks ? 'minecraft:brick' : `createdeco:${type}_${shape}`}_slab`);
+            event.recipes.createSplashing(`createdeco:mossy_${type}_${shape}_wall`, `${isRedBricks ? 'minecraft:brick' : `createdeco:${type}_${shape}`}_wall`);
+            event.recipes.createSplashing(`createdeco:mossy_${type}_${shape}_slab_vert`, `createdeco:${type}_${shape}_slab_vert`);
+        });
+    });
+
+    brickTypes = ['blue', 'dean', 'dusk', 'pearl', 'red', 'scarlet', 'worn'];
+    const brickStates = ['', 'cracked_', 'mossy_'];
+
+    brickTypes.forEach(type => {
+        const isRed = type === 'red';
+
+        brickShapes.forEach(shape => {
+            const isRedBricks = isRed && shape === 'bricks';
+
+            // Fix cracked vertical slabs blasting recipes
+            const blastId = `createdeco:cracked_${type}_${shape}_slab_vert_from_${isRedBricks ? 'brick' : `${type}_${shape}`}_slab_blasting`;
+            const blastIngredient = isRedBricks ? 'minecraft:brick_slab' : `createdeco:${type}_${shape}_slab`;
+            event.replaceInput(
+                { id: blastId },
+                blastIngredient,
+                `createdeco:${type}_${shape}_slab_vert`,
+            );
+
+            brickStates.forEach(state => {
+                // Remove non-standard stonecutting recipes
+                if (state) {
+                    const removeId = `createdeco:${state}${type}_${shape}_from_${isRed ? 'bricks' : `${type}_bricks`}_stonecutting`;
+                    event.remove({ id: removeId });
+                }
+
+                // Fix vertical slabs crafting recipes
+                const craftingIngredient = (isRedBricks && !state) ? 'minecraft:bricks' : `createdeco:${state}${type}_${shape}`;
+                event.remove({ id: `createdeco:${state}${type}_${shape}_slab_vert` });
+                event.shaped(`6x createdeco:${state}${type}_${shape}_slab_vert`, [
+                    'B',
+                    'B',
+                    'B'
+                ], {
+                    B: craftingIngredient,
+                });
+
+                // Fix vertical slabs stonecutting recipes
+                if (!isRedBricks || state) {
+                    const stonecuttingId = `createdeco:${state}${type}_${shape}_slab_vert_from_${isRed ? 'bricks' : `${type}_bricks`}_stonecutting`;
+                    const stonecuttingIngredient = isRed ? 'minecraft:bricks' : `createdeco:${type}_bricks`;
+                    event.replaceInput(
+                        { id: stonecuttingId },
+                        stonecuttingIngredient,
+                        `createdeco:${state}${type}_${shape}`,
+                    );
+                }
+            });
+        });
+    });
 
     // Create: Bells & Whistles
 

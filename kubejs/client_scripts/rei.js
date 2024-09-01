@@ -43,6 +43,9 @@ REIEvents.hide('item', event => {
         // The player does not need to see this item
         'everycomp:all_woods',
 
+        // This block should not exist
+        'everycomp:db/ecologics/flowering_azalea_beam',
+
         // Farmer's Delight
 
         // We use the cooked egg from Naturalist
