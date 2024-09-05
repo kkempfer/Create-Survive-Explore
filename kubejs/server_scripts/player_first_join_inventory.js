@@ -1,8 +1,5 @@
 const firstJoinItems = [
-    'ftbquests:book',
-    'dehydration:handbook',
-    Item.of('minecraft:potion', '{Potion:"minecraft:purified_water"}'),
-    Item.of('minecraft:potion', '{Potion:"minecraft:purified_water"}')
+    'ftbquests:book'
 ];
 
 // Register the function to handle the player log in event
