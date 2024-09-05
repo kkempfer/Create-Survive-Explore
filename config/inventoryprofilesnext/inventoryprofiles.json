@@ -119,6 +119,11 @@
                 "keys": "LEFT_SHIFT,BUTTON_3"
             }
         },
+        "sort_inventory_in_rows": {
+            "main": {
+                "keys": "LEFT_CONTROL,BUTTON_3"
+            }
+        },
         "move_all_items": {
             "main": {
                 "keys": ""
