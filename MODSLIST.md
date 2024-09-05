@@ -84,6 +84,7 @@
 | Ponder for KubeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/ponder) | [✅](https://modrinth.com/mod/ponder) | Allows to create custom Create Ponder scenes with KubeJS |
 | Potion Descriptions | [✅](https://www.curseforge.com/minecraft/mc-mods/potion-descriptions-fabric) | [✅](https://modrinth.com/mod/potion-descriptions) | Improves tooltip |
 | ProbeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/probejs) | [✅](https://modrinth.com/mod/probejs) | Generates KubeJS typing in VSCode. Requires KubeJS |
+| Quests Additions | [✅](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric) | ❌ | Extends FTB Quests |
 | Roughly Enough Items [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
 | SeasonHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric) | [✅](https://modrinth.com/mod/seasonhud-fabric) | Compatibility mod between Fabric Seasons and Xaero's Minimap |
 | Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
@@ -281,7 +282,7 @@
 
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
-| Architectury API | [✅](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | [✅](https://modrinth.com/mod/architectury-api) | - Building Wands <br> - Cave Dust? <br> - Create Chunkloading <br> - Create Goggles <br> - FTB Library <br> - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat <br> - KubeJS <br> - ProbeJS <br> - Roughly Enough Items |
+| Architectury API | [✅](https://www.curseforge.com/minecraft/mc-mods/architectury-api) | [✅](https://modrinth.com/mod/architectury-api) | - Building Wands <br> - Cave Dust? <br> - Create Chunkloading <br> - Create Goggles <br> - FTB Library <br> - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat <br> - KubeJS <br> - ProbeJS <br> - Quests Additions <br> - Roughly Enough Items |
 | AutoTag | [✅](https://www.curseforge.com/minecraft/mc-mods/autotag) | [✅](https://modrinth.com/mod/autotag) | - EnvironmentZ |
 | Bookshelf | [✅](https://www.curseforge.com/minecraft/mc-mods/bookshelf) | [✅](https://modrinth.com/mod/bookshelf-lib) | - EnchantmentDescriptions |
 | CIT Resewn | [✅](https://www.curseforge.com/minecraft/mc-mods/cit-resewn) | [✅](https://modrinth.com/mod/cit-resewn) | - Incendium |
