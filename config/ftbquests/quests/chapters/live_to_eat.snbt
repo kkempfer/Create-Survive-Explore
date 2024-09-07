@@ -1,0 +1,50 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "live_to_eat"
+	group: ""
+	id: "626A96399160D5F1"
+	order_index: 2
+	quest_links: [ ]
+	quests: [{
+		description: [
+			"The &9juicer&r allows you to make delicious &6juices&r to quench your thirst while contributing to your dietary groups. You can automate this process by placing the juicer in a setup with hoppers."
+			""
+			"Beware of the sugar!"
+		]
+		id: "3E8EB53D810E9C37"
+		rewards: [
+			{
+				id: "1365B8CC4A55B313"
+				item: "expandeddelight:apple_juice"
+				type: "item"
+			}
+			{
+				id: "5614C54B4C481815"
+				item: "expandeddelight:sweet_berry_juice"
+				type: "item"
+			}
+			{
+				id: "6F473F5E4C628DB4"
+				item: "expandeddelight:glow_berry_juice"
+				type: "item"
+			}
+			{
+				id: "5616768196DF7275"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}
+		]
+		size: 1.5d
+		subtitle: "Hydrate and boost yourself."
+		tasks: [{
+			id: "6BA02A76D5EF0074"
+			item: "expandeddelight:juicer_item"
+			type: "item"
+		}]
+		title: "&2Freshly Squeezed&r"
+		x: 0.0d
+		y: 0.0d
+	}]
+	title: "Become a chef"
+}

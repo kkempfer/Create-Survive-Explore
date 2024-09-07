@@ -1,0 +1,167 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "decorations"
+	group: ""
+	icon: "createdeco:scarlet_long_bricks"
+	id: "0A048E5B74854171"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"706CCF7D1E0C346F"
+				"19C304478092D122"
+				"0D88946D0E9E25DE"
+				"1834B8961999AC43"
+				"36C5C5C91B3859CE"
+				"2BAB33BB78E6D42B"
+				"29421A83EA6C4E83"
+			]
+			description: [
+				"The &eChipped&r mod adds hundreds of building blocks through just seven unique workbenches."
+				""
+				"While handy, you may soon be overwhelmed by the quantity of items to manage. Automate their production and optimize their storage with the &6mechanical saw&r."
+			]
+			icon: "chipped:tiny_layered_dark_prismarine_bricks"
+			id: "0C3CB21D5370E58C"
+			rewards: [
+				{
+					id: "50E352A3A31375AC"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "38CDE4C35EC8230F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 1.5d
+			subtitle: "Automate hundreds of decoration blocks."
+			tasks: [{
+				id: "2D2F9642477CA2FC"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eChipped&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			id: "2BAB33BB78E6D42B"
+			rewards: [{
+				count: 32
+				id: "7932A0395E27741C"
+				item: "chipped:cut_blank_packed_mud"
+				type: "item"
+			}]
+			tasks: [{
+				id: "43BC5B1DA86CE2A3"
+				item: "chipped:botanist_workbench"
+				type: "item"
+			}]
+			x: -0.333d
+			y: -1.463d
+		}
+		{
+			id: "0D88946D0E9E25DE"
+			rewards: [{
+				count: 32
+				id: "79C66B6B3F2062AE"
+				item: "chipped:square_white_stained_glass"
+				type: "item"
+			}]
+			tasks: [{
+				id: "78CCE1A5F3DF0C1D"
+				item: "chipped:glassblower"
+				type: "item"
+			}]
+			x: -0.333d
+			y: 1.463d
+		}
+		{
+			id: "36C5C5C91B3859CE"
+			rewards: [{
+				count: 32
+				id: "411A453F42CDF37D"
+				item: "chipped:vertical_mangrove_planks"
+				type: "item"
+			}]
+			tasks: [{
+				id: "7CC928717E58D5E8"
+				item: "chipped:carpenters_table"
+				type: "item"
+			}]
+			x: -1.351d
+			y: 0.651d
+		}
+		{
+			id: "706CCF7D1E0C346F"
+			rewards: [{
+				count: 32
+				id: "77C74CDFEBA0F2D9"
+				item: "chipped:windmill_white_wool"
+				type: "item"
+			}]
+			tasks: [{
+				id: "12F157D6AC2C151C"
+				item: "chipped:loom_table"
+				type: "item"
+			}]
+			x: 0.935d
+			y: -1.172d
+		}
+		{
+			id: "29421A83EA6C4E83"
+			rewards: [{
+				count: 32
+				id: "16A21220DA71DB66"
+				item: "chipped:striped_yellow_concrete"
+				type: "item"
+			}]
+			tasks: [{
+				id: "225D1F45E0158014"
+				item: "chipped:mason_table"
+				type: "item"
+			}]
+			x: -1.351d
+			y: -0.651d
+		}
+		{
+			id: "1834B8961999AC43"
+			rewards: [{
+				count: 32
+				id: "454013D7FC5EDF18"
+				item: "chipped:stacked_waxed_oxidized_copper"
+				type: "item"
+			}]
+			tasks: [{
+				id: "45A74AD8DD820950"
+				item: "chipped:alchemy_bench"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			id: "19C304478092D122"
+			rewards: [{
+				count: 32
+				id: "2CC5C5602D7B6A1E"
+				item: "chipped:sturdy_iron_bars"
+				type: "item"
+			}]
+			tasks: [{
+				id: "421FAD27454AA797"
+				item: "chipped:tinkering_table"
+				type: "item"
+			}]
+			x: 0.935d
+			y: 1.172d
+		}
+	]
+	title: "Decorate your builds"
+}

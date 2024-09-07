@@ -1,0 +1,419 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "getting_started"
+	group: ""
+	icon: "ftbquests:book"
+	id: "5D14DFBD0D2A0CB8"
+	images: [{
+		click: ""
+		corner: false
+		dev: false
+		height: 3.0d
+		hover: [ ]
+		image: "kubejs:textures/modpack/logo.png"
+		rotation: 0.0d
+		width: 10.0d
+		x: 1.0d
+		y: 3.0d
+	}]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome, aspiring engineer!"
+				""
+				"This tutorial will guide you through the basics of the interface and introduce some handy quality of life mods. It is completely &coptional&r, so feel free to explore at your own pace."
+				""
+				"To complete your first quest, &dclick&r the checkmark under &9Tasks&r, then claim your &6Rewards&r. Ready to begin?"
+				""
+				"To view the rest of the quests, open the &6Quests Groups&r panel on the left side of the screen."
+			]
+			icon: {
+				Count: 1b
+				id: "create:extendo_grip"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "634DF571CD793B8A"
+			rewards: [
+				{
+					id: "471564948074B6AC"
+					item: "farmersdelight:egg_sandwich"
+					type: "item"
+				}
+				{
+					id: "176C9AB0D63F199C"
+					item: {
+						Count: 1b
+						id: "minecraft:potion"
+						tag: {
+							Potion: "minecraft:purified_water"
+						}
+					}
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Click on this quest and read the guide."
+			tasks: [{
+				id: "09CF01DBFD479897"
+				title: "Click me"
+				type: "checkmark"
+			}]
+			title: "Welcome to &eCreate Survive \\& Explore&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"Even if you are playing solo, setting up the voice chat will make your gaming experience more immersive. Hear your echo in caverns or negotiate with a warden!"
+				""
+				"Press &dv&r to setup the voice chat and follow the steps. The &aVoice Activation&r method is recommended. "
+				""
+				"Controls:"
+				""
+				"- Open the GUI by pressing &dv&r."
+				"- Press &dEnd&r to mute or unmute your microphone."
+				"- In multiplayer, manage your voice chat group with &dg&r."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "voicechat:textures/icons/microphone.png"
+				}
+			}
+			id: "7BD51ED7511DFB08"
+			rewards: [{
+				count: 5
+				id: "3AFDC96F94666653"
+				item: "minecraft:sculk_sensor"
+				type: "item"
+			}]
+			subtitle: "Interact with the world and other players."
+			tasks: [{
+				id: "14FA754FDB521CE3"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&aVoice Chat Setup&r"
+			x: -3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["38A0AF81476F7572"]
+			description: [
+				"The &eTrinkets&r mod adds extra slots to certain body parts. Hover over them to discover this extended inventory space."
+				""
+				"In Creative mode, hold down &dAlt&r to identify items that fit a specific slot."
+				""
+				"Now grab this &6spyglass&r and add it to your belt! Press &dz&r and &dscroll&r the mouse wheel to zoom in and out. You can do this even with the spyglass in your belt, no need to hold it in hand."
+			]
+			icon: "minecraft:spyglass"
+			id: "309366115B52666D"
+			rewards: [{
+				id: "119FB570DA85CF46"
+				item: "minecraft:spyglass"
+				type: "item"
+			}]
+			subtitle: "Did you say more inventory space?"
+			tasks: [{
+				id: "3D5E17B334238FF4"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eTrinkets&r"
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"The second icon in the top left corner of your inventory screen is the &bQuest Book&r, which lets you track your progress at any time. You do not need to carry the &bQuest Book&r in your inventory."
+				""
+				"As you explore and build, new quests will unlock, guiding you on your journey. Enjoy!"
+			]
+			icon: "ftbquests:book"
+			id: "5A51CB49C57C9CF2"
+			rewards: [{
+				count: 2
+				id: "5BDEB01E67CC46DF"
+				item: "create:clipboard"
+				type: "item"
+			}]
+			subtitle: "Track progress."
+			tasks: [{
+				id: "0EE605396CDC12A6"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&bQuests&r"
+			x: -1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["5A51CB49C57C9CF2"]
+			description: [
+				"To the left of the &bQuest Book&r icon is the &aFTB Teams&r icon, which allows you to manage other players in your team. Members of the same team share the same &bQuest Book&r, letting everyone progress through quests as a group."
+				""
+				"You can skip this step in a singleplayer world."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "ftbteams:textures/teams.png"
+				}
+			}
+			id: "38A87DDF3D02A565"
+			rewards: [{
+				count: 2
+				id: "433AB07B632AC155"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			subtitle: "Complete quests with other players."
+			tasks: [{
+				id: "237244D0963208A1"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&aMultiplayer&r"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"Please report any issues on GitHub:"
+				"&bhttps://github.com/kkempfer/Create-Survive-Explore/issues&r"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/modpack/github.png"
+				}
+			}
+			id: "2E94160391301D76"
+			rewards: [{
+				id: "4F0935D9C64FBDD5"
+				item: {
+					Count: 1b
+					id: "supplementaries:flute"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Help me improve this modpack."
+			tasks: [{
+				id: "7481738D2401835A"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&cReport Issues&r"
+			x: 0.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6F613360083C6E0F"]
+			description: [
+				"- &9LMB Tweak&r: Hold the &dleft mouse button&r to pick up an item, and drag to move and stack items of the same type."
+				"- &9Drag and drop&r: Drag a stack to remove it from your inventory. Hold down &dq&r while dragging to remove all matching items."
+				"- &9Fill main hand stack&r: Pick up blocks with the &dmiddle mouse button&r to fill your held stack."
+				"- &9Fill offhand stack&r: &dShift-click&r to move food or other items to your offhand or fill it up."
+			]
+			icon: "minecraft:chest"
+			id: "6FC79E2AF9FA9143"
+			rewards: [{
+				count: 2
+				id: "3CC2994EA010E8EE"
+				item: "minecraft:chest"
+				type: "item"
+			}]
+			subtitle: "Move items faster."
+			tasks: [{
+				id: "6CDACA7DF78F28ED"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eInventory Controls&r"
+			x: 3.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6FC79E2AF9FA9143"]
+			description: [
+				"With an external inventory open:"
+				""
+				"- &dShift-click&r items to move them between inventories."
+				"- &dClick&r, &dhold&r, and &ddrag&r to move all matching stacks."
+				"- Hold &dShift&r while using &9LMB Tweak&r to move items into another inventory. If no items are selected prior to holding &dShift&r, all items hovered over will be transferred."
+				"- &dScroll&r to move items one by one between inventories. Hold one of these modifier keys to change its behavior:"
+				"   - &dShift&r to move the whole stack,"
+				"   - &dz&r to leave one item in the original slot,"
+				"   - &dx&r to evenly distribute items across target slots,"
+				"   - &dc&r to drop the items."
+			]
+			icon: "minecraft:chest_minecart"
+			id: "1B9724B687273939"
+			rewards: [{
+				id: "6EAE3123E744D842"
+				item: "chipped:acacia_barrel"
+				type: "item"
+			}]
+			subtitle: "Master inventory management."
+			tasks: [{
+				id: "41C225462070142B"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eMove Items Between Inventories&r"
+			x: 5.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1B9724B687273939"]
+			description: [
+				"- Lock or unlock item slots in your inventory with &dl&r to prevent sorting or dropping."
+				"- Press the &dmiddle mouse button&r to sort your inventory by stack size. This works with external inventories too. Hold &dShift&r to sort it in columns. Hold &dCtrl&r to sort it in rows."
+			]
+			icon: "toms_storage:ts.inventory_cable_connector"
+			id: "3F775546928BBD29"
+			rewards: [{
+				id: "4704F116AE9EA56A"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			subtitle: "Sort your inventory."
+			tasks: [{
+				id: "5D5B6BDD6708E6D8"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eInventory Sorting&r"
+			x: 6.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["23A757C9B3B0F90B"]
+			description: [
+				"Early game, &6bundles&r and &6sacks&r will be your best friends. Later on, &6toolboxes&r and &6shulker boxes&r will let you carry more items."
+				""
+				"Perhaps &eCreate&r and &eTom's Simple Storage Mod&r offer even more powerful solutions?"
+				""
+				"Controls:"
+				""
+				"- &9Insert stacks&r: &dRight-click&r items on a portable storage in your inventory (or vice versa). &dDrag&r the storage across multiple slots to insert hovered items."
+				"- &9View Contents&r: Hover over a portable storage to see its content. Hold &dAlt&r to force the tooltip to display when holding another item."
+				"- &9Extract stacks&r: &dRight-click&r a portable storage to extract items. By default, the last added items are extracted first (LIFO). &dScroll&r through the storage slots to select items for extraction. &dDrag&r the storage across empty slots to extract multiple items."
+				"- &9Insert/extract a single item&r: Hold &dCtrl&r to enable precision mode. &dLeft-click&r inserts a single item and &dright-click&r extracts it. The &dscroll&r wheel can also be used."
+			]
+			icon: "minecraft:bundle"
+			id: "38A0AF81476F7572"
+			min_required_tasks: 1
+			rewards: [
+				{
+					id: "040ABE3891B455D3"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+				{
+					id: "666DC765AAF50C9C"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			subtitle: "Are you a hoarder?"
+			tasks: [
+				{
+					id: "33BD822909DE2AB1"
+					item: "minecraft:bundle"
+					type: "item"
+				}
+				{
+					id: "712FC66C92249E5A"
+					item: "supplementaries:sack"
+					type: "item"
+				}
+			]
+			title: "&ePortable Storage&r"
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"Press &dr&r to open your quick access bar, &dscroll&r to your desired item, &dleft-click&r to swap its inventory slot with your currently held item."
+				""
+				"Use the &7\\\\wta stuff list&r command to view items accessible from your bar. Customize it using &7\\\\wta stuff add <itemID>&r to include items, or &7\\\\wta stuff remove <itemID>&r to exclude them."
+				""
+				"Here is a &6sleeping bag&r for you. When night falls, quickly access it from anywhere in your inventory!"
+			]
+			id: "23A757C9B3B0F90B"
+			rewards: [{
+				id: "5C26765BE83CD815"
+				item: "comforts:sleeping_bag_white"
+				type: "item"
+			}]
+			subtitle: "Tired of your cluttered hotbar?"
+			tasks: [{
+				id: "4C914E01769B9E0C"
+				item: {
+					Count: 1b
+					id: "minecraft:wooden_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eToolbelt&r"
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"Wanna explore this modpack by yourself? Or maybe you are wondering how to get that elusive item?"
+				""
+				"With your inventory open:"
+				""
+				"- &9Browse items&r: Check out the item panel on the right side. Type in the search bar at the bottom to find any item in the game."
+				"- &9Find recipes&r: Hover over an item and press &dr&r to see how to obtain it."
+				"- &9Find uses&r: Hover over an item and press &du&r to check what it is used for."
+				"- &9Bookmark your favorites&r: Press &df&r while hovering over an item or recipe to save it. Press &df&r again on the left-side panel to remove it from favorites."
+				"- &9Advanced search&r:"
+				"   - Use &7@modname&r to search by mod, e.g. &7@create&r."
+				"   - Use &7$tag&r to search by tags, e.g. &7$tools&r."
+				"   - Use &7#text&r to search by tooltip, e.g. &7#protection&r to find all protection enchantments."
+				"   - Use &7r/regex/&r if you like challenges."
+			]
+			icon: "minecraft:knowledge_book"
+			id: "6F613360083C6E0F"
+			rewards: [{
+				count: 3
+				id: "1C231569C01A2C00"
+				item: "create:crafting_blueprint"
+				type: "item"
+			}]
+			subtitle: "Browse items and recipes."
+			tasks: [{
+				id: "28BE69BBB41998DD"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&5Recipe Book&r"
+			x: 2.0d
+			y: 0.0d
+		}
+	]
+	title: "Get started"
+}

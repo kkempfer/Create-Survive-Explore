@@ -1,0 +1,165 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "survive_your_first_days"
+	group: ""
+	icon: "minecraft:campfire"
+	id: "0784D5422DFC1CB0"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Feeling thirsty already?"
+				""
+				"Check out the thirst bar above your food bar at the bottom of your screen. Staying hydrated is essential for survival. This &6handbook&r will teach you the basics."
+			]
+			id: "7C66F189E0E18403"
+			rewards: [{
+				id: "128A96D4FC99D788"
+				item: "dehydration:handbook"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "What? Minecraft has a thirst mechanic?"
+			tasks: [{
+				id: "5FA8CE6C2F814512"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:purified_water"
+					}
+				}
+				type: "item"
+			}]
+			title: "&bStay Hydrated&r"
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["7C66F189E0E18403"]
+			description: [
+				"The &9bamboo pump&r draws &bgroundwater&r. However, it requires bamboo to craft, so keep an eye out for &2jungle biomes&r."
+				""
+				"&dClick&r with a bucket, &6flask&r, or bottle to place it onto the pump, then &dright-click&r the pump to fill it. &dShift-click&r with an empty hand to pick it up."
+				""
+				"The pump refreshes every minute. Can you think of a way to automate &bgroundwater&r extraction?"
+			]
+			id: "5078242F91B3DE2B"
+			rewards: [{
+				id: "69228D6F6E397728"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			subtitle: "Extract groundwater."
+			tasks: [{
+				id: "12132B4A5FAF786F"
+				item: "dehydration:bamboo_pump"
+				type: "item"
+			}]
+			title: "&2Pump It Up&r"
+			x: 1.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["35C71829BA508BC8"]
+			description: [
+				"Drinking &3dirty water&r is risky. Use the &9campfire cauldron&r to purify water by boiling it. Place the cauldron over a lit &9campfire&r and add water to start the purification process. After a few seconds, &dright-click&r with a bucket, &6flask&r, or bottle to get &bpurified water&r."
+				""
+				"Remember to carry the &9campfire cauldron&r with you when adventuring."
+				""
+				"Can you figure out how to automate this?"
+			]
+			icon: "dehydration:campfire_cauldron"
+			id: "07DE1B4F6DA137D2"
+			rewards: [{
+				id: "75240D48FFE26472"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			subtitle: "Boil water to kill bacteria."
+			tasks: [
+				{
+					id: "6D17403B529F5268"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					id: "308C64284D548B2D"
+					item: "dehydration:campfire_cauldron"
+					type: "item"
+				}
+			]
+			title: "&cField Chemistry&r"
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C66F189E0E18403"]
+			description: [
+				"The &9copper cauldron&r collects &brainwater&r and preserves &bpurified water&r."
+				""
+				"Setting up an array of &9copper cauldrons&r early on is a cost-effective way to sustain yourself, though it depends on the weather."
+				""
+				"Here, grab some extra &6cauldrons&r and get to work!"
+			]
+			id: "35C71829BA508BC8"
+			rewards: [{
+				count: 2
+				id: "4B84B29F98175653"
+				item: "dehydration:copper_cauldron"
+				type: "item"
+			}]
+			subtitle: "Collect rainwater."
+			tasks: [{
+				id: "3115890359567DBB"
+				item: "dehydration:copper_cauldron"
+				type: "item"
+			}]
+			title: "&bPassive Income&r"
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7C66F189E0E18403"]
+			description: [
+				"Brew &6purified water bottles&r by mixing &9kelp&r and water in a &9brewing stand&r."
+				""
+				"We need to automate the production of &bpurified water&r. Can you help out?"
+			]
+			icon: "minecraft:brewing_stand"
+			id: "24244F8EAAB0A2C9"
+			rewards: [{
+				count: 3
+				id: "53307D6726C0058D"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:purified_water"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Brew water potion with kelp."
+			tasks: [
+				{
+					id: "2AB8F9AFE81CE4FA"
+					item: "minecraft:brewing_stand"
+					type: "item"
+				}
+				{
+					id: "38EC77B8CC22FE52"
+					item: "minecraft:kelp"
+					type: "item"
+				}
+			]
+			title: "&5Open a Brewery&r"
+			x: 1.0d
+			y: 1.0d
+		}
+	]
+	title: "Survive your first days"
+}

@@ -480,6 +480,16 @@ ServerEvents.recipes(event => {
         }
     }
 
+    // Add sack recipe
+    event.shaped('supplementaries:sack', [
+        'RSR',
+        'R R',
+        'RRR'
+    ], {
+        R: 'farmersdelight:rope',
+        S: 'minecraft:string'
+    });
+
     // Fix missing gold gate recipe
     event.shaped('2x supplementaries:gold_gate', [
         'ABA',
