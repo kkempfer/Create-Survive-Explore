@@ -64,7 +64,7 @@
 				title: "Click me"
 				type: "checkmark"
 			}]
-			title: "Welcome to &eCreate Survive \\& Explore&r"
+			title: "&eWelcome to Create Survive \\& Explore&r"
 			x: 0.0d
 			y: 0.0d
 		}
@@ -415,5 +415,5 @@
 			y: 0.0d
 		}
 	]
-	title: "Get started"
+	title: "Get Started"
 }

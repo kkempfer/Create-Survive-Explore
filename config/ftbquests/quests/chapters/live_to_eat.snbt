@@ -4,7 +4,7 @@
 	filename: "live_to_eat"
 	group: ""
 	id: "626A96399160D5F1"
-	order_index: 2
+	order_index: 3
 	quest_links: [ ]
 	quests: [{
 		description: [
@@ -46,5 +46,5 @@
 		x: 0.0d
 		y: 0.0d
 	}]
-	title: "Become a chef"
+	title: "Become a Chef"
 }

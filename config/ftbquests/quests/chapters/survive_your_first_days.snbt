@@ -160,6 +160,99 @@
 			x: 1.0d
 			y: 1.0d
 		}
+		{
+			id: "41EB50E106E704C7"
+			rewards: [{
+				count: 2
+				id: "49D7513F756CBCE6"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			tasks: [{
+				id: "2A194C016460E21B"
+				item: "farmersdelight:rope"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.0d
+		}
+		{
+			icon: {
+				Count: 1b
+				id: "supplementaries:rope_arrow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "68A4E345A4C7939E"
+			rewards: [
+				{
+					count: 32
+					id: "08483CD2919622D7"
+					item: "farmersdelight:rope"
+					type: "item"
+				}
+				{
+					count: 10
+					id: "40C7181D9CBB0B1A"
+					item: "minecraft:arrow"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "571335A6D5621FC2"
+					item: {
+						Count: 1b
+						id: "minecraft:bow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7E1420905603E22F"
+					item: {
+						Count: 1b
+						id: "supplementaries:rope_arrow"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 1.0d
+			y: -5.0d
+		}
+		{
+			id: "1011B8774A05BBCF"
+			rewards: [{
+				count: 3
+				id: "3006BCB332349595"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4153650588E719E0"
+				item: "farmersdelight:safety_net"
+				type: "item"
+			}]
+			title: "&cSafety First&r"
+			x: 0.5d
+			y: -3.5d
+		}
+		{
+			id: "7F7ABEE04EF23896"
+			tasks: [{
+				id: "20FAC2C2B2D22543"
+				item: "minecraft:lead"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
 	]
-	title: "Survive your first days"
+	title: "Survive your First Days"
 }

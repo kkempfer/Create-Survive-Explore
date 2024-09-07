@@ -1,0 +1,135 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_farmer"
+	group: ""
+	icon: "farmersdelight:wild_onions"
+	id: "1AAC12ECBE43B3D7"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4E03E39219275397"
+			tasks: [{
+				id: "0D14E8A7AD519FD8"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			id: "376E133AD595DD65"
+			tasks: [{
+				id: "22692CCE49E59C35"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -1.0d
+		}
+		{
+			id: "45D7FAB4BCEF22BB"
+			tasks: [{
+				id: "129FB0B71CB9DEE8"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "185451363A6F447E"
+			tasks: [{
+				id: "7B985AD3A4098537"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -2.5d
+		}
+		{
+			id: "5B4A4672CCC9096D"
+			tasks: [{
+				id: "0C52427726E40506"
+				item: "corndelight:corn_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			id: "4A768305DA354828"
+			tasks: [{
+				id: "7D4BE85FF2516533"
+				item: "expandeddelight:asparagus_seeds"
+				type: "item"
+			}]
+			x: -3.0d
+			y: 2.0d
+		}
+		{
+			id: "60F56BB3A2135784"
+			tasks: [{
+				id: "081A065E4CC2E7DA"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: -1.5d
+			y: 2.0d
+		}
+		{
+			id: "50CB3AD8C9E3EA99"
+			tasks: [{
+				id: "5388D5DC806BBBE7"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -4.0d
+		}
+		{
+			id: "28C1900F97D3127C"
+			tasks: [{
+				id: "2E23523F5750FC9E"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			id: "36C369853E5C5E20"
+			tasks: [{
+				id: "2A76BD69D6351760"
+				item: "expandeddelight:chili_pepper_seeds"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			id: "408C50BB1823EABB"
+			tasks: [{
+				id: "67D7166CAE93B50B"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			id: "4C9E428A37387790"
+			rewards: [{
+				count: 10
+				id: "6E6B76ACC862B75F"
+				item: "create_enchantment_industry:hyper_experience_bottle"
+				type: "item"
+			}]
+			title: "Lord of the Seeds"
+			x: 4.0d
+			y: -1.0d
+		}
+	]
+	title: "The Farmer"
+}
