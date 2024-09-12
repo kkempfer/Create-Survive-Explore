@@ -85,6 +85,7 @@
 | ProbeJS | [✅](https://www.curseforge.com/minecraft/mc-mods/probejs) | [✅](https://modrinth.com/mod/probejs) | Generates KubeJS typing in VSCode. Requires KubeJS |
 | Quests Additions | [✅](https://www.curseforge.com/minecraft/mc-mods/quests-additions-fabric) | ❌ | Extends FTB Quests |
 | Roughly Enough Items [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-items) | [✅](https://modrinth.com/mod/rei) | Shows items and recipes |
+| Roughly Enough Loot Tables | [✅](https://www.curseforge.com/minecraft/mc-mods/roughly-enough-loot-tables) | [✅](https://modrinth.com/mod/roughly-enough-loot-tables) | Shows loot tables. Requires Roughly Enough Items |
 | SeasonHUD | [✅](https://www.curseforge.com/minecraft/mc-mods/seasonhud-fabric) | [✅](https://modrinth.com/mod/seasonhud-fabric) | Compatibility mod between Fabric Seasons and Xaero's Minimap |
 | Simple Voice Chat | [✅](https://www.curseforge.com/minecraft/mc-mods/simple-voice-chat) | [✅](https://modrinth.com/plugin/simple-voice-chat) | Adds a voice chat |
 | Stylish Effects | [✅](https://www.curseforge.com/minecraft/mc-mods/stylish-effects) | [✅](https://modrinth.com/mod/stylish-effects) | Overhauls how status effects are displayed |
@@ -293,7 +294,7 @@
 | Entity Model Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-model-features) | [✅](https://modrinth.com/mod/entity-model-features) | - Incendium |
 | Entity Texture Features | [✅](https://www.curseforge.com/minecraft/mc-mods/entity-texture-features-fabric) | [✅](https://modrinth.com/mod/entitytexturefeatures) | - Incendium |
 | Fabric API | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-api) | [✅](https://modrinth.com/mod/fabric-api) | Core library for the Fabric toolchain |
-| Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Hybrid Aquatic <br> - Inventory Profiles Next <br> - libIPN |
+| Fabric Language Kotlin | [✅](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin) | [✅](https://modrinth.com/mod/fabric-language-kotlin) | - Create Jetpack <br> - Create Track Map <br> - Create Slice & Dice <br> - Hybrid Aquatic <br> - Inventory Profiles Next <br> - libIPN <br> - Roughly Enough Loot Tables |
 | Forge Config API Port | [✅](https://www.curseforge.com/minecraft/mc-mods/forge-config-api-port-fabric) | [✅](https://modrinth.com/mod/forge-config-api-port) | - Puzzles Lib <br> - SeasonHUD |
 | FTB Library | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-library-fabric) | ❌ | - FTB Quests <br> - FTB Teams <br> - FTB XMod Compat |
 | FTB Teams | [✅](https://www.curseforge.com/minecraft/mc-mods/ftb-teams-fabric) | ❌ | - FTB Quests |
