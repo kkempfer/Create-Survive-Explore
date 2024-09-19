@@ -294,6 +294,7 @@ mode = "fancy"
 				whale_shark = true
 				sunfish = true
 				oarfish = true
+				anglerfish = true
 
 		[light_sources.settings.block_entities]
 
