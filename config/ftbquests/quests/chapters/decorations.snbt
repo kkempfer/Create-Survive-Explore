@@ -5,7 +5,7 @@
 	group: ""
 	icon: "createdeco:scarlet_long_bricks"
 	id: "0A048E5B74854171"
-	order_index: 4
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -35,6 +35,18 @@
 					count: 3
 					id: "38CDE4C35EC8230F"
 					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "37C537CB5EB2A69C"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0D995FBA9339BA1B"
+					item: "create:shaft"
 					type: "item"
 				}
 			]
@@ -161,6 +173,250 @@
 			}]
 			x: 0.935d
 			y: 1.172d
+		}
+		{
+			dependencies: ["3C40E43E96B0278C"]
+			description: [
+				"Start by crafting a few essentials like &9chairs&r and &9tables&r to give your interior a lived-in feel."
+				""
+				"All wood types are supported. Maybe you prefer the look of this &6walnut furniture&r?"
+			]
+			icon: "another_furniture:oak_chair"
+			id: "415E6B296AF885DD"
+			rewards: [
+				{
+					count: 4
+					id: "47E595D6EE2E832C"
+					item: "everycomp:af/ecologics/walnut_chair"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "05411FAE6632A278"
+					item: "everycomp:af/ecologics/walnut_table"
+					type: "item"
+				}
+			]
+			subtitle: "Craft basic furniture."
+			tasks: [
+				{
+					count: 4L
+					id: "218C46E653698449"
+					item: "another_furniture:oak_chair"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "733A69FB9DF15B0D"
+					item: "another_furniture:oak_table"
+					type: "item"
+				}
+			]
+			title: "&eFurnish Your Space&r"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["26354AD392AF4791"]
+			description: ["From &9sofas&r to &9stools&r, there is a seat for everyone. Here, get some &6rugs&r and a &6tatami&r to make the space look even more cozy!"]
+			icon: "another_furniture:light_gray_sofa"
+			id: "732B610F7F481C6F"
+			rewards: [
+				{
+					count: 2
+					id: "6825563246059028"
+					item: "farmersdelight:canvas_rug"
+					type: "item"
+				}
+				{
+					id: "160A6BEFA0DF20B3"
+					item: "farmersdelight:full_tatami_mat"
+					type: "item"
+				}
+			]
+			subtitle: "Upgrade your living room."
+			tasks: [
+				{
+					count: 4L
+					id: "5900BE089280150D"
+					item: "another_furniture:light_gray_sofa"
+					type: "item"
+				}
+				{
+					id: "48A7F24585FDC418"
+					item: "another_furniture:light_gray_stool"
+					type: "item"
+				}
+				{
+					id: "44615AF5864938EC"
+					item: "create:white_seat"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "181E12C8CC39C472"
+					item: "another_furniture:black_tall_stool"
+					type: "item"
+				}
+			]
+			title: "&eGet Comfortable&r"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["732B610F7F481C6F"]
+			description: ["Did you know that you can stack &9lamps&r to create taller versions?"]
+			id: "6E636D11012E6647"
+			rewards: [{
+				id: "1AAC87D363E7C720"
+				item: "another_furniture:white_lamp"
+				type: "item"
+			}]
+			subtitle: "Illuminate your space."
+			tasks: [{
+				id: "238183701735F57B"
+				item: "another_furniture:white_lamp"
+				type: "item"
+			}]
+			title: "&eLight It Up&r"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["415E6B296AF885DD"]
+			description: [
+				"Every home needs storage. Craft &9shelves&r and other storage units to keep things organized and tidy."
+				""
+				"Why not add this &6boat in a jar&r onto one of them?"
+			]
+			icon: "supplementaries:item_shelf"
+			id: "26354AD392AF4791"
+			rewards: [{
+				id: "0B530B3DBE1290F0"
+				item: "supplementaries:jar_boat"
+				type: "item"
+			}]
+			subtitle: "Organize your home."
+			tasks: [
+				{
+					count: 2L
+					id: "143736A8E6C2F001"
+					item: "another_furniture:oak_shelf"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "293F2C88AB42887D"
+					item: "supplementaries:item_shelf"
+					type: "item"
+				}
+				{
+					id: "61E9541BEE38738B"
+					item: "another_furniture:oak_drawer"
+					type: "item"
+				}
+				{
+					id: "5416BC01EB188335"
+					item: "farmersdelight:oak_cabinet"
+					type: "item"
+				}
+			]
+			title: "&eStorage Solutions&r"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E636D11012E6647"]
+			description: ["Hang a few custom paintings! They could also be used outside as billboards."]
+			icon: "immersive_paintings:painting"
+			id: "64AD2BD4C6A8D2D6"
+			rewards: [
+				{
+					id: "29814BAD1B7F81BE"
+					item: "immersive_paintings:glow_painting"
+					type: "item"
+				}
+				{
+					id: "1CD0A37020279A78"
+					item: "immersive_paintings:graffiti"
+					type: "item"
+				}
+			]
+			subtitle: "Add personality to your home."
+			tasks: [{
+				count: 2L
+				id: "1A61E32105815BC6"
+				item: "immersive_paintings:painting"
+				type: "item"
+			}]
+			title: "&eDecorate Your Walls&r"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			description: [""]
+			id: "3C40E43E96B0278C"
+			rewards: [{
+				id: "5D6564BBE9E8EDB6"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Wipe your shoes before entering!"
+			tasks: [{
+				id: "4CA0087BDAB56DF8"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			title: "&eHome Sweet Home&r"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			icon: "another_furniture:oak_bench"
+			id: "17AA8C92DE520238"
+			rewards: [{
+				id: "279921714C0CBBA4"
+				item: "another_furniture:oak_bench"
+				type: "item"
+			}]
+			tasks: [
+				{
+					id: "493A0DB94E73A4DF"
+					item: "another_furniture:oak_bench"
+					type: "item"
+				}
+				{
+					id: "3261B9AC15B55444"
+					item: {
+						Count: 1b
+						id: "another_furniture:furniture_hammer"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			id: "6DCB22D757FBB5B2"
+			rewards: [{
+				count: 3
+				id: "4718A8890E95D858"
+				item: "supplementaries:urn"
+				type: "item"
+			}]
+			tasks: [{
+				id: "497E634C9D53EF82"
+				item: "ecologics:pot"
+				type: "item"
+			}]
+			x: 4.0d
+			y: 1.5d
 		}
 	]
 	title: "Decorate your Builds"

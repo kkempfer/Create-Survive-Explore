@@ -1,0 +1,61 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "create"
+	group: ""
+	icon: "create:wrench"
+	id: "2A344033C1F93DDB"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			id: "5EAF561416F131B0"
+			rewards: [{
+				id: "0E6AE35C0CA6F4FF"
+				item: "createdeco:yellow_decal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "4D3B2EDE67950A3D"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			description: ["&dRight-click&r a terminal from up to 16 blocks away while holding the &9wireless terminal&r to open its interface."]
+			id: "29A7B55DFA37D3D7"
+			subtitle: "Extends your reach for the terminal."
+			tasks: [{
+				id: "503BF93853F6A546"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "&eWireless Terminal&r"
+			x: 2.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["29A7B55DFA37D3D7"]
+			description: [
+				"The &9advanced wireless terminal&r is a masterpiece!"
+				""
+				"&dRight-click&r a terminal while holding this item to bind it. Press &di&r to open its interface from up to 64 blocks away. Contrary to the standard version, you do not need to look at the bound terminal. You can do this even with the advanced wireless terminal in your belt, no need to hold it in hand."
+				""
+				"Even better, build a level 1 or 4 beacon in an 8 block radius of the bound terminal to make it accessible from anywhere in the same dimension or across dimensions, respectively."
+			]
+			id: "7C044FFFA35F818E"
+			subtitle: "Access all your inventory from anywhere."
+			tasks: [{
+				id: "4B2F79F1CB501F4B"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "&eAdvanced Wireless Terminal&r"
+			x: 3.5d
+			y: -4.0d
+		}
+	]
+	title: "Create"
+}

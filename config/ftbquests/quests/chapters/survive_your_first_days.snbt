@@ -35,8 +35,8 @@
 				type: "item"
 			}]
 			title: "&bStay Hydrated&r"
-			x: -0.5d
-			y: -0.5d
+			x: 0.0d
+			y: 0.0d
 		}
 		{
 			dependencies: ["7C66F189E0E18403"]
@@ -60,8 +60,8 @@
 				type: "item"
 			}]
 			title: "&2Pump It Up&r"
-			x: 1.0d
-			y: -0.5d
+			x: 1.5d
+			y: 0.0d
 		}
 		{
 			dependencies: ["35C71829BA508BC8"]
@@ -93,8 +93,8 @@
 				}
 			]
 			title: "&cField Chemistry&r"
-			x: 2.5d
-			y: -2.0d
+			x: 3.0d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7C66F189E0E18403"]
@@ -119,8 +119,8 @@
 				type: "item"
 			}]
 			title: "&bPassive Income&r"
-			x: 1.0d
-			y: -2.0d
+			x: 1.5d
+			y: -1.5d
 		}
 		{
 			dependencies: ["7C66F189E0E18403"]
@@ -143,7 +143,7 @@
 				}
 				type: "item"
 			}]
-			subtitle: "Brew water potion with kelp."
+			subtitle: "Brew water with kelp."
 			tasks: [
 				{
 					id: "2AB8F9AFE81CE4FA"
@@ -157,26 +157,32 @@
 				}
 			]
 			title: "&5Open a Brewery&r"
-			x: 1.0d
-			y: 1.0d
+			x: 1.5d
+			y: 1.5d
 		}
 		{
+			dependencies: ["6972B2D70BB37D64"]
+			description: ["Use your &9flint knife&r to cut grass or wheat and gather &9straw&r fibers, which you can craft into a &9rope&r. Ropes are perfect for climbing, making them invaluable for exploring deep caves or scaling high places. To fold the rope back, &dshift-right-click&r on it."]
 			id: "41EB50E106E704C7"
 			rewards: [{
-				count: 2
-				id: "49D7513F756CBCE6"
-				item: "supplementaries:flax_seeds"
+				id: "7EB857C983EA154B"
+				item: "oceansdelight:stuffed_cod"
 				type: "item"
 			}]
+			subtitle: "Craft some ropes."
 			tasks: [{
+				count: 10L
 				id: "2A194C016460E21B"
 				item: "farmersdelight:rope"
 				type: "item"
 			}]
-			x: -0.5d
-			y: -5.0d
+			title: "&eTie it Together&r"
+			x: 4.0d
+			y: 4.0d
 		}
 		{
+			dependencies: ["41EB50E106E704C7"]
+			description: ["The &9rope arrow&r is a must-have for adventurers! Shoot it to deploy a rope. Do not forget to retrieve your arrow."]
 			icon: {
 				Count: 1b
 				id: "supplementaries:rope_arrow"
@@ -187,18 +193,19 @@
 			id: "68A4E345A4C7939E"
 			rewards: [
 				{
-					count: 32
+					count: 10
 					id: "08483CD2919622D7"
 					item: "farmersdelight:rope"
 					type: "item"
 				}
 				{
-					count: 10
+					count: 6
 					id: "40C7181D9CBB0B1A"
 					item: "minecraft:arrow"
 					type: "item"
 				}
 			]
+			subtitle: "Craft a bow and a rope arrow."
 			tasks: [
 				{
 					id: "571335A6D5621FC2"
@@ -223,10 +230,13 @@
 					type: "item"
 				}
 			]
-			x: 1.0d
-			y: -5.0d
+			title: "&bReach New Heights&r"
+			x: 5.5d
+			y: 4.0d
 		}
 		{
+			dependencies: ["41EB50E106E704C7"]
+			description: ["The &9safety net&r cushions your falls, letting you land safely from dangerous heights. Place it wisely to avoid injuries while exploring."]
 			id: "1011B8774A05BBCF"
 			rewards: [{
 				count: 3
@@ -234,25 +244,341 @@
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
+			subtitle: "Craft a safety net."
 			tasks: [{
 				id: "4153650588E719E0"
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
-			title: "&cSafety First&r"
-			x: 0.5d
-			y: -3.5d
+			title: "&cSoft Landing&r"
+			x: 4.0d
+			y: 2.5d
 		}
 		{
+			dependencies: ["41EB50E106E704C7"]
+			description: ["With a &9lead&r, you can tether animals, leading them where you need."]
 			id: "7F7ABEE04EF23896"
+			rewards: [{
+				id: "75E5450C02B612CD"
+				item: "naturalist:duck_egg"
+				type: "item"
+			}]
+			subtitle: "Craft a lead."
 			tasks: [{
 				id: "20FAC2C2B2D22543"
 				item: "minecraft:lead"
 				type: "item"
 			}]
-			x: -1.5d
-			y: -3.5d
+			title: "&eTether Up&r"
+			x: 4.0d
+			y: 5.5d
+		}
+		{
+			description: ["Use the &9flint knife&r to gather resources and defend yourself in the wild."]
+			id: "6972B2D70BB37D64"
+			rewards: [{
+				id: "5F366436903C1AF7"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "Craft a flint knife."
+			tasks: [{
+				id: "6B2C7BE597CC12C4"
+				item: {
+					Count: 1b
+					id: "farmersdelight:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cSharpen Up&r"
+			x: 2.5d
+			y: 4.0d
+		}
+		{
+			dependencies: ["699C568FA912AF20"]
+			description: [
+				"Holding &9heating stones&r will keep you warm in freezing temperatures. Heat them up to activate them."
+				""
+				"&6Pro Tip&r: Staying near heat sources like campfires or lava also raises your body temperature."
+			]
+			id: "58228F0652E3D94B"
+			rewards: [{
+				id: "624BC2881496F745"
+				item: {
+					Count: 1b
+					id: "environmentz:heating_stones"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft heating stones."
+			tasks: [{
+				id: "755B23F926FCB51D"
+				item: {
+					Count: 1b
+					id: "environmentz:heating_stones"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cWarm Up&r"
+			x: 6.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["699C568FA912AF20"]
+			description: ["Hold an &9ice pack&r to stay cool during warm weather. Gathering ice might be challenging early on, so try to avoid hot areas until you are prepared."]
+			id: "7C7860C94899188F"
+			rewards: [{
+				id: "194188EF997A27F1"
+				item: {
+					Count: 1b
+					id: "environmentz:ice_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft ice packs."
+			tasks: [{
+				id: "162AA56942AFD423"
+				item: {
+					Count: 1b
+					id: "environmentz:ice_pack"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&bCool Down&r"
+			x: 6.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["29297A923E17E8D5"]
+			description: ["The &9potion of overheating resistance&r keeps you cool, allowing you to use your standard armor and free up your hands."]
+			id: "16EC40F0856BC575"
+			rewards: [{
+				id: "39F9FF1AD8ED6408"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			subtitle: "Brew a potion of overheating resistance."
+			tasks: [{
+				id: "33B50CBBEF6986C5"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:overheating_resistance"
+					}
+				}
+				type: "item"
+			}]
+			title: "&bBeat the Heat&r"
+			x: 9.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["1FEC16390A1D100E"]
+			description: ["The &9potion of cold resistance&r keeps you warm, allowing you to use your standard armor and free up your hands."]
+			id: "238A84DA74527E48"
+			rewards: [{
+				id: "6CA922658DA67CA5"
+				item: "minecraft:blaze_powder"
+				type: "item"
+			}]
+			subtitle: "Brew a potion of cold resistance."
+			tasks: [{
+				id: "2B6F3A3EEF249121"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:cold_resistance"
+					}
+				}
+				type: "item"
+			}]
+			title: "&cResist the Cold&r"
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["58228F0652E3D94B"]
+			description: [
+				"Equip yourself with a full set of &9wolf pelt armor&r to stay warm in freezing temperatures. It is crafted from the pelts of wolves, providing both protection and insulation. Perfect for surviving the harshest climates!"
+				""
+				"They say leather armor works just as well, but where is the fun in that?"
+			]
+			icon: {
+				Count: 1b
+				id: "environmentz:wolf_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "1FEC16390A1D100E"
+			rewards: [{
+				id: "1C497BD74C743986"
+				item: "nethersdelight:magma_gelatin"
+				type: "item"
+			}]
+			subtitle: "Craft a full set of wolf pelt armor."
+			tasks: [
+				{
+					id: "28B8AF606173C789"
+					item: {
+						Count: 1b
+						id: "environmentz:wolf_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "3159180FBDD5B446"
+					item: {
+						Count: 1b
+						id: "environmentz:wolf_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2E4C5CB3405C8456"
+					item: {
+						Count: 1b
+						id: "environmentz:wolf_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4FB782E7BF573941"
+					item: {
+						Count: 1b
+						id: "environmentz:wolf_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&cDress for the Cold&r"
+			x: 7.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["7C7860C94899188F"]
+			description: ["Though it offers minimal defense, the &9wanderer armor&r is perfect for keeping you cool in hot climates."]
+			icon: {
+				Count: 1b
+				id: "environmentz:wanderer_helmet"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "29297A923E17E8D5"
+			rewards: [{
+				id: "44A4AC104CAC4FC1"
+				item: "farmersdelight:glow_berry_custard"
+				type: "item"
+			}]
+			subtitle: "Craft the wanderer armor."
+			tasks: [
+				{
+					id: "2E5C172972F2E34E"
+					item: {
+						Count: 1b
+						id: "environmentz:wanderer_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "39112DD05C38BF93"
+					item: {
+						Count: 1b
+						id: "environmentz:wanderer_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "7222C811AF887CA8"
+					item: {
+						Count: 1b
+						id: "environmentz:wanderer_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "06CB62085F2026ED"
+					item: {
+						Count: 1b
+						id: "environmentz:wanderer_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&bGear Up for the Desert&r"
+			x: 7.5d
+			y: 1.0d
+		}
+		{
+			description: [
+				"Feeling &bcold&r or maybe a bit too &cwarm&r?"
+				""
+				"Keep an eye on the thermometer at the bottom left of your screen. Whether you are freezing in the snow or sweating in the desert, managing your body temperature is now essential for survival."
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "kubejs:textures/modpack/environmentz.png"
+				}
+			}
+			id: "699C568FA912AF20"
+			shape: "pentagon"
+			size: 1.5d
+			subtitle: "What? We have to manage our body temperature?"
+			tasks: [{
+				id: "32592903ECA489C9"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&eStay Comfortable&r"
+			x: 4.5d
+			y: 0.0d
 		}
 	]
-	title: "Survive your First Days"
+	title: "Survive Harsh Environments"
 }

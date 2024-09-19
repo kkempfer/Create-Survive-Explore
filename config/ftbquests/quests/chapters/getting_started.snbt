@@ -15,7 +15,7 @@
 		rotation: 0.0d
 		width: 10.0d
 		x: 1.0d
-		y: 3.0d
+		y: 3.5d
 	}]
 	order_index: 0
 	quest_links: [ ]
@@ -413,6 +413,52 @@
 			title: "&5Recipe Book&r"
 			x: 2.0d
 			y: 0.0d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: [
+				"- Press &d,&r to toggle the &9minimap&r."
+				"- Press &dm&r to open the &9world map&r."
+				"- Press &dn&r to create a &9new waypoint&r."
+				"- Press &db&r to open the &9waypoint menu&r."
+			]
+			icon: "minecraft:compass"
+			id: "6A0EAC2672BCBB9D"
+			rewards: [{
+				id: "5016C0837712263F"
+				item: "supplementaries:globe"
+				type: "item"
+			}]
+			subtitle: "Find your way."
+			tasks: [{
+				id: "2BCFDCD976EBB7A5"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&aMaps&r"
+			x: 2.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["634DF571CD793B8A"]
+			description: ["Tired of getting stuck in tight spaces? Hold &dc&r to &9toggle crawl mode&r and navigate through 1-block high gaps. Your vanilla movements like sneaking, running and jumping are still intact, so feel free to move as you always do while using this new skill!"]
+			icon: "createdeco:cyan_decal"
+			id: "45ECBC7DF6E6DCDD"
+			rewards: [{
+				count: 3
+				id: "7584D1044B3CDE4D"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Learn to crawl."
+			tasks: [{
+				id: "542087ACBB535D7B"
+				title: "Understood"
+				type: "checkmark"
+			}]
+			title: "&cStay Low&r"
+			x: -1.5d
+			y: 1.5d
 		}
 	]
 	title: "Get Started"

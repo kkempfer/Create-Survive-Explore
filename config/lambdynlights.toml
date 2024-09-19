@@ -295,6 +295,16 @@ mode = "fancy"
 				sunfish = true
 				oarfish = true
 				anglerfish = true
+				cuttlefish = true
+				flashlight_fish = true
+				glowing_sucker_octopus = true
+				triggerfish = true
+				moray_eel = true
+				seahorse = true
+				lionfish = true
+				unicorn_fish = true
+				blue_tang = true
+				cowfish = true
 
 		[light_sources.settings.block_entities]
 

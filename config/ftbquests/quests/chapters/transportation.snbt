@@ -1,0 +1,52 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "transportation"
+	group: ""
+	icon: "create:steam_whistle"
+	id: "5906D82BDBF5A894"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"- Press &dh&r to toggle the hover mode."
+				"- Press &dj&r to toggle the engine."
+			]
+			id: "6AEB4ED0C382E3F1"
+			subtitle: "To infinity and beyond!"
+			tasks: [{
+				id: "2A90777B018BB469"
+				item: {
+					Count: 1b
+					id: "create_jetpack:jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["6AEB4ED0C382E3F1"]
+			id: "07850A00E4FB31F4"
+			subtitle: "Upgrade your Gear."
+			tasks: [{
+				id: "4716AA31E7FD6FE9"
+				item: {
+					Count: 1b
+					id: "create_jetpack:netherite_jetpack"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+	]
+	title: "Transportation"
+}

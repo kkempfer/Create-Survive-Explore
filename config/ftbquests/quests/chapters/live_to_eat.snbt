@@ -3,48 +3,106 @@
 	default_quest_shape: ""
 	filename: "live_to_eat"
 	group: ""
+	icon: {
+		Count: 1b
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
 	id: "626A96399160D5F1"
-	order_index: 3
+	order_index: 4
 	quest_links: [ ]
-	quests: [{
-		description: [
-			"The &9juicer&r allows you to make delicious &6juices&r to quench your thirst while contributing to your dietary groups. You can automate this process by placing the juicer in a setup with hoppers."
-			""
-			"Beware of the sugar!"
-		]
-		id: "3E8EB53D810E9C37"
-		rewards: [
-			{
-				id: "1365B8CC4A55B313"
-				item: "expandeddelight:apple_juice"
+	quests: [
+		{
+			description: [
+				"The &9juicer&r allows you to make delicious &6juices&r to quench your thirst while contributing to your dietary groups. You can automate this process by placing the juicer in a setup with hoppers."
+				""
+				"Beware of the sugar!"
+			]
+			id: "3E8EB53D810E9C37"
+			rewards: [
+				{
+					id: "1365B8CC4A55B313"
+					item: "expandeddelight:apple_juice"
+					type: "item"
+				}
+				{
+					id: "5614C54B4C481815"
+					item: "expandeddelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					id: "6F473F5E4C628DB4"
+					item: "expandeddelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					id: "5616768196DF7275"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Hydrate and boost yourself."
+			tasks: [{
+				id: "6BA02A76D5EF0074"
+				item: "expandeddelight:juicer_item"
 				type: "item"
-			}
-			{
-				id: "5614C54B4C481815"
-				item: "expandeddelight:sweet_berry_juice"
+			}]
+			title: "&2Freshly Squeezed&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: "farmersdelight:stove"
+			id: "7C702F22401B7C64"
+			min_required_tasks: 1
+			size: 1.5d
+			tasks: [
+				{
+					id: "6F3F3154CAA453AA"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "70F6430B8D2C1FCF"
+					item: "nethersdelight:blackstone_stove"
+					type: "item"
+				}
+			]
+			x: -3.0d
+			y: -2.5d
+		}
+		{
+			id: "7EBC35071C4DBC4A"
+			size: 1.5d
+			tasks: [{
+				id: "0B7F108096340FA4"
+				item: "farmersdelight:cooking_pot"
 				type: "item"
-			}
-			{
-				id: "6F473F5E4C628DB4"
-				item: "expandeddelight:glow_berry_juice"
+			}]
+			x: -3.0d
+			y: -4.0d
+		}
+		{
+			description: ["Did you know that you can cook yourself a meal on the go by placing a &9skillet&r onto a campfire?"]
+			id: "56FB7A22873E2518"
+			size: 1.5d
+			tasks: [{
+				id: "637BFD28D7E1D4A1"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
-			}
-			{
-				id: "5616768196DF7275"
-				item: "farmersdelight:melon_juice"
-				type: "item"
-			}
-		]
-		size: 1.5d
-		subtitle: "Hydrate and boost yourself."
-		tasks: [{
-			id: "6BA02A76D5EF0074"
-			item: "expandeddelight:juicer_item"
-			type: "item"
-		}]
-		title: "&2Freshly Squeezed&r"
-		x: 0.0d
-		y: 0.0d
-	}]
+			}]
+			x: -3.0d
+			y: -5.5d
+		}
+	]
 	title: "Become a Chef"
 }

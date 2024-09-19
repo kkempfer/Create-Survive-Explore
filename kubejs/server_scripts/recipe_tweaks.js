@@ -449,6 +449,13 @@ ServerEvents.recipes(event => {
 
     // Supplementaries
 
+    // Add doormat recipe
+    event.shaped('supplementaries:doormat', [
+        'CC'
+    ], {
+        C: 'farmersdelight:canvas'
+    });
+
     // Replace the rope from Supplementaries by the one from Farmer's Delight
     event.replaceOutput(
         { output: 'supplementaries:rope' },
