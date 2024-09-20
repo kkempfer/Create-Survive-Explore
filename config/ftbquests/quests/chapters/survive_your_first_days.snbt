@@ -20,7 +20,7 @@
 				item: "dehydration:handbook"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "What? Minecraft has a thirst mechanic?"
 			tasks: [{
@@ -177,7 +177,7 @@
 				type: "item"
 			}]
 			title: "&eTie it Together&r"
-			x: 4.0d
+			x: 6.0d
 			y: 4.0d
 		}
 		{
@@ -231,7 +231,7 @@
 				}
 			]
 			title: "&bReach New Heights&r"
-			x: 5.5d
+			x: 7.5d
 			y: 4.0d
 		}
 		{
@@ -251,7 +251,7 @@
 				type: "item"
 			}]
 			title: "&cSoft Landing&r"
-			x: 4.0d
+			x: 6.0d
 			y: 2.5d
 		}
 		{
@@ -270,7 +270,7 @@
 				type: "item"
 			}]
 			title: "&eTether Up&r"
-			x: 4.0d
+			x: 6.0d
 			y: 5.5d
 		}
 		{
@@ -281,7 +281,7 @@
 				item: "farmersdelight:straw"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "hexagon"
 			size: 1.5d
 			subtitle: "Craft a flint knife."
 			tasks: [{
@@ -296,7 +296,7 @@
 				type: "item"
 			}]
 			title: "&cSharpen Up&r"
-			x: 2.5d
+			x: 4.5d
 			y: 4.0d
 		}
 		{
@@ -567,9 +567,21 @@
 				}
 			}
 			id: "699C568FA912AF20"
-			shape: "pentagon"
+			rewards: [
+				{
+					id: "31FD841508E5B865"
+					item: "farmersdelight:hot_cocoa"
+					type: "item"
+				}
+				{
+					id: "7BB415D8EDD05F0B"
+					item: "create:builders_tea"
+					type: "item"
+				}
+			]
+			shape: "hexagon"
 			size: 1.5d
-			subtitle: "What? We have to manage our body temperature?"
+			subtitle: "We now have to manage our body temperature?"
 			tasks: [{
 				id: "32592903ECA489C9"
 				title: "Understood"
@@ -578,6 +590,37 @@
 			title: "&eStay Comfortable&r"
 			x: 4.5d
 			y: 0.0d
+		}
+		{
+			description: [
+				"Managing hunger is not enough! You need to balance your intake from six food groups: &eGrain&r, &aFruit&r, &2Vegetable&r, &cProtein&r, &bDairy&r, and &5Sugar&r. Open the &9diet tracker&r by clicking the &9hunger icon&r in your inventory to see how you are doing."
+				""
+				"Beware! If a food group is too low or too high, you may experience harmful or beneficial effects. Vary your meals to stay healthy!"
+			]
+			icon: {
+				Count: 1b
+				id: "ftbquests:custom_icon"
+				tag: {
+					Icon: "minecraft:textures/mob_effect/hunger.png"
+				}
+			}
+			id: "52FC73A279CF9797"
+			rewards: [{
+				id: "5D9ECD4759365B38"
+				item: "oceansdelight:honey_fried_kelp"
+				type: "item"
+			}]
+			shape: "hexagon"
+			size: 1.5d
+			subtitle: "Discover the nutrition system."
+			tasks: [{
+				id: "010C61FA07A3DC45"
+				item: "farmersdelight:egg_sandwich"
+				type: "item"
+			}]
+			title: "&6Eat a Balanced Diet&r"
+			x: 0.0d
+			y: 4.0d
 		}
 	]
 	title: "Survive Harsh Environments"

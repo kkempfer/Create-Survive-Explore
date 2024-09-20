@@ -169,6 +169,29 @@ ServerEvents.tags('item', event => {
     ];
     event.add('minecraft:wooden_trapdoors', woodenTrapdoors);
 
+    // Dehydration
+
+    // Fix missing dehydration tags
+    const hydratingDrinks = [
+        'corndelight:creamy_corn_drink',
+        'create:builders_tea'
+    ];
+    event.add('dehydration:hydrating_drinks', hydratingDrinks);
+
+    const hydratingFoods = [
+        'farmersdelight:glow_berry_custard',
+        'nethersdelight:magma_gelatin'
+    ];
+    event.add('dehydration:hydrating_food', hydratingFoods);
+
+    const hydratingStews = [
+        'corndelight:corn_soup',
+        'farmersdelight:bone_broth',
+        'nethersdelight:strider_moss_stew',
+        'oceansdelight:bowl_of_guardian_soup'
+    ];
+    event.add('dehydration:hydrating_stew', hydratingStews);
+
     // Diet
 
     // Special food

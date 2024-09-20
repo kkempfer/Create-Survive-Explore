@@ -1,0 +1,208 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reach_the_end"
+	group: ""
+	icon: "minecraft:end_crystal"
+	id: "67431C1E8CD0E925"
+	order_index: 7
+	quest_links: [ ]
+	quests: [
+		{
+			id: "093BC1513A085340"
+			tasks: [{
+				id: "5D6E62024A62B0C6"
+				item: "endrem:black_eye"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -4.0d
+		}
+		{
+			id: "505BAE34AD3987BA"
+			tasks: [{
+				id: "5318A016C416D226"
+				item: "endrem:cold_eye"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			id: "6FC421CA5B9B26FA"
+			tasks: [{
+				id: "6F4D3DD1CB0FB4F6"
+				item: "endrem:corrupted_eye"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.0d
+		}
+		{
+			id: "43CBA7384A4FAE89"
+			tasks: [{
+				id: "1F03498C9662A55B"
+				item: "endrem:lost_eye"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			id: "19568C3EC957323E"
+			tasks: [{
+				id: "2F928BA11433BD4C"
+				item: "endrem:nether_eye"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -4.0d
+		}
+		{
+			id: "3E40F5EBB94E8A0A"
+			tasks: [{
+				id: "16A454B54F14ED82"
+				item: "endrem:old_eye"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			id: "47713F8DD5ADB3C5"
+			tasks: [{
+				id: "381DA2E8B1A31F74"
+				item: "endrem:rogue_eye"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -4.0d
+		}
+		{
+			id: "187E6084AF5E284D"
+			tasks: [{
+				id: "108CE303FFA31305"
+				item: "endrem:cursed_eye"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			id: "6721460C0F681B72"
+			tasks: [{
+				id: "76D66FF54139F976"
+				item: "endrem:evil_eye"
+				type: "item"
+			}]
+			x: 5.5d
+			y: -4.0d
+		}
+		{
+			id: "7F3B10E87B783017"
+			tasks: [{
+				id: "5377D241931A6329"
+				item: "endrem:guardian_eye"
+				type: "item"
+			}]
+			x: 6.5d
+			y: -4.0d
+		}
+		{
+			id: "1F01B492C2A5E007"
+			tasks: [{
+				id: "6CF4271A99EBDD59"
+				item: "endrem:magical_eye"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.0d
+		}
+		{
+			id: "6ECA47319768CBB5"
+			tasks: [{
+				id: "1E04CEE9B2EDA7BA"
+				item: "endrem:wither_eye"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.0d
+		}
+		{
+			id: "37C8478BAE65BCF2"
+			tasks: [{
+				id: "2AA94E886D3525E2"
+				item: "endrem:witch_eye"
+				type: "item"
+			}]
+			x: 9.5d
+			y: -4.0d
+		}
+		{
+			id: "3F83BFC0393A2669"
+			tasks: [{
+				id: "7E9E0D34986EFE6F"
+				item: "endrem:undead_eye"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			id: "0230FD80F9F01623"
+			tasks: [{
+				id: "0D7E9345FD7545A1"
+				item: "endrem:exotic_eye"
+				type: "item"
+			}]
+			x: 11.5d
+			y: -4.0d
+		}
+		{
+			id: "215577B70CD016E6"
+			tasks: [{
+				id: "096FBFCE2EB0859E"
+				item: "endrem:cryptic_eye"
+				type: "item"
+			}]
+			x: 12.5d
+			y: -4.0d
+		}
+		{
+			id: "7919817CF45E99D6"
+			size: 2.5d
+			tasks: [{
+				icon: "endrem:ancient_portal_frame"
+				id: "09CF7A3E949F74B0"
+				observe_type: 0
+				timer: 0L
+				title: "You Found The Portal"
+				to_observe: "endrem:ancient_portal_frame"
+				type: "observation"
+			}]
+			x: 13.75d
+			y: -8.75d
+		}
+		{
+			id: "68A35AE4079FC35B"
+			tasks: [{
+				id: "5918E62F947B5451"
+				structure: "betterdeserttemples:desert_temple"
+				type: "structure"
+			}]
+			x: 2.5d
+			y: -5.0d
+		}
+		{
+			id: "619B77F7423B87F7"
+			tasks: [{
+				biome: "#c:desert"
+				id: "437FA05E5276126C"
+				type: "biome"
+			}]
+			x: 2.5d
+			y: -6.0d
+		}
+	]
+	title: "Reach The End"
+}

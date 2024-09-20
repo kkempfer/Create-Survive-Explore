@@ -305,6 +305,7 @@ mode = "fancy"
 				unicorn_fish = true
 				blue_tang = true
 				cowfish = true
+				nudibranch = true
 
 		[light_sources.settings.block_entities]
 
