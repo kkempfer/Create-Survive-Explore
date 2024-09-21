@@ -34,7 +34,7 @@
     "GUARDIAN_EYE_WEIGHT": 0.8,
     "WITCH_PUPIL_LOOT_TABLE_ID": "minecraft:entities/witch",
     "WITCH_PUPIL_WEIGHT": 0.1,
-    "UNDEAD_SOUL_LOOT_TABLE_ID": "minecraft:entities/skeleton_horse",
-    "UNDEAD_SOUL_WEIGHT": 0.5
+    "UNDEAD_SOUL_LOOT_TABLE_ID": "minecraft:entities/zombie_horse",
+    "UNDEAD_SOUL_WEIGHT": 1.0
   }
 }

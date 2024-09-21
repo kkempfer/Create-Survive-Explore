@@ -306,6 +306,10 @@ mode = "fancy"
 				blue_tang = true
 				cowfish = true
 				nudibranch = true
+				barreleye = true
+				ratfish = true
+				dragonfish = true
+				firefly_squid = true
 
 		[light_sources.settings.block_entities]
 
