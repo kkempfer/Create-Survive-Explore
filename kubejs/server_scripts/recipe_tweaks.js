@@ -89,7 +89,7 @@ ServerEvents.recipes(event => {
         'create:dough',
         'farmersdelight:wheat_dough',
     );
-    // Manage Vanilla recipes. We manage the modded ones via a data pack
+    // Manage vanilla recipes. We manage the modded ones via a data pack
     event.remove({ id: 'create:smelting/bread' });
     event.remove({ id: 'create:smoking/bread' });
     const vanillaCraftingTypes = ['minecraft:crafting_shaped', 'minecraft:crafting_shapeless', 'minecraft:campfire_cooking'];
