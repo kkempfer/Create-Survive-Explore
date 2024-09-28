@@ -21,35 +21,61 @@
 		}
 		{
 			dependencies: ["3239DAFA8E7A178F"]
+			description: ["The true purpose of the &6cold eye&r remains a mistery. We only know that it was left by the Iceologers before their mysterious disappearance."]
 			id: "505BAE34AD3987BA"
+			rewards: [{
+				count: 16
+				id: "27EF625A70D77A39"
+				item: "ecologics:thin_ice"
+				type: "item"
+			}]
+			subtitle: "Seek the cold eye."
 			tasks: [{
 				id: "5318A016C416D226"
 				item: "endrem:cold_eye"
 				type: "item"
 			}]
+			title: "&fThe Iceologer's Artifact&r"
 			x: 0.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["2957FA86FB524C45"]
+			description: ["Legends speak of the &6corrupted eye&r, the eye of a greedy king who faded in solitude. Search the depths of the &9ancient city&r for this coveted treasure, but be wary of the dangers that lurk in the shadows. Will you claim the &6king's eye&r?"]
 			id: "6FC421CA5B9B26FA"
+			rewards: [{
+				id: "17B058B67F573B47"
+				item: {
+					Count: 1b
+					id: "minecraft:goat_horn"
+					tag: {
+						instrument: "minecraft:feel_goat_horn"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Seek the corrupted eye."
 			tasks: [{
 				id: "6F4D3DD1CB0FB4F6"
 				item: "endrem:corrupted_eye"
 				type: "item"
 			}]
+			title: "&8The Greedy King's Eye&r"
 			x: 1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3608DC9063DCE786"]
+			description: ["Did someone really forged the &6lost eye&r?"]
 			id: "43CBA7384A4FAE89"
+			subtitle: "Seek the lost eye."
 			tasks: [{
 				id: "1F03498C9662A55B"
 				item: "endrem:lost_eye"
 				type: "item"
 			}]
-			x: 2.0d
+			title: "&cThe First Forge&r"
+			x: 2.5d
 			y: -5.0d
 		}
 		{
@@ -65,23 +91,55 @@
 		}
 		{
 			dependencies: ["68A35AE4079FC35B"]
+			description: ["At the heart of the pyramid lies the &9Pharaoh’s tomb&r. Navigate the dangers to reach the treasure chamber and claim the &6old eye&r hidden within."]
 			id: "3E40F5EBB94E8A0A"
+			rewards: [{
+				id: "7D710C54F9E3635A"
+				item: "ecologics:sandcastle"
+				type: "item"
+			}]
+			subtitle: "Seek the old eye."
 			tasks: [{
 				id: "16A454B54F14ED82"
 				item: "endrem:old_eye"
 				type: "item"
 			}]
+			title: "&eThe Pharaoh's Curse&r"
 			x: -1.0d
 			y: -5.0d
 		}
 		{
 			dependencies: ["3A9615F714DC0F5D"]
+			description: ["Search the &9jungle temple&r for the legendary &6rogue eye&r, the artifact that granted our ancestors the knowledge of redstone. Beware of the traps they set up for you!"]
 			id: "47713F8DD5ADB3C5"
+			rewards: [
+				{
+					count: 4
+					id: "2123EA64FDA31F4B"
+					item: "pickyourpoison:batrachotoxin_poison_dart"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "1208A6106D6EEED8"
+					item: {
+						Count: 1b
+						id: "supplementaries:bamboo_spikes_tipped"
+						tag: {
+							Damage: 0
+							Potion: "minecraft:harming"
+						}
+					}
+					type: "item"
+				}
+			]
+			subtitle: "Seek the rogue eye."
 			tasks: [{
 				id: "381DA2E8B1A31F74"
 				item: "endrem:rogue_eye"
 				type: "item"
 			}]
+			title: "&2The Knowledge of Redstone&r"
 			x: -2.0d
 			y: -5.0d
 		}
@@ -121,24 +179,46 @@
 		}
 		{
 			dependencies: ["2C9790BA5F4F9E8F"]
-			dependency_requirement: "one_started"
+			description: ["Sometimes, elder guardian drop their &6eye&r upon death. Will you be lucky enough to get one?"]
 			id: "7F3B10E87B783017"
+			rewards: [{
+				count: 4
+				id: "3AD6344886704AC7"
+				item: "minecraft:sponge"
+				type: "item"
+			}]
+			subtitle: "Acquire an elder guardian eye."
 			tasks: [{
 				id: "5377D241931A6329"
 				item: "endrem:guardian_eye"
 				type: "item"
 			}]
+			title: "&dThe Eye of the Guardian&r"
 			x: 6.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["0E918EFB38AFC197"]
+			description: ["The &6illusioner's eye&r is yours for the taking. This artifact holds untold power, but what will you do with it?"]
 			id: "1F01B492C2A5E007"
+			rewards: [{
+				id: "0666F36C72B3ECC7"
+				item: {
+					Count: 1b
+					id: "minecraft:goat_horn"
+					tag: {
+						instrument: "minecraft:sing_goat_horn"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire the illusioner's eye."
 			tasks: [{
 				id: "6CF4271A99EBDD59"
 				item: "endrem:magical_eye"
 				type: "item"
 			}]
+			title: "&3The Eye of the Illusioner&r"
 			x: 6.5d
 			y: 3.0d
 		}
@@ -181,12 +261,22 @@
 				"47778E636CF2C968"
 				"2FE6F955E6F0B11C"
 			]
+			dependency_requirement: "all_started"
+			description: ["Combine the rare sea materials you collected to craft the &6exotic eye&r. It's alive!"]
 			id: "0230FD80F9F01623"
+			min_required_dependencies: 2
+			rewards: [{
+				id: "2C673AC7FDE54EE6"
+				item: "supplementaries:jar_boat"
+				type: "item"
+			}]
+			subtitle: "Craft the exotic eye."
 			tasks: [{
 				id: "0D7E9345FD7545A1"
 				item: "endrem:exotic_eye"
 				type: "item"
 			}]
+			title: "&bThe Living Coral Eye&r"
 			x: 6.5d
 			y: 0.0d
 		}
@@ -226,60 +316,83 @@
 		}
 		{
 			dependencies: ["619B77F7423B87F7"]
+			description: ["Deep in the desert, a colossal &9pyramid&r rises from the sands. This is no ordinary temple. It is a deadly labyrinth filled with puzzles, traps and ancient guardians. Tread carefully, every corner holds danger!"]
 			id: "68A35AE4079FC35B"
 			rewards: [{
-				id: "0AEDB141AF494A7C"
-				item: "minecraft:golden_apple"
+				count: 3
+				id: "46647AE5F094760C"
+				item: "supplementaries:sconce_lever"
 				type: "item"
 			}]
+			subtitle: "Discover the pyramid."
 			tasks: [{
 				icon: "minecraft:chiseled_sandstone"
 				id: "32E429CF5940BBEC"
 				structure: "betterdeserttemples:desert_temple"
 				type: "structure"
 			}]
+			title: "&eTomb of the Pharaoh&r"
 			x: -1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Find a &9desert&r, where the heat is unforgiving, and the ancient secrets of the &6old eye&r remain buried."]
 			id: "619B77F7423B87F7"
+			rewards: [{
+				id: "3B1F7AA4930A6150"
+				item: "farmersdelight:melon_juice"
+				type: "item"
+			}]
+			subtitle: "Locate the desert."
 			tasks: [{
 				biome: "#c:desert"
 				icon: "minecraft:sand"
 				id: "437FA05E5276126C"
 				type: "biome"
 			}]
+			title: "&eScorched Sands&r"
 			x: -1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["3CF285CB9FAABC25"]
+			description: ["Explore the jungle in search of the &9lost city&r. Is it true that our ancestors hid &6numerous treasures&r in there?"]
 			id: "3A9615F714DC0F5D"
+			rewards: [{
+				id: "56FB34D71949B831"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			subtitle: "Discover the jungle temple."
 			tasks: [{
 				icon: "minecraft:chiseled_stone_bricks"
 				id: "3C6BC69CFFC532C0"
 				structure: "betterjungletemples:jungle_temple"
 				type: "structure"
 			}]
+			title: "&2The Lost City&r"
 			x: -2.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Did you already spot cute &6frogs&r? Their colorful appearance hides dangerous properties, but we might be able to use them to our advantage."]
 			id: "3CF285CB9FAABC25"
 			rewards: [{
-				count: 2
-				id: "3ED51BE99D8224FD"
-				item: "minecraft:jungle_sapling"
+				count: 3
+				id: "0EC2994C620C58E8"
+				item: "minecraft:bowl"
 				type: "item"
 			}]
+			subtitle: "Locate the jungle."
 			tasks: [{
 				biome: "#c:jungle"
 				icon: "minecraft:jungle_sapling"
 				id: "58B0A80BE5744342"
 				type: "biome"
 			}]
+			title: "&2Tales of the Conquistadors&r"
 			x: -2.0d
 			y: -3.0d
 		}
@@ -296,6 +409,7 @@
 			y: 5.5d
 		}
 		{
+			description: ["&5&4&5&5"]
 			id: "4BD2D60065C5C5D8"
 			shape: "rsquare"
 			size: 2.5d
@@ -311,6 +425,7 @@
 				id: "7744F886169C58E1"
 				type: "dimension"
 			}]
+			title: "&5Explore The Nether&r"
 			x: 3.5d
 			y: 5.0d
 		}
@@ -328,19 +443,33 @@
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
-			description: ["&7"]
+			description: ["Venture into the underground and search for for the &9mineshafts&r, remnants of a bygone industrial age. These ancient tunnels, once bustling with activity, now hold untold secrets and forgotten machinery."]
 			id: "3608DC9063DCE786"
+			rewards: [{
+				count: 2
+				icon: "minecraft:raw_gold"
+				id: "06ED5B67168A072F"
+				type: "item"
+			}]
+			subtitle: "Discover mineshafts."
 			tasks: [{
 				icon: "minecraft:minecart"
 				id: "68D3EE46CCDBF868"
 				structure: "#minecraft:mineshaft"
 				type: "structure"
 			}]
-			title: "&7Find Structure: Mineshaft&r"
+			title: "&cThe Forgotten Miners&r"
 			x: 2.5d
 			y: -4.0d
 		}
 		{
+			description: [
+				"The path to The End is"
+				""
+				"16 unique custom ender eyes are scattered across the world. Each eye is hidden in different structures, requiring exploration, combat, and sometimes crafting to obtain."
+				""
+				"Collect at least 12 of them before heading towards the stronghold."
+			]
 			id: "59CE7525C35D51E5"
 			shape: "rsquare"
 			size: 2.5d
@@ -350,62 +479,90 @@
 				id: "664F0CB62BCB9952"
 				type: "dimension"
 			}]
+			title: "&2Explore The Overworld&r"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["563F171A63E89C73"]
-			icon: "minecraft:reinforced_deepslate"
+			description: ["The &9ancient city&r is the remnants of a long-lost civilization, buried in the shadows of the deep dark."]
 			id: "2957FA86FB524C45"
 			rewards: [{
-				count: 10
+				count: 4
 				id: "7ADEC472E320B1B6"
 				item: "minecraft:light_blue_wool"
 				type: "item"
 			}]
+			subtitle: "Discover the ancient city."
 			tasks: [{
+				icon: "minecraft:reinforced_deepslate"
 				id: "1CF5B707D3D7D2EB"
 				structure: "minecraft:ancient_city"
 				type: "structure"
 			}]
+			title: "&8Echoes of the Past&r"
 			x: 1.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Venture into the depths and seek the &9deep dark&r, a place corrupted by sculk. Can you navigate the darkness and uncover the mysteries hidden within?"]
 			id: "563F171A63E89C73"
+			rewards: [
+				{
+					id: "4F89BE35B41BA35D"
+					item: "minecraft:sculk_sensor"
+					type: "item"
+				}
+				{
+					id: "04B8781BDCBAE5C6"
+					item: "minecraft:redstone"
+					type: "item"
+				}
+			]
+			subtitle: "Locate the deep dark."
 			tasks: [{
 				biome: "minecraft:deep_dark"
 				icon: "minecraft:sculk"
 				id: "30767C4FA209A971"
 				type: "biome"
 			}]
-			title: "We Need To Go Deeper"
+			title: "&8Shush&r"
 			x: 1.0d
 			y: -3.0d
 		}
 		{
 			dependencies: ["5E7E74BD5E6722E9"]
+			description: ["Your journey leads you to the &9spire&r, an icy marvel with spiraling snow stairs ascending to its peak. Many adventurers have speculated about &6treasures hidden&r within its mysterious galleries below. Will your ascent reveal any secrets, or is it merely a climb to nowhere? The choice is yours."]
 			id: "3239DAFA8E7A178F"
+			rewards: [{
+				count: 3
+				id: "13B2B9599E55A0B4"
+				item: "chipped:packed_ice_pointed_dripstone"
+				type: "item"
+			}]
+			subtitle: "Discover the spire."
 			tasks: [{
 				icon: "minecraft:blue_ice"
 				id: "0FE9FED0DEBD94F9"
 				structure: "terralith:spire"
 				type: "structure"
 			}]
-			title: "&bFind Structure: Spire&r"
+			title: "&fThe Frozen Tower&r"
 			x: 0.0d
 			y: -4.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
-			description: [
-				"\"terralith:wintry_lowlands\","
-				"\"minecraft:ice_spikes\","
-				"\"minecraft:frozen_river\""
-			]
+			description: ["Brave the elements in search of a &9wintry biome&r! Following a &9frozen river&r may guide you to the &6cold eye&r."]
 			icon: "minecraft:snow_block"
 			id: "5E7E74BD5E6722E9"
+			rewards: [{
+				id: "3282286B0DA948B4"
+				item: "farmersdelight:apple_cider"
+				type: "item"
+			}]
+			subtitle: "Locate the wintry biomes."
 			tasks: [{
 				biome: "#terralith:has_structure/spire"
 				icon: "minecraft:snow_block"
@@ -531,7 +688,15 @@
 		}
 		{
 			dependencies: ["3A74DDF80745A4A3"]
+			description: ["The &3illusioner&r is a cunning and dangerous foe. Defeat him to claim his &6powerful relic&r!"]
 			id: "0E918EFB38AFC197"
+			rewards: [{
+				count: 16
+				id: "32F8B8DD1F7D5F80"
+				item: "minecraft:emerald"
+				type: "item"
+			}]
+			subtitle: "Defeat the illusioner."
 			tasks: [{
 				entity: "minecraft:illusioner"
 				icon: "minecraft:pillager_spawn_egg"
@@ -539,53 +704,75 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&cEliminate the Threat&r"
 			x: 4.5d
 			y: 3.0d
 		}
 		{
 			dependencies: ["3BFF9CCB6EB3A1DB"]
+			description: ["The ocean monument is guarded by &9three elder guardians&r. Defeat them to prove your strength and claim their &6treasures&r."]
 			id: "2C9790BA5F4F9E8F"
+			rewards: [{
+				count: 4
+				id: "7D82ADC74AD77A73"
+				item: "oceansdelight:elder_guardian_slice"
+				type: "item"
+			}]
+			subtitle: "Defeat 3 guardians."
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				id: "0A0DD958F9074B95"
 				type: "kill"
 				value: 3L
 			}]
+			title: "&cFury of the Guardians&r"
 			x: 4.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["53CF8B07C28E7672"]
+			description: ["Seek out the majestic &9ocean monument&r, a hidden marvel beneath the waves. Will you brave the depths to explore its wonders?"]
 			id: "3BFF9CCB6EB3A1DB"
+			rewards: [{
+				count: 16
+				id: "4D24CB3995BB29CB"
+				item: "minecraft:dark_prismarine"
+				type: "item"
+			}]
+			subtitle: "Discover the Ocean Monument."
 			tasks: [{
 				icon: "minecraft:sea_lantern"
 				id: "3C111AE44EEF1303"
 				structure: "betteroceanmonuments:ocean_monument"
 				type: "structure"
 			}]
+			title: "&1Guardian's Keep&r"
 			x: 3.5d
 			y: -2.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["A significant portion of the &9ocean&r remains poorly understood. Some estimates suggest that over 80% of the ocean is unmapped and unexplored!"]
 			id: "53CF8B07C28E7672"
 			rewards: [{
-				id: "480854367E0D205D"
+				id: "11E1CA3CC2C01FBC"
 				item: {
 					Count: 1b
 					id: "minecraft:potion"
 					tag: {
-						Potion: "minecraft:water_breathing"
+						Potion: "minecraft:long_water_breathing"
 					}
 				}
 				type: "item"
 			}]
+			subtitle: "Locate the deep ocean."
 			tasks: [{
 				biome: "#c:deep_ocean"
 				icon: "minecraft:seagrass"
 				id: "653372EBA7885C15"
 				type: "biome"
 			}]
+			title: "&1Into the Abyss&r"
 			x: 2.5d
 			y: -1.0d
 		}
@@ -641,22 +828,37 @@
 				"4BD2D60065C5C5D8"
 				"59CE7525C35D51E5"
 			]
+			description: ["The &3illusioner&r is said to dwell in the &9Woodland Mansion&r or the &9Sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
 			icon: "minecraft:dark_oak_planks"
 			id: "3A74DDF80745A4A3"
 			min_required_tasks: 1
+			rewards: [{
+				id: "71548A851F13046D"
+				item: {
+					Count: 1b
+					id: "minecraft:splash_potion"
+					tag: {
+						Potion: "minecraft:turtle_master"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Discover the Woodland Mansion or Sanctum."
 			tasks: [
 				{
+					icon: "minecraft:dark_oak_planks"
 					id: "746A5CB029DE71C2"
 					structure: "minecraft:mansion"
 					type: "structure"
 				}
 				{
+					icon: "minecraft:smooth_quartz"
 					id: "645990200A495169"
 					structure: "incendium:sanctum"
 					type: "structure"
 				}
 			]
-			title: "Seek The Illusioner"
+			title: "&3Seek the Illusioner&r"
 			x: 3.5d
 			y: 3.0d
 		}
@@ -757,36 +959,49 @@
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Explore the blue waters of the &9warm ocean&r, where colorful corals thrive in shallow waters."]
 			id: "788045F2F8750F48"
+			rewards: [{
+				count: 3
+				id: "307CA88726D343A8"
+				item: "minecraft:bubble_coral_block"
+				type: "item"
+			}]
+			subtitle: "Locate the warm ocean."
 			tasks: [{
 				biome: "minecraft:warm_ocean"
 				icon: "minecraft:horn_coral_block"
 				id: "4CBB25B798EB604F"
 				type: "biome"
 			}]
+			title: "&9Warm Paradise&r"
 			x: 2.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["51E39731F4382B63"]
+			description: ["The &9heart of the sea&r is said to hold the power of the ocean."]
 			id: "68C6EE403694A933"
 			rewards: [{
 				count: 3
-				id: "45BA1037EECD1686"
-				item: "minecraft:gold_ingot"
+				id: "06F282015C91B082"
+				item: "ecologics:coconut"
 				type: "item"
 			}]
+			subtitle: "Seek two hearts of the sea."
 			tasks: [{
 				count: 2L
 				id: "77431547B55EAD08"
 				item: "minecraft:heart_of_the_sea"
 				type: "item"
 			}]
+			title: "&bHeart of the Sea&r"
 			x: 5.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["53CF8B07C28E7672"]
+			description: ["Dive into the ocean depths to &9hunt nautilus&r or &9defeat drowned&r carrying their shells."]
 			icon: "hybrid-aquatic:nautilus_spawn_egg"
 			id: "4E0D19A48D707EE9"
 			rewards: [{
@@ -794,42 +1009,49 @@
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
+			subtitle: "Gather nautilus shells."
 			tasks: [{
 				entity: "hybrid-aquatic:nautilus"
 				id: "78CEE5EE09D3A386"
 				type: "kill"
-				value: 12L
+				value: 1L
 			}]
+			title: "&cHunting for Nautilus&r"
 			x: 4.5d
 			y: -1.0d
 		}
 		{
 			dependencies: ["7E295AA49432D973"]
+			description: ["Pirates once roamed these seas. A &9treasure map&r might help you uncover the &6riches&r they buried."]
 			id: "51E39731F4382B63"
 			rewards: [{
 				id: "2C7421B2BE059812"
 				item: "hybrid-aquatic:message_in_a_bottle"
 				type: "item"
 			}]
+			subtitle: "Discover a buried treasure."
 			tasks: [{
-				icon: "minecraft:chest"
+				icon: "minecraft:trapped_chest"
 				id: "2544C58CB9D6C143"
 				structure: "minecraft:buried_treasure"
 				type: "structure"
 			}]
+			title: "&6Buried Riches&r"
 			x: 3.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["788045F2F8750F48"]
+			description: ["Collect a sample of every type of &9coral&r, but remember: these fragile wonders are endangered. We must protect them."]
 			icon: "minecraft:fire_coral"
 			id: "47778E636CF2C968"
 			rewards: [{
 				count: 3
-				id: "3D063199B02EB747"
-				item: "minecraft:brain_coral"
+				id: "52AF5C94232FB0ED"
+				item: "minecraft:bone_meal"
 				type: "item"
 			}]
+			subtitle: "Collect all coral types."
 			tasks: [
 				{
 					id: "61201964B722D9B1"
@@ -851,19 +1073,59 @@
 					item: "minecraft:horn_coral"
 					type: "item"
 				}
+				{
+					id: "2B40A571702AD9F2"
+					item: "minecraft:brain_coral"
+					type: "item"
+				}
+				{
+					id: "63C59CB55E685DB2"
+					item: "minecraft:bubble_coral_fan"
+					type: "item"
+				}
+				{
+					id: "204554F19B74C587"
+					item: "minecraft:fire_coral_fan"
+					type: "item"
+				}
+				{
+					id: "1E8D3AFF5B726CA0"
+					item: "minecraft:tube_coral_fan"
+					type: "item"
+				}
+				{
+					id: "46AB2D308EE7F11A"
+					item: "minecraft:horn_coral_fan"
+					type: "item"
+				}
+				{
+					id: "2876B3747DE5A831"
+					item: "minecraft:brain_coral_fan"
+					type: "item"
+				}
 			]
+			title: "&fCoral Conservation&r"
 			x: 5.5d
 			y: 0.0d
 		}
 		{
 			dependencies: ["4BD2D60065C5C5D8"]
+			description: ["The &4nether fortress&r belongs to the fearsome &8wither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
 			id: "53987D543B4BCFC3"
+			rewards: [{
+				count: 16
+				id: "35A1B8C071B4BD6E"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			subtitle: "Discover the Nether Fortress."
 			tasks: [{
 				icon: "minecraft:chiseled_nether_bricks"
 				id: "018E040D477227C7"
 				structure: "betterfortresses:fortress"
 				type: "structure"
 			}]
+			title: "&4Fortress of Flames&r"
 			x: 3.5d
 			y: 7.0d
 		}
@@ -895,23 +1157,27 @@
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Take a moment to relax under a coconut tree, sipping &6coconut milk&r and enjoying a nap."]
 			id: "7E295AA49432D973"
 			rewards: [{
-				id: "58BFEBBECBF3CD97"
-				item: "ecologics:sandcastle"
+				id: "7DE3D04B35E66EB9"
+				item: "ecologics:tropical_stew"
 				type: "item"
 			}]
+			subtitle: "Locate the beach."
 			tasks: [{
 				biome: "#c:beach"
 				icon: "ecologics:coconut"
 				id: "52773E2495A290E2"
 				type: "biome"
 			}]
+			title: "&eSandy Shores&r"
 			x: 2.5d
 			y: 1.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Are you able to find the End Portal?"]
 			id: "3C001336BF817359"
 			tasks: [{
 				icon: "create:tuff_pillar"
@@ -926,12 +1192,19 @@
 			dependencies: ["4E0D19A48D707EE9"]
 			dependency_requirement: "one_started"
 			id: "2FE6F955E6F0B11C"
+			rewards: [{
+				id: "5287433A6A48D0A6"
+				item: "hybrid-aquatic:pearl"
+				type: "item"
+			}]
+			subtitle: "Gather 16 nautilus shells."
 			tasks: [{
 				count: 16L
 				id: "1EC7A85D5F18C944"
 				item: "minecraft:nautilus_shell"
 				type: "item"
 			}]
+			title: "&cShell Collector&r"
 			x: 5.5d
 			y: -1.0d
 		}

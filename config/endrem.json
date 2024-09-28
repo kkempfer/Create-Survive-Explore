@@ -25,7 +25,7 @@
     "CURSED_EYE_LOOT_TABLE_ID": "incendium:castle/tower_barrel",
     "CURSED_EYE_WEIGHT": 0.5,
     "MAGICAL_EYE_MANSION_LOOT_TABLE_ID": "revampedvillages:mansion_treasure",
-    "MAGICAL_EYE_MANSION_WEIGHT": 0.3,
+    "MAGICAL_EYE_MANSION_WEIGHT": 0.2,
     "MAGICAL_EYE_EVOKER_LOOT_TABLE_ID": "minecraft:entities/illusioner",
     "MAGICAL_EYE_EVOKER_WEIGHT": 1.0,
     "WITHER_EYE_LOOT_TABLE_ID": "minecraft:entities/wither",

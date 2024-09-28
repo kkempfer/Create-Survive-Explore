@@ -20,8 +20,8 @@
 				item: "createaddition:alternator"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -1.5d
+			x: -0.5d
+			y: -9.0d
 		}
 		{
 			description: ["&dRight-click&r a terminal from up to 16 blocks away while holding the &9wireless terminal&r to open its interface."]
@@ -33,8 +33,8 @@
 				type: "item"
 			}]
 			title: "&eWireless Terminal&r"
-			x: 2.0d
-			y: -4.0d
+			x: 2.5d
+			y: -9.0d
 		}
 		{
 			dependencies: ["29A7B55DFA37D3D7"]
@@ -53,8 +53,136 @@
 				type: "item"
 			}]
 			title: "&eAdvanced Wireless Terminal&r"
-			x: 3.5d
-			y: -4.0d
+			x: 4.0d
+			y: -9.0d
+		}
+		{
+			id: "28473F3C49BA366B"
+			tasks: [{
+				id: "10735D531F6C240B"
+				item: "create:cinder_flour"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -1.0d
+		}
+		{
+			id: "5BAAD65B151A7D01"
+			tasks: [{
+				id: "2F008CCF72535793"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			id: "30929F4F5D9BE24B"
+			tasks: [{
+				id: "239F1EA356E9C86E"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.0d
+		}
+		{
+			id: "6CB4E6528831F8D6"
+			tasks: [{
+				id: "0764143E829CC5F3"
+				item: "minecraft:glowstone_dust"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			id: "1868D9730DFC8E08"
+			tasks: [{
+				id: "56DB518E6DBE8B3F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:long_strength"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -1.0d
+		}
+		{
+			id: "4DD5EA63657E3022"
+			tasks: [{
+				id: "7BE91E2503C28358"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:harming"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: -2.0d
+		}
+		{
+			id: "70EED25618D4F1EF"
+			tasks: [{
+				id: "3B8CCBFF5DCBEFCA"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:night_vision"
+					}
+				}
+				type: "item"
+			}]
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			id: "5EAE90D5E3907A63"
+			tasks: [{
+				id: "0E9E9FE1D026913C"
+				item: "minecraft:cobblestone"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			id: "5B7861E1B7776C4A"
+			tasks: [{
+				id: "33BC7CA3850644E6"
+				item: "minecraft:gravel"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			id: "541E67148D83C29D"
+			tasks: [{
+				id: "066A17E88FB858BF"
+				item: "minecraft:iron_nugget"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.0d
+		}
+		{
+			id: "76473F06D7581E17"
+			tasks: [{
+				id: "1E5A0DE723C07CEA"
+				item: "minecraft:sand"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.5d
 		}
 	]
 	title: "Create"

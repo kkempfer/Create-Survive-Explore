@@ -287,13 +287,13 @@
 			description: [
 				"Every home needs storage. Craft &9shelves&r and other storage units to keep things organized and tidy."
 				""
-				"Why not add this &6boat in a jar&r onto one of them?"
+				"Why not add this &6jar&r onto one of them?"
 			]
 			icon: "supplementaries:item_shelf"
 			id: "26354AD392AF4791"
 			rewards: [{
-				id: "0B530B3DBE1290F0"
-				item: "supplementaries:jar_boat"
+				id: "5436CBAB4146EE73"
+				item: "supplementaries:jar"
 				type: "item"
 			}]
 			subtitle: "Organize your home."
@@ -417,6 +417,16 @@
 			}]
 			x: 4.0d
 			y: 1.5d
+		}
+		{
+			id: "72F83D67800B119A"
+			tasks: [{
+				id: "769BB3604F59BEBE"
+				item: "minecraft:clay_ball"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.5d
 		}
 	]
 	title: "Decorate your Builds"
