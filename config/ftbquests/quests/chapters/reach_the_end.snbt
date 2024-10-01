@@ -10,13 +10,22 @@
 	quests: [
 		{
 			dependencies: ["6F26D3F03C2F591D"]
+			description: ["The &6black eye&r is dropped by the &9elder golem&r upon its defeat."]
 			id: "093BC1513A085340"
+			rewards: [{
+				count: 2
+				id: "3EF8C193B4CA6394"
+				item: "wetlands:bog_iron_block"
+				type: "item"
+			}]
+			subtitle: "Acquire the black eye."
 			tasks: [{
 				id: "5D6E62024A62B0C6"
 				item: "endrem:black_eye"
 				type: "item"
 			}]
-			x: -4.5d
+			title: "&2The Eye of the Mechanic&r"
+			x: -3.0d
 			y: 7.0d
 		}
 		{
@@ -80,12 +89,27 @@
 		}
 		{
 			dependencies: ["242E8EF5ADBD1043"]
+			description: ["Seek out the &9treasure room&r within the pipeline, where the &6Nether eye&r lies hidden."]
 			id: "19568C3EC957323E"
+			rewards: [
+				{
+					id: "537D717081687FA1"
+					item: "create:cart_assembler"
+					type: "item"
+				}
+				{
+					id: "6745CE745C133F43"
+					item: "minecraft:minecart"
+					type: "item"
+				}
+			]
+			subtitle: "Seek the Nether eye."
 			tasks: [{
 				id: "2F928BA11433BD4C"
 				item: "endrem:nether_eye"
 				type: "item"
 			}]
+			title: "&6The Eye of the Demon&r"
 			x: 6.5d
 			y: 4.5d
 		}
@@ -145,17 +169,46 @@
 		}
 		{
 			dependencies: ["1BF2D0A4189776FF"]
+			description: ["The &6cursed eye&r is a weapon wielded by &dpiglins&r to fend off &8wither skeletons&r from the &9castle walls&r. Only &dpiglins&r know how to activate its power."]
 			id: "187E6084AF5E284D"
+			rewards: [{
+				id: "7992CFBB10CA56E1"
+				item: {
+					Count: 1b
+					id: "minecraft:golden_helmet"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:protection"
+								lvl: 4
+							}
+							{
+								id: "minecraft:unbreaking"
+								lvl: 3
+							}
+							{
+								id: "minecraft:mending"
+								lvl: 1
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Seek the cursed eye."
 			tasks: [{
 				id: "108CE303FFA31305"
 				item: "endrem:cursed_eye"
 				type: "item"
 			}]
+			title: "&dThe Eye of the Defender&r"
 			x: 6.5d
 			y: 5.5d
 		}
 		{
 			dependencies: ["3589CBF3D195E915"]
+			description: ["Purchase the &6evil eye&r from the &9master cleric&r."]
 			id: "6721460C0F681B72"
 			rewards: [{
 				count: 3
@@ -169,11 +222,13 @@
 				}
 				type: "item"
 			}]
+			subtitle: "Acquire the holy talisman."
 			tasks: [{
 				id: "76D66FF54139F976"
 				item: "endrem:evil_eye"
 				type: "item"
 			}]
+			title: "&aThe Eye of Luck&r"
 			x: 0.0d
 			y: 7.0d
 		}
@@ -224,34 +279,67 @@
 		}
 		{
 			dependencies: ["72BB20308831ACBC"]
+			description: ["After &9defeating the wither&r, retrieve its &6eye&r as a symbol of your victory."]
 			id: "6ECA47319768CBB5"
+			rewards: [{
+				count: 4
+				id: "5FE7DD52B05718B7"
+				item: "minecraft:ancient_debris"
+				type: "item"
+			}]
+			subtitle: "Acquire the wither's eye."
 			tasks: [{
 				id: "1E04CEE9B2EDA7BA"
 				item: "endrem:wither_eye"
 				type: "item"
 			}]
+			title: "&8The Eye of the Wither&r"
 			x: 6.5d
 			y: 7.0d
 		}
 		{
 			dependencies: ["7670EB12FEEE0A12"]
+			description: ["Combine the &9witch pupil&r with an &9eye of ender&r to create the &6witch eye&r. This enchanted artifact enhances your connection to the arcane."]
 			id: "37C8478BAE65BCF2"
+			rewards: [{
+				count: 2
+				id: "4971D75DE5601ECE"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:strong_harming"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft the witch eye."
 			tasks: [{
 				id: "2AA94E886D3525E2"
 				item: "endrem:witch_eye"
 				type: "item"
 			}]
-			x: -3.5d
+			title: "&5The Arcane Eye&r"
+			x: -2.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3C847C3CC2ABB3EC"]
+			description: ["Combine the &9undead soul&r with &9rare ingredients&r to create the &6undead eye&r."]
 			id: "3F83BFC0393A2669"
+			rewards: [{
+				count: 5
+				id: "0DDB1CE9EEE9754D"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			subtitle: "Craft the undead eye."
 			tasks: [{
 				id: "7E9E0D34986EFE6F"
 				item: "endrem:undead_eye"
 				type: "item"
 			}]
+			title: "&fThe Possessed Eye&r"
 			x: -1.0d
 			y: 7.0d
 		}
@@ -282,26 +370,42 @@
 		}
 		{
 			dependencies: ["3DCFF333E175F10C"]
+			description: ["The &6cryptic eye&r has a small chance of appearing when you &9enchant&r. Its origins and purpose remain unknown."]
 			id: "215577B70CD016E6"
 			rewards: [{
-				count: 32
-				id: "31E3EF4775506876"
-				item: "minecraft:experience_bottle"
+				count: 8
+				id: "28DB4FF5797EE762"
+				item: "create_enchantment_industry:hyper_experience_bottle"
 				type: "item"
 			}]
+			subtitle: "Seek the cryptic eye."
 			tasks: [{
 				id: "096FBFCE2EB0859E"
 				item: "endrem:cryptic_eye"
 				type: "item"
 			}]
+			title: "&aThe Eye of Luck&r"
 			x: 1.0d
 			y: 7.0d
 		}
 		{
 			dependencies: ["3C001336BF817359"]
+			description: ["You did it! Now, place &912 unique ender eyes&r in the portal frame in order to open it. Are you sure this is the right decision?"]
 			id: "7919817CF45E99D6"
+			rewards: [{
+				id: "21B0F05BFF6E947D"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:slow_falling"
+					}
+				}
+				type: "item"
+			}]
 			shape: "rsquare"
 			size: 2.5d
+			subtitle: "Discover the End portal."
 			tasks: [{
 				icon: "endrem:ancient_portal_frame"
 				id: "09CF7A3E949F74B0"
@@ -311,6 +415,7 @@
 				to_observe: "endrem:ancient_portal_frame"
 				type: "observation"
 			}]
+			title: "&5The Gateway to Another World&r"
 			x: -5.0d
 			y: 0.0d
 		}
@@ -398,13 +503,22 @@
 		}
 		{
 			dependencies: ["4BD2D60065C5C5D8"]
+			description: ["The &9forbidden castle&r is home to well-trained &dpiglins&r. Do you have an appointment with the king?"]
 			id: "1BF2D0A4189776FF"
+			rewards: [{
+				count: 8
+				id: "31AE2C07AF2BBBBA"
+				item: "minecraft:gilded_blackstone"
+				type: "item"
+			}]
+			subtitle: "Discover the forbidden castle."
 			tasks: [{
 				icon: "minecraft:chiseled_polished_blackstone"
 				id: "31B9AD0E1771E2ED"
 				structure: "incendium:forbidden_castle"
 				type: "structure"
 			}]
+			title: "&dThe Piglins' Last Bastion&r"
 			x: 5.5d
 			y: 5.5d
 		}
@@ -431,13 +545,21 @@
 		}
 		{
 			dependencies: ["4BD2D60065C5C5D8"]
+			description: ["Venture into the &9abandoned pipelines&r, filled with &bsentries&r still guarding their territory. The purpose and creators of these structures remain a mystery."]
 			id: "242E8EF5ADBD1043"
+			rewards: [{
+				id: "1746C6980D32EBE8"
+				item: "minecraft:golden_apple"
+				type: "item"
+			}]
+			subtitle: "Discover the abandoned pipeline."
 			tasks: [{
 				icon: "minecraft:cyan_terracotta"
 				id: "4840F37D9907A829"
 				structure: "incendium:pipeline"
 				type: "structure"
 			}]
+			title: "&bGuardians of the Past&r"
 			x: 5.5d
 			y: 4.5d
 		}
@@ -463,13 +585,7 @@
 			y: -4.0d
 		}
 		{
-			description: [
-				"The path to The End is"
-				""
-				"16 unique custom ender eyes are scattered across the world. Each eye is hidden in different structures, requiring exploration, combat, and sometimes crafting to obtain."
-				""
-				"Collect at least 12 of them before heading towards the stronghold."
-			]
+			description: [""]
 			id: "59CE7525C35D51E5"
 			shape: "rsquare"
 			size: 2.5d
@@ -575,24 +691,35 @@
 		}
 		{
 			dependencies: ["093EF55C01E6E790"]
+			description: ["Claim the &9essence&r of the undead from the sacrifice of the zombie horse."]
 			id: "3C847C3CC2ABB3EC"
+			rewards: [{
+				count: 8
+				id: "0D3E6E08607D61BD"
+				item: "minecraft:soul_sand"
+				type: "item"
+			}]
+			subtitle: "Acquire an undead soul."
 			tasks: [{
 				id: "50830582222A0C19"
 				item: "endrem:undead_soul"
 				type: "item"
 			}]
+			title: "&fSpirit Extraction&r"
 			x: -1.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["16A69636D494F090"]
+			description: ["Witches lurk in the shadows, brewing potions and causing mischief. &9Eliminate them&r restore peace to the land."]
 			id: "0AE4228EA38545A8"
 			rewards: [{
-				count: 5
+				count: 16
 				id: "7D98E9EA2D6579CC"
 				item: "minecraft:glowstone_dust"
 				type: "item"
 			}]
+			subtitle: "Defeat 10 witches."
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:witch"
@@ -601,45 +728,94 @@
 				type: "questsadditions:killnbt"
 				value: 10L
 			}]
-			x: -3.5d
+			title: "&cWitch Hunt&r"
+			x: -2.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["7FADF5A46341C65D"]
+			description: ["Put the &9zombie horse to rest&r and make a wish."]
 			id: "093EF55C01E6E790"
+			rewards: [{
+				id: "3CDBAC2053108441"
+				item: "minecraft:zombie_head"
+				type: "item"
+			}]
+			subtitle: "Offer the undead."
 			tasks: [{
 				entity: "minecraft:zombie_horse"
 				id: "40A7E96F67BA160F"
 				type: "kill"
 				value: 1L
 			}]
+			title: "&cThe Sacrifice&r"
 			x: -1.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["0AE4228EA38545A8"]
-			dependency_requirement: "one_started"
+			dependency_requirement: "all_started"
+			description: ["Defeated witches sometimes leave behind their &9pupils&r."]
 			id: "7670EB12FEEE0A12"
+			rewards: [{
+				count: 4
+				id: "464ADFDF370FAA87"
+				item: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:weakness"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Acquire a witch pupil."
 			tasks: [{
 				id: "48C05C780FE3E7CD"
 				item: "endrem:witch_pupil"
 				type: "item"
 			}]
-			x: -3.5d
+			title: "&5Witch's Apprentice&r"
+			x: -2.0d
 			y: 6.0d
 		}
 		{
 			dependencies: ["7C8E3A8100FA6281"]
+			description: ["A &9skeleton horse&r sometimes spawns when lightning strikes. &9Feed it&r, and watch the magic happen!"]
 			icon: "minecraft:skeleton_horse_spawn_egg"
 			id: "7FADF5A46341C65D"
+			rewards: [{
+				id: "737D0EA6AF0FD2B1"
+				item: {
+					Count: 1b
+					id: "farmersdelight:golden_knife"
+					tag: {
+						Damage: 0
+						Enchantments: [
+							{
+								id: "minecraft:smite"
+								lvl: 2
+							}
+							{
+								id: "farmersdelight:backstabbing"
+								lvl: 3
+							}
+						]
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Feed the skeleton horse 64 rotten flesh."
 			tasks: [{
-				checkItem: false
+				checkItem: true
 				entity: "minecraft:skeleton_horse"
 				id: "12457CDD94ACDC20"
+				item: "minecraft:rotten_flesh"
 				nbt: { }
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
+			title: "&2The Undead Horse&r"
 			x: -1.0d
 			y: 4.0d
 		}
@@ -647,35 +823,33 @@
 			dependencies: ["59CE7525C35D51E5"]
 			id: "7C8E3A8100FA6281"
 			rewards: [{
-				count: 4
-				id: "1359B9A66831595D"
-				item: {
-					Count: 1b
-					id: "minecraft:tipped_arrow"
-					tag: {
-						Potion: "minecraft:slowness"
-					}
-				}
+				count: 2
+				id: "017F30B5F03E9D2C"
+				item: "minecraft:iron_ingot"
 				type: "item"
 			}]
+			subtitle: "Gather 64 rotten flesh."
 			tasks: [{
 				count: 64L
 				id: "7E87506D7A4F9DE0"
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
+			title: "&cZombie Apocalypse&r"
 			x: -1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1C1AA67B8ABB412B"]
+			description: ["Use the items you collected to &9summon the wither&r. Prepare for destruction!"]
 			id: "72BB20308831ACBC"
 			rewards: [{
 				count: 3
-				id: "3A6F03B9712251EE"
+				id: "60E74D9A72EE83C3"
 				item: "minecraft:wither_rose"
 				type: "item"
 			}]
+			subtitle: "Defeat the king of the skeletons."
 			tasks: [{
 				entity: "minecraft:wither"
 				icon: "minecraft:wither_skeleton_spawn_egg"
@@ -683,6 +857,7 @@
 				type: "kill"
 				value: 1L
 			}]
+			title: "&4Summon the Wither&r"
 			x: 5.5d
 			y: 7.0d
 		}
@@ -710,7 +885,7 @@
 		}
 		{
 			dependencies: ["3BFF9CCB6EB3A1DB"]
-			description: ["The ocean monument is guarded by &9three elder guardians&r. Defeat them to prove your strength and claim their &6treasures&r."]
+			description: ["The ocean monument is guarded by &93 elder guardians&r. Defeat them to prove your strength and claim their &6treasures&r."]
 			id: "2C9790BA5F4F9E8F"
 			rewards: [{
 				count: 4
@@ -718,7 +893,7 @@
 				item: "oceansdelight:elder_guardian_slice"
 				type: "item"
 			}]
-			subtitle: "Defeat 3 guardians."
+			subtitle: "Defeat 3 elder guardians."
 			tasks: [{
 				entity: "minecraft:elder_guardian"
 				id: "0A0DD958F9074B95"
@@ -778,6 +953,7 @@
 		}
 		{
 			dependencies: ["41072A195EC49365"]
+			description: ["Use the ancient mechanisms to &9summon the elder golem&r and prove your strength by &9defeating it&r."]
 			id: "6F26D3F03C2F591D"
 			rewards: [
 				{
@@ -802,25 +978,36 @@
 					type: "item"
 				}
 			]
+			subtitle: "Defeat the elder golem."
 			tasks: [{
 				entity: "wetlands:elder_gear_golem"
 				id: "2A8262E293604A5E"
 				type: "kill"
 				value: 1L
 			}]
-			x: -4.5d
+			title: "&2The Rusty Mechanic&r"
+			x: -3.0d
 			y: 5.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: ["Explore the &9swamp&r, where ancient machines and giant rusty gears lie hidden beneath the surface. Keep an eye out for remnants of a long-lost civilization."]
 			id: "16A69636D494F090"
+			rewards: [{
+				count: 5
+				id: "5B7951D7E06761A4"
+				item: "wetlands:peat"
+				type: "item"
+			}]
+			subtitle: "Locate the swamp."
 			tasks: [{
 				biome: "#c:swamp"
 				icon: "minecraft:mangrove_roots"
 				id: "18721E16576C22BA"
 				type: "biome"
 			}]
-			x: -3.5d
+			title: "&2The Murky Depths&r"
+			x: -2.0d
 			y: 3.0d
 		}
 		{
@@ -828,22 +1015,22 @@
 				"4BD2D60065C5C5D8"
 				"59CE7525C35D51E5"
 			]
-			description: ["The &3illusioner&r is said to dwell in the &9Woodland Mansion&r or the &9Sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
+			description: ["The &3illusioner&r is said to dwell in the &9woodland mansion&r or the &9sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
 			icon: "minecraft:dark_oak_planks"
 			id: "3A74DDF80745A4A3"
 			min_required_tasks: 1
 			rewards: [{
-				id: "71548A851F13046D"
+				id: "2BA0080EF5F62A2C"
 				item: {
 					Count: 1b
 					id: "minecraft:splash_potion"
 					tag: {
-						Potion: "minecraft:turtle_master"
+						Potion: "minecraft:long_turtle_master"
 					}
 				}
 				type: "item"
 			}]
-			subtitle: "Discover the Woodland Mansion or Sanctum."
+			subtitle: "Discover the woodland mansion or sanctum."
 			tasks: [
 				{
 					icon: "minecraft:dark_oak_planks"
@@ -864,42 +1051,48 @@
 		}
 		{
 			dependencies: ["31F32FC089B3B9A0"]
+			description: ["Look for a &9ladder concealed beneath a trapdoor&r. It leads to a rare structure waiting to be explored!"]
 			id: "41072A195EC49365"
 			rewards: [{
-				count: 32
+				count: 16
 				id: "234E628389F1C003"
 				item: "wetlands:sunken_bricks"
 				type: "item"
 			}]
+			subtitle: "Discover the elder golem dungeon."
 			tasks: [{
 				icon: "wetlands:sunken_bricks"
 				id: "6E9A3EA86D05E1C5"
 				structure: "wetlands:elder_golem_dungeon"
 				type: "structure"
 			}]
-			x: -4.5d
+			title: "&2The Golem's Lair&r"
+			x: -3.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["16A69636D494F090"]
-			description: ["The &9Will-o'-the-Wisp&r spawns in swamps at night. Try to catch one!"]
+			description: ["The &9Will-o'-the-Wisp&r spawns in &9swamps&r at night. Try to catch one!"]
 			id: "31F32FC089B3B9A0"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "7A9D5EDBAB0D115F"
 				item: "createaddition:festive_spool"
 				type: "item"
 			}]
+			subtitle: "Capture a Will-o'-the-Wisp."
 			tasks: [{
 				id: "3673369850925E61"
 				item: "wetlands:bottled_willothewisp"
 				type: "item"
 			}]
-			x: -4.5d
+			title: "&fA Glimmer in the Dark&r"
+			x: -3.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["1E6856EF52EC12F1"]
+			description: ["Ask guidance from the &9master cleric&r."]
 			id: "3589CBF3D195E915"
 			rewards: [{
 				count: 12
@@ -907,6 +1100,7 @@
 				item: "minecraft:emerald"
 				type: "item"
 			}]
+			subtitle: "Visit the church."
 			tasks: [{
 				checkItem: false
 				entity: "minecraft:villager"
@@ -920,40 +1114,73 @@
 				type: "questsadditions:interaction"
 				value: 1L
 			}]
-			title: "Meet the Master Cleric"
+			title: "&dMeet the Master Cleric&r"
 			x: 0.0d
 			y: 4.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: [""]
 			id: "1E6856EF52EC12F1"
+			rewards: [{
+				id: "32C47BD34F6BF64F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:leaping"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gather a rabbit's foot."
 			tasks: [{
 				id: "37D9B4B205E64E29"
 				item: "minecraft:rabbit_foot"
 				type: "item"
 			}]
+			title: "&aLeap of Luck&r"
 			x: 0.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
+			description: [""]
 			id: "7FA375B190607968"
+			rewards: [{
+				count: 3
+				id: "787544A0147BA350"
+				item: "minecraft:blue_dye"
+				type: "item"
+			}]
+			subtitle: "Gather 16 lapis lazuli ores."
 			tasks: [{
+				count: 16L
 				id: "4DC536F2195EAFA9"
 				item: "minecraft:lapis_lazuli"
 				type: "item"
 			}]
+			title: "&1The Blue Gem&r"
 			x: 1.0d
 			y: 3.0d
 		}
 		{
 			dependencies: ["7FA375B190607968"]
+			description: ["Enchant your tools and weapons in the &9enchanting table&r."]
 			id: "3DCFF333E175F10C"
+			rewards: [{
+				count: 6
+				id: "09819D61639BF8E0"
+				item: "minecraft:experience_bottle"
+				type: "item"
+			}]
+			subtitle: "Craft an enchanting table."
 			tasks: [{
 				id: "17BF301A7B263741"
 				item: "minecraft:enchanting_table"
 				type: "item"
 			}]
+			title: "&3Arcane Workbench&r"
 			x: 1.0d
 			y: 4.0d
 		}
@@ -1110,7 +1337,7 @@
 		}
 		{
 			dependencies: ["4BD2D60065C5C5D8"]
-			description: ["The &4nether fortress&r belongs to the fearsome &8wither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
+			description: ["The &9Nether fortress&r belongs to the fearsome &8wither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
 			id: "53987D543B4BCFC3"
 			rewards: [{
 				count: 16
@@ -1118,7 +1345,7 @@
 				item: "minecraft:nether_bricks"
 				type: "item"
 			}]
-			subtitle: "Discover the Nether Fortress."
+			subtitle: "Discover the Nether fortress."
 			tasks: [{
 				icon: "minecraft:chiseled_nether_bricks"
 				id: "018E040D477227C7"
@@ -1131,13 +1358,15 @@
 		}
 		{
 			dependencies: ["53987D543B4BCFC3"]
+			description: ["The &9wither skulls&r are rare, so equip a looting sword to boost your chances of beheading them!"]
 			icon: "minecraft:wither_skeleton_skull"
 			id: "1C1AA67B8ABB412B"
 			rewards: [{
-				id: "7B20334C53940709"
+				id: "709F2BD9F565C1A3"
 				item: "minecraft:golden_apple"
 				type: "item"
 			}]
+			subtitle: "Gather 3 wither skeleton skulls and 4 soul sand blocks."
 			tasks: [
 				{
 					count: 3L
@@ -1152,6 +1381,7 @@
 					type: "item"
 				}
 			]
+			title: "&cBehead the Dark Skeletons&r"
 			x: 4.5d
 			y: 7.0d
 		}
@@ -1176,16 +1406,37 @@
 			y: 1.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
-			description: ["Are you able to find the End Portal?"]
+			dependencies: ["6CB75EC71705FCCB"]
+			dependency_requirement: "all_started"
+			description: ["The &9stronghold&r is a massive fortress filled with mechanical traps and challenging defenses. It is said to protect the gates to another world, or perhaps to shield us from what lurks on the other side."]
 			id: "3C001336BF817359"
+			rewards: [
+				{
+					count: 3
+					id: "08C0FB035C68899C"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "33429A20F676F52C"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "17DB93CC6E6EA267"
+					item: "supplementaries:sconce_lever"
+					type: "item"
+				}
+			]
+			subtitle: "Discover the stronghold."
 			tasks: [{
 				icon: "create:tuff_pillar"
 				id: "1D258272D8819499"
 				structure: "integrated_stronghold:stronghold"
 				type: "structure"
 			}]
-			x: -2.5d
+			title: "&dThe Hidden Stronghold&r"
+			x: -3.0d
 			y: 0.0d
 		}
 		{
@@ -1207,6 +1458,47 @@
 			title: "&cShell Collector&r"
 			x: 5.5d
 			y: -1.0d
+		}
+		{
+			dependencies: ["59CE7525C35D51E5"]
+			description: ["Throw the &9eye of ender&r into the air and follow the direction it points to locate the stronghold."]
+			id: "6CB75EC71705FCCB"
+			rewards: [{
+				id: "2733CE1F795FF511"
+				item: "minecraft:compass"
+				type: "item"
+			}]
+			subtitle: "Craft 10 eyes of ender."
+			tasks: [{
+				count: 10L
+				id: "47E3C94B1D8BF41E"
+				item: "minecraft:ender_eye"
+				type: "item"
+			}]
+			title: "&2Find the Unreachable&r"
+			x: -2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7919817CF45E99D6"]
+			id: "4E961335163C09E1"
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				dimension: "minecraft:the_end"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:textures/entity/end_portal.png"
+					}
+				}
+				id: "5E05D1E88D0B4570"
+				title: "&5Explore The End&r"
+				type: "dimension"
+			}]
+			x: -5.0d
+			y: -3.5d
 		}
 	]
 	title: "Reach The End"
