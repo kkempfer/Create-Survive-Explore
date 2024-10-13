@@ -259,6 +259,7 @@
 			description: ["With a &9lead&r, you can tether animals, leading them where you need."]
 			id: "7F7ABEE04EF23896"
 			rewards: [{
+				count: 2
 				id: "75E5450C02B612CD"
 				item: "naturalist:duck_egg"
 				type: "item"
@@ -620,6 +621,41 @@
 			}]
 			title: "&6Eat a Balanced Diet&r"
 			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["68A4E345A4C7939E"]
+			description: [
+				"Improve your hookshot at a &6smithing table&r to unlock extra perks:"
+				""
+				"- &dAquatic upgrade&r using &9prismarine shard&r allows the hookshot to glide through water,"
+				"- &dEnderic upgrade&r with an &9eye of ender&r enables teleportation instead of pulling,"
+				"- &dQuick upgrade&r using a &9piston&r increases the hook speed by 50%,"
+				"- &dLong upgrade&r with a &9chain&r doubles the range,"
+				"- &dAutomatic upgrade&r using an &9observer&r automatically disconnects the hook,"
+				"- &dDurability upgrade&r with &9obsidian&r doubles its durability,"
+				"- &dBleed upgrade&r using an &9arrow&r causes bleeding on hooked entities."
+			]
+			id: "2FEB870D8C14AAB6"
+			rewards: [{
+				id: "6B80875359EE40EE"
+				item: "minecraft:smithing_table"
+				type: "item"
+			}]
+			subtitle: "Craft a hookshot."
+			tasks: [{
+				id: "338F97E837B7E300"
+				item: {
+					Count: 1b
+					id: "hookshot:white_hookshot"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&fThe Art of Grappling&r"
+			x: 9.0d
 			y: 4.0d
 		}
 	]

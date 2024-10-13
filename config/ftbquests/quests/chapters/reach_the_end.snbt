@@ -13,7 +13,7 @@
 			description: ["The &6black eye&r is dropped by the &9elder golem&r upon its defeat."]
 			id: "093BC1513A085340"
 			rewards: [{
-				count: 2
+				count: 4
 				id: "3EF8C193B4CA6394"
 				item: "wetlands:bog_iron_block"
 				type: "item"
@@ -69,7 +69,7 @@
 				item: "endrem:corrupted_eye"
 				type: "item"
 			}]
-			title: "&8The Greedy King's Eye&r"
+			title: "&8The Eye of the Greedy King&r"
 			x: 1.0d
 			y: -5.0d
 		}
@@ -77,6 +77,11 @@
 			dependencies: ["3608DC9063DCE786"]
 			description: ["Did someone really forged the &6lost eye&r?"]
 			id: "43CBA7384A4FAE89"
+			rewards: [{
+				id: "486FD5C9F6FC1447"
+				item: "create:minecart_coupling"
+				type: "item"
+			}]
 			subtitle: "Seek the lost eye."
 			tasks: [{
 				id: "1F03498C9662A55B"
@@ -234,6 +239,7 @@
 		}
 		{
 			dependencies: ["2C9790BA5F4F9E8F"]
+			dependency_requirement: "all_started"
 			description: ["Sometimes, elder guardian drop their &6eye&r upon death. Will you be lucky enough to get one?"]
 			id: "7F3B10E87B783017"
 			rewards: [{
@@ -253,7 +259,11 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["0E918EFB38AFC197"]
+			dependencies: [
+				"0E918EFB38AFC197"
+				"3A74DDF80745A4A3"
+			]
+			dependency_requirement: "one_completed"
 			description: ["The &6illusioner's eye&r is yours for the taking. This artifact holds untold power, but what will you do with it?"]
 			id: "1F01B492C2A5E007"
 			rewards: [{
@@ -565,7 +575,7 @@
 		}
 		{
 			dependencies: ["59CE7525C35D51E5"]
-			description: ["Venture into the underground and search for for the &9mineshafts&r, remnants of a bygone industrial age. These ancient tunnels, once bustling with activity, now hold untold secrets and forgotten machinery."]
+			description: ["Venture into the underground and search for the &9mineshafts&r, remnants of a bygone industrial age. These ancient tunnels, once bustling with activity, now hold untold secrets and forgotten machinery."]
 			id: "3608DC9063DCE786"
 			rewards: [{
 				count: 2
@@ -993,12 +1003,20 @@
 			dependencies: ["59CE7525C35D51E5"]
 			description: ["Explore the &9swamp&r, where ancient machines and giant rusty gears lie hidden beneath the surface. Keep an eye out for remnants of a long-lost civilization."]
 			id: "16A69636D494F090"
-			rewards: [{
-				count: 5
-				id: "5B7951D7E06761A4"
-				item: "wetlands:peat"
-				type: "item"
-			}]
+			rewards: [
+				{
+					count: 8
+					id: "51B03356473F3C73"
+					item: "wetlands:sapropel_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "180312166F778683"
+					item: "wetlands:peat"
+					type: "item"
+				}
+			]
 			subtitle: "Locate the swamp."
 			tasks: [{
 				biome: "#c:swamp"
@@ -1015,6 +1033,7 @@
 				"4BD2D60065C5C5D8"
 				"59CE7525C35D51E5"
 			]
+			dependency_requirement: "one_completed"
 			description: ["The &3illusioner&r is said to dwell in the &9woodland mansion&r or the &9sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
 			icon: "minecraft:dark_oak_planks"
 			id: "3A74DDF80745A4A3"
@@ -1441,7 +1460,7 @@
 		}
 		{
 			dependencies: ["4E0D19A48D707EE9"]
-			dependency_requirement: "one_started"
+			dependency_requirement: "all_started"
 			id: "2FE6F955E6F0B11C"
 			rewards: [{
 				id: "5287433A6A48D0A6"

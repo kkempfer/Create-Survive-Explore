@@ -32,7 +32,7 @@
 		{
 			dependencies: ["6AEB4ED0C382E3F1"]
 			id: "07850A00E4FB31F4"
-			subtitle: "Upgrade your Gear."
+			subtitle: "Upgrade your gear."
 			tasks: [{
 				id: "4716AA31E7FD6FE9"
 				item: {
