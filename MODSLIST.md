@@ -74,7 +74,6 @@
 | KubeJS Create | [✅](https://www.curseforge.com/minecraft/mc-mods/kubejs-create) | [✅](https://modrinth.com/mod/kubejs-create) | Compatibility mod between KubeJS and Create |
 | Leave My Bars Alone | [✅](https://www.curseforge.com/minecraft/mc-mods/leave-my-bars-alone) | [✅](https://modrinth.com/mod/leave-my-bars-alone) | Improves HUD |
 | Leawind's Third Person | [✅](https://www.curseforge.com/minecraft/mc-mods/leawind-third-person) | [✅](https://modrinth.com/mod/leawind-third-person) | Improves third person camera view |
-| Mindful Darkness | [✅](https://www.curseforge.com/minecraft/mc-mods/mindful-darkness) | [✅](https://modrinth.com/mod/mindful-darkness) | Adds a configurable dark mod |
 | Mod Menu | [✅](https://www.curseforge.com/minecraft/mc-mods/modmenu) | [✅](https://modrinth.com/mod/modmenu) | Manages mods |
 | Mouse Tweaks | [✅](https://www.curseforge.com/minecraft/mc-mods/mouse-tweaks) | [✅](https://modrinth.com/mod/mouse-tweaks) | Adds LMB and RMB tweaks |
 | No Night Vision Flickering | [✅](https://www.curseforge.com/minecraft/mc-mods/no-night-vision-flickering) | [✅](https://modrinth.com/mod/no-night-vision-flickering) | Makes expiring night vision fade out |
@@ -308,7 +307,7 @@
 | Moonlight Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/selene) | [✅](https://modrinth.com/mod/moonlight) | - Every Compat <br> - Supplementaries |
 | Necronomicon API | [✅](https://www.curseforge.com/minecraft/mc-mods/necronomicon) | [✅](https://modrinth.com/mod/necronomicon) | - Animation Overhaul |
 | Patchouli | [✅](https://www.curseforge.com/minecraft/mc-mods/patchouli-fabric) | [✅](https://modrinth.com/mod/patchouli) | - Dehydration <br> - Fabric Seasons: Extras |
-| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Easy Anvil <br> - Easy Magic <br> - Easy Shulker Boxes <br> - Leave My Bars Alone <br> - Mindful Darkness <br> - Stylish Effects |
+| Puzzles Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/puzzles-lib) | [✅](https://modrinth.com/mod/puzzles-lib) | - Easy Anvil <br> - Easy Magic <br> - Easy Shulker Boxes <br> - Leave My Bars Alone <br> - Stylish Effects |
 | Resourceful Lib | [✅](https://www.curseforge.com/minecraft/mc-mods/resourceful-lib) | [✅](https://modrinth.com/mod/resourceful-lib) | - Chipped |
 | Rhino | [✅](https://www.curseforge.com/minecraft/mc-mods/rhino) | [✅](https://modrinth.com/mod/rhino) | - KubeJS |
 | Satin API [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/satin-api) | [✅](https://modrinth.com/mod/satin-api) | - Effective |
