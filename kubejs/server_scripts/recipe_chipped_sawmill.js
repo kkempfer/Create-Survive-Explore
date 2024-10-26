@@ -1,14 +1,14 @@
 ServerEvents.recipes((event) => {
 
     const chippedCraftingTables = [
-        "chipped:alchemy_bench",
-        "chipped:botanist_workbench",
-        "chipped:carpenters_table",
-        "chipped:glassblower",
-        "chipped:loom_table",
-        "chipped:mason_table",
-        "chipped:tinkering_table"
-    ]
+        'chipped:alchemy_bench',
+        'chipped:botanist_workbench',
+        'chipped:carpenters_table',
+        'chipped:glassblower',
+        'chipped:loom_table',
+        'chipped:mason_table',
+        'chipped:tinkering_table'
+    ];
 
     chippedCraftingTables.forEach(table => {
         event.forEachRecipe({ type: table }, recipe => {
