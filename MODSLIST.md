@@ -167,7 +167,6 @@
 | Name | CurseForge | Modrinth | Description |
 |:-:|:-:|:-:|:-:|
 | Animal Feeding Trough | [✅](https://www.curseforge.com/minecraft/mc-mods/animal-feeding-trough) | [✅](https://modrinth.com/mod/animal_feeding_trough) | Adds a humane feeding method for animals, providing an alternative to using Create deployers |
-| Body Health System | ❌ | [✅](https://modrinth.com/mod/body-health-system) | Revamps the health system |
 | Cave Spider Spawn | [✅](https://www.curseforge.com/minecraft/mc-mods/cave-spider-spawn) | [✅](https://modrinth.com/mod/cave-spider-spawn) | Allows cave spiders to spawn naturally |
 | CleanCut | [✅](https://www.curseforge.com/minecraft/mc-mods/cleancut) | [✅](https://modrinth.com/mod/cleancut) | Fights through blocks without collision |
 | Comforts | [✅](https://www.curseforge.com/minecraft/mc-mods/comforts-fabric) | [✅](https://modrinth.com/mod/comforts) | Adds sleeping bags and hammocks |
