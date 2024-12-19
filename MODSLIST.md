@@ -113,7 +113,7 @@
 | Beneath the Wetlands | [✅](https://www.curseforge.com/minecraft/mc-mods/beneath-the-wetlands) | [✅](https://modrinth.com/mod/beneath-the-wetlands) | Adds new structures and mobs to swamps |
 | Better End Cities Vanilla | [✅](https://www.curseforge.com/minecraft/mc-mods/better-end-cities-vanilla) | [✅](https://modrinth.com/mod/better-end-cities-base) | Revamps End cities |
 | Block Swap | [✅](https://www.curseforge.com/minecraft/mc-mods/block-swap-fabric) | [✅](https://modrinth.com/mod/block-swap) | Replaces a block by another |
-| Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves Vanilla biomes |
+| Ecologics | [✅](https://www.curseforge.com/minecraft/mc-mods/ecologics) | [✅](https://modrinth.com/mod/ecologics) | Improves vanilla biomes |
 | Hopo Better Ruined Portals | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-ruined-portals) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps portals in both the Overworld and the Nether |
 | Hopo Better Underwater Ruins | [✅](https://www.curseforge.com/minecraft/mc-mods/hopo-better-underwater-ruins) | [✅](https://modrinth.com/datapack/hopo-better-ruined-portals) | Revamps ocean ruins |
 | Hybrid Aquatic | [✅](https://www.curseforge.com/minecraft/mc-mods/hybrid-aquatic) | [✅](https://modrinth.com/mod/hybrid-aquatic) | Adds aquatic creatures |
@@ -235,11 +235,15 @@
 |:-:|:-:|:-:|:-:|
 | Chef's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/chefs-delight-fabric) | [✅](https://modrinth.com/mod/chefs-delight) | Adds chef and cook professions to villagers |
 | Corn Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/corn-delight-fabric) | ❌ | Adds corn and its derivatives |
-| Crate Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/crate-delight-fabric) | [✅](https://modrinth.com/mod/crate-delight) | Adds extra crates, including for items from Create and Naturalist |
+| Crate Delight [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/crate-delight-fabric) | [✅](https://modrinth.com/mod/crate-delight) | Adds extra crates, including for items from Create and Naturalist |
 | Expanded Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/expanded-delight) | [✅](https://modrinth.com/mod/expanded-delight) | Expands Farmer's Delight |
 | Farmer's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/farmers-delight-fabric) | [✅](https://modrinth.com/mod/farmers-delight-fabric) | Improves farming and cooking mechanics |
 | Nether's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/nethers-delight-fabric) | ❌ | Adds food from the Nether |
 | Ocean's Delight | [✅](https://www.curseforge.com/minecraft/mc-mods/oceans-delight) | [✅](https://modrinth.com/mod/oceans-delight) | Adds food from the ocean |
+
+> [!NOTE]
+>
+> **[1]**: Versions 24.11.04 introduces a cookie bag for vanilla cookie item, but not for Expanded Delight and Farmer's Delight cookies. For consistency, we stick with earlier version 24.09.07.
 
 ## Exploration
 
@@ -268,7 +272,7 @@
 | Immersive Paintings | [✅](https://www.curseforge.com/minecraft/mc-mods/immersive-paintings) | [✅](https://modrinth.com/mod/immersive-paintings) | Improves paintings |
 | Invisible Frames [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
-| Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to Vanilla features |
+| Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to vanilla features |
 
 > [!NOTE]
 >
