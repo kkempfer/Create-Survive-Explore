@@ -119,7 +119,7 @@
 | Hybrid Aquatic | [✅](https://www.curseforge.com/minecraft/mc-mods/hybrid-aquatic) | [✅](https://modrinth.com/mod/hybrid-aquatic) | Adds aquatic creatures |
 | Incendium | [✅](https://www.curseforge.com/minecraft/mc-mods/incendium) | [✅](https://modrinth.com/mod/incendium) | Overhauls the Nether |
 | Integrated Stronghold | [✅](https://www.curseforge.com/minecraft/mc-mods/integrated-stronghold) | [✅](https://modrinth.com/mod/integrated-stronghold) | Revamps strongholds. Requires Create and Supplementaries. Extended by Farmer's Delight |
-| Luki's Grand Capitals | [✅](https://www.curseforge.com/minecraft/mc-mods/lukis-grand-capitals) | [✅](https://modrinth.com/mod/lukis-grand-capitals) | Revamps vanilla villages, pillager outposts, woodland mansion, and witch huts |
+| Luki's Grand Capitals [1] | [✅](https://www.curseforge.com/minecraft/mc-mods/lukis-grand-capitals) | [✅](https://modrinth.com/mod/lukis-grand-capitals) | Revamps vanilla villages, pillager outposts, woodland mansion, and witch huts |
 | Naturalist | [✅](https://www.curseforge.com/minecraft/mc-mods/naturalist) | [✅](https://modrinth.com/mod/naturalist) | Adds various animals |
 | Nullscape | [✅](https://www.curseforge.com/minecraft/mc-mods/nullscape) | [✅](https://modrinth.com/mod/nullscape) | Overhauls the End |
 | Pick Your Poison | [✅](https://www.curseforge.com/minecraft/mc-mods/pick-your-poison) | [✅](https://modrinth.com/mod/pick-your-poison) | Adds poison darts frogs in jungles |
@@ -134,6 +134,10 @@
 | YUNG's Better Nether Fortresses | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-nether-fortresses-fabric) | [✅](https://modrinth.com/mod/yungs-better-nether-fortresses) | Revamps Nether fortresses. Extended by Create Fabric |
 | YUNG's Better Ocean Monuments | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-ocean-monuments-fabric) | [✅](https://modrinth.com/mod/yungs-better-ocean-monuments) | Revamps ocean monuments |
 | YUNG's Better Witch Huts | [✅](https://www.curseforge.com/minecraft/mc-mods/yungs-better-witch-huts-fabric) | [✅](https://modrinth.com/mod/yungs-better-witch-huts) | Revamps witch huts |
+
+> [!NOTE]
+>
+> **[1]**: Version 1.1 removes vanilla villages.
 
 ## Atmosphere
 
@@ -243,7 +247,7 @@
 
 > [!NOTE]
 >
-> **[1]**: Versions 24.11.04 introduces a cookie bag for vanilla cookie item, but not for Expanded Delight and Farmer's Delight cookies. For consistency, we stick with earlier version 24.09.07.
+> **[1]**: Version 24.11.04 introduces a cookie bag for vanilla cookie item, but not for Expanded Delight and Farmer's Delight cookies. For consistency, we stick with earlier version 24.09.07.
 
 ## Exploration
 
