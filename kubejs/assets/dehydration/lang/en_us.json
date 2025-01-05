@@ -1,3 +1,4 @@
 {
-    "item.minecraft.potion.effect.purified_water": "Purified Water"
+    "item.minecraft.potion.effect.purified_water": "Purified Water",
+    "item.minecraft.splash_potion.effect.purified_water": "Splash Purified Water"
 }
