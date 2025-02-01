@@ -66,7 +66,7 @@
 		{
 			dependencies: ["35C71829BA508BC8"]
 			description: [
-				"Drinking &3dirty water&r is risky. Use the &9campfire cauldron&r to purify water by boiling it. Place the cauldron over a lit &9campfire&r and add water to start the purification process. After a few seconds, &dright-click&r with a bucket, &6flask&r, or bottle to get &bpurified water&r."
+				"Drinking &2dirty water&r is risky. Use the &9campfire cauldron&r to purify water by boiling it. Place the cauldron over a lit &9campfire&r and add water to start the purification process. After a few seconds, &dright-click&r with a bucket, &6flask&r, or bottle to get &bpurified water&r."
 				""
 				"Remember to carry the &9campfire cauldron&r with you when adventuring."
 				""
@@ -657,6 +657,76 @@
 			title: "&fThe Art of Grappling&r"
 			x: 9.0d
 			y: 4.0d
+		}
+		{
+			dependencies: ["7C66F189E0E18403"]
+			description: [
+				"The &9leather flask&r lets you carry more water than a bottle. Beware! It does not guarantee &bclean water&r."
+				""
+				"Use a &cspout&r to automatically fill it with &bpurified water&r."
+			]
+			id: "157831040A73C40D"
+			subtitle: "Craft a leather flask."
+			tasks: [{
+				id: "2B190F46A2351709"
+				item: "dehydration:leather_flask"
+				type: "item"
+			}]
+			title: "&9Leather Flask&r"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["157831040A73C40D"]
+			id: "05B9615843EF4C11"
+			subtitle: "Upgrade to a sturdy iron flask."
+			tasks: [{
+				id: "4EB8BBA29EA39978"
+				item: "dehydration:iron_leather_flask"
+				type: "item"
+			}]
+			title: "&fIron Flask&r"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["05B9615843EF4C11"]
+			id: "30AE101E5B0C8B0A"
+			subtitle: "Upgrade to a shiny golden flask."
+			tasks: [{
+				id: "4EDA251E831E3BCA"
+				item: "dehydration:golden_leather_flask"
+				type: "item"
+			}]
+			title: "&eGolden Flask&r"
+			x: 3.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["30AE101E5B0C8B0A"]
+			id: "19C2D68B0A82548F"
+			subtitle: "Upgrade to a durable diamond flask."
+			tasks: [{
+				id: "071EBC123D68810F"
+				item: "dehydration:diamond_leather_flask"
+				type: "item"
+			}]
+			title: "&bDiamond Flask&r"
+			x: 4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["19C2D68B0A82548F"]
+			id: "2B40A875ED5820B6"
+			subtitle: "Upgrade to the ultimate netherite flask."
+			tasks: [{
+				id: "17ED0C061187C3AC"
+				item: "dehydration:netherite_leather_flask"
+				type: "item"
+			}]
+			title: "&5Netherite Flask&r"
+			x: 6.0d
+			y: -3.0d
 		}
 	]
 	title: "Survive Harsh Environments"
