@@ -148,6 +148,27 @@ ServerEvents.tags('item', event => {
     ];
     event.add('c:seeds', seedsItems);
 
+    // Compact crops into biomass
+    const cropsItems = [
+        'corndelight:corn'
+    ]
+    event.add('c:crops', cropsItems);
+
+    // Compact plant foods into biomass
+    const plantfoodsItems = [
+        'corndelight:corn',
+        'expandeddelight:asparagus',
+        'expandeddelight:sweet_potato',
+        'expandeddelight:chili_pepper',
+        'expandeddelight:peanut',
+        'farmersdelight:cabbage',
+        'farmersdelight:onion',
+        'farmersdelight:pumpkin_slice',
+        'farmersdelight:tomato',
+        'nethersdelight:propelpearl'
+    ];
+    event.add('createaddition:plant_foods', plantfoodsItems);
+
     // Create: Extended Cogwheels Fabric
 
     // Make steel cogwheels from cast iron
@@ -206,6 +227,15 @@ ServerEvents.tags('item', event => {
         'oceansdelight:guardian_soup'
     ];
     event.add('diet:special_food', specialFoodItems);
+
+    // Farmer's Delight
+
+    // Fix missing bale tags
+    const baleItems = [
+        'farmersdelight:straw_bale',
+        'supplementaries:flax_block'
+    ];
+    event.add('c:bale', baleItems);
 
     // Hybrid aquatic
 

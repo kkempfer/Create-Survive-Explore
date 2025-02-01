@@ -1,0 +1,2470 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_farmer"
+	group: ""
+	icon: "farmersdelight:wild_onions"
+	id: "1AAC12ECBE43B3D7"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			description: ["&9Wheat seeds&r can be found by breaking grass."]
+			id: "4E03E39219275397"
+			rewards: [{
+				id: "4AB1F756118B86EB"
+				item: "minecraft:bread"
+				type: "item"
+			}]
+			subtitle: "Farm wheat seeds."
+			tasks: [{
+				count: 64L
+				id: "0D14E8A7AD519FD8"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -4.5d
+		}
+		{
+			description: ["&9Pumpkins&r are a valuable food source!"]
+			id: "376E133AD595DD65"
+			rewards: [{
+				id: "71139FA0C9BC10DC"
+				item: "delightfulcreators:pumpkin_pie_slice"
+				type: "item"
+			}]
+			subtitle: "Farm pumpkin seeds."
+			tasks: [{
+				count: 64L
+				id: "22692CCE49E59C35"
+				item: "minecraft:pumpkin_seeds"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			description: ["&9Melons&r are sweet and refreshing!"]
+			id: "45D7FAB4BCEF22BB"
+			rewards: [{
+				id: "6F54D2C860126945"
+				item: "farmersdelight:melon_popsicle"
+				type: "item"
+			}]
+			subtitle: "Farm melon seeds."
+			tasks: [{
+				count: 64L
+				id: "129FB0B71CB9DEE8"
+				item: "minecraft:melon_seeds"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			description: ["&9Beetroots&r are easy to grow and can be harvested for &6red dye&r."]
+			id: "185451363A6F447E"
+			rewards: [{
+				count: 4
+				id: "278EDC535B46EFD7"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			subtitle: "Farm beetroot seeds."
+			tasks: [{
+				count: 64L
+				id: "7B985AD3A4098537"
+				item: "minecraft:beetroot_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -4.5d
+		}
+		{
+			description: ["&9Corn&r is easy to grow and provides a great source of food."]
+			id: "5B4A4672CCC9096D"
+			rewards: [{
+				id: "4F83E1C314B1AA91"
+				item: "corndelight:corn_kernel_bag"
+				type: "item"
+			}]
+			subtitle: "Farm corn seeds."
+			tasks: [{
+				count: 64L
+				id: "0C52427726E40506"
+				item: "corndelight:corn_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -5.5d
+		}
+		{
+			description: ["&9Asparagus&r can be found in temperate regions. Look for asparagus plants in plains, savanna, and forest biomes."]
+			id: "4A768305DA354828"
+			rewards: [{
+				id: "28833C47DB3E68C4"
+				item: "expandeddelight:asparagus_soup_creamy"
+				type: "item"
+			}]
+			subtitle: "Farm asparagus seeds."
+			tasks: [{
+				count: 64L
+				id: "7D4BE85FF2516533"
+				item: "expandeddelight:asparagus_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -1.5d
+		}
+		{
+			description: ["&9Tomatoes&r can be found in warm, temperate regions. Look for &9tomato&r plants in plains, savannas, and other agricultural biomes."]
+			id: "60F56BB3A2135784"
+			rewards: [{
+				count: 2
+				id: "3133E3538ED2ED3A"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			subtitle: "Farm tomato seeds."
+			tasks: [{
+				count: 64L
+				id: "081A065E4CC2E7DA"
+				item: "farmersdelight:tomato_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -2.5d
+		}
+		{
+			description: ["&9Flax&r can be found in the wild or grown from &9flax seeds&r. Plant them for a reliable source of fiber!"]
+			id: "50CB3AD8C9E3EA99"
+			rewards: [{
+				id: "3A7FEAC489700759"
+				item: "supplementaries:doormat"
+				type: "item"
+			}]
+			subtitle: "Farm flax seeds."
+			tasks: [{
+				count: 64L
+				id: "5388D5DC806BBBE7"
+				item: "supplementaries:flax_seeds"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			description: ["&9Cabbage&r thrives in cool climates. You can find &9cabbage seeds&r in temperate biomes."]
+			id: "28C1900F97D3127C"
+			rewards: [{
+				id: "64CA700B826C19EE"
+				item: "farmersdelight:cabbage_rolls"
+				type: "item"
+			}]
+			subtitle: "Farm cabbage seeds."
+			tasks: [{
+				count: 64L
+				id: "2E23523F5750FC9E"
+				item: "farmersdelight:cabbage_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			description: ["&9Chili pepper seeds&r can be found by breaking &9chili pepper&r plants in warm climates."]
+			id: "36C369853E5C5E20"
+			rewards: [{
+				id: "3FCC1686EBE01F0C"
+				item: "expandeddelight:chili_pepper"
+				type: "item"
+			}]
+			subtitle: "Farm chili pepper seeds."
+			tasks: [{
+				count: 64L
+				id: "2A76BD69D6351760"
+				item: "expandeddelight:chili_pepper_seeds"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -0.5d
+		}
+		{
+			description: ["&9Rice&r can be found in swampy and river biomes. Plant them in water to grow a steady supply of &9rice&r!"]
+			id: "408C50BB1823EABB"
+			rewards: [{
+				id: "3A0298F7F1D8B31D"
+				item: "farmersdelight:rice_bag"
+				type: "item"
+			}]
+			subtitle: "Farm rice."
+			tasks: [{
+				count: 64L
+				id: "67D7166CAE93B50B"
+				item: "farmersdelight:rice"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"6C62E25919AF4BA4"
+				"337B1CA3FB6829A2"
+				"10B88198A477746D"
+				"7453FB7B745E703C"
+				"46B32FA1F03E9D10"
+				"77F45E06A088A1F4"
+				"3C3ED41A303D782B"
+				"4F3ED6E2BB3290D9"
+				"0D9FA7E2D17919D3"
+				"28BEBC252EC2F8A0"
+				"7CA1B244DBC33E48"
+				"3F7DD8471A628227"
+			]
+			description: [""]
+			icon: "cratedelight:golden_apple_crate"
+			id: "4C9E428A37387790"
+			rewards: [{
+				count: 16
+				id: "39E92A7285957116"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			title: "&aLord of the Crops&r"
+			x: 7.0d
+			y: -3.0d
+		}
+		{
+			description: ["&dOak&r was the first tree added to Minecraft."]
+			id: "4DA8969A205B5F98"
+			rewards: [{
+				count: 8
+				id: "788A0D66B0039ED4"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			subtitle: "Farm oak trees."
+			tasks: [{
+				count: 64L
+				id: "4EC8E642360318B3"
+				item: "minecraft:oak_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 6.5d
+		}
+		{
+			description: ["&9Spruce trees&r grow in colder biomes and provide &6valuable wood&r for crafting and building."]
+			id: "47BFFF98C5D79419"
+			rewards: [{
+				count: 8
+				id: "6F2A66C4D9C156D0"
+				item: "minecraft:spruce_log"
+				type: "item"
+			}]
+			subtitle: "Farm spruce trees."
+			tasks: [{
+				count: 64L
+				id: "35258EE166A2DFBD"
+				item: "minecraft:spruce_sapling"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 4.5d
+		}
+		{
+			description: ["&9Birch trees&r are known for their &6light-colored wood&r."]
+			id: "747C2C01BB6578A1"
+			rewards: [{
+				count: 8
+				id: "5A53E36EEC11E8DB"
+				item: "minecraft:birch_log"
+				type: "item"
+			}]
+			subtitle: "Farm birch trees."
+			tasks: [{
+				count: 64L
+				id: "7EBD52943A5764BD"
+				item: "minecraft:birch_sapling"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 4.5d
+		}
+		{
+			description: ["&9Jungle trees&r are tall and majestic, providing &6exotic wood&r and cocoa beans."]
+			id: "11B08A464EA88E31"
+			rewards: [{
+				count: 8
+				id: "283156EA9F2E3C31"
+				item: "minecraft:jungle_log"
+				type: "item"
+			}]
+			subtitle: "Farm jungle trees."
+			tasks: [{
+				count: 64L
+				id: "5381EE18BED6E92B"
+				item: "minecraft:jungle_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 7.5d
+		}
+		{
+			description: ["&9Acacia trees&r grow in the savanna biome and offer &6orange wood&r."]
+			id: "1FC99EB91D230B6C"
+			rewards: [{
+				count: 8
+				id: "443F9D9AC1E202C6"
+				item: "minecraft:acacia_log"
+				type: "item"
+			}]
+			subtitle: "Farm acacia trees."
+			tasks: [{
+				count: 64L
+				id: "1879726E88F87284"
+				item: "minecraft:acacia_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 5.5d
+		}
+		{
+			description: ["&9Dark Oak trees&r are large, towering trees found in the dark oak forests. They provide &6thick wood&r for crafting and building, perfect for large structures."]
+			id: "740E83208631B40A"
+			rewards: [{
+				count: 8
+				id: "6863E9A667393246"
+				item: "minecraft:dark_oak_log"
+				type: "item"
+			}]
+			subtitle: "Farm dark oak trees."
+			tasks: [{
+				count: 64L
+				id: "088DE80B254ABC9B"
+				item: "minecraft:dark_oak_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 7.5d
+		}
+		{
+			description: ["&9Mangrove trees&r grow in swampy biomes and have unique roots and &6rich red wood&r. They thrive in the water and bring a fresh aesthetic to your builds."]
+			id: "59C5F07516F5B45F"
+			rewards: [{
+				count: 8
+				id: "311FFB7FFFE58B69"
+				item: "minecraft:mangrove_log"
+				type: "item"
+			}]
+			subtitle: "Farm mangrove trees."
+			tasks: [{
+				count: 64L
+				id: "296D098B596DBC19"
+				item: "minecraft:mangrove_propagule"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 8.5d
+		}
+		{
+			description: ["The plains biome is home to unique &9walnut trees&r."]
+			id: "477108E85895A389"
+			rewards: [{
+				count: 8
+				id: "7578AC9C32E834FB"
+				item: "ecologics:walnut_log"
+				type: "item"
+			}]
+			subtitle: "Farm walnut trees."
+			tasks: [{
+				count: 64L
+				id: "39FBBAC9C888F97E"
+				item: "ecologics:walnut_sapling"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 5.5d
+		}
+		{
+			description: ["&9Azalea trees&r, found above lush biomes, are known for their beautiful flowers and vibrant foliage."]
+			id: "2FA8B8B99D3D4310"
+			rewards: [{
+				count: 8
+				id: "675192E3DCA5A5DF"
+				item: "ecologics:azalea_log"
+				type: "item"
+			}]
+			subtitle: "Farm azalea trees."
+			tasks: [{
+				count: 64L
+				id: "7BAE271D6981CD72"
+				item: "minecraft:azalea"
+				type: "item"
+			}]
+			x: 5.5d
+			y: 8.5d
+		}
+		{
+			description: ["&9Flowering azaleas&r are a colorful variant of the azalea tree. Plant these saplings to add a burst of color to your garden and create a beautiful atmosphere."]
+			id: "2E39C55A7B502A27"
+			rewards: [{
+				count: 8
+				id: "3C1857060B02E3EF"
+				item: "ecologics:flowering_azalea_log"
+				type: "item"
+			}]
+			subtitle: "Farm flowering azalea trees."
+			tasks: [{
+				count: 64L
+				id: "553D5D86FD98A179"
+				item: "minecraft:flowering_azalea"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 8.5d
+		}
+		{
+			description: ["Grow &9cinnamon trees&r to harvest &6cinnamon logs&r."]
+			id: "601568FC2F7ACC99"
+			rewards: [{
+				count: 8
+				id: "3E88E4107A1D935C"
+				item: "expandeddelight:cinnamon_log"
+				type: "item"
+			}]
+			subtitle: "Farm cinnamon trees."
+			tasks: [{
+				count: 64L
+				id: "45F499BA81084A93"
+				item: "expandeddelight:cinnamon_sapling"
+				type: "item"
+			}]
+			x: 4.5d
+			y: 6.5d
+		}
+		{
+			description: ["The beach biome is home to lush &9coconut trees&r. Be careful, as fully grown coconuts may fall on you!"]
+			id: "259BA099BBE9620C"
+			rewards: [{
+				count: 8
+				id: "43152A98D764F8D9"
+				item: "ecologics:coconut_log"
+				type: "item"
+			}]
+			subtitle: "Farm coconut trees."
+			tasks: [{
+				count: 64L
+				id: "0F247721EBA3C3A5"
+				item: "ecologics:coconut_seedling"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 4.5d
+		}
+		{
+			dependencies: [
+				"4DA8969A205B5F98"
+				"2E39C55A7B502A27"
+				"477108E85895A389"
+				"740E83208631B40A"
+				"259BA099BBE9620C"
+				"47BFFF98C5D79419"
+				"747C2C01BB6578A1"
+				"601568FC2F7ACC99"
+				"59C5F07516F5B45F"
+				"2FA8B8B99D3D4310"
+				"11B08A464EA88E31"
+				"1FC99EB91D230B6C"
+			]
+			icon: "create:tree_fertilizer"
+			id: "2B6EEA573084FD0F"
+			rewards: [
+				{
+					count: 32
+					id: "15459B061FFED881"
+					item: "create:tree_fertilizer"
+					type: "item"
+				}
+				{
+					id: "011DBBEC08D40F41"
+					item: "ecologics:azalea_flower"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			title: "Lord of the Trees"
+			x: 6.5d
+			y: 6.5d
+		}
+		{
+			description: ["&9Potatoes&r are a versatile food. Bake them or make delicious stews!"]
+			id: "0CA850E292C22E10"
+			rewards: [{
+				id: "33BF34F39CE5C49A"
+				item: "minecraft:baked_potato"
+				type: "item"
+			}]
+			subtitle: "Gather potatoes."
+			tasks: [{
+				count: 4L
+				id: "03DF6BA53011789B"
+				item: "minecraft:potato"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -3.0d
+		}
+		{
+			description: ["&9Onions&r add a sharp bite to meals and are essential for many recipes!"]
+			id: "3D487369F36A8726"
+			rewards: [{
+				id: "0FF11E74539AE6D7"
+				item: "farmersdelight:barbecue_stick"
+				type: "item"
+			}]
+			subtitle: "Gather onions."
+			tasks: [{
+				count: 4L
+				id: "1586761C41DF20AD"
+				item: "farmersdelight:onion"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -5.0d
+		}
+		{
+			description: ["&9Carrots&r are a great food source and perfect for breeding &dpigs&r and &drabbits&r!"]
+			id: "76775BE0B93FE111"
+			rewards: [{
+				id: "5DE5B102A67F8255"
+				item: {
+					Count: 1b
+					id: "minecraft:carrot_on_a_stick"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gather carrots."
+			tasks: [{
+				count: 4L
+				id: "07167A34DE3CE03E"
+				item: "minecraft:carrot"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -4.0d
+		}
+		{
+			description: ["&9Sweet potatoes&r are perfect for roasting or making hearty meals!"]
+			id: "2653AD5988A9854F"
+			rewards: [{
+				id: "6B8E7F77F26EFDF7"
+				item: "expandeddelight:baked_sweet_potato"
+				type: "item"
+			}]
+			subtitle: "Gather sweet potatoes."
+			tasks: [{
+				count: 4L
+				id: "3359D0992D95334A"
+				item: "expandeddelight:sweet_potato"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -2.0d
+		}
+		{
+			description: ["&9Peanuts&r are a versatile crop, great for snacking or making &6peanut butter&r!"]
+			id: "1977C2084F141C57"
+			rewards: [{
+				id: "01F58763CD783AD7"
+				item: "expandeddelight:peanut_butter"
+				type: "item"
+			}]
+			subtitle: "Gather peanuts."
+			tasks: [{
+				count: 4L
+				id: "0253BECE8A75DCD1"
+				item: "expandeddelight:peanut"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.0d
+		}
+		{
+			dependencies: ["0CA850E292C22E10"]
+			description: ["We need plenty of &9potatoes&r for food and for ammo in the &epotato cannon&r!"]
+			id: "4F3ED6E2BB3290D9"
+			rewards: [{
+				count: 4
+				id: "1FBC791F169AC70B"
+				item: "farmersdelight:wild_potatoes"
+				type: "item"
+			}]
+			subtitle: "Farm potatoes."
+			tasks: [{
+				count: 64L
+				id: "10CF0B482CAD911C"
+				item: "farmersdelight:potato_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["76775BE0B93FE111"]
+			description: ["Automate your &9carrot&r production!"]
+			id: "3C3ED41A303D782B"
+			rewards: [{
+				count: 4
+				id: "779D7C14FAD2B71D"
+				item: "farmersdelight:wild_carrots"
+				type: "item"
+			}]
+			subtitle: "Farm carrots."
+			tasks: [{
+				count: 64L
+				id: "4F2A5CEA7C53BC9E"
+				item: "farmersdelight:carrot_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["04CF82E878A3A994"]
+			description: ["You might not love &9beetroots&r, but you will need plenty!"]
+			id: "6C62E25919AF4BA4"
+			rewards: [{
+				count: 4
+				id: "20453AE59EBF7FC1"
+				item: "farmersdelight:wild_beetroots"
+				type: "item"
+			}]
+			subtitle: "Farm beetroots."
+			tasks: [{
+				count: 64L
+				id: "1E3B039F6110F987"
+				item: "farmersdelight:beetroot_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3EE558FBA2D2D8B8"]
+			description: ["Time to start farming your flour supply!"]
+			id: "36F1F04EB5109C55"
+			rewards: [{
+				id: "044EC2A8EBC09706"
+				item: "farmersdelight:cake_slice"
+				type: "item"
+			}]
+			subtitle: "Farm wheat flour."
+			tasks: [{
+				count: 64L
+				id: "7DAAE1659B7F0B6B"
+				item: "cratedelight:wheat_flour_bag"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["65BA50838B17AAD1"]
+			description: ["Use a mill to grind wheat into &9wheat flour&r for the bakery."]
+			id: "3EE558FBA2D2D8B8"
+			rewards: [{
+				id: "45D09EE0AFEF3A66"
+				item: "farmersdelight:honey_cookie"
+				type: "item"
+			}]
+			subtitle: "Craft wheat flour."
+			tasks: [{
+				id: "61CE1FE91B7007E8"
+				item: "create:wheat_flour"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["65BA50838B17AAD1"]
+			description: [" Set up an efficient &9wheat&r farm."]
+			id: "4E746E2DC5DC1AFB"
+			rewards: [{
+				count: 8
+				id: "60CE23724E61C0FB"
+				item: "supplementaries:daub"
+				type: "item"
+			}]
+			subtitle: "Farm wheat."
+			tasks: [{
+				count: 64L
+				id: "7F4F6E8BF092871C"
+				item: "minecraft:hay_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["4C3E2808BEC8F387"]
+			description: ["Automate your &9rice&r production!"]
+			id: "5E212A50B3C330D0"
+			rewards: [{
+				count: 4
+				id: "25D4236C1C1FE5C3"
+				item: "farmersdelight:wild_rice"
+				type: "item"
+			}]
+			subtitle: "Farm rice."
+			tasks: [{
+				count: 64L
+				id: "25D1251D209906CD"
+				item: "farmersdelight:rice_bale"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["172077835D6FDCF9"]
+			description: ["Cut corn and rice stalks to get a reliable source of &9straws&r."]
+			id: "63CC345167C50F12"
+			rewards: [{
+				count: 8
+				id: "34BDEAE86B7601E0"
+				item: "minecraft:packed_mud"
+				type: "item"
+			}]
+			subtitle: "Farm straws."
+			tasks: [{
+				count: 64L
+				id: "423EE753870A1A17"
+				item: "farmersdelight:straw_bale"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["494B22E03FEE5CB5"]
+			description: ["Set up a steady &9flax&r farm to ensure a constant supply of fiber."]
+			id: "07E8B6486C654739"
+			rewards: [{
+				count: 4
+				id: "6EAFD9B3CA9D796B"
+				item: "supplementaries:wild_flax"
+				type: "item"
+			}]
+			subtitle: "Farm flax."
+			tasks: [{
+				count: 64L
+				id: "21C683EFFFEB6C74"
+				item: "supplementaries:flax_block"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["316DF241313DA2F9"]
+			description: ["Automate your &9tomato&r production!"]
+			id: "10B88198A477746D"
+			rewards: [{
+				count: 4
+				id: "0AA75D2EDDF480F2"
+				item: "farmersdelight:wild_tomatoes"
+				type: "item"
+			}]
+			subtitle: "Farm tomatoes."
+			tasks: [{
+				count: 64L
+				id: "73DADC41AFCBDE75"
+				item: "farmersdelight:tomato_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["3D487369F36A8726"]
+			description: ["Automate your &9onion&r production!"]
+			id: "7CA1B244DBC33E48"
+			rewards: [{
+				count: 4
+				id: "0137FE35E7673CA2"
+				item: "farmersdelight:wild_onions"
+				type: "item"
+			}]
+			subtitle: "Farm onions."
+			tasks: [{
+				count: 64L
+				id: "23D5223946EDE763"
+				item: "farmersdelight:onion_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3BDF0FF9F9085E36"]
+			description: ["Do you love &9salad&r so much?"]
+			id: "7453FB7B745E703C"
+			rewards: [{
+				count: 4
+				id: "2120C0567A4CA535"
+				item: "farmersdelight:wild_cabbages"
+				type: "item"
+			}]
+			subtitle: "Farm cabbages."
+			tasks: [{
+				count: 64L
+				id: "644A12A62FBFB7AA"
+				item: "farmersdelight:cabbage_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["45D7FAB4BCEF22BB"]
+			dependency_requirement: "all_started"
+			description: ["Hippos love &9melons&r! Feed them to make them breed, but only if they are in water. Beware! They will chase you out of their water territory or if you attack them."]
+			id: "2AAD8161E135F036"
+			rewards: [{
+				count: 4
+				id: "39FC665835CD0317"
+				item: "minecraft:glistering_melon_slice"
+				type: "item"
+			}]
+			subtitle: "Farm melons."
+			tasks: [{
+				count: 64L
+				id: "0B1C1EED93214A38"
+				item: "minecraft:melon"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["376E133AD595DD65"]
+			dependency_requirement: "all_started"
+			description: ["&9Pumpkins&r are perfect for crafting golems, snow golems, and even scarecrows! We could make an army!"]
+			id: "2CF365316E534F89"
+			rewards: [{
+				id: "474791EA74D5FA70"
+				item: "scarecrowsterritory:primitive_scarecrow"
+				type: "item"
+			}]
+			subtitle: "Farm pumpkins."
+			tasks: [{
+				count: 64L
+				id: "0DAFF23DC11B2996"
+				item: "minecraft:pumpkin"
+				type: "item"
+			}]
+			x: -0.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["2FC1C414A4CD1F03"]
+			description: ["Automate your &9corn&r production!"]
+			id: "46B32FA1F03E9D10"
+			rewards: [{
+				count: 4
+				id: "33B39B6BB934BA14"
+				item: "corndelight:wild_corn"
+				type: "item"
+			}]
+			subtitle: "Farm corn."
+			tasks: [{
+				count: 64L
+				id: "5BE71FEC059A4319"
+				item: "corndelight:corn_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["5B4A4672CCC9096D"]
+			dependency_requirement: "all_started"
+			description: ["&9Corn&r can be eaten or processed into a variety of recipes."]
+			id: "2FC1C414A4CD1F03"
+			rewards: [{
+				id: "794CF29302ED6EEA"
+				item: "corndelight:tortilla_chip"
+				type: "item"
+			}]
+			subtitle: "Gather corn."
+			tasks: [{
+				count: 4L
+				id: "72EFA9B352C4BB60"
+				item: "corndelight:corn"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["4E03E39219275397"]
+			dependency_requirement: "all_started"
+			description: ["Harvest &9wheat&r, which can be used for crafting bread and other recipes."]
+			id: "65BA50838B17AAD1"
+			rewards: [{
+				count: 2
+				id: "4413BD8084CC7702"
+				item: "minecraft:wheat_seeds"
+				type: "item"
+			}]
+			subtitle: "Gather wheat."
+			tasks: [{
+				count: 4L
+				id: "2FED24C805C56C6C"
+				item: "minecraft:wheat"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["408C50BB1823EABB"]
+			dependency_requirement: "all_started"
+			description: ["&9Rice panicles&r must be cut or ground to extract &9rice grains&r."]
+			id: "4C3E2808BEC8F387"
+			rewards: [{
+				id: "0FAC863A54EA30CA"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			subtitle: "Gather rice panicles."
+			tasks: [{
+				count: 4L
+				id: "6223B1883B1A88EF"
+				item: "farmersdelight:rice_panicle"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["601568FC2F7ACC99"]
+			dependency_requirement: "all_started"
+			description: ["Strip &9cinnamon sticks&r from cinnamon logs and craft delicious recipes."]
+			id: "16FC388E203F03C7"
+			rewards: [{
+				id: "18D87A024539C768"
+				item: "expandeddelight:raw_cinnamon"
+				type: "item"
+			}]
+			subtitle: "Gather cinnamon sticks."
+			tasks: [{
+				count: 4L
+				id: "7F04666C8A22D13F"
+				item: "expandeddelight:raw_cinnamon"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2653AD5988A9854F"]
+			description: ["You can never have too many &9sweet potatoes&r! Time to grow an abundant supply."]
+			id: "0D9FA7E2D17919D3"
+			rewards: [{
+				count: 4
+				id: "1207A1CEA59DBB5D"
+				item: "expandeddelight:wild_sweet_potatoes"
+				type: "item"
+			}]
+			subtitle: "Farm sweet potatoes."
+			tasks: [{
+				count: 64L
+				id: "18ED2FDA064205CD"
+				item: "expandeddelight:sweet_potato_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["7E6ECD6F88AB8B7B"]
+			description: ["Maximize your &9asparagus&r farming!"]
+			id: "337B1CA3FB6829A2"
+			rewards: [{
+				count: 4
+				id: "169C9CA556E3D456"
+				item: "expandeddelight:wild_asparagus"
+				type: "item"
+			}]
+			subtitle: "Farm asparagus."
+			tasks: [{
+				count: 64L
+				id: "6650150AA85E0A13"
+				item: "expandeddelight:asparagus_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["69C14BE4FD7C7228"]
+			description: ["Do we really need that many &9chili peppers&r?"]
+			id: "77F45E06A088A1F4"
+			rewards: [{
+				count: 4
+				id: "6215A587AD1FE336"
+				item: "expandeddelight:wild_chili_pepper"
+				type: "item"
+			}]
+			subtitle: "Farm chili peppers."
+			tasks: [{
+				count: 64L
+				id: "659928E17AC71B56"
+				item: "expandeddelight:chili_pepper_crate"
+				type: "item"
+			}]
+			x: 5.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1977C2084F141C57"]
+			description: ["Who knew &9peanuts&r could be so useful? Time to farm them in bulk!"]
+			id: "28BEBC252EC2F8A0"
+			rewards: [{
+				count: 4
+				id: "3D3484CC1E2F7894"
+				item: "expandeddelight:wild_peanuts"
+				type: "item"
+			}]
+			subtitle: "Farm peanuts."
+			tasks: [{
+				count: 64L
+				id: "77EF6A253686CE6C"
+				item: "cratedelight:peanut_crate"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["2FFCFC6486996597"]
+			description: ["Plant &9cocoa beans&r on jungle logs to grow your own supply. Time to start a plantation!"]
+			id: "67B70D167C86FFB4"
+			rewards: [{
+				id: "6090BA1C722DF7C4"
+				item: "create:bar_of_chocolate"
+				type: "item"
+			}]
+			subtitle: "Farm cocoa beans."
+			tasks: [{
+				count: 64L
+				id: "53BCA59C7D543033"
+				item: "cratedelight:cocoabeans_bag"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 6.5d
+		}
+		{
+			description: ["&9Cocoa beans&r grow on jungle trees and are essential for baking and dyeing."]
+			id: "2FFCFC6486996597"
+			rewards: [{
+				id: "74A2DA91A975772F"
+				item: "farmersdelight:hot_cocoa"
+				type: "item"
+			}]
+			subtitle: "Gather cocoa beans."
+			tasks: [{
+				count: 4L
+				id: "303CEABE70C0636F"
+				item: "minecraft:cocoa_beans"
+				type: "item"
+			}]
+			x: 12.5d
+			y: 8.0d
+		}
+		{
+			description: ["Early on, breaking grass with a knife is a reliable way to collect &9straw&r."]
+			id: "172077835D6FDCF9"
+			rewards: [{
+				id: "413BCD31063F4550"
+				item: "farmersdelight:canvas"
+				type: "item"
+			}]
+			subtitle: "Gather straws."
+			tasks: [{
+				count: 4L
+				id: "3762E91B14D79E24"
+				item: "farmersdelight:straw"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0311BCE5AC9BA727"]
+			description: ["Time to start farming your sugar supply!"]
+			id: "7D50294BA9EC759F"
+			rewards: [{
+				count: 4
+				id: "692BE4191AA1BE62"
+				item: "supplementaries:candy"
+				type: "item"
+			}]
+			subtitle: "Farm sugar."
+			tasks: [{
+				count: 64L
+				id: "67CCF30E1DF699AC"
+				item: "cratedelight:sugar_bag"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["3CA94CE64CFC0EFE"]
+			dependency_requirement: "all_started"
+			description: ["Use a mill to grind sugar cane into &9sugar&r for the bakery."]
+			id: "0311BCE5AC9BA727"
+			rewards: [{
+				id: "3BB41C6FEF5D8DB6"
+				item: "expandeddelight:sugar_cookie"
+				type: "item"
+			}]
+			subtitle: "Craft sugar."
+			tasks: [{
+				id: "3A19E86CFF1E0629"
+				item: "minecraft:sugar"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -5.0d
+		}
+		{
+			description: ["Found along water sources, &9sugar cane&r is essential for crafting &6sugar&r and &6paper&r. But maybe there is another way?"]
+			id: "3CA94CE64CFC0EFE"
+			rewards: [{
+				id: "0F6906EECFC210DF"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			subtitle: "Farm sugar cane."
+			tasks: [{
+				count: 64L
+				id: "758928CD2D05F45A"
+				item: "minecraft:sugar_cane"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -5.0d
+		}
+		{
+			dependencies: ["4A768305DA354828"]
+			dependency_requirement: "all_started"
+			description: ["&9Asparagus&r is a tasty vegetable. It's also useful for grinding into &6brown dye&r."]
+			id: "7E6ECD6F88AB8B7B"
+			rewards: [{
+				id: "42704F6B6496D6D1"
+				item: "minecraft:brown_dye"
+				type: "item"
+			}]
+			subtitle: "Gather asparagus."
+			tasks: [{
+				count: 4L
+				id: "7AB0906BB14E26D3"
+				item: "expandeddelight:asparagus"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["36C369853E5C5E20"]
+			dependency_requirement: "all_started"
+			description: ["Harvest &9chili peppers&r to spice up your life!"]
+			id: "69C14BE4FD7C7228"
+			rewards: [{
+				id: "4CE9A18FB2E3321F"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:purified_water"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Gather chili peppers."
+			tasks: [{
+				count: 4L
+				id: "0DB89E94921485D8"
+				item: "expandeddelight:chili_pepper"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["185451363A6F447E"]
+			dependency_requirement: "all_started"
+			description: ["&9Beetroots&r may not be the best food, but they are perfect for breeding &dsnails&r! You can even dye the &dsnails&r to change their texture!"]
+			id: "04CF82E878A3A994"
+			rewards: [{
+				id: "350C0CDCF9D26D85"
+				item: "naturalist:snail_eggs"
+				type: "item"
+			}]
+			subtitle: "Gather beetroots."
+			tasks: [{
+				count: 4L
+				id: "03F366D3FC0EC22C"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			title: "Finally, a use for beetroots!"
+			x: 3.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["50CB3AD8C9E3EA99"]
+			dependency_requirement: "all_started"
+			description: ["Cut &9flax&r to gather fibers, which can be spun into &6string&r and used for crafting various items."]
+			id: "494B22E03FEE5CB5"
+			rewards: [{
+				id: "412E11476876D069"
+				item: "minecraft:string"
+				type: "item"
+			}]
+			subtitle: "Gather flax."
+			tasks: [{
+				count: 4L
+				id: "239543FCF164E1AE"
+				item: "supplementaries:flax"
+				type: "item"
+			}]
+			x: -3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["16FC388E203F03C7"]
+			description: ["Use a mill to grind cinnamon sticks into &9cinnamon&r for the bakery."]
+			id: "30DCA26E480DAB45"
+			rewards: [{
+				id: "542084A4D64264D6"
+				item: "expandeddelight:snickerdoodle"
+				type: "item"
+			}]
+			subtitle: "Craft cinnamon."
+			tasks: [{
+				id: "0C2E6E5A0AEB74C5"
+				item: "expandeddelight:ground_cinnamon"
+				type: "item"
+			}]
+			x: 1.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["30DCA26E480DAB45"]
+			description: ["Time to start farming your spice supply!"]
+			id: "3240C6FD81BB99D9"
+			rewards: [{
+				id: "6529FC81A72533CC"
+				item: "expandeddelight:sweet_potato_salad"
+				type: "item"
+			}]
+			subtitle: "Farm cinnamon."
+			tasks: [{
+				count: 64L
+				id: "5BE267C217748E98"
+				item: "cratedelight:ground_cinnamon_bag"
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["28C1900F97D3127C"]
+			dependency_requirement: "all_started"
+			description: ["&9Cabbages&r are great for crafting salads and soups. Slicing them before use increases the yield, so be sure to do that for maximum benefit!"]
+			id: "3BDF0FF9F9085E36"
+			rewards: [{
+				count: 2
+				id: "46837289BA4538C0"
+				item: "farmersdelight:cabbage_leaf"
+				type: "item"
+			}]
+			subtitle: "Gather cabbages."
+			tasks: [{
+				count: 4L
+				id: "16AD88306A365FB7"
+				item: "farmersdelight:cabbage"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["60F56BB3A2135784"]
+			dependency_requirement: "all_started"
+			description: ["&9Tomatoes&r are a versatile crop, perfect for crafting delicious &6meals&r and &6sauces&r!"]
+			id: "316DF241313DA2F9"
+			rewards: [{
+				id: "1154DC2E6D4D47F3"
+				item: "farmersdelight:tomato_sauce"
+				type: "item"
+			}]
+			subtitle: "Gather tomatoes."
+			tasks: [{
+				count: 4L
+				id: "5EDBB5F92E48172C"
+				item: "farmersdelight:tomato"
+				type: "item"
+			}]
+			x: 3.5d
+			y: -2.5d
+		}
+		{
+			description: ["&9Kelp&r grows in oceans."]
+			id: "4B47339E0C813F8D"
+			rewards: [{
+				id: "5472E1DF2CD08268"
+				item: {
+					Count: 1b
+					id: "minecraft:potion"
+					tag: {
+						Potion: "minecraft:purified_water"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Farm kelp."
+			tasks: [{
+				count: 64L
+				id: "1AE1329175A26714"
+				item: "minecraft:kelp"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -4.0d
+		}
+		{
+			description: [
+				"&9Sweet berries&r grow on bushes in taiga biomes. Watch out for the thorns when harvesting!'"
+				""
+				"&dFoxes&r love these fruits and can be bred using them."
+			]
+			id: "26CCC835DDA8815A"
+			rewards: [{
+				id: "38134E0FB9E32DC8"
+				item: "farmersdelight:sweet_berry_cookie"
+				type: "item"
+			}]
+			subtitle: "Gather sweet berries."
+			tasks: [{
+				count: 4L
+				id: "54D0440EA6A69E3C"
+				item: "minecraft:sweet_berries"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 8.0d
+		}
+		{
+			dependencies: ["26CCC835DDA8815A"]
+			description: ["Automate your &9sweet berry&r production!"]
+			id: "61373A0507C51B0B"
+			rewards: [{
+				id: "44FC5FA4133B0402"
+				item: "farmersdelight:sweet_berry_cheesecake_slice"
+				type: "item"
+			}]
+			subtitle: "Farm sweet berries."
+			tasks: [{
+				count: 64L
+				id: "36AE7880432B82A1"
+				item: "cratedelight:berry_crate"
+				type: "item"
+			}]
+			x: 13.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["7D0C41FC4471FC0D"]
+			description: ["Plant &9glow berries&r on cave vines in dark areas with a light level of 8 or lower and let them grow. You can also obtain &9glow berries&r by bulk haunting sweet berries."]
+			id: "5FBCEB9A7A8F5C1A"
+			rewards: [{
+				count: 2
+				id: "1902D6C8819A02FA"
+				item: "createdeco:green_cast_iron_lamp"
+				type: "item"
+			}]
+			subtitle: "Farm glow berries."
+			tasks: [{
+				count: 64L
+				id: "2D979BBC3A21A834"
+				item: "cratedelight:glowberry_crate"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 6.5d
+		}
+		{
+			description: ["&9Glow berries&r are a glowing treat that can be cooked into &6glow goop&r. &dFireflies&r, which drop &6glow goop&r upon death, are often seen flickering around in the night. Why not try catching a few and see if you get some as well?"]
+			id: "7D0C41FC4471FC0D"
+			rewards: [{
+				id: "5060AAAAEF8BD749"
+				item: "naturalist:glow_goop"
+				type: "item"
+			}]
+			subtitle: "Gather glow berries."
+			tasks: [{
+				count: 4L
+				id: "1E008A30184989F2"
+				item: "minecraft:glow_berries"
+				type: "item"
+			}]
+			x: 14.5d
+			y: 8.0d
+		}
+		{
+			description: ["&9Cactus&r thrives in hot, sandy biomes."]
+			id: "05FB4F8551233080"
+			rewards: [{
+				count: 4
+				id: "3F98C057FE20F3A6"
+				item: "minecraft:green_dye"
+				type: "item"
+			}]
+			subtitle: "Farm cactus."
+			tasks: [{
+				count: 64L
+				id: "54498075E122FE16"
+				item: "minecraft:cactus"
+				type: "item"
+			}]
+			x: 16.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["2B571F6E8C2ACE54"]
+			description: ["Gather a &9brown mushroom&r and plant it on &9rich soil&r in darkness to grow a mushroom colony. Use shears to harvest them. Consider automating the process with &emechanical harvesters&r!"]
+			id: "5DDF21049C5B6D7D"
+			rewards: [{
+				count: 8
+				id: "2CD4DD74978A8844"
+				item: "minecraft:mushroom_stem"
+				type: "item"
+			}]
+			subtitle: "Farm brown mushrooms."
+			tasks: [{
+				count: 64L
+				id: "7AA8EB1CFF459837"
+				item: "minecraft:brown_mushroom"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["2B571F6E8C2ACE54"]
+			description: ["Gather a &9red mushroom&r and plant it on &9rich soil&r in darkness to grow a mushroom colony. Use shears to harvest them. Consider automating the process with &emechanical harvesters&r!"]
+			id: "56A7CE4C15B90429"
+			rewards: [{
+				count: 8
+				id: "52A5FCC6985566E2"
+				item: "minecraft:mushroom_stem"
+				type: "item"
+			}]
+			subtitle: "Farm red mushrooms."
+			tasks: [{
+				count: 64L
+				id: "2EDC2E24D8F6690F"
+				item: "minecraft:red_mushroom"
+				type: "item"
+			}]
+			x: -4.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["6C4FC1CDEEA1C2D5"]
+			description: ["We need a steady supply of &9dried kelp&r to supply our industry with &6belts&r."]
+			id: "6A1C6D20A423AA2A"
+			rewards: [{
+				count: 4
+				id: "662B7C6ED7FCFD2A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "Farm dried kelp."
+			tasks: [{
+				count: 64L
+				id: "44D9B25BF5C5C896"
+				item: "minecraft:dried_kelp_block"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -4.0d
+		}
+		{
+			description: ["&9Bamboo&r grows quickly and can be found in jungles. It is essential for crafting many items."]
+			id: "09D9066497271486"
+			rewards: [{
+				count: 4
+				id: "34E858B145CEF4BC"
+				item: "chipped:bamboo_dried_kelp_block"
+				type: "item"
+			}]
+			subtitle: "Farm bamboo."
+			tasks: [{
+				count: 64L
+				id: "2A83FA84FFB1A0D6"
+				item: "minecraft:bamboo"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -2.0d
+		}
+		{
+			description: ["&9Sea pickles&r naturally grow in coral reefs. Using &fbone meal&r on an underwater sea pickle placed on top of a living &6coral block&r creates more sea pickles."]
+			id: "4C2D90CE10706519"
+			rewards: [
+				{
+					count: 4
+					id: "4677C6E182A4F12F"
+					item: "minecraft:horn_coral_block"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "36D846A0F4A4E943"
+					item: "minecraft:brain_coral_block"
+					type: "item"
+				}
+			]
+			subtitle: "Farm sea pickles."
+			tasks: [{
+				count: 64L
+				id: "5F104B9DC0C8146C"
+				item: "minecraft:sea_pickle"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -3.0d
+		}
+		{
+			description: ["&9Nether wart&r is essential for brewing potions and can only be found in the Nether!"]
+			id: "3F7DD8471A628227"
+			rewards: [{
+				count: 4
+				id: "03AB1A60BFC32337"
+				item: "minecraft:red_nether_bricks"
+				type: "item"
+			}]
+			subtitle: "Farm Nether warts."
+			tasks: [{
+				count: 64L
+				id: "0BACEB26D2DFEE0B"
+				item: "minecraft:nether_wart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["3E2FEC7F2A2A5E0A"]
+			description: ["Use a mill to grind coconut slices into &9coconut flour&r."]
+			id: "0868DD0944714E98"
+			rewards: [{
+				id: "0FC3F365DADDFE99"
+				item: "kubejs:coconut_flour"
+				type: "item"
+			}]
+			subtitle: "Craft coconut flour."
+			tasks: [{
+				id: "1F63E3A7971B17CA"
+				item: "kubejs:coconut_flour"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["0868DD0944714E98"]
+			description: ["Harvest coconuts and process them into &9coconut flour bags&r for your crafting needs. A great way to store and use this ingredient in bulk."]
+			id: "65E8336C7546F6F8"
+			rewards: [{
+				count: 3
+				id: "1905CE4358452028"
+				item: "ecologics:coconut"
+				type: "item"
+			}]
+			subtitle: "Farm coconuts."
+			tasks: [{
+				count: 64L
+				id: "61FC1DCB9B17A776"
+				item: "kubejs:coconut_flour_bag"
+				type: "item"
+			}]
+			x: 9.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["259BA099BBE9620C"]
+			dependency_requirement: "all_started"
+			description: ["Fully grown coconuts drop 2 &9coconut slices&r, which can be eaten to remove all effects from the player like milk."]
+			id: "3E2FEC7F2A2A5E0A"
+			rewards: [{
+				id: "1A598E54399EB0FD"
+				item: "ecologics:coconut"
+				type: "item"
+			}]
+			subtitle: "Gather coconut slices."
+			tasks: [{
+				count: 64L
+				id: "230A52EB4C09FA80"
+				item: "ecologics:coconut_slice"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["477108E85895A389"]
+			dependency_requirement: "all_started"
+			description: ["&9Walnuts&r are tasty snacks or a way to gain the trust of &dsquirrels&r, who like to plant saplings. Did you know that befriended &dsquirrels&r can be bred with &6honeycombs&r?"]
+			id: "43E07B302296B1E1"
+			rewards: [{
+				count: 2
+				id: "14E52B967DEB73DF"
+				item: "minecraft:honeycomb"
+				type: "item"
+			}]
+			subtitle: "Farm walnuts."
+			tasks: [{
+				count: 64L
+				id: "23E1996DB8C4101A"
+				item: "ecologics:walnut"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 5.5d
+		}
+		{
+			dependencies: ["4DA8969A205B5F98"]
+			dependency_requirement: "all_started"
+			description: [
+				"&dDeer&r are shy but love &9apples&r. Approach carefully and feed them &9apples&r to breed them."
+				""
+				"&dGiraffes&r, on the other hand, can be fed &9apples&r to ride them for 30 seconds."
+				""
+				"&9Apples&r are also a favorite treat for &dhorses&r, &ddonkeys&r, and &dmules&r."
+			]
+			id: "375CB59BA21F1676"
+			rewards: [{
+				id: "50591F535F7F4A6A"
+				item: "farmersdelight:apple_pie_slice"
+				type: "item"
+			}]
+			subtitle: "Gather apples."
+			tasks: [{
+				count: 4L
+				id: "1EF215B2EC8F8E4D"
+				item: "minecraft:apple"
+				type: "item"
+			}]
+			x: 10.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["375CB59BA21F1676"]
+			description: ["&9Apples&r are a staple food and a favorite treat for many creatures. We need plenty!"]
+			id: "5A700DCD3A5B7F1D"
+			rewards: [{
+				id: "7FC2DC79E4BEAB4E"
+				item: "create:honeyed_apple"
+				type: "item"
+			}]
+			subtitle: "Farm apples."
+			tasks: [{
+				count: 64L
+				id: "121F72109A9454F5"
+				item: "cratedelight:apple_crate"
+				type: "item"
+			}]
+			x: 11.5d
+			y: 6.5d
+		}
+		{
+			dependencies: ["2C101F2E4BC3AC9E"]
+			description: ["&9Organic compost&r decomposes into &6rich soil&r, a fertile block that accelerates crop growth."]
+			id: "2B571F6E8C2ACE54"
+			rewards: [{
+				id: "46E515663ECE45EF"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			subtitle: "Craft rich soil."
+			tasks: [{
+				id: "04C1806AB7E0BC26"
+				item: "farmersdelight:rich_soil"
+				type: "item"
+			}]
+			title: "&aThe Key to Fertile Lands&r"
+			x: -4.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15DD26D9A3AE866B"]
+			dependency_requirement: "all_started"
+			description: ["&9Organic compost&r is the first step toward creating &6rich soil&r. Let nature do the work!"]
+			id: "2C101F2E4BC3AC9E"
+			rewards: [{
+				id: "78721521F9FB6EDE"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			subtitle: "Craft organic compost."
+			tasks: [{
+				id: "72960BF5EFA87748"
+				item: "farmersdelight:organic_compost"
+				type: "item"
+			}]
+			title: "&aMake Fertile Compost&r"
+			x: -4.0d
+			y: 2.0d
+		}
+		{
+			description: ["&9Bone meal&r accelerates plant growth and is a key ingredient in composting. Put it to good use!"]
+			id: "15DD26D9A3AE866B"
+			rewards: [{
+				count: 4
+				id: "3EB1A8507FFE970D"
+				item: "minecraft:bone"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Gather bone meal."
+			tasks: [{
+				count: 8L
+				id: "4E36B0F73AC831A0"
+				item: "minecraft:bone_meal"
+				type: "item"
+			}]
+			title: "&fSpeed Up Crop Growth&r"
+			x: -5.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"60F56BB3A2135784"
+				"28C1900F97D3127C"
+				"4E03E39219275397"
+				"185451363A6F447E"
+				"376E133AD595DD65"
+				"45D7FAB4BCEF22BB"
+				"50CB3AD8C9E3EA99"
+				"36C369853E5C5E20"
+				"5B4A4672CCC9096D"
+				"4A768305DA354828"
+				"408C50BB1823EABB"
+			]
+			description: [""]
+			icon: "corndelight:caramel_popcorn"
+			id: "3230411277E5E234"
+			rewards: [{
+				count: 8
+				id: "22FA9576C827CC59"
+				item: "create:mechanical_harvester"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			title: "&eLord of the Seeds&r"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: [
+				"5E212A50B3C330D0"
+				"63CC345167C50F12"
+				"07E8B6486C654739"
+				"4E746E2DC5DC1AFB"
+			]
+			description: [""]
+			icon: "delightfulcreators:incomplete_horse_feed"
+			id: "279002C891995A74"
+			rewards: [
+				{
+					count: 8
+					id: "3AF3D59F8C26D7BB"
+					item: "chipped:swampy_hay_block"
+					type: "item"
+				}
+				{
+					count: 8
+					id: "04F8E196441FFB14"
+					item: "chipped:fertile_hay_block"
+					type: "item"
+				}
+				{
+					id: "458BFFEFF3902497"
+					item: "farmersdelight:horse_feed"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			title: "&6Lord of the Bales&f"
+			x: -7.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["006EEFA92915EBDD"]
+			description: ["Gather a &9crimson fungus&r and plant it on &9rich soul soil&r in darkness to grow a fungus colony. Use shears to harvest them. Consider automating the process with &emechanical harvesters&r!"]
+			id: "36DA4622D2D350D8"
+			rewards: [{
+				count: 8
+				id: "386B2316F7CCCCDC"
+				item: "minecraft:crimson_stem"
+				type: "item"
+			}]
+			subtitle: "Farm crimson fungi."
+			tasks: [{
+				count: 64L
+				id: "66B0B4A1D0931E84"
+				item: "minecraft:crimson_fungus"
+				type: "item"
+			}]
+			x: -5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["006EEFA92915EBDD"]
+			description: ["Gather a &9warped fungus&r and plant it on &9rich soul soil&r in darkness to grow a fungus colony. Use shears to harvest them. Consider automating the process with &emechanical harvesters&r!"]
+			id: "18C5C04CB39C86CB"
+			rewards: [{
+				count: 8
+				id: "407752359EE9E638"
+				item: "minecraft:warped_stem"
+				type: "item"
+			}]
+			subtitle: "Farm warped fungi."
+			tasks: [{
+				count: 64L
+				id: "310733CC70CFBA53"
+				item: "minecraft:warped_fungus"
+				type: "item"
+			}]
+			x: -6.5d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"18C5C04CB39C86CB"
+				"36DA4622D2D350D8"
+				"56A7CE4C15B90429"
+				"5DDF21049C5B6D7D"
+			]
+			description: [""]
+			icon: "farmersdelight:red_mushroom_colony"
+			id: "01B82BC904EBC566"
+			rewards: [
+				{
+					count: 4
+					id: "08588C02C35905CD"
+					item: "farmersdelight:brown_mushroom_colony"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "3E38B6B734D2A9AA"
+					item: "farmersdelight:red_mushroom_colony"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0213AD3505E630A3"
+					item: "nethersdelight:crimson_fungus_colony"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "18D63F01F7C3604E"
+					item: "nethersdelight:warped_fungus_colony"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 2.0d
+			title: "&4Lord of the Fungi&r"
+			x: -5.0d
+			y: 7.0d
+		}
+		{
+			description: ["Use a press to extract &9seed oil&r from seeds. It is a valuable fuel for your &eblaze burners&r."]
+			id: "6FFC4BFDA8BEC010"
+			rewards: [{
+				id: "100C890852899FC3"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft seed oil."
+			tasks: [{
+				id: "405437CC8FA670A9"
+				item: "createaddition:seed_oil_bucket"
+				type: "item"
+			}]
+			title: "&aSeeds Are Useful&r"
+			x: 0.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["6FFC4BFDA8BEC010"]
+			description: ["Overflow of crops? Mix them with seed oil to produce &9biomass&r."]
+			id: "0ABD23E4EB97117A"
+			rewards: [{
+				count: 4
+				id: "1889511181851724"
+				item: "createaddition:festive_spool"
+				type: "item"
+			}]
+			subtitle: "Farm biomass."
+			tasks: [{
+				count: 64L
+				id: "5F0709AF2E984646"
+				item: "createaddition:biomass"
+				type: "item"
+			}]
+			title: "&2Sustainability in Action&r"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ABD23E4EB97117A"]
+			description: ["We may be able to use those to fuel our trains?"]
+			id: "6C86368F621644D3"
+			rewards: [{
+				id: "3894325FABF55405"
+				item: "createaddition:biomass_pellet_block"
+				type: "item"
+			}]
+			subtitle: "Craft biomass pellets."
+			tasks: [{
+				count: 4L
+				id: "7B2CED07905DB1AE"
+				item: "createaddition:biomass_pellet"
+				type: "item"
+			}]
+			title: "&2Green Energy&r"
+			x: 1.5d
+			y: 2.0d
+		}
+		{
+			dependencies: ["0ABD23E4EB97117A"]
+			description: ["Mix sugar, cinder flour, and biomass to create &9biofuel&r. This ultimate liquid fuel will &bsuper-heat&r your &eblaze burners&r for maximum power!"]
+			id: "4FF8DA5D58D0E600"
+			rewards: [{
+				id: "2AB7C80534232E5F"
+				item: "createaddition:straw"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft biofuel."
+			tasks: [{
+				id: "64A34B6D41854649"
+				item: "createaddition:bioethanol_bucket"
+				type: "item"
+			}]
+			title: "&bSuper-Heated&r"
+			x: 0.0d
+			y: 3.5d
+		}
+		{
+			description: ["Shear the top of a propelplant to harvest &9propelpearls&r."]
+			id: "47D093B0ABCC8E44"
+			rewards: [{
+				id: "2180F1802829618D"
+				item: "nethersdelight:mimicarnation"
+				type: "item"
+			}]
+			subtitle: "Gather propelpearls."
+			tasks: [{
+				count: 4L
+				id: "13F66760F1E6C6CF"
+				item: "nethersdelight:propelpearl"
+				type: "item"
+			}]
+			x: 12.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["105DE279C122817B"]
+			description: ["Did you know that you can place &9gunpowder&r onto the floor? Try to light it up."]
+			id: "49B43E54B337EB42"
+			rewards: [{
+				id: "410A287FEC090378"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			subtitle: "Craft gunpowder."
+			tasks: [{
+				id: "763D3457C89A3559"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			dependencies: ["47D093B0ABCC8E44"]
+			description: ["Use a knife to cut the top of a propelplant to harvest a &9propelplant cane&r."]
+			id: "105DE279C122817B"
+			rewards: [{
+				id: "7791DBDE634A2889"
+				item: "nethersdelight:propelplant_torch"
+				type: "item"
+			}]
+			subtitle: "Gather propelplant cane."
+			tasks: [{
+				count: 4L
+				id: "2D296DCB19598814"
+				item: "nethersdelight:propelplant_cane"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1E636E099F5463AE"]
+			description: ["Dragonflies are curious creatures that love &9chorus fruit&r. When fed, they burp out a small puff of &6dragon’s breath&r. Gather some chorus fruit to witness this fascinating behavior."]
+			id: "09E57182AFBA46F5"
+			rewards: [{
+				id: "195A01F22FB74C79"
+				item: "minecraft:dragon_breath"
+				type: "item"
+			}]
+			subtitle: "Farm chorus fruits."
+			tasks: [{
+				count: 64L
+				id: "2A96D50DEFFDFD9D"
+				item: "minecraft:chorus_fruit"
+				type: "item"
+			}]
+			x: 13.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["49B43E54B337EB42"]
+			description: ["What? You refuse to craft gunpowder the &eCreate&r way?"]
+			id: "6517E97D047F4BD0"
+			rewards: [
+				{
+					count: 4
+					id: "60EE5FE462A72F6E"
+					item: "minecraft:tnt"
+					type: "item"
+				}
+				{
+					id: "0B2EE7E74BCB22B8"
+					item: "create:mysterious_cuckoo_clock"
+					type: "item"
+				}
+			]
+			subtitle: "Farm gunpowder."
+			tasks: [{
+				count: 64L
+				id: "5E040D1920322305"
+				item: "cratedelight:gunpowder_bag"
+				type: "item"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["105DE279C122817B"]
+			description: ["Grow your own propelplants!"]
+			id: "196A59E81032F8E6"
+			rewards: [{
+				id: "5B5B937278FB8918"
+				item: "nethersdelight:propelplant_stem"
+				type: "item"
+			}]
+			subtitle: "Craft a propelplant stem."
+			tasks: [{
+				id: "6C2D6A6381297069"
+				item: "nethersdelight:propelplant_stem"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["17A7CB9B085D2995"]
+			description: ["The &9season detector&r sends a redstone signal based on the current season. Use it to automate your farms and plan your harvests."]
+			id: "112599A9356B0FB8"
+			rewards: [{
+				count: 4
+				id: "0F074B7FE51C005A"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Craft a season detector."
+			tasks: [{
+				id: "7F19415E2A5241DB"
+				item: "seasonsextras:season_detector"
+				type: "item"
+			}]
+			title: "&aSeason Detector&r"
+			x: 16.0d
+			y: 2.5d
+		}
+		{
+			dependencies: ["09E57182AFBA46F5"]
+			dependency_requirement: "all_started"
+			description: ["The &9crop season tester&r, when used on a crop, shows which season is affecting it and how. When used on other blocks, it shows the season affecting the block on top of it."]
+			id: "17A7CB9B085D2995"
+			rewards: [{
+				count: 4
+				id: "7770DF738EC76492"
+				item: "seasonsextras:white_greenhouse_glass"
+				type: "item"
+			}]
+			subtitle: "Craft a crop season tester."
+			tasks: [{
+				id: "289454F491B3EFE6"
+				item: "seasonsextras:crop_season_tester"
+				type: "item"
+			}]
+			title: "&aCrop Season Tester&r"
+			x: 14.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["1E636E099F5463AE"]
+			description: ["Turn the &9crop heater&r on to warm up its surroundings. Use it to extend your growing season during colder months."]
+			id: "29157488252A9B01"
+			rewards: [{
+				count: 4
+				id: "33BC44F2D200F735"
+				item: "seasonsextras:white_greenhouse_glass"
+				type: "item"
+			}]
+			subtitle: "Craft a crop heater."
+			tasks: [{
+				id: "479E43CC3B7416D8"
+				item: "seasonsextras:heater"
+				type: "item"
+			}]
+			title: "&4Warm Up your Crops&r"
+			x: 13.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["1E636E099F5463AE"]
+			description: ["Turn the &9crop chiller&r on to cool down its surroundings. Use it to prevent crops from withering during hot seasons."]
+			id: "57B1690B5F3A916E"
+			rewards: [{
+				count: 4
+				id: "406DA3F9C398A382"
+				item: "seasonsextras:tinted_greenhouse_glass"
+				type: "item"
+			}]
+			subtitle: "Craft a crop chiller."
+			tasks: [{
+				id: "5D7336A08BAA7D61"
+				item: "seasonsextras:chiller"
+				type: "item"
+			}]
+			title: "&bCool Down your Crops&r"
+			x: 12.5d
+			y: -0.5d
+		}
+		{
+			description: ["The &9calendar&r helps you plan your crops and travels according to the season. Use it to track when to plant and harvest!"]
+			id: "1E636E099F5463AE"
+			rewards: [{
+				id: "732329C04D97695B"
+				item: "seasonsextras:seasonal_compendium"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a seasonal calendar."
+			tasks: [{
+				id: "250D2E11A53A1C2A"
+				item: "seasonsextras:season_calendar"
+				type: "item"
+			}]
+			title: "&fTrack the Seasons&r"
+			x: 13.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["09D9066497271486"]
+			dependency_requirement: "all_started"
+			description: ["Use the &9bug net&r to catch &dinsects&r."]
+			id: "7D393E7D2DCC82E6"
+			rewards: [{
+				id: "2D61BE60B8493ABE"
+				item: "minecraft:blue_orchid"
+				type: "item"
+			}]
+			subtitle: "Craft a bug net."
+			tasks: [{
+				id: "7F9BE3615C9CCAD9"
+				item: {
+					Count: 1b
+					id: "naturalist:bug_net"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&eEntomology&r"
+			x: 15.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["0868DD0944714E98"]
+			description: ["Compact coconut flour with water to create &9milk&r. Ready to automate mass production?"]
+			id: "7EDEAC4B1535637E"
+			rewards: [{
+				id: "6A4CFE82E6621C90"
+				item: "farmersdelight:milk_bottle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft milk."
+			tasks: [{
+				id: "595940FDE7C72CAA"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			title: "&fSustainable Milk&r"
+			x: 7.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D393E7D2DCC82E6"]
+			description: [
+				"&9Butterflies&r gracefully flutter through &2forests&r, &aplains&r, and &3swamps&r, pollinating flowers as they go. With five unique variants to discover, why not try to catch them all? A &ebug net&r will be your best tool for the job!"
+				""
+				"And if you offer them a flower, you might just witness the start of a new life cycle, leading to a &6caterpillar&r, a &6chrysalis&r, and eventually, a new &6butterfly&r."
+			]
+			id: "3C3A099997C95AEE"
+			rewards: [{
+				id: "4941514FCF2C637B"
+				item: "naturalist:chrysalis"
+				type: "item"
+			}]
+			subtitle: "The Beauty of Butterflies."
+			tasks: [
+				{
+					id: "4594AAA29036150C"
+					item: {
+						Count: 1b
+						id: "naturalist:butterfly"
+						tag: {
+							Variant: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "132CA1AA8F1339D5"
+					item: {
+						Count: 1b
+						id: "naturalist:butterfly"
+						tag: {
+							Variant: 1
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2C5DE2AA10CAB76D"
+					item: {
+						Count: 1b
+						id: "naturalist:butterfly"
+						tag: {
+							Variant: 2
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "0945D40395B7211F"
+					item: {
+						Count: 1b
+						id: "naturalist:butterfly"
+						tag: {
+							Variant: 3
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "2CCD2B5FE2678622"
+					item: {
+						Count: 1b
+						id: "naturalist:butterfly"
+						tag: {
+							Variant: 5
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "&dCatch them all!&r"
+			x: 16.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["4B47339E0C813F8D"]
+			dependency_requirement: "all_started"
+			description: ["&9Dried kelp&r is the key ingredient to craft &6belts&r."]
+			id: "6C4FC1CDEEA1C2D5"
+			rewards: [{
+				id: "5531BB2ABBE9969A"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "Craft dried kelp."
+			tasks: [{
+				count: 4L
+				id: "111FD982AE7350DC"
+				item: "minecraft:dried_kelp"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -4.0d
+		}
+		{
+			description: [
+				"Did you know bears can be sheared? Sneak up on them while they sleep to avoid making them angry. If you are quick and careful, you can collect what you need to craft a &9cuddly companion&r!"
+				""
+				"And who knows? With the &6right offering&r, you might even help two bears start a family."
+			]
+			id: "077AEE081A5F6C55"
+			rewards: [{
+				count: 2
+				id: "658D15403004F577"
+				item: "minecraft:salmon"
+				type: "item"
+			}]
+			subtitle: "Craft a teddy bear."
+			tasks: [{
+				id: "4D16AF4274CB931D"
+				item: "naturalist:teddy_bear"
+				type: "item"
+			}]
+			title: "&7Bear Hugs&r"
+			x: 16.5d
+			y: -1.0d
+		}
+		{
+			dependencies: [
+				"5FBCEB9A7A8F5C1A"
+				"67B70D167C86FFB4"
+				"09E57182AFBA46F5"
+				"5A700DCD3A5B7F1D"
+				"61373A0507C51B0B"
+				"43E07B302296B1E1"
+				"13DFDC3CE952A3F9"
+				"65E8336C7546F6F8"
+			]
+			description: [""]
+			icon: "farmersdelight:fruit_salad"
+			id: "69CA1E7F85D38394"
+			rewards: [{
+				count: 16
+				id: "16014257D3740F15"
+				item: "farmersdelight:fruit_salad"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			title: "&dLord of the Fruits&r"
+			x: 13.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["05FB4F8551233080"]
+			dependency_requirement: "all_started"
+			description: ["&9Prickly pear&r grow atop fully grown cacti. Be careful when eating them raw, as they will hurt you! Try cooking them instead. &dCamels&r love these fruits and can be bred using them."]
+			id: "13DFDC3CE952A3F9"
+			rewards: [{
+				count: 4
+				id: "09C73D1A33D5A8C8"
+				item: "ecologics:cooked_prickly_pear"
+				type: "item"
+			}]
+			subtitle: "Farm prickly pears."
+			tasks: [{
+				count: 64L
+				id: "38DB2DB0E19771A3"
+				item: "ecologics:prickly_pear"
+				type: "item"
+			}]
+			x: 15.0d
+			y: 4.5d
+		}
+		{
+			dependencies: ["7086BF66B5F81A3E"]
+			description: ["&9Soul compost&r decomposes into &6rich soul soil&r, an eerie yet powerful alternative to farmland in the Nether."]
+			id: "006EEFA92915EBDD"
+			rewards: [{
+				id: "2B571386798FD3F9"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			subtitle: "Craft rich soul soil."
+			tasks: [{
+				id: "7B4AA93138C07FA9"
+				item: "nethersdelight:rich_soul_soil"
+				type: "item"
+			}]
+			title: "&3Necrotic Nourishment&r"
+			x: -6.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["15DD26D9A3AE866B"]
+			dependency_requirement: "all_started"
+			description: ["&9Soul compost&r is made from organic matter infused with the power of souls. It is the first step toward &6rich soul soil&r."]
+			id: "7086BF66B5F81A3E"
+			rewards: [{
+				id: "47E8697B83BF1369"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			subtitle: "Craft soul compost."
+			tasks: [{
+				id: "4E3F7764DE717673"
+				item: "nethersdelight:soul_compost"
+				type: "item"
+			}]
+			title: "&3Decay Beyond the Grave&r"
+			x: -6.0d
+			y: 2.0d
+		}
+	]
+	title: "Make One with Nature"
+}

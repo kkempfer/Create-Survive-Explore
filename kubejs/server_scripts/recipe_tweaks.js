@@ -359,6 +359,12 @@ ServerEvents.recipes(event => {
 
     // Expanded Delight
 
+    // Add alternative recipe for brown dye
+    event.recipes.createMilling(
+        ['expandeddelight:asparagus_seeds', Item.of('minecraft:brown_dye').withChance(0.2)],
+        'expandeddelight:asparagus'
+    );
+
     // Replace cheese recipes
     event.remove({ output: 'expandeddelight:cheese_wheel' });
     event.recipes.createMixing(
@@ -380,6 +386,13 @@ ServerEvents.recipes(event => {
         { input: 'farmersdelight:fried_egg' },
         'farmersdelight:fried_egg',
         'naturalist:cooked_egg',
+    );
+
+    // Use all bale types in horse feed recipe
+    event.replaceInput(
+        { id: 'farmersdelight:horse_feed' },
+        'minecraft:hay_block',
+        '#c:bale',
     );
 
     // We use Create recipes
