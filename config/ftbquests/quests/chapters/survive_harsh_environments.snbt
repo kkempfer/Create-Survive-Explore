@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "survive_your_first_days"
+	filename: "survive_harsh_environments"
 	group: ""
 	icon: "minecraft:campfire"
 	id: "0784D5422DFC1CB0"
