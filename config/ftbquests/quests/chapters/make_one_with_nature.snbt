@@ -1604,9 +1604,8 @@
 			description: ["Harvest coconuts and process them into &9coconut flour bags&r for your crafting needs. A great way to store and use this ingredient in bulk."]
 			id: "65E8336C7546F6F8"
 			rewards: [{
-				count: 3
-				id: "1905CE4358452028"
-				item: "ecologics:coconut"
+				id: "28D98D183543CAAD"
+				item: "ecologics:music_disc_coconut"
 				type: "item"
 			}]
 			subtitle: "Farm coconuts."
@@ -2245,8 +2244,9 @@
 			description: ["Compact coconut flour with water to create &9milk&r. Ready to automate mass production?"]
 			id: "7EDEAC4B1535637E"
 			rewards: [{
-				id: "6A4CFE82E6621C90"
-				item: "farmersdelight:milk_bottle"
+				count: 3
+				id: "145F91AAE41B0F2B"
+				item: "ecologics:coconut"
 				type: "item"
 			}]
 			shape: "gear"
