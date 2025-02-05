@@ -9,12 +9,20 @@
 	quest_links: [ ]
 	quests: [
 		{
+			dependencies: [
+				"296CC96F4BAF0CA9"
+				"7821535C88658C64"
+			]
 			description: [
-				"- Press &dh&r to toggle the hover mode."
+				"Equip the &9jetpack&r in the chest slot to take flight!"
+				""
+				"Controls:"
+				""
+				"- Press &dh&r to toggle hover mode."
 				"- Press &dj&r to toggle the engine."
 			]
 			id: "6AEB4ED0C382E3F1"
-			subtitle: "To infinity and beyond!"
+			subtitle: "Craft a jetpack."
 			tasks: [{
 				id: "2A90777B018BB469"
 				item: {
@@ -26,13 +34,14 @@
 				}
 				type: "item"
 			}]
-			x: -0.5d
-			y: -1.0d
+			title: "To infinity and beyond!"
+			x: -2.5d
+			y: -6.5d
 		}
 		{
 			dependencies: ["6AEB4ED0C382E3F1"]
 			id: "07850A00E4FB31F4"
-			subtitle: "Upgrade your gear."
+			subtitle: "Upgrade to the ultimate netherite jetpack."
 			tasks: [{
 				id: "4716AA31E7FD6FE9"
 				item: {
@@ -44,8 +53,850 @@
 				}
 				type: "item"
 			}]
-			x: 1.0d
-			y: -1.0d
+			title: "&5Netherite Jetpack&r"
+			x: -4.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["1C020FA77208DBAC"]
+			description: ["Use a mill to grind obsidian into &9powdered obsidian&r."]
+			id: "39EBB8736094215E"
+			rewards: [{
+				id: "33BE8FF8D57BE806"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			subtitle: "Craft powdered obsidian."
+			tasks: [{
+				id: "1CE12064A8B3F433"
+				item: "create:powdered_obsidian"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -8.5d
+		}
+		{
+			dependencies: ["39EBB8736094215E"]
+			description: ["The &9sturdy sheet&r is a reinforced material essential for advanced engineering. Tough and reliable, it is the backbone of many high-end items and machines!"]
+			id: "0BFA7DA8C8401BF1"
+			rewards: [{
+				id: "2ADC67297BE147D3"
+				item: "minecraft:lava_bucket"
+				type: "item"
+			}]
+			subtitle: "Craft a sturdy sheet."
+			tasks: [{
+				id: "245C9C27A96F757F"
+				item: "create:sturdy_sheet"
+				type: "item"
+			}]
+			title: "&5Built to Last&r"
+			x: 3.0d
+			y: -7.0d
+		}
+		{
+			description: ["Tough and blast-resistant, &9obsidian&r is a valuable material for portals, enchantment tables, and sturdy structures. Time to get mining!"]
+			id: "1C020FA77208DBAC"
+			rewards: [{
+				id: "15D1A2F799BDB4AF"
+				item: "minecraft:crying_obsidian"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Gather obsidian."
+			tasks: [{
+				count: 4L
+				id: "43B549B068AB758A"
+				item: "minecraft:obsidian"
+				type: "item"
+			}]
+			x: 3.0d
+			y: -10.0d
+		}
+		{
+			dependencies: ["4F9F7536E7538A9D"]
+			description: ["With plenty of upgrade slots and room to carry goods, the &9airship&r is perfect for long journeys and transporting resources."]
+			id: "6EFEFA21524E5C7F"
+			rewards: [{
+				id: "00029064C5F6C6B0"
+				item: "immersive_aircraft:telescope"
+				type: "item"
+			}]
+			subtitle: "Craft an airship."
+			tasks: [{
+				id: "284A69D1E17D8BD9"
+				item: "immersive_aircraft:airship"
+				type: "item"
+			}]
+			title: "&3The Mighty Blimp&r"
+			x: 3.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6EFEFA21524E5C7F"]
+			description: ["Need to haul even more cargo? This upgraded &9cargo airship&r carries extra goods at the cost of higher fuel consumption."]
+			id: "74A8D8B4E06BE8D5"
+			rewards: [{
+				id: "1C6983B5FD471796"
+				item: "immersive_aircraft:enhanced_propeller"
+				type: "item"
+			}]
+			subtitle: "Upgrade to a cargo airship."
+			tasks: [{
+				id: "1FB0ED64897DD3BA"
+				item: "immersive_aircraft:cargo_airship"
+				type: "item"
+			}]
+			title: "&3Heavy-Duty Blimp&r"
+			x: 4.5d
+			y: -4.0d
+		}
+		{
+			dependencies: [
+				"7821535C88658C64"
+				"0BFA7DA8C8401BF1"
+			]
+			description: ["Take your aircraft to the next level with the &9advanced engine&r. But remember, true power requires careful handling."]
+			id: "4F9F7536E7538A9D"
+			rewards: [{
+				id: "341AE9325F9516B4"
+				item: "immersive_aircraft:gyroscope"
+				type: "item"
+			}]
+			subtitle: "Upgrade to an advanced engine."
+			tasks: [{
+				id: "57ACBD3270DBD021"
+				item: "immersive_aircraft:engine"
+				type: "item"
+			}]
+			title: "&eFull Throttle&r"
+			x: 1.5d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"4F9F7536E7538A9D"
+				"429644CB9420127B"
+			]
+			description: ["The &9biplane&r is fast, but its takeoff is slow. Enhance its performance with &6improved landing gear&r to make sure you can take off and land with ease!"]
+			id: "27638A48DF7FED63"
+			rewards: [{
+				id: "7026DD8F5A1C4F74"
+				item: "immersive_aircraft:improved_landing_gear"
+				type: "item"
+			}]
+			subtitle: "Craft a biplane."
+			tasks: [{
+				id: "0425F8BDB6451AA9"
+				item: "immersive_aircraft:biplane"
+				type: "item"
+			}]
+			title: "&fSwift and Steady&r"
+			x: 1.5d
+			y: -3.0d
+		}
+		{
+			description: ["A key component for entry-level aircraft, the &9large propeller&r keeps your budget planes flying without breaking the bank."]
+			id: "429644CB9420127B"
+			rewards: [{
+				count: 2
+				id: "70DD671B29BC8F02"
+				item: "immersive_aircraft:sail"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a large propeller."
+			tasks: [{
+				id: "0EEAF1F992E82E5D"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			title: "&8Powering Your First Flight&r"
+			x: 0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["429644CB9420127B"]
+			description: ["The &9gyrodyne&r is a muscle-powered copter that lets you fly using only your legs. No fuel required, just pure effort!"]
+			id: "3546FFB2AD95D2E6"
+			rewards: [{
+				id: "1A2136180F767C99"
+				item: "immersive_aircraft:propeller"
+				type: "item"
+			}]
+			subtitle: "Craft a gyrodyne."
+			tasks: [{
+				id: "77159FD284D21FC5"
+				item: "immersive_aircraft:gyrodyne"
+				type: "item"
+			}]
+			title: "&5Leg-Powered Flight&r"
+			x: 0.75d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7821535C88658C64"]
+			description: ["&6Scaffoldings&r are essential, but have you tried the &9quadrocopter&r? It's stable flight and easy control makes it an excellent tool for high-rise construction."]
+			id: "5550ADA0A1BAEE02"
+			rewards: [{
+				count: 2
+				id: "2F37B12C349A4934"
+				item: "create:andesite_scaffolding"
+				type: "item"
+			}]
+			subtitle: "Craft a quadrocopter."
+			tasks: [{
+				id: "70EA59845834823E"
+				item: "immersive_aircraft:quadrocopter"
+				type: "item"
+			}]
+			title: "&5The Builder's Best Friend&r"
+			x: -1.5d
+			y: -4.5d
+		}
+		{
+			description: ["A true mechanic starts with the &9basic engine&r. Master this, and the skies are yours!"]
+			id: "7821535C88658C64"
+			rewards: [{
+				count: 4
+				id: "53E0ACEF502EBE8F"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a basic engine."
+			tasks: [{
+				id: "58E848E86826EF92"
+				item: "immersive_aircraft:boiler"
+				type: "item"
+			}]
+			title: "&ePowering the Skies&r"
+			x: 0.0d
+			y: -4.5d
+		}
+		{
+			dependencies: [
+				"429644CB9420127B"
+				"7821535C88658C64"
+			]
+			description: ["The &9economy plane&r is affordable and fuel efficient, but its frame is weak. Use a &6reinforced hull&r to handle any turbulence!"]
+			id: "3BC82C8DD5105A56"
+			rewards: [{
+				id: "0C5193FB9B0E052F"
+				item: "immersive_aircraft:hull_reinforcement"
+				type: "item"
+			}]
+			subtitle: "Craft an economy plane."
+			tasks: [{
+				id: "358C9E43BCF48A81"
+				item: "man_of_many_planes:economy_plane"
+				type: "item"
+			}]
+			title: "&fBudget Wings&r"
+			x: 0.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["4F9F7536E7538A9D"]
+			description: ["A masterpiece of engineering, the &9scarlet biplane&r is vibrant in color, agile in flight, and equipped with two weapon slots for extra firepower. Fly in style while dominating the skies!"]
+			id: "20A68870BF39C276"
+			rewards: [
+				{
+					id: "67F20E835DC2406D"
+					item: "immersive_aircraft:heavy_crossbow"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "1A4CA310FC6E5F14"
+					item: "minecraft:spectral_arrow"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a scarlet biplane."
+			tasks: [{
+				id: "1AFE7CE4E9C0A840"
+				item: "man_of_many_planes:scarlet_biplane"
+				type: "item"
+			}]
+			title: "&cEngineered for the Skies&r"
+			x: 3.0d
+			y: -5.0d
+		}
+		{
+			dependencies: ["7821535C88658C64"]
+			description: [
+				"Utilize water's cooling properties for a more fuel-efficient engine, though it comes with a slight power reduction."
+				""
+				"Need even lower fuel consumption? Upgrade your aircraft further with these &6industrial gears&r."
+			]
+			id: "25C741F4AE958FB7"
+			rewards: [{
+				id: "042345040BD74C47"
+				item: "immersive_aircraft:industrial_gears"
+				type: "item"
+			}]
+			subtitle: "Craft a water engine."
+			tasks: [{
+				id: "0616024484E1B1B9"
+				item: "immersive_aircraft:eco_engine"
+				type: "item"
+			}]
+			title: "&bHarness the Power of Water&r"
+			x: -0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"7821535C88658C64"
+				"0BFA7DA8C8401BF1"
+			]
+			description: [
+				"Harness the intense heat of lava for a major power boost, but be prepared for increased fuel consumption!"
+				""
+				"Need even more power? Upgrade your aircraft further with these &6sturdy pipes&r."
+			]
+			id: "6D3D4D0BBF0C9A13"
+			rewards: [{
+				id: "0CC8F219A31DE235"
+				item: "immersive_aircraft:sturdy_pipes"
+				type: "item"
+			}]
+			subtitle: "Craft a lava engine."
+			tasks: [{
+				id: "7230036372CF7257"
+				item: "immersive_aircraft:nether_engine"
+				type: "item"
+			}]
+			title: "&cUnleash the Power of Lava&r"
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			dependencies: [
+				"5CF1ECBD74862EBA"
+				"0AC22F1022A01C72"
+			]
+			description: ["The &9train casing&r is the core of any locomotive. While holding it, press and hold &dalt&r to choose a bogey style and model. &dRight-click&r on a train track to place the bogey when creating a new train with a train station."]
+			id: "379EA62E80C55B7B"
+			rewards: [{
+				id: "3B6850017AB3CDD7"
+				item: "bellsandwhistles:metal_pilot"
+				type: "item"
+			}]
+			subtitle: "Craft a train casing."
+			tasks: [{
+				id: "2264D69A29533F8A"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "&eLaying the Foundation&r"
+			x: 6.0d
+			y: -7.0d
+		}
+		{
+			description: ["The &9copper backtank&r supplies pressurized air for all equipment that depends on it, including diving gear and pneumatic tools. Keep it filled, or you might find yourself in trouble!"]
+			id: "296CC96F4BAF0CA9"
+			rewards: [{
+				id: "7B859BD6A67504E2"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a copper backtank."
+			tasks: [{
+				id: "3875217467074208"
+				item: {
+					Count: 1b
+					id: "create:copper_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["172F8E0E24D568ED"]
+			description: ["Automate your trains with a &9train schedule&r! Assign stops, set conditions, and let your railway network run like clockwork."]
+			id: "3FB233250209213E"
+			rewards: [{
+				id: "5A2CA7B468E7681E"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			subtitle: "Craft a train schedule."
+			tasks: [{
+				id: "19ABB84C1F458B87"
+				item: "create:schedule"
+				type: "item"
+			}]
+			title: "&8Route Planning&r"
+			x: 10.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["39EBB8736094215E"]
+			description: ["Time to start farming your &9powdered obsidian&r supply!"]
+			id: "7AE8535AF07A197C"
+			rewards: [{
+				id: "608CF90BB62390BF"
+				item: {
+					Count: 1b
+					id: "minecraft:diamond_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Farm powdered obsidian."
+			tasks: [{
+				count: 64L
+				id: "1B3C9E49BB91FF13"
+				item: "cratedelight:powdered_obsidian_bag"
+				type: "item"
+			}]
+			x: 1.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["15C5F92952113F3B"]
+			description: ["Every train needs &9train controls&r on board. Add a &6second one&r to allow departure in both directions."]
+			id: "0EEABDD0D44CDEB5"
+			rewards: [{
+				id: "162F05F57E515EA6"
+				item: "create:controls"
+				type: "item"
+			}]
+			subtitle: "Craft train controls."
+			tasks: [{
+				id: "1B317EFE2C75B1D9"
+				item: "create:controls"
+				type: "item"
+			}]
+			title: "&eTake Control!&r"
+			x: 9.0d
+			y: -7.0d
+		}
+		{
+			dependencies: ["379EA62E80C55B7B"]
+			description: ["Set up your very own &9train station&r! Use it to assemble your trains and control their movement within your rail network."]
+			id: "15C5F92952113F3B"
+			rewards: [{
+				id: "6C6F04BED9DC6336"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			subtitle: "Craft a train station."
+			tasks: [{
+				id: "23EE4BA05653762A"
+				item: "create:track_station"
+				type: "item"
+			}]
+			title: "&eYour First Train!&r"
+			x: 7.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["172F8E0E24D568ED"]
+			description: ["The &9train signal&r helps regulate rail traffic by preventing collisions and ensuring smooth operations. Take this &6semaphore&r, which can be placed on top of the &9train signal&r to clearly display its status."]
+			id: "281CEC720558E072"
+			rewards: [{
+				id: "5E783F9E7B683B4D"
+				item: "railways:semaphore"
+				type: "item"
+			}]
+			subtitle: "Craft a train signal."
+			tasks: [{
+				id: "22EE26191F0F3662"
+				item: "create:track_signal"
+				type: "item"
+			}]
+			title: "&cStay on Track&r"
+			x: 12.0d
+			y: -7.5d
+		}
+		{
+			dependencies: ["172F8E0E24D568ED"]
+			description: ["The &9train observer&r detects passing trains and emits a &6redstone&r signal. Perfect for automating railway crossings, stations, and more!"]
+			id: "5AFB170376FA762F"
+			rewards: [{
+				count: 4
+				id: "465CA86D1DA99FE6"
+				item: "minecraft:redstone"
+				type: "item"
+			}]
+			subtitle: "Craft a train observer."
+			tasks: [{
+				id: "0C26120BFB2EADBF"
+				item: "create:track_observer"
+				type: "item"
+			}]
+			title: "&cSignal Ahead&r"
+			x: 12.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["172F8E0E24D568ED"]
+			description: ["Link multiple train cars together with a &9train coupler&r to create longer, more efficient trains. Need to split them up? Simply decouple them when needed!"]
+			id: "49553E41A5655B14"
+			rewards: [{
+				id: "57BA03FBA2BD1EC9"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			subtitle: "Craft a train coupler."
+			tasks: [{
+				id: "7C85558A891B08EB"
+				item: "railways:track_coupler"
+				type: "item"
+			}]
+			title: "&aStronger Together&r"
+			x: 10.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["0BFA7DA8C8401BF1"]
+			description: ["&9Train tracks&r comes in various sizes and types."]
+			id: "5CF1ECBD74862EBA"
+			rewards: [
+				{
+					count: 4
+					id: "5F6AF4FD7E14D987"
+					item: "railways:track_oak_narrow"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "0E11A95E9581EBA1"
+					item: "railways:track_dark_oak_wide"
+					type: "item"
+				}
+			]
+			subtitle: "Craft train tracks."
+			tasks: [{
+				count: 16L
+				id: "5430E77F1BBA023C"
+				item: "create:track"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["0EEABDD0D44CDEB5"]
+			description: ["Once your &9train&r is built, glue its parts together and assemble it at the &9train station&r. Then, summon a &6conductor&r using the reward items. Did you know &6conductors&r can carry toolboxes for you?"]
+			id: "172F8E0E24D568ED"
+			rewards: [
+				{
+					id: "4725C831080B792F"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "106679D384033E41"
+					item: "railways:light_blue_conductor_cap"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Are you ready, Marty?"
+			tasks: [{
+				advancement: "create:train"
+				criterion: ""
+				id: "55B001E2E05DCD5C"
+				type: "advancement"
+			}]
+			title: "&eAll Aboard!&r"
+			x: 10.5d
+			y: -7.0d
+		}
+		{
+			dependencies: ["0BFA7DA8C8401BF1"]
+			description: ["Perfect for modern rail systems, &9monorail train tracks&r keep your trains running smoothly above the ground."]
+			id: "0AC22F1022A01C72"
+			rewards: [{
+				count: 4
+				id: "4A24D758951ABD25"
+				item: "railways:track_monorail"
+				type: "item"
+			}]
+			subtitle: "Craft monorail train tracks."
+			tasks: [{
+				count: 12L
+				id: "3BCA0CDDF54A95BA"
+				item: "railways:track_monorail"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["281CEC720558E072"]
+			description: ["The &9andesite track switch&r enables smooth track changes, helping you manage complex rail networks with ease."]
+			id: "2B2CBF698A1F2176"
+			subtitle: "Craft an andesite track switch."
+			tasks: [{
+				id: "4A53FF1D22C49C04"
+				item: "railways:track_switch_andesite"
+				type: "item"
+			}]
+			title: "&8Switching Tracks&r"
+			x: 13.5d
+			y: -7.5d
+		}
+		{
+			description: ["Think &9minecarts&r are a thing of the past? Link them together with a &6minecart coupling&r and rediscover their potential!"]
+			id: "2FD9D29648CF8559"
+			rewards: [{
+				count: 2
+				id: "620501448E160B30"
+				item: "create:minecart_coupling"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a minecart."
+			tasks: [{
+				id: "35DE78D90A3F0A2A"
+				item: "minecraft:minecart"
+				type: "item"
+			}]
+			x: 8.299d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "175BAB8F58E66AA3"
+			rewards: [{
+				count: 8
+				id: "3F6B5025413BBED8"
+				item: "minecraft:rail"
+				type: "item"
+			}]
+			subtitle: "Craft a minecart with chest."
+			tasks: [{
+				id: "7824EB10B55C5115"
+				item: "minecraft:chest_minecart"
+				type: "item"
+			}]
+			x: 8.299d
+			y: -3.5d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "7E1FEF3299C237FB"
+			rewards: [{
+				count: 4
+				id: "422389E2380B523A"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			subtitle: "Craft a minecart with furnace."
+			tasks: [{
+				id: "2C46AEE4D8B88FF2"
+				item: "minecraft:furnace_minecart"
+				type: "item"
+			}]
+			x: 9.597999999999999d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "3489A6085A274178"
+			rewards: [{
+				id: "4066401630741BF6"
+				item: "minecraft:activator_rail"
+				type: "item"
+			}]
+			subtitle: "Craft a minecart with TNT."
+			tasks: [{
+				id: "359D6A77ECB6923E"
+				item: "minecraft:tnt_minecart"
+				type: "item"
+			}]
+			x: 8.299d
+			y: -0.5d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "09D7EF732820E77F"
+			rewards: [{
+				id: "4434D8694D7F7F7D"
+				item: "minecraft:detector_rail"
+				type: "item"
+			}]
+			subtitle: "Craft a minecart with hopper."
+			tasks: [{
+				id: "249F862A8E3EB582"
+				item: "minecraft:hopper_minecart"
+				type: "item"
+			}]
+			x: 9.597999999999999d
+			y: -1.25d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "4323CCF75F80720D"
+			rewards: [
+				{
+					id: "40DA781BC0967360"
+					item: "minecraft:powered_rail"
+					type: "item"
+				}
+				{
+					id: "05C6C17C8BD6E3EA"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a minecart with workbench."
+			tasks: [{
+				id: "6B48E5534194C275"
+				item: "railways:benchcart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.75d
+		}
+		{
+			dependencies: ["2FD9D29648CF8559"]
+			id: "3C70AD630F81DA72"
+			rewards: [
+				{
+					id: "57A3DFDE3E514FB7"
+					item: "create:controller_rail"
+					type: "item"
+				}
+				{
+					id: "6F8760735119154E"
+					item: "create:analog_lever"
+					type: "item"
+				}
+			]
+			subtitle: "Craft a minecart with jukebox."
+			tasks: [{
+				id: "126977C89F7A5D72"
+				item: "railways:jukeboxcart"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -1.25d
+		}
+		{
+			dependencies: ["296CC96F4BAF0CA9"]
+			description: ["The &9copper diving helmet&r, when paired with a backtank, allows for extended underwater breathing. But be mindful of the air pressure!"]
+			id: "1B2F140F8FD89BA2"
+			rewards: [{
+				id: "6F3753E3E3A91F1E"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			subtitle: "Craft a copper diving helmet."
+			tasks: [{
+				id: "66CF782D523F85E2"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&1Into The Depths&r"
+			x: -2.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["1B2F140F8FD89BA2"]
+			description: ["These heavy boots improve your underwater mobility, allowing you to walk and jump on the ocean floor with ease. Plus, they keep you unaffected by &6mechanical belts&r, giving you full control of your movement!"]
+			id: "45751103B0934F4C"
+			rewards: [{
+				id: "069339C21EBF65AB"
+				item: "create:belt_connector"
+				type: "item"
+			}]
+			subtitle: "Craft copper diving boots."
+			tasks: [{
+				id: "70ED2530A13A6B5E"
+				item: {
+					Count: 1b
+					id: "create:copper_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["296CC96F4BAF0CA9"]
+			id: "3F597E446A6696A1"
+			subtitle: "Upgrade to the ultimate netherite backtank."
+			tasks: [{
+				id: "3DAB8A277D888169"
+				item: {
+					Count: 1b
+					id: "create:netherite_backtank"
+					tag: {
+						Air: 900
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Netherite Backtank&r"
+			x: -4.0d
+			y: -8.0d
+		}
+		{
+			dependencies: ["1B2F140F8FD89BA2"]
+			description: ["When paired with full netherite armor and a netherite backtank, the &9netherite diving helmet&r allows you to resist extreme heat and swim in lava with ease."]
+			id: "0F562751B5ACF4B4"
+			subtitle: "Upgrade to the ultimate netherite diving helmet."
+			tasks: [{
+				id: "428D03AD4E3404C3"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Netherite Diving Helmet&r"
+			x: -4.0d
+			y: -9.5d
+		}
+		{
+			dependencies: ["45751103B0934F4C"]
+			id: "1CB29E4DA63A66BF"
+			subtitle: "Upgrade to the ultimate netherite diving boots."
+			tasks: [{
+				id: "3FF96155CDE6959E"
+				item: {
+					Count: 1b
+					id: "create:netherite_diving_boots"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&5Netherite Diving Boots&r"
+			x: -4.0d
+			y: -11.0d
 		}
 	]
 	title: "Transportation"
