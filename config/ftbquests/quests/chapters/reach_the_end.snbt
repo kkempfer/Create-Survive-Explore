@@ -1054,26 +1054,20 @@
 				type: "item"
 			}]
 			subtitle: "Discover the woodland mansion or sanctum."
-			tasks: [
-				{
-					icon: "minecraft:dark_oak_planks"
-					id: "746A5CB029DE71C2"
-					structure: "minecraft:mansion"
-					type: "structure"
-				}
-				{
-					icon: "minecraft:smooth_quartz"
-					id: "645990200A495169"
-					structure: "incendium:sanctum"
-					type: "structure"
-				}
-			]
+			tasks: [{
+				icon: "minecraft:pillager_spawn_egg"
+				id: "7C1EE9F66710BE5A"
+				observe_type: 0
+				timer: 0L
+				to_observe: "minecraft:illusioner"
+				type: "observation"
+			}]
 			title: "&3Seek the Illusioner&r"
 			x: 3.5d
 			y: 3.0d
 		}
 		{
-			dependencies: ["31F32FC089B3B9A0"]
+			dependencies: ["0659EE2214E12C74"]
 			description: ["Look for a &9ladder concealed beneath a trapdoor&r. It leads to a rare structure waiting to be explored!"]
 			id: "41072A195EC49365"
 			rewards: [{
@@ -1092,26 +1086,6 @@
 			title: "&2The Golem's Lair&r"
 			x: -3.0d
 			y: 4.0d
-		}
-		{
-			dependencies: ["16A69636D494F090"]
-			description: ["The &9Will-o'-the-Wisp&r spawns in &9swamps&r at night. Try to catch one!"]
-			id: "31F32FC089B3B9A0"
-			rewards: [{
-				count: 4
-				id: "7A9D5EDBAB0D115F"
-				item: "createaddition:festive_spool"
-				type: "item"
-			}]
-			subtitle: "Capture a Will-o'-the-Wisp."
-			tasks: [{
-				id: "3673369850925E61"
-				item: "wetlands:bottled_willothewisp"
-				type: "item"
-			}]
-			title: "&fA Glimmer in the Dark&r"
-			x: -3.0d
-			y: 3.0d
 		}
 		{
 			dependencies: ["1E6856EF52EC12F1"]
@@ -1522,6 +1496,38 @@
 			}]
 			x: -5.0d
 			y: -3.5d
+		}
+		{
+			dependencies: ["16A69636D494F090"]
+			description: ["The &9Will-o'-the-Wisp&r spawns in &9swamps&r at night. Try to catch one!"]
+			id: "0659EE2214E12C74"
+			rewards: [{
+				count: 4
+				id: "1FE6889E23A7715C"
+				item: "createaddition:festive_spool"
+				type: "item"
+			}]
+			subtitle: "Capture a Will-o'-the-Wisp."
+			tasks: [{
+				advancement: "wetlands:wisp_in_a_bottle"
+				criterion: ""
+				id: "4BE06B6090AD2456"
+				type: "advancement"
+			}]
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			id: "1E8C267B776E608E"
+			tasks: [{
+				id: "7BF7A4586FD5FC7B"
+				observe_type: 5
+				timer: 0L
+				to_observe: "minecraft:illusioner"
+				type: "observation"
+			}]
+			x: 8.5d
+			y: 2.0d
 		}
 	]
 	title: "Reach The End"
