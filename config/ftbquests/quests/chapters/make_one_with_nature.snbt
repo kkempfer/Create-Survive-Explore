@@ -2465,6 +2465,28 @@
 			x: -6.0d
 			y: 2.0d
 		}
+		{
+			dependencies: ["2C101F2E4BC3AC9E"]
+			description: ["&9Liquid fertilizer&r is an effective way to increase crop yield. The &6sprinklers&r spread liquid below them. Experiment with different liquids to discover new possibilities."]
+			id: "4A6CF9C127AEA7D5"
+			rewards: [{
+				count: 3
+				id: "55A38911BC98B806"
+				item: "sliceanddice:sprinkler"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft liquid fertilizer."
+			tasks: [{
+				id: "7548F6F49AF63903"
+				item: "sliceanddice:fertilizer_bucket"
+				type: "item"
+			}]
+			title: "&aLiquid Fertilizer&r"
+			x: -2.5d
+			y: 2.0d
+		}
 	]
 	title: "Make One with Nature"
 }
