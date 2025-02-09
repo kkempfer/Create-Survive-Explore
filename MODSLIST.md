@@ -277,6 +277,7 @@
 | Invisible Frames [2] | [✅](https://www.curseforge.com/minecraft/mc-mods/invisible-frames) | [✅](https://modrinth.com/mod/invisible-frames-mod) | Allows the player to toggle item frames visibility |
 | Oxidizing Lightning Rods | [✅](https://www.curseforge.com/minecraft/mc-mods/oxidized-lightning-rod) | [✅](https://modrinth.com/mod/oxidizing-lightning-rods) | Adds oxidized lightning rods |
 | Supplementaries | [✅](https://www.curseforge.com/minecraft/mc-mods/supplementaries) | [✅](https://modrinth.com/mod/supplementaries) | Adds many decorative items and tweaks to vanilla features |
+| Trowel | [✅](https://www.curseforge.com/minecraft/mc-mods/trowel) | [✅](https://modrinth.com/mod/trowel) | Adds a trowel that places random blocks from the hotbar |
 
 > [!NOTE]
 >
