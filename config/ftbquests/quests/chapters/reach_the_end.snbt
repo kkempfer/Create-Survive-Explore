@@ -1517,18 +1517,6 @@
 			x: -3.0d
 			y: 3.0d
 		}
-		{
-			id: "1E8C267B776E608E"
-			tasks: [{
-				id: "7BF7A4586FD5FC7B"
-				observe_type: 5
-				timer: 0L
-				to_observe: "minecraft:illusioner"
-				type: "observation"
-			}]
-			x: 8.5d
-			y: 2.0d
-		}
 	]
 	title: "Reach The End"
 }
