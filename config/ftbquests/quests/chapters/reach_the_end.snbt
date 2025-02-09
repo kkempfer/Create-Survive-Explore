@@ -10,7 +10,11 @@
 	quests: [
 		{
 			dependencies: ["6F26D3F03C2F591D"]
-			description: ["The &6black eye&r is dropped by the &9elder golem&r upon its defeat."]
+			description: [
+				"The &6black eye&r is dropped by the &9elder golem&r upon its defeat."
+				""
+				"His heart might also be of some use to us. Investigate!"
+			]
 			id: "093BC1513A085340"
 			rewards: [{
 				count: 4

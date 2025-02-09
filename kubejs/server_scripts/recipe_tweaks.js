@@ -462,6 +462,27 @@ ServerEvents.recipes(event => {
 
     // Supplementaries
 
+    // Remove non-standard ash brick slab from vertical slab recipe
+    event.remove({ id: `supplementaries:ash_brick_slab_from_vertical` });
+
+    // Add ash brick vertical slab crafting and stonecutting recipes
+    event.shaped(`6x supplementaries:ash_bricks_vertical_slab`, [
+        'B',
+        'B',
+        'B'
+    ], {
+        B: `supplementaries:ash_bricks`,
+    });
+    event.stonecutting('2x supplementaries:ash_bricks_vertical_slab', 'supplementaries:ash_bricks');
+
+    // Fix bubble blower charging recipe
+    event.remove({ id: `supplementaries:bubble_blower_charge_display` });
+    const MAX_DAMAGE_BUBBLE_BLOWER = Item.of('supplementaries:bubble_blower').getMaxDamage();
+    event.shapeless(
+        Item.of('supplementaries:bubble_blower').weakNBT(),
+        [Item.of('supplementaries:bubble_blower', { Damage: MAX_DAMAGE_BUBBLE_BLOWER }), `supplementaries:soap`]
+    );
+
     // Add doormat recipe
     event.shaped('supplementaries:doormat', [
         'CC'
