@@ -379,14 +379,22 @@
 			dependencies: [
 				"5CF1ECBD74862EBA"
 				"0AC22F1022A01C72"
+				"1663B0F204813D89"
 			]
 			description: ["The &9train casing&r is the core of any locomotive. While holding it, press and hold &dalt&r to choose a bogey style and model. &dRight-click&r on a train track to place the bogey when creating a new train with a train station."]
 			id: "379EA62E80C55B7B"
-			rewards: [{
-				id: "3B6850017AB3CDD7"
-				item: "bellsandwhistles:metal_pilot"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "3B6850017AB3CDD7"
+					item: "bellsandwhistles:metal_pilot"
+					type: "item"
+				}
+				{
+					id: "5E226D003AA8A045"
+					item: "bellsandwhistles:headlight"
+					type: "item"
+				}
+			]
 			subtitle: "Craft a train casing."
 			tasks: [{
 				id: "2264D69A29533F8A"
@@ -588,7 +596,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -7.5d
+			y: -8.0d
 		}
 		{
 			dependencies: ["0EEABDD0D44CDEB5"]
@@ -615,7 +623,6 @@
 				id: "55B001E2E05DCD5C"
 				type: "advancement"
 			}]
-			title: "&eAll Aboard!&r"
 			x: 10.5d
 			y: -7.0d
 		}
@@ -637,7 +644,7 @@
 				type: "item"
 			}]
 			x: 4.5d
-			y: -6.5d
+			y: -7.0d
 		}
 		{
 			dependencies: ["281CEC720558E072"]
@@ -796,8 +803,8 @@
 			description: ["The &9copper diving helmet&r, when paired with a backtank, allows for extended underwater breathing. But be mindful of the air pressure!"]
 			id: "1B2F140F8FD89BA2"
 			rewards: [{
-				id: "6F3753E3E3A91F1E"
-				item: "create:copper_valve_handle"
+				id: "613786EB156E75A9"
+				item: "supplementaries:altimeter"
 				type: "item"
 			}]
 			subtitle: "Craft a copper diving helmet."
@@ -897,6 +904,25 @@
 			title: "&5Netherite Diving Boots&r"
 			x: -4.0d
 			y: -11.0d
+		}
+		{
+			dependencies: ["0BFA7DA8C8401BF1"]
+			description: ["&9Phantom train tracks&r are invisible, ideal for building roads, maritime and air routes. You will need &6phantom membranes&r, that are commonly found in the End. Wait until you reach the End before farming them."]
+			id: "1663B0F204813D89"
+			rewards: [{
+				id: "07E3877FFA4A4410"
+				item: "minecraft:phantom_membrane"
+				type: "item"
+			}]
+			subtitle: "Craft phantom train tracks."
+			tasks: [{
+				count: 32L
+				id: "3F122ABAC1AFEA46"
+				item: "railways:track_phantom"
+				type: "item"
+			}]
+			x: 4.5d
+			y: -6.0d
 		}
 	]
 	title: "Transportation"
