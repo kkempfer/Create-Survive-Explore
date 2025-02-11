@@ -372,11 +372,26 @@ ServerEvents.recipes(event => {
         [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
     ).heated();
 
-    // Add salt recipe to make it renewable
+    // Add ground salt recipe to make it renewable
     event.recipes.createMixing(
         'expandeddelight:ground_salt',
         [Fluid.of('minecraft:water', 81000)]
     ).heated();
+
+    // Add salt ore crushing recipe
+    function createSaltCrushing(ore, crushedOre) {
+        event.recipes.createCrushing(
+            [
+                'expandeddelight:ground_salt',
+                Item.of('expandeddelight:ground_salt').withChance(0.75),
+                Item.of('create:experience_nugget').withChance(0.75),
+                Item.of('minecraft:' + crushedOre).withChance(0.12)
+            ],
+            ore
+        );
+    }
+    createSaltCrushing('expandeddelight:salt_ore', 'cobblestone');
+    createSaltCrushing('expandeddelight:deepslate_salt_ore', 'cobbled_deepslate');
 
     // Farmer's Delight
 
