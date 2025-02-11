@@ -401,7 +401,7 @@
 				item: "create:railway_casing"
 				type: "item"
 			}]
-			title: "&eLaying the Foundation&r"
+			title: "&eTrains&r"
 			x: 6.0d
 			y: -7.0d
 		}
@@ -432,13 +432,26 @@
 		}
 		{
 			dependencies: ["172F8E0E24D568ED"]
-			description: ["Automate your trains with a &9train schedule&r! Assign stops, set conditions, and let your railway network run like clockwork."]
+			description: [
+				"Automate your trains with a &9train schedule&r! Assign stops, set conditions, and let your railway network run like clockwork."
+				""
+				"Any mob can serve as a conductor. Just &dright-click&r a seat with a lead to assign one. Alternatively, summon a &6conductor&r with the reward items."
+				""
+				"Fun fact: &6Conductors&r can carry toolboxes for you!"
+			]
 			id: "3FB233250209213E"
-			rewards: [{
-				id: "5A2CA7B468E7681E"
-				item: "railways:conductor_whistle"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "6184DA671A9A79FF"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+				{
+					id: "1C30DC0D63CF9C06"
+					item: "railways:light_blue_conductor_cap"
+					type: "item"
+				}
+			]
 			subtitle: "Craft a train schedule."
 			tasks: [{
 				id: "19ABB84C1F458B87"
@@ -476,11 +489,11 @@
 		}
 		{
 			dependencies: ["15C5F92952113F3B"]
-			description: ["Every train needs &9train controls&r on board. Add a &6second one&r to allow departure in both directions."]
+			description: ["Every train needs &9train controls&r on board. Add a second one to allow departure in both directions."]
 			id: "0EEABDD0D44CDEB5"
 			rewards: [{
-				id: "162F05F57E515EA6"
-				item: "create:controls"
+				id: "4EBE7758607CDD9B"
+				item: "create:white_seat"
 				type: "item"
 			}]
 			subtitle: "Craft train controls."
@@ -489,7 +502,7 @@
 				item: "create:controls"
 				type: "item"
 			}]
-			title: "&eTake Control!&r"
+			title: "&eTake Control&r"
 			x: 9.0d
 			y: -7.0d
 		}
@@ -508,15 +521,16 @@
 				item: "create:track_station"
 				type: "item"
 			}]
-			title: "&eYour First Train!&r"
+			title: "&eYour First Train&r"
 			x: 7.5d
 			y: -7.0d
 		}
 		{
 			dependencies: ["172F8E0E24D568ED"]
-			description: ["The &9train signal&r helps regulate rail traffic by preventing collisions and ensuring smooth operations. Take this &6semaphore&r, which can be placed on top of the &9train signal&r to clearly display its status."]
+			description: ["The &9train signal&r helps regulate rail traffic by preventing collisions and ensuring smooth operations. Take these &6semaphores&r, which can be placed on top of the &9train signal&r to clearly display its status."]
 			id: "281CEC720558E072"
 			rewards: [{
+				count: 2
 				id: "5E783F9E7B683B4D"
 				item: "railways:semaphore"
 				type: "item"
@@ -536,9 +550,9 @@
 			description: ["The &9train observer&r detects passing trains and emits a &6redstone&r signal. Perfect for automating railway crossings, stations, and more!"]
 			id: "5AFB170376FA762F"
 			rewards: [{
-				count: 4
-				id: "465CA86D1DA99FE6"
-				item: "minecraft:redstone"
+				count: 2
+				id: "0A1D5F47CFF614C5"
+				item: "minecraft:repeater"
 				type: "item"
 			}]
 			subtitle: "Craft a train observer."
@@ -602,18 +616,6 @@
 			dependencies: ["0EEABDD0D44CDEB5"]
 			description: ["Once your &9train&r is built, glue its parts together and assemble it at the &9train station&r. Then, summon a &6conductor&r using the reward items. Did you know &6conductors&r can carry toolboxes for you?"]
 			id: "172F8E0E24D568ED"
-			rewards: [
-				{
-					id: "4725C831080B792F"
-					item: "create:andesite_casing"
-					type: "item"
-				}
-				{
-					id: "106679D384033E41"
-					item: "railways:light_blue_conductor_cap"
-					type: "item"
-				}
-			]
 			shape: "square"
 			size: 1.5d
 			subtitle: "Are you ready, Marty?"
@@ -648,8 +650,23 @@
 		}
 		{
 			dependencies: ["281CEC720558E072"]
-			description: ["The &9andesite track switch&r enables smooth track changes, helping you manage complex rail networks with ease."]
+			description: [
+				"The &9andesite track switch&r allows for seamless track changes, making it easier to manage complex rail networks."
+				""
+				"It can be switched in multiple ways:"
+				""
+				"- &9By hand&r: &dRight-click&r to change direction one way, &dshift-right-click&r to change it the other way."
+				"- &9By arrows&r: When hit by an arrow, the switch cycles through its available directions."
+				"- &9By redstone&r: The switch changes to the side receiving the redstone signal."
+				""
+				"To lock the switch, power it with &6redstone&r from underneath. In this state, it will ignore any non-redstone switching attempts."
+			]
 			id: "2B2CBF698A1F2176"
+			rewards: [{
+				id: "374EE3F7B35BBFB0"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
 			subtitle: "Craft an andesite track switch."
 			tasks: [{
 				id: "4A53FF1D22C49C04"
@@ -677,7 +694,7 @@
 				item: "minecraft:minecart"
 				type: "item"
 			}]
-			x: 8.299d
+			x: 7.2989999999999995d
 			y: -2.0d
 		}
 		{
@@ -695,7 +712,7 @@
 				item: "minecraft:chest_minecart"
 				type: "item"
 			}]
-			x: 8.299d
+			x: 7.2989999999999995d
 			y: -3.5d
 		}
 		{
@@ -713,7 +730,7 @@
 				item: "minecraft:furnace_minecart"
 				type: "item"
 			}]
-			x: 9.597999999999999d
+			x: 8.597999999999999d
 			y: -2.75d
 		}
 		{
@@ -730,7 +747,7 @@
 				item: "minecraft:tnt_minecart"
 				type: "item"
 			}]
-			x: 8.299d
+			x: 7.2989999999999995d
 			y: -0.5d
 		}
 		{
@@ -747,7 +764,7 @@
 				item: "minecraft:hopper_minecart"
 				type: "item"
 			}]
-			x: 9.597999999999999d
+			x: 8.597999999999999d
 			y: -1.25d
 		}
 		{
@@ -771,7 +788,7 @@
 				item: "railways:benchcart"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -2.75d
 		}
 		{
@@ -795,7 +812,7 @@
 				item: "railways:jukeboxcart"
 				type: "item"
 			}]
-			x: 7.0d
+			x: 6.0d
 			y: -1.25d
 		}
 		{
@@ -923,6 +940,84 @@
 			}]
 			x: 4.5d
 			y: -6.0d
+		}
+		{
+			dependencies: ["3FB233250209213E"]
+			description: [
+				"&dRight-click&r a &9whistle&r on a conductor driving a train to bind it. &dRight-click&r a train track to call your conductor, temporarily pausing their scheduled tasks to come to you!"
+				""
+				"&dShift-right-click&r to clear the binding."
+			]
+			id: "4DBA92A96699D0F0"
+			rewards: [{
+				id: "76ABD5583CF9E4B4"
+				item: "create:steam_whistle"
+				type: "item"
+			}]
+			subtitle: "Craft a conductor whistle."
+			tasks: [{
+				id: "32CD4024AED73CF6"
+				item: "railways:conductor_whistle"
+				type: "item"
+			}]
+			title: "&eAll Aboard!&r"
+			x: 10.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["3FB233250209213E"]
+			description: [
+				"&dRight-click&r a conductor wearing &6goggles&r to bind it. &dRight-click&r again to see through the conductor’s eyes."
+				""
+				"&dShift-right-click&r to clear the binding."
+			]
+			id: "54EA8FFCCC22FFBE"
+			rewards: [{
+				id: "693E233967E9CA4C"
+				item: "create:goggles"
+				type: "item"
+			}]
+			subtitle: "Craft a remote lens."
+			tasks: [{
+				id: "1D23E5C15019CAC9"
+				item: "railways:remote_lens"
+				type: "item"
+			}]
+			title: "&6Through Their Eyes&r"
+			x: 11.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["2B2CBF698A1F2176"]
+			description: [
+				"The &6brass track switch&r works like the &9andesite track switch&r but offers additional control options."
+				""
+				"At an intersection, switch tracks while driving by pressing:"
+				""
+				"- Press &da&r and &dspace&r to go left."
+				"- Press &dspace&r to stay on the central lane."
+				"- Press &dd&r and &dspace&r to go right."
+				""
+				"It has also two modes:"
+				""
+				"- &9Manual&r: Only players can switch tracks."
+				"- &9Manual \\& Scheduled&r: Scheduled trains can switch the track automatically."
+			]
+			id: "25D69AEA7410B13D"
+			rewards: [{
+				id: "36C37C7DA29927DA"
+				item: "minecraft:redstone_block"
+				type: "item"
+			}]
+			subtitle: "Craft a brass track switch."
+			tasks: [{
+				id: "464CC0126B896836"
+				item: "railways:track_switch_brass"
+				type: "item"
+			}]
+			title: "&8Smart Switching&r"
+			x: 15.0d
+			y: -7.5d
 		}
 	]
 	title: "Transportation"
