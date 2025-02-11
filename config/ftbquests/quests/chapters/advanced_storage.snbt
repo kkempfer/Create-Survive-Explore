@@ -1,0 +1,257 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "advanced_storage"
+	group: ""
+	icon: "toms_storage:ts.storage_terminal"
+	id: "111238F2340E999B"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["29084E0FE0E5C4E0"]
+			description: ["&dRight-click&r a &7storage terminal&r from up to 16 blocks away while holding the &9wireless terminal&r to open its interface."]
+			id: "29A7B55DFA37D3D7"
+			subtitle: "Extends your reach for the terminal."
+			tasks: [{
+				id: "503BF93853F6A546"
+				item: "toms_storage:ts.wireless_terminal"
+				type: "item"
+			}]
+			title: "&eWireless Terminal&r"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["29A7B55DFA37D3D7"]
+			description: [
+				"The &9advanced wireless terminal&r is a masterpiece!"
+				""
+				"&dRight-click&r a &7storage terminal&r while holding this item to bind it. Press &di&r to open its interface from up to 64 blocks away. Contrary to the standard version, you do not need to look at the bound &7storage terminal&r. You can do this even with the &9advanced wireless terminal&r in your belt, no need to hold it in hand."
+				""
+				"Even better, build a level 1 or 4 beacon in an 8 block radius of the bound &7storage terminal&r to make it accessible from anywhere in the same dimension or across dimensions, respectively."
+			]
+			id: "7C044FFFA35F818E"
+			subtitle: "Access all your inventory from anywhere."
+			tasks: [{
+				id: "4B2F79F1CB501F4B"
+				item: "toms_storage:ts.adv_wireless_terminal"
+				type: "item"
+			}]
+			title: "&dAdvanced Wireless Terminal&r"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["29084E0FE0E5C4E0"]
+			description: [
+				"The &9inventory connector&r links all adjacent storage blocks into a unified network, whether stacked or placed side by side. &6Inventory trims&r can connect the gaps."
+				""
+				"Attach a &7storage terminal&r onto the &9inventory connector&r to access all connected inventories from one interface."
+			]
+			id: "0A1E889FB2427A4E"
+			rewards: [{
+				id: "518DBC461B144D7B"
+				item: "toms_storage:ts.trim"
+				type: "item"
+			}]
+			subtitle: "Expand your storage network."
+			tasks: [{
+				id: "56C918DE41B7427C"
+				item: "toms_storage:ts.inventory_connector"
+				type: "item"
+			}]
+			title: "&eInventory Connector&r"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"The &9storage terminal&r is the heart of your storage network. It allows you to see and interact with all linked &6inventories&r from a single interface."
+				""
+				"Simply place it next to a &6storage block&r or onto an &7inventory connector&r."
+			]
+			id: "29084E0FE0E5C4E0"
+			rewards: [{
+				count: 4
+				id: "724260C311494110"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Your all-in-one access point."
+			tasks: [{
+				id: "33DACA3B9272B329"
+				item: "toms_storage:ts.storage_terminal"
+				type: "item"
+			}]
+			title: "&eStorage Terminal&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29084E0FE0E5C4E0"]
+			description: ["The &9crafting terminal&r is an upgraded &7storage terminal&r that integrates a crafting grid."]
+			id: "3F9DED9B060365DF"
+			rewards: [{
+				count: 4
+				id: "2A2FD4BEF5431775"
+				item: "create:item_vault"
+				type: "item"
+			}]
+			subtitle: "Storage and crafting combined."
+			tasks: [{
+				id: "05F44399BB077BC0"
+				item: "toms_storage:ts.crafting_terminal"
+				type: "item"
+			}]
+			title: "&eCrafting Terminal&r"
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["0A1E889FB2427A4E"]
+			description: [
+				"The &9inventory cable&r connects to &7inventory connectors&r. The &9inventory cable connector&r links to storage blocks or a &7storage terminal&r."
+				""
+				"Combine both to expand your storage network."
+			]
+			icon: "toms_storage:ts.inventory_cable"
+			id: "06047478AA8FC778"
+			rewards: [{
+				count: 4
+				id: "25F575BA4ECFA3F4"
+				item: "toms_storage:ts.inventory_cable"
+				type: "item"
+			}]
+			subtitle: "Connect inventories across long distances."
+			tasks: [
+				{
+					count: 4L
+					id: "0E0E03056866F713"
+					item: "toms_storage:ts.inventory_cable"
+					type: "item"
+				}
+				{
+					id: "4B691DA36AA4E17A"
+					item: "toms_storage:ts.inventory_cable_connector"
+					type: "item"
+				}
+			]
+			title: "&eInventory Cables \\& Connectors&r"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["06047478AA8FC778"]
+			description: ["&dShift-right-click&r a block while holding the &6paint kit&r to copy its texture. Then, &dright-click&r on a &9framed inventory cable&r, &9framed inventory cable connector&r, or &7inventory trim&r to paste the texture."]
+			icon: "toms_storage:ts.inventory_cable_framed"
+			id: "0B320FD7C5BEABA5"
+			rewards: [{
+				id: "7D011AAAA5B045F4"
+				item: {
+					Count: 1b
+					id: "toms_storage:ts.paint_kit"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Stylish connections."
+			tasks: [
+				{
+					count: 4L
+					id: "11C5EEF6D9E6C382"
+					item: "toms_storage:ts.inventory_cable_framed"
+					type: "item"
+				}
+				{
+					id: "165E754291F7E344"
+					item: "toms_storage:ts.inventory_cable_connector_framed"
+					type: "item"
+				}
+			]
+			title: "&eFramed Inventory Cables \\& Connectors&r"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			dependencies: ["06047478AA8FC778"]
+			description: [
+				"Place &9inventory hopper&r onto a storage block to start pulling its items."
+				""
+				"&dRight-click&r on the &9inventory hopper&r with an item to set a filter. &dShift-click&r with an empty hand to clear it."
+			]
+			id: "3B766352893CC45D"
+			rewards: [
+				{
+					id: "2F8F1E21C36349C4"
+					item: "toms_storage:ts.item_filter"
+					type: "item"
+				}
+				{
+					id: "40163283BBF53DA3"
+					item: "toms_storage:ts.tag_item_filter"
+					type: "item"
+				}
+			]
+			subtitle: "Automate your storage system."
+			tasks: [{
+				id: "55525CDE5605D31E"
+				item: "toms_storage:ts.inventory_hopper_basic"
+				type: "item"
+			}]
+			title: "&eBasic Inventory Hopper&r"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3B766352893CC45D"]
+			description: ["Same as its non-filtered counterpart, but with extra functionality. &dRight-click&r to open the GUI and set the filter."]
+			id: "35D609DB368B114C"
+			rewards: [{
+				id: "7DDD723CC0B03F07"
+				item: "toms_storage:ts.polymorphic_item_filter"
+				type: "item"
+			}]
+			subtitle: "Manage specific items."
+			tasks: [{
+				id: "639EC6C9C0FDEB01"
+				item: "toms_storage:ts.inventory_cable_connector_filtered"
+				type: "item"
+			}]
+			title: "&eFiltered Cable Connector&r"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["35D609DB368B114C"]
+			description: ["Drops items from your storage network. Perfect for getting rid of unwanted items or letting things fall freely! Beware not to create a mess!"]
+			id: "308F970452A5EC23"
+			rewards: [
+				{
+					id: "455D14187123A6F7"
+					item: "minecraft:lava_bucket"
+					type: "item"
+				}
+				{
+					id: "6D458238A6A85553"
+					item: "minecraft:cauldron"
+					type: "item"
+				}
+			]
+			subtitle: "Better than a dropper?"
+			tasks: [{
+				id: "43E4E69C5BF37637"
+				item: "toms_storage:ts.open_crate"
+				type: "item"
+			}]
+			title: "&eOpen Crate&r"
+			x: 7.5d
+			y: 0.0d
+		}
+	]
+	title: "Advanced Storage"
+}

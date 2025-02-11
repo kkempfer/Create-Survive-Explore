@@ -5,7 +5,7 @@
 	group: ""
 	icon: "farmersdelight:wild_onions"
 	id: "1AAC12ECBE43B3D7"
-	order_index: 3
+	order_index: 5
 	quest_links: [ ]
 	quests: [
 		{
@@ -1520,9 +1520,14 @@
 			description: ["&9Bamboo&r grows quickly and can be found in jungles. It is essential for crafting many items."]
 			id: "09D9066497271486"
 			rewards: [{
-				count: 4
-				id: "34E858B145CEF4BC"
-				item: "chipped:bamboo_dried_kelp_block"
+				id: "082FD9F5F01243EE"
+				item: {
+					Count: 1b
+					id: "nethersdelight:iron_machete"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "Farm bamboo."

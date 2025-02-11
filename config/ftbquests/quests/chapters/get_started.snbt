@@ -1,7 +1,7 @@
 {
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
-	filename: "getting_started"
+	filename: "get_started"
 	group: ""
 	icon: "ftbquests:book"
 	id: "5D14DFBD0D2A0CB8"
@@ -305,7 +305,7 @@
 		{
 			dependencies: ["23A757C9B3B0F90B"]
 			description: [
-				"Early game, &6bundles&r and &6sacks&r will be your best friends. Later on, &6toolboxes&r and &6shulker boxes&r will let you carry more items."
+				"Early game, &6bundles&r and &6sacks&r will be your best friends. Later on, toolboxes and shulker boxes will let you carry more items."
 				""
 				"Perhaps &eCreate&r and &eTom's Simple Storage Mod&r offer even more powerful solutions?"
 				""

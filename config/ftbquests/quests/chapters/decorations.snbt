@@ -5,7 +5,7 @@
 	group: ""
 	icon: "createdeco:scarlet_long_bricks"
 	id: "0A048E5B74854171"
-	order_index: 5
+	order_index: 7
 	quest_links: [ ]
 	quests: [
 		{
@@ -50,19 +50,14 @@
 					type: "item"
 				}
 			]
-			shape: "circle"
 			size: 1.5d
 			subtitle: "Automate hundreds of decoration blocks."
-			tasks: [{
-				id: "2D2F9642477CA2FC"
-				title: "Understood"
-				type: "checkmark"
-			}]
 			title: "&eChipped&r"
-			x: 0.0d
-			y: 0.0d
+			x: -1.149000000000001d
+			y: 2.963000000000001d
 		}
 		{
+			description: ["The &9botanist workbench&r allows you to experiment with flora."]
 			id: "2BAB33BB78E6D42B"
 			rewards: [{
 				count: 32
@@ -70,15 +65,18 @@
 				item: "chipped:cut_blank_packed_mud"
 				type: "item"
 			}]
+			subtitle: "Craft the botanist workbench."
 			tasks: [{
 				id: "43BC5B1DA86CE2A3"
 				item: "chipped:botanist_workbench"
 				type: "item"
 			}]
-			x: -0.333d
-			y: -1.463d
+			title: "&2Flourishing Designs&r"
+			x: -1.4819999999999993d
+			y: 1.5d
 		}
 		{
+			description: ["Shaping &6glass&r requires precision, and the &9glassblower&r provides a dedicated surface for your delicate creations."]
 			id: "0D88946D0E9E25DE"
 			rewards: [{
 				count: 32
@@ -86,15 +84,18 @@
 				item: "chipped:square_white_stained_glass"
 				type: "item"
 			}]
+			subtitle: "Craft the glassblower."
 			tasks: [{
 				id: "78CCE1A5F3DF0C1D"
 				item: "chipped:glassblower"
 				type: "item"
 			}]
-			x: -0.333d
-			y: 1.463d
+			title: "&bNot Quite Cristals&r"
+			x: -1.4819999999999993d
+			y: 4.426d
 		}
 		{
+			description: ["The &9carpenters table&r is ideal for refining &6wooden&r blocks."]
 			id: "36C5C5C91B3859CE"
 			rewards: [{
 				count: 32
@@ -102,15 +103,18 @@
 				item: "chipped:vertical_mangrove_planks"
 				type: "item"
 			}]
+			subtitle: "Craft the carpenters table."
 			tasks: [{
 				id: "7CC928717E58D5E8"
 				item: "chipped:carpenters_table"
 				type: "item"
 			}]
-			x: -1.351d
-			y: 0.651d
+			title: "&eA Woodworker’s Dream&r"
+			x: -2.5d
+			y: 3.6140000000000008d
 		}
 		{
+			description: ["The &9loom table&r is designed for skilled artisans working with &6wool&r and &6carpets&r."]
 			id: "706CCF7D1E0C346F"
 			rewards: [{
 				count: 32
@@ -118,15 +122,18 @@
 				item: "chipped:windmill_white_wool"
 				type: "item"
 			}]
+			subtitle: "Craft the loom table."
 			tasks: [{
 				id: "12F157D6AC2C151C"
 				item: "chipped:loom_table"
 				type: "item"
 			}]
-			x: 0.935d
-			y: -1.172d
+			title: "&fThread \\& Pattern&r"
+			x: -0.21399999999999864d
+			y: 1.7910000000000004d
 		}
 		{
+			description: ["Stonework requires skill, and the &9mason table&r ensures you have the perfect workstation for carving and shaping &6stone&r and &6concrete&r."]
 			id: "29421A83EA6C4E83"
 			rewards: [{
 				count: 32
@@ -134,15 +141,18 @@
 				item: "chipped:striped_yellow_concrete"
 				type: "item"
 			}]
+			subtitle: "Craft the mason table."
 			tasks: [{
 				id: "225D1F45E0158014"
 				item: "chipped:mason_table"
 				type: "item"
 			}]
-			x: -1.351d
-			y: -0.651d
+			title: "&8Stone \\& Chisel&r"
+			x: -2.5d
+			y: 2.312000000000001d
 		}
 		{
+			description: ["Chip &6mineral&r-related blocks with the &9alchemy table&r."]
 			id: "1834B8961999AC43"
 			rewards: [{
 				count: 32
@@ -150,15 +160,18 @@
 				item: "chipped:stacked_waxed_oxidized_copper"
 				type: "item"
 			}]
+			subtitle: "Craft the alchemy bench."
 			tasks: [{
 				id: "45A74AD8DD820950"
 				item: "chipped:alchemy_bench"
 				type: "item"
 			}]
-			x: 1.5d
-			y: 0.0d
+			title: "&dRock Solid&r"
+			x: 0.3509999999999991d
+			y: 2.963000000000001d
 		}
 		{
+			description: ["Use this &9tinkering table&r to tweak and refine &6redstone&r-related blocks, including &6lamps&r and &6bars&r, like a true engineer!"]
 			id: "19C304478092D122"
 			rewards: [{
 				count: 32
@@ -166,13 +179,15 @@
 				item: "chipped:sturdy_iron_bars"
 				type: "item"
 			}]
+			subtitle: "Craft the tinkering table."
 			tasks: [{
 				id: "421FAD27454AA797"
 				item: "chipped:tinkering_table"
 				type: "item"
 			}]
-			x: 0.935d
-			y: 1.172d
+			title: "&cRedstone Workshop&r"
+			x: -0.21399999999999864d
+			y: 4.135d
 		}
 		{
 			dependencies: ["3C40E43E96B0278C"]
@@ -213,27 +228,31 @@
 				}
 			]
 			title: "&eFurnish Your Space&r"
-			x: 5.5d
-			y: 0.0d
+			x: 4.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["26354AD392AF4791"]
-			description: ["From &9sofas&r to &9stools&r, there is a seat for everyone. Here, get some &6rugs&r and a &6tatami&r to make the space look even more cozy!"]
+			description: [
+				"From &9sofas&r to &9stools&r, there is a seat for everyone."
+				""
+				"All colors are supported."
+				""
+				"Use this &6hammer&r to &dright-click&r a stool and toggle between two heights."
+			]
 			icon: "another_furniture:light_gray_sofa"
 			id: "732B610F7F481C6F"
-			rewards: [
-				{
-					count: 2
-					id: "6825563246059028"
-					item: "farmersdelight:canvas_rug"
-					type: "item"
+			rewards: [{
+				id: "6CF6D6B52789F43B"
+				item: {
+					Count: 1b
+					id: "another_furniture:furniture_hammer"
+					tag: {
+						Damage: 0
+					}
 				}
-				{
-					id: "160A6BEFA0DF20B3"
-					item: "farmersdelight:full_tatami_mat"
-					type: "item"
-				}
-			]
+				type: "item"
+			}]
 			subtitle: "Upgrade your living room."
 			tasks: [
 				{
@@ -248,11 +267,6 @@
 					type: "item"
 				}
 				{
-					id: "44615AF5864938EC"
-					item: "create:white_seat"
-					type: "item"
-				}
-				{
 					count: 2L
 					id: "181E12C8CC39C472"
 					item: "another_furniture:black_tall_stool"
@@ -260,12 +274,16 @@
 				}
 			]
 			title: "&eGet Comfortable&r"
-			x: 8.5d
-			y: 0.0d
+			x: 7.0d
+			y: 3.5d
 		}
 		{
-			dependencies: ["732B610F7F481C6F"]
-			description: ["Did you know that you can stack &9lamps&r to create taller versions?"]
+			dependencies: ["7BD06E7194576367"]
+			description: [
+				"Did you know that you can stack &9lamps&r to create taller versions?"
+				""
+				"All colors are supported."
+			]
 			id: "6E636D11012E6647"
 			rewards: [{
 				id: "1AAC87D363E7C720"
@@ -280,12 +298,14 @@
 			}]
 			title: "&eLight It Up&r"
 			x: 10.0d
-			y: 0.0d
+			y: 3.5d
 		}
 		{
 			dependencies: ["415E6B296AF885DD"]
 			description: [
 				"Every home needs storage. Craft &9shelves&r and other storage units to keep things organized and tidy."
+				""
+				"All wood types are supported."
 				""
 				"Why not add this &6jar&r onto one of them?"
 			]
@@ -322,12 +342,12 @@
 				}
 			]
 			title: "&eStorage Solutions&r"
-			x: 7.0d
-			y: 0.0d
+			x: 5.5d
+			y: 3.5d
 		}
 		{
 			dependencies: ["6E636D11012E6647"]
-			description: ["Hang a few custom paintings! They could also be used outside as billboards."]
+			description: ["Hang a few custom &9paintings&r! They could also be used outside as billboards."]
 			icon: "immersive_paintings:painting"
 			id: "64AD2BD4C6A8D2D6"
 			rewards: [
@@ -349,60 +369,81 @@
 				item: "immersive_paintings:painting"
 				type: "item"
 			}]
-			title: "&eDecorate Your Walls&r"
+			title: "&aDecorate Your Walls&r"
 			x: 11.5d
-			y: 0.0d
+			y: 4.0d
 		}
 		{
-			description: [""]
+			description: ["Craft a &9doormat&r, a &9tatami&r and some &9rugs&r to make your place look cozy!"]
+			icon: "supplementaries:doormat"
 			id: "3C40E43E96B0278C"
 			rewards: [{
-				id: "5D6564BBE9E8EDB6"
-				item: "supplementaries:doormat"
+				id: "65272AD0907426D6"
+				item: "another_furniture:service_bell"
 				type: "item"
 			}]
-			shape: "pentagon"
+			shape: "rsquare"
 			size: 1.5d
 			subtitle: "Wipe your shoes before entering!"
-			tasks: [{
-				id: "4CA0087BDAB56DF8"
-				item: "supplementaries:doormat"
-				type: "item"
-			}]
-			title: "&eHome Sweet Home&r"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			icon: "another_furniture:oak_bench"
-			id: "17AA8C92DE520238"
-			rewards: [{
-				id: "279921714C0CBBA4"
-				item: "another_furniture:oak_bench"
-				type: "item"
-			}]
 			tasks: [
 				{
-					id: "493A0DB94E73A4DF"
-					item: "another_furniture:oak_bench"
+					id: "4CA0087BDAB56DF8"
+					item: "supplementaries:doormat"
 					type: "item"
 				}
 				{
-					id: "3261B9AC15B55444"
-					item: {
-						Count: 1b
-						id: "another_furniture:furniture_hammer"
-						tag: {
-							Damage: 0
-						}
-					}
+					id: "69C7FB95933310F8"
+					item: "farmersdelight:full_tatami_mat"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76515224115F8CB0"
+					item: "farmersdelight:canvas_rug"
 					type: "item"
 				}
 			]
-			x: 5.5d
-			y: 1.5d
+			title: "&eHome Sweet Home&r"
+			x: 2.5d
+			y: 3.5d
 		}
 		{
+			dependencies: ["732B610F7F481C6F"]
+			description: [
+				"Craft &9benches&r. Use a hammer to adjust the backrest display!"
+				""
+				"All wood types are supported."
+				""
+				"To complete the setup, enjoy this &6planter&r that will look great next to it."
+			]
+			icon: "another_furniture:oak_bench"
+			id: "17AA8C92DE520238"
+			rewards: [
+				{
+					id: "6CE01349BE384F07"
+					item: "supplementaries:planter"
+					type: "item"
+				}
+				{
+					id: "5A42F8767BAEDDA0"
+					item: "minecraft:lilac"
+					type: "item"
+				}
+			]
+			subtitle: "Customize benches."
+			tasks: [{
+				count: 3L
+				id: "493A0DB94E73A4DF"
+				item: "another_furniture:oak_bench"
+				type: "item"
+			}]
+			title: "&eTake a Seat&r"
+			x: 7.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["26354AD392AF4791"]
+			description: ["Craft a &9pot&r to store your items, and take these &6urns&r to help you store even more!"]
 			id: "6DCB22D757FBB5B2"
 			rewards: [{
 				count: 3
@@ -410,23 +451,1562 @@
 				item: "supplementaries:urn"
 				type: "item"
 			}]
+			subtitle: "A decorative way to keep your items."
 			tasks: [{
 				id: "497E634C9D53EF82"
 				item: "ecologics:pot"
 				type: "item"
 			}]
+			title: "&eStorage with Style&r"
+			x: 5.5d
+			y: 5.0d
+		}
+		{
+			dependencies: ["732B610F7F481C6F"]
+			description: [
+				"Windows bring light, but the details make them shine! Craft 2 &9curtains&r and 4 &9shutters&r to add a stylish touch."
+				""
+				"All colors and wood types are supported."
+				""
+				"Complete the look with these &6flower boxes&r and &6copycat steps&r for the perfect window sill."
+			]
+			icon: "another_furniture:white_curtain"
+			id: "7BD06E7194576367"
+			rewards: [
+				{
+					count: 2
+					id: "0329DCE62A13EA3B"
+					item: "supplementaries:flower_box"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "0504FD8692E3425D"
+					item: "create:copycat_step"
+					type: "item"
+				}
+			]
+			subtitle: "Dress up your windows."
+			tasks: [
+				{
+					count: 2L
+					id: "2A90E635ABE90677"
+					item: "another_furniture:white_curtain"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6E74368DDC25DAA3"
+					item: "another_furniture:oak_shutter"
+					type: "item"
+				}
+			]
+			title: "&bA Room with a View&r"
+			x: 8.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["6E636D11012E6647"]
+			description: ["&9Item frames&r are great for showcasing items, but sometimes, less is more. &dShift-punch&r them to toggle their visibility!"]
+			id: "47C8EF8CA1913F1C"
+			rewards: [{
+				id: "5345A64FCE611884"
+				item: "minecraft:glow_item_frame"
+				type: "item"
+			}]
+			subtitle: "A clever way to display items!"
+			tasks: [{
+				id: "2B940B6D59DA54FD"
+				item: "minecraft:item_frame"
+				type: "item"
+			}]
+			title: "&dHidden in Plain Sight&r"
+			x: 11.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["6DCB22D757FBB5B2"]
+			description: ["Craft a &9safe&r to securely store your valuable items. A &9key&r is required to open it. Do not forget to rename the key in an &6anvil&r before linking it to the &9safe&r by &dright-clicking&r on it."]
+			icon: "supplementaries:safe"
+			id: "330767EB35BA506E"
+			rewards: [{
+				id: "5D76A8471136E3E3"
+				item: "minecraft:anvil"
+				type: "item"
+			}]
+			subtitle: "My precious... My precious..."
+			tasks: [
+				{
+					id: "09FBEC5AFFC1CA33"
+					item: "supplementaries:safe"
+					type: "item"
+				}
+				{
+					id: "349FCFFB61CA5F3C"
+					item: "supplementaries:key"
+					type: "item"
+				}
+			]
+			title: "&5Secure Your Treasures&r"
+			x: 5.5d
+			y: 6.5d
+		}
+		{
+			description: [
+				"You can never go wrong with classic vanilla red &9bricks&r."
+				""
+				"However, until you have a steady supply, you might want to consider more affordable alternatives, like &6cut limestone bricks&r. Start building the foundation of your home!"
+			]
+			id: "17B0F4939666BE57"
+			rewards: [{
+				count: 4
+				id: "1E20C94B42696457"
+				item: "create:cut_limestone_bricks"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Craft red bricks."
+			tasks: [{
+				count: 8L
+				id: "4B5EDB37B0BC0123"
+				item: "minecraft:brick"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["The classic vanilla recipe works, but did you know that you can &3haunt&r vanilla bricks to craft &9nether bricks&r?"]
+			id: "02AE678107785783"
+			rewards: [{
+				count: 4
+				id: "5FE65EBC68560359"
+				item: "minecraft:nether_brick_fence"
+				type: "item"
+			}]
+			subtitle: "Craft Nether bricks."
+			tasks: [{
+				count: 8L
+				id: "2F06AE86C2CE0523"
+				item: "minecraft:nether_brick"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -4.0d
+		}
+		{
+			description: ["&cSmelt&r ash, obtained by burning &6wood&r, to craft &9ash bricks&r. How will you set up your ash farm?"]
+			id: "33D0CA7635AEB3C8"
+			rewards: [{
+				count: 4
+				id: "7DB34DC3F475D116"
+				item: "minecraft:oak_log"
+				type: "item"
+			}]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Craft ash bricks."
+			tasks: [{
+				count: 8L
+				id: "70E81E64CE5AB474"
+				item: "supplementaries:ash_brick"
+				type: "item"
+			}]
+			x: 4.75d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Sometimes, worn materials give your build a unique charm. &cSmelt&r some vanilla bricks to make &9worn bricks&r."]
+			id: "4870638488C4688B"
+			rewards: [{
+				count: 4
+				id: "7BA7B9F090B36533"
+				item: "createdeco:worn_brick"
+				type: "item"
+			}]
+			subtitle: "Craft worn bricks."
+			tasks: [{
+				count: 8L
+				id: "34EECC3AA6DBC5F4"
+				item: "createdeco:worn_brick"
+				type: "item"
+			}]
+			x: 2.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Combine vanilla bricks and &6light gray dye&r to create &9pearl bricks&r."]
+			id: "494D80A2AF3A24E0"
+			rewards: [{
+				count: 4
+				id: "608A4470D33A0BD3"
+				item: "minecraft:light_gray_dye"
+				type: "item"
+			}]
+			subtitle: "Craft pearl bricks."
+			tasks: [{
+				count: 8L
+				id: "019749D1612F78E7"
+				item: "createdeco:pearl_brick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Combine vanilla bricks and &6red dye&r to create &9scarlet bricks&r."]
+			id: "66F0CE1CC4F4823A"
+			rewards: [{
+				count: 4
+				id: "0433A54853653DCF"
+				item: "minecraft:red_dye"
+				type: "item"
+			}]
+			subtitle: "Craft scarlet bricks."
+			tasks: [{
+				count: 8L
+				id: "39E1B3A7BEBAA232"
+				item: "createdeco:scarlet_brick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Combine vanilla bricks and &6light blue dye&r to create &9blue bricks&r."]
+			id: "0D1BED8D6E9E2388"
+			rewards: [{
+				count: 4
+				id: "114FEA331CFB0AB7"
+				item: "minecraft:light_blue_dye"
+				type: "item"
+			}]
+			subtitle: "Craft blue bricks."
+			tasks: [{
+				count: 8L
+				id: "506120905E31222B"
+				item: "createdeco:blue_brick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Combine vanilla bricks and &6yellow dye&r to create &9dean bricks&r."]
+			id: "79DF4CF047863B72"
+			rewards: [{
+				count: 4
+				id: "05BF7FE445A58C78"
+				item: "minecraft:yellow_dye"
+				type: "item"
+			}]
+			subtitle: "Craft dean bricks."
+			tasks: [{
+				count: 8L
+				id: "2AE93EBE90CB7061"
+				item: "createdeco:dean_brick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Combine vanilla bricks and &6black dye&r to create &9dusk bricks&r."]
+			id: "0C7C5CFEC7BC5424"
+			rewards: [{
+				count: 4
+				id: "446B434BFAFE709E"
+				item: "minecraft:black_dye"
+				type: "item"
+			}]
+			subtitle: "Craft dusk bricks."
+			tasks: [{
+				count: 8L
+				id: "110E2D15A3DFA3A9"
+				item: "createdeco:dusk_brick"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["33D0CA7635AEB3C8"]
+			description: ["In addition to crafting &9bricks&r, explore ash's other uses as a layer block for decoration or as an ingredient in crafting &6soap&r. Use it to charge your &6bubble blower&r!"]
+			id: "366ECF010802CC18"
+			rewards: [
+				{
+					id: "29D2272121DD81AF"
+					item: {
+						Count: 1b
+						id: "supplementaries:bubble_blower"
+						tag: {
+							Damage: 250
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "216E547958C5A697"
+					item: "supplementaries:soap"
+					type: "item"
+				}
+			]
+			subtitle: "Craft ash bricks."
+			tasks: [{
+				count: 4L
+				id: "10BC33B49EE62B7F"
+				item: "supplementaries:ash_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["02AE678107785783"]
+			description: ["&9Nether bricks&r come in many variants, including &6Nether bricks pillars&r, perfect for mimicking metallic structures!"]
+			id: "2166CE541FD6BAB2"
+			rewards: [{
+				count: 4
+				id: "5E73FE0004CF9AB4"
+				item: "chipped:nether_bricks_pillar"
+				type: "item"
+			}]
+			subtitle: "Craft Nether bricks."
+			tasks: [{
+				count: 4L
+				id: "39F542817C8AD860"
+				item: "minecraft:nether_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["02AE678107785783"]
+			description: [
+				"Want something bolder? Mix Nether bricks with Nether wart to craft &9red Nether bricks&r!"
+				""
+				"Like their dark counterpart, they come in many variants, including &6red Nether brick pillars&r, ideal for metallic-looking builds."
+			]
+			id: "1582F5E294FADE0C"
+			rewards: [{
+				count: 4
+				id: "2E6B2852FB70ED8A"
+				item: "chipped:red_nether_bricks_pillar"
+				type: "item"
+			}]
+			subtitle: "Craft red Nether bricks."
+			tasks: [{
+				count: 4L
+				id: "288CEDB3FD69F7CE"
+				item: "minecraft:red_nether_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["4870638488C4688B"]
+			description: ["Craft &9worn bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "23F29661E25BD0F1"
+			rewards: [
+				{
+					id: "1A3E9C73C39DACE5"
+					item: "createdeco:worn_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "69473993E18DBC8A"
+					item: "createdeco:worn_short_bricks"
+					type: "item"
+				}
+				{
+					id: "73A5B26FA5554602"
+					item: "createdeco:worn_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft worn bricks."
+			tasks: [{
+				count: 4L
+				id: "433C90FD4060ACA9"
+				item: "createdeco:worn_bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["0C7C5CFEC7BC5424"]
+			description: ["Craft &9dusk bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "73C63F2AAC2AD31E"
+			rewards: [
+				{
+					id: "6D31C82120D305A5"
+					item: "createdeco:dusk_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "4848388BD1D69ABD"
+					item: "createdeco:dusk_short_bricks"
+					type: "item"
+				}
+				{
+					id: "03AA8E3A3D25CAE6"
+					item: "createdeco:dusk_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft dusk bricks."
+			tasks: [{
+				count: 4L
+				id: "4A45AF181E3CFB8F"
+				item: "createdeco:dusk_bricks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["79DF4CF047863B72"]
+			description: ["Craft &9dean bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "3A0B7FC4DD171334"
+			rewards: [
+				{
+					id: "0507141E7238ADD8"
+					item: "createdeco:dean_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "6C240488A90E52B6"
+					item: "createdeco:dean_short_bricks"
+					type: "item"
+				}
+				{
+					id: "3CE678D8B22B7C5E"
+					item: "createdeco:dean_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft dean bricks."
+			tasks: [{
+				count: 4L
+				id: "59D08765B9DF5680"
+				item: "createdeco:dean_bricks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["0D1BED8D6E9E2388"]
+			description: ["Craft &9blue bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "65C0BD7052C560BE"
+			rewards: [
+				{
+					id: "118AB9A38EA585E9"
+					item: "createdeco:blue_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "55EB811C8F4D3C0C"
+					item: "createdeco:blue_short_bricks"
+					type: "item"
+				}
+				{
+					id: "3AF93F8791A0BFEF"
+					item: "createdeco:blue_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft blue bricks."
+			tasks: [{
+				count: 4L
+				id: "45810634E7F9E8E0"
+				item: "createdeco:blue_bricks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["66F0CE1CC4F4823A"]
+			description: ["Craft &9scarlet bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "780F30B217AF5071"
+			rewards: [
+				{
+					id: "032B6D8B91DB19DD"
+					item: "createdeco:scarlet_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "64B3C8F0408782AA"
+					item: "createdeco:scarlet_short_bricks"
+					type: "item"
+				}
+				{
+					id: "79DB31EED2B65BF3"
+					item: "createdeco:scarlet_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft scarlet bricks."
+			tasks: [{
+				count: 4L
+				id: "1C6B6650830DA27F"
+				item: "createdeco:scarlet_bricks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["494D80A2AF3A24E0"]
+			description: ["Craft &9pearl bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "1EF6D9C91AACB602"
+			rewards: [
+				{
+					id: "79E18DC53D95F1AE"
+					item: "createdeco:pearl_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "7E4D845F40E682C1"
+					item: "createdeco:pearl_short_bricks"
+					type: "item"
+				}
+				{
+					id: "5B99E580E6B82243"
+					item: "createdeco:pearl_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft pearl bricks."
+			tasks: [{
+				count: 4L
+				id: "62F959497E811B05"
+				item: "createdeco:pearl_bricks"
+				type: "item"
+			}]
+			x: 8.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["17B0F4939666BE57"]
+			description: ["Craft vanilla red &9bricks&r. Did you know they also come in &6tiles&r, &6short&r, and &6long&r variants?"]
+			id: "2ADFCC44223DF57A"
+			rewards: [
+				{
+					id: "0614C03C313E0352"
+					item: "createdeco:red_brick_tiles"
+					type: "item"
+				}
+				{
+					id: "3D1D47ACF9E1B12E"
+					item: "createdeco:red_short_bricks"
+					type: "item"
+				}
+				{
+					id: "7CE6610A9C9B8A57"
+					item: "createdeco:red_long_bricks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft red bricks."
+			tasks: [{
+				count: 4L
+				id: "1E647B29FBA3081C"
+				item: "minecraft:bricks"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2ADFCC44223DF57A"]
+			description: ["&cSmelt&r your favorite red brick variant to craft its &9cracked version&r. Take this &6cut granite&r to complement them for building."]
+			id: "4DF61F03725220EE"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "00441D9CD55FF633"
+				item: "create:cut_granite"
+				type: "item"
+			}]
+			subtitle: "Craft cracked red bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "38F2852833D74CFC"
+					item: "createdeco:cracked_red_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0162080216C32F57"
+					item: "createdeco:cracked_red_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "159A05195DBEFFBC"
+					item: "createdeco:cracked_red_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1B03A3F70FE7ABB5"
+					item: "createdeco:cracked_red_long_bricks"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["23F29661E25BD0F1"]
+			description: ["&cSmelt&r your favorite worn brick variant to craft its &9cracked version&r. Take these &6tiny layered smooth stone slabs&r to complement them for building."]
+			id: "718BA53F85B515A8"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "226AA90B9A389856"
+				item: "chipped:tiny_layered_smooth_stone_slabs"
+				type: "item"
+			}]
+			subtitle: "Craft cracked worn bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "654F47B80EDECFD6"
+					item: "createdeco:cracked_worn_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6F5C0166F8F2D284"
+					item: "createdeco:cracked_worn_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "692CA8460AC76D7D"
+					item: "createdeco:cracked_worn_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E268DCEF7DA649F"
+					item: "createdeco:cracked_worn_long_bricks"
+					type: "item"
+				}
+			]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["718BA53F85B515A8"]
+			description: ["&bWash&r your favorite worn brick variant to craft its &9mossy version&r. Take these &6smooth quartz blocks&r to complement them for building."]
+			id: "60E56D12FCFB5D79"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "49B8CB30D508454A"
+				item: "minecraft:smooth_quartz"
+				type: "item"
+			}]
+			subtitle: "Craft mossy worn bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "701FC74063DEBA2C"
+					item: "createdeco:mossy_worn_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1624BD802ECF2E5B"
+					item: "createdeco:mossy_worn_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "520B7CA3D1142151"
+					item: "createdeco:mossy_worn_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6633E3850FE0306C"
+					item: "createdeco:mossy_worn_long_bricks"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["4DF61F03725220EE"]
+			description: ["&bWash&r your favorite red brick variant to craft its &9mossy version&r. Take these &6cut granite bricks&r to complement them for building."]
+			id: "4047F1CBB9187414"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "00DF79B0557AAEDC"
+				item: "create:cut_granite_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft mossy red bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "07A5AE3F5F288AAA"
+					item: "createdeco:mossy_red_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4269E1199457573D"
+					item: "createdeco:mossy_red_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2C945AA91DF856C9"
+					item: "createdeco:mossy_red_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6D7417BB93F9A987"
+					item: "createdeco:mossy_red_long_bricks"
+					type: "item"
+				}
+			]
+			x: -2.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["1EF6D9C91AACB602"]
+			description: ["&cSmelt&r your favorite pearl brick variant to craft its &9cracked version&r. Take these &6cracked disordered diorite bricks&r to complement them for building."]
+			id: "52B8AC0029C05280"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "1D63663B08FC3DB3"
+				item: "chipped:cracked_disordered_diorite_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft cracked pearl bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "7DAD4FB90A5C8E98"
+					item: "createdeco:cracked_pearl_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0B2B22554A2CB991"
+					item: "createdeco:cracked_pearl_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6EAC6356F7EDBCEA"
+					item: "createdeco:cracked_pearl_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "46B3D73733E28CFB"
+					item: "createdeco:cracked_pearl_long_bricks"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -6.5d
+		}
+		{
+			dependencies: ["52B8AC0029C05280"]
+			description: ["&bWash&r your favorite pearl brick variant to craft its &9mossy version&r. Take these &6layed diorite bricks&r to complement them for building."]
+			id: "44575501F9E6716B"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "420B229DED3C2CD5"
+				item: "chipped:layed_diorite_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft mossy pearl bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "3FA71ADC55832D83"
+					item: "createdeco:mossy_pearl_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E6A8598C0A3C2E7"
+					item: "createdeco:mossy_pearl_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "23F8CBCF58F640E1"
+					item: "createdeco:mossy_pearl_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5285467392333940"
+					item: "createdeco:mossy_pearl_long_bricks"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -6.5d
+		}
+		{
+			dependencies: ["780F30B217AF5071"]
+			description: ["&cSmelt&r your favorite scarlet brick variant to craft its &9cracked version&r. Take these &6red concrete&r to complement them for building."]
+			id: "2F46ACABB0A3089A"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "412098EA6644AE75"
+				item: "minecraft:red_concrete"
+				type: "item"
+			}]
+			subtitle: "Craft cracked scarlet bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "6535E0FCAE538933"
+					item: "createdeco:cracked_scarlet_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1A8253D23542F9D6"
+					item: "createdeco:cracked_scarlet_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "43BDCC6101F4840A"
+					item: "createdeco:cracked_scarlet_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "05DF59BBD2F0FCF2"
+					item: "createdeco:cracked_scarlet_long_bricks"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -5.5d
+		}
+		{
+			dependencies: ["2F46ACABB0A3089A"]
+			description: ["&bWash&r your favorite scarlet brick variant to craft its &9mossy version&r. Take these &6red concrete bricks&r to complement them for building."]
+			id: "1EB2685744A29CAC"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "445F55A4F9BE8F33"
+				item: "chipped:red_concrete_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft mossy scarlet bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "6C961D4D10AD1E30"
+					item: "createdeco:mossy_scarlet_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1AC135E08BC5DDC3"
+					item: "createdeco:mossy_scarlet_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "158425EBAB30DF59"
+					item: "createdeco:mossy_scarlet_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "1FE3EA2E14B4351F"
+					item: "createdeco:mossy_scarlet_long_bricks"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -5.5d
+		}
+		{
+			dependencies: ["65C0BD7052C560BE"]
+			description: ["&cSmelt&r your favorite blue brick variant to craft its &9cracked version&r. Take these &6smooth stone pillars&r to complement them for building."]
+			id: "3B0F5ED0A31ACC7A"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "1175E4065EE5F477"
+				item: "chipped:smooth_stone_pillar"
+				type: "item"
+			}]
+			subtitle: "Craft cracked blue bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "1CF4BF8C1BAD9273"
+					item: "createdeco:cracked_blue_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "6443D7C79DF193B4"
+					item: "createdeco:cracked_blue_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "16600A64C7A7509D"
+					item: "createdeco:cracked_blue_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "11121C0BEE68D20D"
+					item: "createdeco:cracked_blue_long_bricks"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3B0F5ED0A31ACC7A"]
+			description: ["&bWash&r your favorite blue brick variant to craft its &9mossy version&r. Take these &6cut blank tuff&r to complement them for building."]
+			id: "2C2A0012197B319D"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "2732648782785E91"
+				item: "chipped:cut_blank_tuff"
+				type: "item"
+			}]
+			subtitle: "Craft mossy blue bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "515560125821A595"
+					item: "createdeco:mossy_blue_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "348325DC0D496A69"
+					item: "createdeco:mossy_blue_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "03F5D632136266F4"
+					item: "createdeco:mossy_blue_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "608729C07AEA1103"
+					item: "createdeco:mossy_blue_long_bricks"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["3A0B7FC4DD171334"]
+			description: ["&cSmelt&r your favorite dean brick variant to craft its &9cracked version&r. Take these &6crunched packed mud bricks&r to complement them for building."]
+			id: "46BA9D3F78684E01"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "4593ADB207F91593"
+				item: "chipped:crunched_packed_mud_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft cracked dean bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "263B53BEC80E1DF1"
+					item: "createdeco:cracked_dean_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "76808B7D1EB683EE"
+					item: "createdeco:cracked_dean_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "777DC4465C0FC2AC"
+					item: "createdeco:cracked_dean_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2A1FCC815B2620FA"
+					item: "createdeco:cracked_dean_long_bricks"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -3.5d
+		}
+		{
+			dependencies: ["46BA9D3F78684E01"]
+			description: ["&bWash&r your favorite dean brick variant to craft its &9mossy version&r. Take these &6cut blank mud bricks&r to complement them for building."]
+			id: "059747FE3983D448"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "0695005B66F409A4"
+				item: "chipped:cut_blank_mud_bricks"
+				type: "item"
+			}]
+			subtitle: "Craft mossy dean bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "2B5A815F4A2FB90E"
+					item: "createdeco:mossy_dean_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0F9EAB8280E58BEB"
+					item: "createdeco:mossy_dean_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "4DF2083F4DE5593F"
+					item: "createdeco:mossy_dean_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0E506155DB521069"
+					item: "createdeco:mossy_dean_long_bricks"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -3.5d
+		}
+		{
+			dependencies: ["73C63F2AAC2AD31E"]
+			description: ["&cSmelt&r your favorite dusk brick variant to craft its &9cracked version&r. Take these &6oak window panes&r to complement them for building."]
+			id: "206B20206B0250DA"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "6C66466DF4C76489"
+				item: "create:oak_window_pane"
+				type: "item"
+			}]
+			subtitle: "Craft cracked dusk bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "759B79DCFAEAB078"
+					item: "createdeco:cracked_dusk_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "110C525785B0CEAB"
+					item: "createdeco:cracked_dusk_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "53F2DB3BE7F62E68"
+					item: "createdeco:cracked_dusk_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "44AE4F63678460CF"
+					item: "createdeco:cracked_dusk_long_bricks"
+					type: "item"
+				}
+			]
+			x: 10.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["206B20206B0250DA"]
+			description: ["&bWash&r your favorite dusk brick variant to craft its &9mossy version&r. Take these &6polished deepslate&r to complement them for building."]
+			id: "266D7F79C7088E98"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "63FD4D25DBFF841D"
+				item: "chipped:polished_deepslate"
+				type: "item"
+			}]
+			subtitle: "Craft mossy dusk bricks."
+			tasks: [
+				{
+					count: 4L
+					id: "4BD541E12150BA85"
+					item: "createdeco:mossy_dusk_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "663869D76024AA88"
+					item: "createdeco:mossy_dusk_brick_tiles"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "72909D56A16509E1"
+					item: "createdeco:mossy_dusk_short_bricks"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "7AF78E38794FB34D"
+					item: "createdeco:mossy_dusk_long_bricks"
+					type: "item"
+				}
+			]
+			x: 11.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["6E35233150530F0F"]
+			description: ["Use these sturdy components to build something truly industrial."]
+			icon: "create:metal_girder"
+			id: "76EA5C0C056B71F1"
+			rewards: [{
+				count: 4
+				id: "7AAC5EE20CEDD249"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Craft metal girders and brackets."
+			tasks: [
+				{
+					count: 8L
+					id: "0C9944D256D058F6"
+					item: "create:metal_girder"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "2D79FA688A494939"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+			]
+			title: "&fIndustrial Elegance&r"
+			x: 5.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1C2C2745D10A6771"]
+			description: ["Try the &6cast iron cage lamps&r for a sleek look."]
+			id: "5CDCA3F58BD8C3A5"
+			rewards: [
+				{
+					id: "23D8EC8BB7B87062"
+					item: "createdeco:red_cast_iron_lamp"
+					type: "item"
+				}
+				{
+					id: "1AFB6B43D37D1821"
+					item: "createdeco:green_cast_iron_lamp"
+					type: "item"
+				}
+			]
+			subtitle: "Craft yellow cast iron cage lamps."
+			tasks: [{
+				count: 4L
+				id: "15D9D00E5CCD0776"
+				item: "createdeco:yellow_cast_iron_lamp"
+				type: "item"
+			}]
+			title: "&eIndustrial Lighting&r"
+			x: 11.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA0AF9D3F364F44"]
+			description: ["Explore different colors for unique designs."]
+			id: "6E35233150530F0F"
+			rewards: [
+				{
+					id: "5B80E388D3A444ED"
+					item: "createdeco:yellow_decal"
+					type: "item"
+				}
+				{
+					id: "3E75FBEB72B2DE75"
+					item: "createdeco:blue_decal"
+					type: "item"
+				}
+			]
+			subtitle: "Dye an iron sheet to create a decal."
+			tasks: [{
+				count: 2L
+				id: "490D92A956B1E56D"
+				item: "createdeco:white_decal"
+				type: "item"
+			}]
+			title: "&aA Touch of Color&r"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E35233150530F0F"]
+			description: ["Industrial labelling has never been easier with &9placards&r, which even integrate with contraptions like trains."]
+			id: "4228B6AB40F26B7B"
+			rewards: [{
+				id: "45FA7F83CFD62816"
+				item: "create:brass_sheet"
+				type: "item"
+			}]
+			subtitle: "Craft a placard."
+			tasks: [{
+				id: "126E14EA0086472F"
+				item: "create:placard"
+				type: "item"
+			}]
+			title: "&eSigns of Progress&r"
 			x: 4.0d
 			y: 1.5d
 		}
 		{
-			id: "72F83D67800B119A"
-			tasks: [{
-				id: "769BB3604F59BEBE"
-				item: "minecraft:clay_ball"
+			dependencies: ["233FB8052CF9EBC8"]
+			description: ["These components will help you create elevated pathways. Be sure to explore the available &6metal&r variants to better suit your build style."]
+			icon: "createdeco:iron_catwalk"
+			id: "1C2C2745D10A6771"
+			rewards: [{
+				count: 4
+				id: "74FE7AFB4B04A943"
+				item: "createdeco:cast_iron_ingot"
 				type: "item"
 			}]
-			x: 0.0d
-			y: -6.5d
+			subtitle: "Craft iron catwalks, catwalk stairs, and supports."
+			tasks: [
+				{
+					count: 9L
+					id: "24CC59B6CAA1BE19"
+					item: "createdeco:iron_catwalk"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "5B336AFD4629578C"
+					item: "createdeco:iron_catwalk_stairs"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "0FD8B59154602FFF"
+					item: "createdeco:iron_support"
+					type: "item"
+				}
+				{
+					count: 4L
+					id: "56D68F04ECB01862"
+					item: "createdeco:iron_ladder"
+					type: "item"
+				}
+			]
+			title: "&fCatwalks!&r"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["541EEE48614D6FDB"]
+			description: ["&9Polished iron bars&r are a key ingredient for crafting catwalks and other industrial structures."]
+			id: "233FB8052CF9EBC8"
+			rewards: [{
+				count: 2
+				id: "3D48599D33C7940C"
+				item: "createdeco:polished_iron_bars_overlay"
+				type: "item"
+			}]
+			subtitle: "Craft polished iron bars."
+			tasks: [{
+				count: 4L
+				id: "5536FF094EDD8F99"
+				item: "createdeco:polished_iron_bars"
+				type: "item"
+			}]
+			title: "&fReinforced Barriers&r"
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76EA5C0C056B71F1"]
+			description: ["&9Iron mesh fences&r are perfect for industrial areas, storage zones, or factory walkways."]
+			id: "541EEE48614D6FDB"
+			rewards: [{
+				count: 2
+				id: "72023D2344827944"
+				item: "createdeco:iron_mesh_fence"
+				type: "item"
+			}]
+			subtitle: "Craft iron mesh fences."
+			tasks: [{
+				count: 4L
+				id: "20E5D7FE9E66BC5F"
+				item: "createdeco:iron_mesh_fence"
+				type: "item"
+			}]
+			title: "&fSecure Boundaries&r"
+			x: 7.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA0AF9D3F364F44"]
+			description: ["&9Train hulls&r are not just for locomotives. They also make excellent chimneys and other industrial structures. Use your imagination!"]
+			id: "411FAB2161E33CF7"
+			rewards: [
+				{
+					id: "7EC16AB4AC0699CD"
+					item: "createdeco:zinc_hull"
+					type: "item"
+				}
+				{
+					id: "51648B7F1C56F39C"
+					item: "minecraft:campfire"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "1673869B7C7AB85F"
+					item: "createdeco:zinc_trapdoor"
+					type: "item"
+				}
+			]
+			subtitle: "Craft iron train hulls."
+			tasks: [{
+				count: 4L
+				id: "102062331530ADA6"
+				item: "createdeco:iron_hull"
+				type: "item"
+			}]
+			title: "&cIndustrial Chimneys&r"
+			x: 1.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"A solid choice for factory builds! Craft &9industrial iron&r to add a heavy-duty look to your structures."
+				""
+				"You will likely need an &6iron&r farm to keep up with the demand."
+			]
+			id: "1FA0AF9D3F364F44"
+			rewards: [{
+				id: "557C8F2280A58FD3"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft industrial iron."
+			tasks: [{
+				count: 2L
+				id: "0C00580CDE90BDC4"
+				item: "create:industrial_iron_block"
+				type: "item"
+			}]
+			title: "&fSolid as Steel&r"
+			x: 2.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1FA0AF9D3F364F44"]
+			description: ["Craft &9copycat panels&r to replicate the look of other blocks. Explore the various copycat options to find the perfect match!"]
+			id: "742DBA67687A032D"
+			rewards: [{
+				count: 8
+				id: "20326F117DA488DD"
+				item: "copycats:copycat_byte"
+				type: "item"
+			}]
+			subtitle: "Craft copycat panels."
+			tasks: [{
+				count: 4L
+				id: "71E2D31763B03438"
+				item: "create:copycat_panel"
+				type: "item"
+			}]
+			title: "&aVersatile Framework&r"
+			x: 2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["76EA5C0C056B71F1"]
+			description: ["&9Brackets&r also exist in their &9wooden&r variant, offering a natural yet sturdy option for your builds. Combine them with &6big chains&r to support lighter structures such as pipes."]
+			id: "25A91122715F8000"
+			rewards: [{
+				count: 4
+				id: "05D24BCEE3A2EC6B"
+				item: "decorative_blocks:chain"
+				type: "item"
+			}]
+			subtitle: "Craft wooden brackets."
+			tasks: [{
+				count: 4L
+				id: "3F7F62DCAF79B576"
+				item: "create:wooden_bracket"
+				type: "item"
+			}]
+			title: "&eWooden Support&r"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			description: ["The &9trowel&r is a must have for builders. &dRight-click&r with it in your hand to randomly place blocks from your hotbar. Create mixed patterns with ease!"]
+			id: "5FB7008E5401441B"
+			rewards: [
+				{
+					count: 4
+					id: "5398E9086F727337"
+					item: "chipped:layed_cobblestone_bricks"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "416751F15B8A4D63"
+					item: "chipped:flat_cobblestone_tiles"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "63538B5312949DFE"
+					item: "chipped:cracked_flat_lodestone_tiles"
+					type: "item"
+				}
+				{
+					count: 4
+					id: "4F8A638EA1188E37"
+					item: "chipped:weathered_cobblestone"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 2.5d
+			subtitle: "Craft a trowel."
+			tasks: [{
+				id: "7101B63915C14F9E"
+				item: "trowel:trowel"
+				type: "item"
+			}]
+			title: "&fA Builder’s Best Friend&r"
+			x: -2.0d
+			y: -2.5d
+		}
+		{
+			dependencies: ["17AA8C92DE520238"]
+			description: [
+				"&9Signs&r make great labels for your shops. Now, take these &6fences&r and &6sign posts&r to mark pathways and important locations!"
+				""
+				"All wood types are supported."
+			]
+			icon: "supplementaries:hanging_sign_oak"
+			id: "3560296BDF14CE59"
+			rewards: [
+				{
+					count: 2
+					id: "388A02A106A6FFCC"
+					item: "minecraft:oak_fence"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "7226C03CDA7743F0"
+					item: "supplementaries:sign_post_oak"
+					type: "item"
+				}
+			]
+			subtitle: "Craft hanging and canvas signs."
+			tasks: [
+				{
+					count: 2L
+					id: "5132D2BCF8353C72"
+					item: "supplementaries:hanging_sign_oak"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "53E78F02808B2B8D"
+					item: "farmersdelight:canvas_sign"
+					type: "item"
+				}
+			]
+			title: "&2Labels&r"
+			x: 7.0d
+			y: 6.5d
+		}
+		{
+			dependencies: ["415E6B296AF885DD"]
+			description: [
+				"Looking for another way to furnish your space? Use these &9supports&r and &9seats&r!"
+				""
+				"All wood types are supported."
+			]
+			icon: "decorative_blocks:oak_support"
+			id: "00B97FC5888B0CB6"
+			rewards: [{
+				count: 2
+				id: "10480CBD4EAE1F03"
+				item: "decorative_blocks:oak_palisade"
+				type: "item"
+			}]
+			subtitle: "Craft seats and supports."
+			tasks: [
+				{
+					count: 4L
+					id: "139B6182312ABE16"
+					item: "decorative_blocks:oak_seat"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "62FAFFB3C9A10C3E"
+					item: "decorative_blocks:oak_support"
+					type: "item"
+				}
+			]
+			title: "&eAlternative Furnishings&r"
+			x: 4.0d
+			y: 5.0d
 		}
 	]
 	title: "Decorate your Builds"

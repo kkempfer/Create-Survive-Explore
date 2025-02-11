@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:end_crystal"
 	id: "67431C1E8CD0E925"
-	order_index: 7
+	order_index: 8
 	quest_links: [ ]
 	quests: [
 		{
@@ -455,7 +455,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Find a &9desert&r, where the heat is unforgiving, and the ancient secrets of the &6old eye&r remain buried."]
 			id: "619B77F7423B87F7"
 			rewards: [{
@@ -495,7 +495,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Did you already spot cute &6frogs&r? Their colorful appearance hides dangerous properties, but we might be able to use them to our advantage."]
 			id: "3CF285CB9FAABC25"
 			rewards: [{
@@ -516,7 +516,7 @@
 			y: -3.0d
 		}
 		{
-			dependencies: ["4BD2D60065C5C5D8"]
+			dependencies: ["1C84E24467DE2116"]
 			description: ["The &9forbidden castle&r is home to well-trained &dpiglins&r. Do you have an appointment with the king?"]
 			id: "1BF2D0A4189776FF"
 			rewards: [{
@@ -537,28 +537,7 @@
 			y: 5.5d
 		}
 		{
-			description: ["&5&4&5&5"]
-			id: "4BD2D60065C5C5D8"
-			shape: "rsquare"
-			size: 2.5d
-			tasks: [{
-				dimension: "minecraft:the_nether"
-				icon: {
-					Count: 1b
-					id: "ftbquests:custom_icon"
-					tag: {
-						Icon: "minecraft:block/nether_portal"
-					}
-				}
-				id: "7744F886169C58E1"
-				type: "dimension"
-			}]
-			title: "&5Explore The Nether&r"
-			x: 3.5d
-			y: 5.0d
-		}
-		{
-			dependencies: ["4BD2D60065C5C5D8"]
+			dependencies: ["1C84E24467DE2116"]
 			description: ["Venture into the &9abandoned pipelines&r, filled with &bsentries&r still guarding their territory. The purpose and creators of these structures remain a mystery."]
 			id: "242E8EF5ADBD1043"
 			rewards: [{
@@ -578,7 +557,7 @@
 			y: 4.5d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Venture into the underground and search for the &9mineshafts&r, remnants of a bygone industrial age. These ancient tunnels, once bustling with activity, now hold untold secrets and forgotten machinery."]
 			id: "3608DC9063DCE786"
 			rewards: [{
@@ -597,21 +576,6 @@
 			title: "&cThe Forgotten Miners&r"
 			x: 2.5d
 			y: -4.0d
-		}
-		{
-			description: [""]
-			id: "59CE7525C35D51E5"
-			shape: "rsquare"
-			size: 2.5d
-			tasks: [{
-				dimension: "minecraft:overworld"
-				icon: "minecraft:grass_block"
-				id: "664F0CB62BCB9952"
-				type: "dimension"
-			}]
-			title: "&2Explore The Overworld&r"
-			x: 0.0d
-			y: 0.0d
 		}
 		{
 			dependencies: ["563F171A63E89C73"]
@@ -635,7 +599,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Venture into the depths and seek the &9deep dark&r, a place corrupted by sculk. Can you navigate the darkness and uncover the mysteries hidden within?"]
 			id: "563F171A63E89C73"
 			rewards: [
@@ -683,7 +647,7 @@
 			y: -4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Brave the elements in search of a &9wintry biome&r! Following a &9frozen river&r may guide you to the &6cold eye&r."]
 			icon: "minecraft:snow_block"
 			id: "5E7E74BD5E6722E9"
@@ -834,7 +798,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			id: "7C8E3A8100FA6281"
 			rewards: [{
 				count: 2
@@ -940,7 +904,7 @@
 			y: -2.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["A significant portion of the &9ocean&r remains poorly understood. Some estimates suggest that over 80% of the ocean is unmapped and unexplored!"]
 			id: "53CF8B07C28E7672"
 			rewards: [{
@@ -1004,7 +968,7 @@
 			y: 5.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Explore the &9swamp&r, where ancient machines and giant rusty gears lie hidden beneath the surface. Keep an eye out for remnants of a long-lost civilization."]
 			id: "16A69636D494F090"
 			rewards: [
@@ -1034,8 +998,8 @@
 		}
 		{
 			dependencies: [
-				"4BD2D60065C5C5D8"
-				"59CE7525C35D51E5"
+				"1C84E24467DE2116"
+				"3AAAEFDA6D4212ED"
 			]
 			dependency_requirement: "one_completed"
 			description: ["The &3illusioner&r is said to dwell in the &9woodland mansion&r or the &9sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
@@ -1116,7 +1080,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: [""]
 			id: "1E6856EF52EC12F1"
 			rewards: [{
@@ -1141,7 +1105,7 @@
 			y: 3.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: [""]
 			id: "7FA375B190607968"
 			rewards: [{
@@ -1182,7 +1146,7 @@
 			y: 4.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Explore the blue waters of the &9warm ocean&r, where colorful corals thrive in shallow waters."]
 			id: "788045F2F8750F48"
 			rewards: [{
@@ -1333,7 +1297,7 @@
 			y: 0.0d
 		}
 		{
-			dependencies: ["4BD2D60065C5C5D8"]
+			dependencies: ["1C84E24467DE2116"]
 			description: ["The &9Nether fortress&r belongs to the fearsome &8wither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
 			id: "53987D543B4BCFC3"
 			rewards: [{
@@ -1383,7 +1347,7 @@
 			y: 7.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Take a moment to relax under a coconut tree, sipping &6coconut milk&r and enjoying a nap."]
 			id: "7E295AA49432D973"
 			rewards: [{
@@ -1457,7 +1421,7 @@
 			y: -1.0d
 		}
 		{
-			dependencies: ["59CE7525C35D51E5"]
+			dependencies: ["3AAAEFDA6D4212ED"]
 			description: ["Throw the &9eye of ender&r into the air and follow the direction it points to locate the stronghold."]
 			id: "6CB75EC71705FCCB"
 			rewards: [{
@@ -1516,6 +1480,40 @@
 			}]
 			x: -3.0d
 			y: 3.0d
+		}
+		{
+			id: "1C84E24467DE2116"
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				dimension: "minecraft:the_nether"
+				icon: {
+					Count: 1b
+					id: "ftbquests:custom_icon"
+					tag: {
+						Icon: "minecraft:block/nether_portal"
+					}
+				}
+				id: "1B2F7E1069FB30D9"
+				type: "dimension"
+			}]
+			title: "&5Explore The Nether&r"
+			x: 3.5d
+			y: 5.0d
+		}
+		{
+			id: "3AAAEFDA6D4212ED"
+			shape: "rsquare"
+			size: 2.5d
+			tasks: [{
+				dimension: "minecraft:overworld"
+				icon: "minecraft:grass_block"
+				id: "3EA67E05C99E656C"
+				type: "dimension"
+			}]
+			title: "&2Explore The Overworld&r"
+			x: 0.0d
+			y: 0.0d
 		}
 	]
 	title: "Reach The End"

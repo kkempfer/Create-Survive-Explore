@@ -24,39 +24,7 @@
 			y: -9.0d
 		}
 		{
-			description: ["&dRight-click&r a terminal from up to 16 blocks away while holding the &9wireless terminal&r to open its interface."]
-			id: "29A7B55DFA37D3D7"
-			subtitle: "Extends your reach for the terminal."
-			tasks: [{
-				id: "503BF93853F6A546"
-				item: "toms_storage:ts.wireless_terminal"
-				type: "item"
-			}]
-			title: "&eWireless Terminal&r"
-			x: 2.5d
-			y: -9.0d
-		}
-		{
-			dependencies: ["29A7B55DFA37D3D7"]
-			description: [
-				"The &9advanced wireless terminal&r is a masterpiece!"
-				""
-				"&dRight-click&r a terminal while holding this item to bind it. Press &di&r to open its interface from up to 64 blocks away. Contrary to the standard version, you do not need to look at the bound terminal. You can do this even with the advanced wireless terminal in your belt, no need to hold it in hand."
-				""
-				"Even better, build a level 1 or 4 beacon in an 8 block radius of the bound terminal to make it accessible from anywhere in the same dimension or across dimensions, respectively."
-			]
-			id: "7C044FFFA35F818E"
-			subtitle: "Access all your inventory from anywhere."
-			tasks: [{
-				id: "4B2F79F1CB501F4B"
-				item: "toms_storage:ts.adv_wireless_terminal"
-				type: "item"
-			}]
-			title: "&eAdvanced Wireless Terminal&r"
-			x: 4.0d
-			y: -9.0d
-		}
-		{
+			dependencies: ["2E34E3A26EF0BE17"]
 			id: "28473F3C49BA366B"
 			tasks: [{
 				id: "10735D531F6C240B"
@@ -67,7 +35,17 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"28473F3C49BA366B"
+				"4DD5EA63657E3022"
+			]
 			id: "5BAAD65B151A7D01"
+			rewards: [{
+				count: 4
+				id: "53E638B5B1FFB080"
+				item: "supplementaries:bomb"
+				type: "item"
+			}]
 			tasks: [{
 				id: "2F008CCF72535793"
 				item: "minecraft:gunpowder"
@@ -77,7 +55,23 @@
 			y: -2.0d
 		}
 		{
+			dependencies: [
+				"28473F3C49BA366B"
+				"1868D9730DFC8E08"
+			]
 			id: "30929F4F5D9BE24B"
+			rewards: [
+				{
+					id: "1237DDA5538F70CA"
+					item: "minecraft:redstone_ore"
+					type: "item"
+				}
+				{
+					id: "4F3C17C35B1C31DD"
+					item: "minecraft:deepslate_redstone_ore"
+					type: "item"
+				}
+			]
 			tasks: [{
 				id: "239F1EA356E9C86E"
 				item: "minecraft:redstone"
@@ -87,8 +81,19 @@
 			y: -1.0d
 		}
 		{
+			dependencies: [
+				"28473F3C49BA366B"
+				"70EED25618D4F1EF"
+			]
 			id: "6CB4E6528831F8D6"
+			rewards: [{
+				count: 4
+				id: "59F0FB1020145E4A"
+				item: "minecraft:spectral_arrow"
+				type: "item"
+			}]
 			tasks: [{
+				count: 16L
 				id: "0764143E829CC5F3"
 				item: "minecraft:glowstone_dust"
 				type: "item"
@@ -183,6 +188,305 @@
 			}]
 			x: 2.5d
 			y: -4.5d
+		}
+		{
+			id: "2E34E3A26EF0BE17"
+			tasks: [{
+				id: "716BADF4835AAFAF"
+				item: "minecraft:netherrack"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.0d
+		}
+		{
+			dependencies: ["28473F3C49BA366B"]
+			id: "21895D3C3EF0C404"
+			tasks: [{
+				id: "01AC47EA89FB0606"
+				item: "cratedelight:cinder_flour_bag"
+				type: "item"
+			}]
+			x: -0.5d
+			y: 0.5d
+		}
+		{
+			id: "214A3277E251DEFA"
+			tasks: [{
+				id: "5FAA09D65729CE26"
+				item: "wetlands:fume_trap"
+				type: "item"
+			}]
+			x: 10.5d
+			y: -1.5d
+		}
+		{
+			id: "3BAB91B48A98417B"
+			tasks: [{
+				id: "79A81262E4C92A1C"
+				item: "wetlands:bog_iron_ingot"
+				type: "item"
+			}]
+			x: 1.0d
+			y: -7.5d
+		}
+		{
+			id: "37045107868AB91E"
+			rewards: [{
+				id: "4D0470D7B6DEFE0A"
+				item: "railways:smokestack_diesel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1AF729407395DAC1"
+				item: "create:propeller"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["2212B0F549102467"]
+			id: "33AE9E7178DAFEB0"
+			subtitle: "Craft mould blueprints."
+			tasks: [
+				{
+					id: "3950A570E225D5F1"
+					item: "createfoundry:ingot_mould_blueprint"
+					type: "item"
+				}
+				{
+					id: "30B528BC0D72D871"
+					item: "createfoundry:coke_mould_blueprint"
+					type: "item"
+				}
+				{
+					id: "7724DF666F0E04E5"
+					item: "createfoundry:gem_mould_blueprint"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["33AE9E7178DAFEB0"]
+			id: "1926E10C2416C915"
+			subtitle: "Craft moulds."
+			tasks: [
+				{
+					id: "78888BEB48CB8A93"
+					item: "createfoundry:empty_ingot_mould"
+					type: "item"
+				}
+				{
+					id: "5729E6BB2BA8B463"
+					item: "createfoundry:empty_coke_mould"
+					type: "item"
+				}
+				{
+					id: "710DB356AD486999"
+					item: "createfoundry:empty_gem_mould"
+					type: "item"
+				}
+			]
+			x: 8.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["1926E10C2416C915"]
+			id: "0021B0BEA00D8459"
+			tasks: [{
+				id: "58CB54AF1B7EB7E0"
+				item: "createfoundry:molten_gold_bucket"
+				type: "item"
+			}]
+			title: "&eLiquid Gold&r"
+			x: 8.0d
+			y: -12.0d
+		}
+		{
+			id: "2212B0F549102467"
+			tasks: [{
+				id: "4A901D58431FF573"
+				item: "create:blaze_cake"
+				type: "item"
+			}]
+			x: 8.0d
+			y: -7.5d
+		}
+		{
+			description: ["&dRight-click&r &9cogwheels&r with &6metal ingots&r or &6wooden planks&r in your hand to change their texture! This also works with half shaft or shaftless cogwheels."]
+			icon: "create:large_cogwheel"
+			id: "0DB7987BFDDE1358"
+			rewards: [
+				{
+					count: 2
+					id: "482EFE65CEE17850"
+					item: "minecraft:copper_ingot"
+					type: "item"
+				}
+				{
+					count: 2
+					id: "6678D3575758A3F3"
+					item: "minecraft:acacia_planks"
+					type: "item"
+				}
+			]
+			subtitle: "Craft small and large cogwheels."
+			tasks: [
+				{
+					count: 4L
+					id: "24884A3C7FC2CE1A"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					count: 2L
+					id: "5CE6774AD7940D4C"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "&eCogwheels&r"
+			x: 2.5d
+			y: -12.0d
+		}
+		{
+			dependencies: ["14B0AEF4CCE70164"]
+			description: ["Combine them with a helmet for increased protection."]
+			id: "17C6FE6C291A5837"
+			subtitle: "Craft engineer's goggles."
+			tasks: [{
+				id: "3A3862BCCE15850E"
+				item: "create:goggles"
+				type: "item"
+			}]
+			title: "&eEngineer's Goggles&r"
+			x: 10.5d
+			y: -4.5d
+		}
+		{
+			id: "104C3F9C88069E56"
+			tasks: [{
+				id: "11F6AB15B874B7EC"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			x: 15.0d
+			y: -6.0d
+		}
+		{
+			id: "3CE7CCAA46E2E8F0"
+			tasks: [{
+				id: "060BA9A3F48A8AA6"
+				item: "create_enchantment_industry:printer"
+				type: "item"
+			}]
+			x: 13.5d
+			y: -6.0d
+		}
+		{
+			id: "709820A7C028B262"
+			tasks: [{
+				advancement: "create_enchantment_industry:first_order"
+				criterion: ""
+				id: "4563D8E298A6DAE1"
+				type: "advancement"
+			}]
+			x: 16.5d
+			y: -6.0d
+		}
+		{
+			dependencies: ["1A6FCF78812F7D28"]
+			id: "1508BCBCD22C9318"
+			tasks: [{
+				id: "026B7AA1ABEEEE4F"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -4.5d
+		}
+		{
+			id: "1A6FCF78812F7D28"
+			tasks: [{
+				id: "547F13F3971A3935"
+				item: "create:golden_sheet"
+				type: "item"
+			}]
+			x: 6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["1508BCBCD22C9318"]
+			id: "14B0AEF4CCE70164"
+			tasks: [{
+				id: "6F6354862F8C9EB5"
+				item: "create:wrench"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["524A410A0AABD366"]
+			id: "4269878E6EF83929"
+			tasks: [{
+				id: "08FBCF3BDAF03BA8"
+				item: {
+					Count: 1b
+					id: "create:extendo_grip"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["524A410A0AABD366"]
+			id: "1C765D7D0A39FDC7"
+			tasks: [{
+				id: "57F854CB03E7927E"
+				item: "create:wand_of_symmetry"
+				type: "item"
+			}]
+			x: 8.5d
+			y: 1.5d
+		}
+		{
+			id: "524A410A0AABD366"
+			tasks: [{
+				id: "51E7246053256739"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["524A410A0AABD366"]
+			id: "19A48073853B89C0"
+			tasks: [{
+				id: "6C3A462333411378"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			x: 9.5d
+			y: 0.0d
+		}
+		{
+			id: "7AEC8581509F5BA5"
+			tasks: [{
+				id: "4E7FD1FD159DF999"
+				item: "create:electron_tube"
+				type: "item"
+			}]
+			x: 6.5d
+			y: 0.0d
 		}
 	]
 	title: "Create"

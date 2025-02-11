@@ -1,0 +1,538 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "become_a_chef"
+	group: ""
+	icon: {
+		Count: 1b
+		id: "farmersdelight:skillet"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "626A96399160D5F1"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"The &9juicer&r allows you to make delicious &6juices&r to quench your thirst while contributing to your dietary groups. You can automate this process by placing the juicer in a setup with hoppers."
+				""
+				"Beware of the sugar!"
+			]
+			id: "3E8EB53D810E9C37"
+			rewards: [
+				{
+					id: "1365B8CC4A55B313"
+					item: "expandeddelight:apple_juice"
+					type: "item"
+				}
+				{
+					id: "5614C54B4C481815"
+					item: "expandeddelight:sweet_berry_juice"
+					type: "item"
+				}
+				{
+					id: "6F473F5E4C628DB4"
+					item: "expandeddelight:glow_berry_juice"
+					type: "item"
+				}
+				{
+					id: "5616768196DF7275"
+					item: "farmersdelight:melon_juice"
+					type: "item"
+				}
+			]
+			size: 1.5d
+			subtitle: "Hydrate and boost yourself."
+			tasks: [{
+				id: "6BA02A76D5EF0074"
+				item: "expandeddelight:juicer_item"
+				type: "item"
+			}]
+			title: "&2Freshly Squeezed&r"
+			x: 6.0d
+			y: -4.25d
+		}
+		{
+			icon: "farmersdelight:stove"
+			id: "7C702F22401B7C64"
+			min_required_tasks: 1
+			rewards: [{
+				count: 4
+				id: "6D8AD2D9FFD4C8A2"
+				item: "supplementaries:checker_block"
+				type: "item"
+			}]
+			subtitle: "Craft a stove."
+			tasks: [
+				{
+					id: "6F3F3154CAA453AA"
+					item: "farmersdelight:stove"
+					type: "item"
+				}
+				{
+					id: "70F6430B8D2C1FCF"
+					item: "nethersdelight:blackstone_stove"
+					type: "item"
+				}
+			]
+			x: 8.25d
+			y: -6.0d
+		}
+		{
+			id: "7EBC35071C4DBC4A"
+			tasks: [{
+				id: "0B7F108096340FA4"
+				item: "farmersdelight:cooking_pot"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -4.5d
+		}
+		{
+			description: ["Did you know that you can cook yourself a meal on the go by placing a &9skillet&r onto a campfire?"]
+			id: "56FB7A22873E2518"
+			tasks: [{
+				id: "637BFD28D7E1D4A1"
+				item: {
+					Count: 1b
+					id: "farmersdelight:skillet"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.25d
+			y: -3.0d
+		}
+		{
+			id: "2DE0C5EAA31ADC22"
+			tasks: [{
+				id: "1B98C12F1025326C"
+				item: "expandeddelight:ground_salt"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["2DE0C5EAA31ADC22"]
+			id: "2FD2A0BE3B8E064F"
+			tasks: [{
+				id: "5AFE06542A09118D"
+				item: "cratedelight:salt_bag"
+				type: "item"
+			}]
+			x: -7.0d
+			y: -9.0d
+		}
+		{
+			id: "0BCCE1DD3688AAC8"
+			rewards: [{
+				count: 4
+				id: "636D29383A5DF93C"
+				item: "ecologics:coconut_husk"
+				type: "item"
+			}]
+			tasks: [{
+				id: "3834C143170AC872"
+				item: "oceansdelight:guardian_soup"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -14.0d
+		}
+		{
+			id: "3C66797951C94A1B"
+			rewards: [{
+				id: "4E723251FDF703EB"
+				item: "nethersdelight:hoglin_mount"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0FE91EA49A7830F3"
+				item: "nethersdelight:stuffed_hoglin"
+				type: "item"
+			}]
+			x: 7.0d
+			y: -13.0d
+		}
+		{
+			id: "63C2EE93397C3ACF"
+			tasks: [{
+				id: "011EFD34AF3387F4"
+				item: "farmersdelight:cutting_board"
+				type: "item"
+			}]
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			id: "4C0B94664A676B85"
+			tasks: [{
+				id: "3C42D18D64349F2A"
+				item: "create:chocolate_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -8.0d
+		}
+		{
+			dependencies: ["3EBDAC06BC52897D"]
+			id: "0345C8C1D16939E8"
+			tasks: [{
+				id: "31C215E1CD4B1A61"
+				item: "createaddition:cake_base_baked"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["7AA317730A1907FC"]
+			id: "3EBDAC06BC52897D"
+			tasks: [{
+				id: "68D781A3DC7C5E62"
+				item: "createaddition:cake_base"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -10.5d
+		}
+		{
+			dependencies: ["0345C8C1D16939E8"]
+			description: ["A celebration is not complete without &9cake&r! Craft all cake types and indulge in every flavor."]
+			id: "0F0D6568E69DF289"
+			rewards: [{
+				id: "5595AFD98C074EB3"
+				item: "minecraft:candle"
+				type: "item"
+			}]
+			subtitle: "Bake all cake types."
+			tasks: [
+				{
+					id: "24C44242C429C953"
+					item: "minecraft:cake"
+					type: "item"
+				}
+				{
+					id: "349E27F4DE222141"
+					item: "createaddition:honey_cake"
+					type: "item"
+				}
+				{
+					id: "1503273568B2DBBB"
+					item: "createaddition:chocolate_cake"
+					type: "item"
+				}
+			]
+			title: "&eLet Me Eat Cake&r"
+			x: 3.5d
+			y: -10.5d
+		}
+		{
+			id: "65E1EF3073320E1E"
+			tasks: [{
+				id: "3079283B5D221C7B"
+				item: "farmersdelight:pie_crust"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -9.0d
+		}
+		{
+			dependencies: ["65E1EF3073320E1E"]
+			description: ["Why settle for just one flavor? Craft all types of &9pie&r and enjoy a delicious variety!"]
+			id: "510744C7895A5582"
+			subtitle: "Craft all pie types."
+			tasks: [
+				{
+					id: "5AA3D2EAE0C73360"
+					item: "minecraft:pumpkin_pie"
+					type: "item"
+				}
+				{
+					id: "0188A6C8E699996D"
+					item: "farmersdelight:apple_pie"
+					type: "item"
+				}
+				{
+					id: "3C9B46F238625CF3"
+					item: "farmersdelight:sweet_berry_cheesecake"
+					type: "item"
+				}
+				{
+					id: "51D59C44816ED096"
+					item: "farmersdelight:chocolate_pie"
+					type: "item"
+				}
+			]
+			title: "&eA Slice of Everything&r"
+			x: 3.5d
+			y: -9.0d
+		}
+		{
+			id: "7AA317730A1907FC"
+			tasks: [{
+				id: "3DDB6309E1F8BE7A"
+				item: "farmersdelight:wheat_dough"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -11.0d
+		}
+		{
+			id: "06CCA46CFA9A4F71"
+			tasks: [{
+				id: "321735EC8012A807"
+				item: "minecraft:milk_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -10.5d
+		}
+		{
+			id: "05386542F257EBDE"
+			tasks: [{
+				id: "77D70F662F0D9E5A"
+				item: "create:honey_bucket"
+				type: "item"
+			}]
+			x: 7.5d
+			y: -9.5d
+		}
+		{
+			dependencies: ["7AA317730A1907FC"]
+			id: "6A7CAABB7BE872E6"
+			tasks: [{
+				id: "25A82CB5B35AE514"
+				item: "minecraft:slime_ball"
+				type: "item"
+			}]
+			title: "Is it eatable?"
+			x: -1.0d
+			y: -12.5d
+		}
+		{
+			description: ["There is more to &9cookies&r than just chocolate chips! Craft all types and discover your favorite flavor."]
+			id: "2C40F3E8552722CC"
+			rewards: [{
+				count: 6
+				id: "48815D7F710BDBE8"
+				item: "supplementaries:jar"
+				type: "item"
+			}]
+			subtitle: "Craft all cookie types."
+			tasks: [
+				{
+					count: 8L
+					id: "14A51981534098F0"
+					item: "minecraft:cookie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "522CF67401F9AB6B"
+					item: "expandeddelight:chocolate_cookie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "72A4E965C1F3A02A"
+					item: "expandeddelight:sugar_cookie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "389922004DAA142A"
+					item: "farmersdelight:sweet_berry_cookie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "0E1E7693503C66C7"
+					item: "farmersdelight:honey_cookie"
+					type: "item"
+				}
+				{
+					count: 8L
+					id: "3EF4CED9E97A415F"
+					item: "expandeddelight:snickerdoodle"
+					type: "item"
+				}
+			]
+			title: "&eA Cookie for Every Taste&r"
+			x: 3.5d
+			y: -7.5d
+		}
+		{
+			dependencies: ["7AA317730A1907FC"]
+			id: "790EE487B5BAC5F0"
+			tasks: [{
+				id: "4A8EA6E40C5A819F"
+				item: "expandeddelight:sweet_roll"
+				type: "item"
+			}]
+			x: 2.0d
+			y: -11.5d
+		}
+		{
+			dependencies: ["790EE487B5BAC5F0"]
+			id: "7C5CA48D3A4C56CF"
+			tasks: [
+				{
+					id: "25151AE19503DFB6"
+					item: "expandeddelight:berry_sweet_roll"
+					type: "item"
+				}
+				{
+					id: "5CFBDED72B5FAD75"
+					item: "expandeddelight:glow_berry_sweet_roll"
+					type: "item"
+				}
+			]
+			x: 3.5d
+			y: -11.5d
+		}
+		{
+			id: "51C6F669005032F0"
+			tasks: [{
+				id: "47C992B53DA23185"
+				item: "farmersdelight:dumplings"
+				type: "item"
+			}]
+			x: 9.0d
+			y: -12.0d
+		}
+		{
+			dependencies: ["2DE0C5EAA31ADC22"]
+			id: "5DBEADB554063DC8"
+			tasks: [{
+				id: "7D4634162D70663D"
+				item: "expandeddelight:cheese_wheel"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -10.5d
+		}
+		{
+			dependencies: [
+				"6560A9D2459BA797"
+				"5DBEADB554063DC8"
+			]
+			id: "19C9AAA62A5324AB"
+			tasks: [{
+				id: "747D08F7407523DC"
+				item: "expandeddelight:mac_and_cheese"
+				type: "item"
+			}]
+			x: -4.0d
+			y: -10.5d
+		}
+		{
+			dependencies: ["5DBEADB554063DC8"]
+			id: "06988D3F2D860A4C"
+			tasks: [{
+				id: "1996C90FDC7E7E74"
+				item: "expandeddelight:asparagus_and_bacon_cheesy"
+				type: "item"
+			}]
+			x: -5.5d
+			y: -9.0d
+		}
+		{
+			dependencies: ["7AA317730A1907FC"]
+			id: "6560A9D2459BA797"
+			tasks: [{
+				id: "4F6C95624B6AFA3B"
+				item: "farmersdelight:raw_pasta"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -11.0d
+		}
+		{
+			dependencies: ["6560A9D2459BA797"]
+			id: "2CDD6827A9BB0552"
+			tasks: [
+				{
+					id: "6A0965C392EA4031"
+					item: "farmersdelight:pasta_with_meatballs"
+					type: "item"
+				}
+				{
+					id: "12725B74A794FFF2"
+					item: "farmersdelight:pasta_with_mutton_chop"
+					type: "item"
+				}
+				{
+					id: "1E5FED4C9BE858B1"
+					item: "farmersdelight:squid_ink_pasta"
+					type: "item"
+				}
+				{
+					id: "3A1458A87906B89D"
+					item: "farmersdelight:vegetable_noodles"
+					type: "item"
+				}
+				{
+					id: "36D21D6184A9C980"
+					item: "expandeddelight:peperonata"
+					type: "item"
+				}
+			]
+			x: -4.0d
+			y: -12.0d
+		}
+		{
+			id: "0DC32952C221193E"
+			tasks: [
+				{
+					id: "7CD5B7F7BC570A26"
+					item: "farmersdelight:fruit_salad"
+					type: "item"
+				}
+				{
+					id: "6F7CBFA36B71E9D1"
+					item: "farmersdelight:mixed_salad"
+					type: "item"
+				}
+				{
+					id: "55D23C8467C0274B"
+					item: "expandeddelight:sweet_potato_salad"
+					type: "item"
+				}
+				{
+					id: "57A880AE1175CD75"
+					item: "expandeddelight:peanut_salad"
+					type: "item"
+				}
+				{
+					id: "56F1F87937BE120A"
+					item: "oceansdelight:seagrass_salad"
+					type: "item"
+				}
+				{
+					id: "1AF91044D9D1C877"
+					item: "farmersdelight:nether_salad"
+					type: "item"
+				}
+			]
+			x: -5.5d
+			y: -6.0d
+		}
+		{
+			id: "0A8A52BE9321141C"
+			tasks: [{
+				id: "17D9D9F6F318B2FB"
+				item: "farmersdelight:noodle_soup"
+				type: "item"
+			}]
+			x: -2.5d
+			y: -12.5d
+		}
+	]
+	title: "Become a Chef"
+}
