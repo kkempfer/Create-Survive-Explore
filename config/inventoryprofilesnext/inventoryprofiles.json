@@ -63,9 +63,6 @@
         }
     },
     "LockedSlotsSettings": {
-        "locked_slots_empty_hotbar_as_semi_locked": {
-            "value": true
-        },
         "lock_slots_switch_config_modifier": {
             "main": {
                 "keys": ""
