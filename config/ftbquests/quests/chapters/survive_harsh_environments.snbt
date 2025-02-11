@@ -275,7 +275,11 @@
 			y: 5.5d
 		}
 		{
-			description: ["Use the &9flint knife&r to gather resources and defend yourself in the wild."]
+			description: [
+				"Use the &9flint knife&r to gather resources and defend yourself in the wild."
+				""
+				"As you progress, you will unlock even more powerful versions!"
+			]
 			id: "6972B2D70BB37D64"
 			rewards: [{
 				id: "5F366436903C1AF7"
@@ -727,6 +731,64 @@
 			title: "&5Netherite Flask&r"
 			x: 6.0d
 			y: -3.0d
+		}
+		{
+			dependencies: ["68A4E345A4C7939E"]
+			description: ["Craft a &9quiver&r to hold your &6arrows&r and make them easily accessible. Simply right-click to add &6arrows&r to your quiver. With the quiver in hand, right-click and scroll to select the &6arrow&r you want to use."]
+			id: "7EE4B90620C5A104"
+			rewards: [{
+				count: 4
+				id: "00DC0C2D1DA382A7"
+				item: {
+					Count: 1b
+					id: "minecraft:tipped_arrow"
+					tag: {
+						Potion: "minecraft:poison"
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Craft a quiver."
+			tasks: [{
+				id: "5FA76E4BA3ACA186"
+				item: {
+					Count: 1b
+					id: "supplementaries:quiver"
+					tag: {
+						SelectedSlot: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&aA Quiver of Arrows&r"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7EE4B90620C5A104"]
+			description: ["Launch potatoes at your enemies or for fun! Experiment with different vegetables and enjoy the chaos!"]
+			id: "176D8E600507295E"
+			rewards: [{
+				count: 16
+				id: "6A16A3267561CEA4"
+				item: "minecraft:beetroot"
+				type: "item"
+			}]
+			subtitle: "Craft a potato cannon."
+			tasks: [{
+				id: "6765C739F3A4F494"
+				item: {
+					Count: 1b
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "&cLaunching Veggies&r"
+			x: 7.5d
+			y: 7.0d
 		}
 	]
 	title: "Survive Harsh Environments"

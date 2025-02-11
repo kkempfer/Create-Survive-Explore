@@ -490,6 +490,16 @@ ServerEvents.recipes(event => {
         C: 'farmersdelight:canvas'
     });
 
+    // Add quiver recipe
+    event.shaped('supplementaries:quiver', [
+        'L L',
+        'SLL',
+        'SLL'
+    ], {
+        L: 'minecraft:leather',
+        S: 'minecraft:string'
+    });
+
     // Replace the rope from Supplementaries by the one from Farmer's Delight
     event.replaceOutput(
         { output: 'supplementaries:rope' },
