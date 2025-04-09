@@ -1,0 +1,264 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "electrify_your_world"
+	group: ""
+	icon: "createaddition:electric_motor"
+	id: "4EC4DF782F525043"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5EAF561416F131B0"]
+			description: [
+				"Use &9small connectors&r and &9copper wire&r to transport &eforge energy&r. Small connectors are directional. &dRight-click&r them with a &7wrench&r to cycle between &dPush&r, &dPull&r and &dNone&r modes."
+				""
+				"Remember, you want to &dpull&r &eforge energy&r from the &7alternator&r and &dpush&r it into your machines!"
+			]
+			icon: "createaddition:copper_spool"
+			id: "4BF349CAC68C5349"
+			rewards: [{
+				count: 2
+				id: "75CA8ED434798F6C"
+				item: "createaddition:small_light_connector"
+				type: "item"
+			}]
+			subtitle: "Start wiring your power network."
+			tasks: [
+				{
+					count: 2L
+					id: "5979D4AF51CD0E6E"
+					item: "createaddition:connector"
+					type: "item"
+				}
+				{
+					id: "08516C5108AA4EE2"
+					item: "createaddition:copper_spool"
+					type: "item"
+				}
+			]
+			title: "&cLow Current Wires \\& Connectors&r"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: [
+				"74356BAB318984B5"
+				"4BF349CAC68C5349"
+			]
+			description: [
+				"Store &eforge energy&r into &9accumulators&r for later use. Place them in clusters to increase capacity."
+				""
+				"You wouldn't want to let your machines drain your batteries, right? Here, take this &6redstone relay&r. It only lets &eforge energy&r pass through if powered with a &credstone signal&r, a great way to manage power distribution!"
+				""
+				"Time to build a power plant!"
+			]
+			id: "3F3882D92EF387E0"
+			rewards: [
+				{
+					id: "004E738E04501D7F"
+					item: "createaddition:redstone_relay"
+					type: "item"
+				}
+				{
+					id: "28A91A2C21ABE636"
+					item: "minecraft:lever"
+					type: "item"
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			subtitle: "Store forge energy."
+			tasks: [{
+				count: 4L
+				id: "440D16F8F66695ED"
+				item: "createaddition:modular_accumulator"
+				type: "item"
+			}]
+			title: "&eBatteries&r"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["74356BAB318984B5"]
+			description: [
+				"Ready to handle heavier loads? &9Large connectors&r and &9electrum wire&r support more &eforge energy&r than their low-current counterparts."
+				""
+				"&dRight-click&r them with a &7wrench&r to toggle connector modes."
+			]
+			icon: "createaddition:electrum_spool"
+			id: "2447AC40B2666E2C"
+			rewards: [{
+				count: 2
+				id: "3B935534B106D556"
+				item: "createaddition:small_light_connector"
+				type: "item"
+			}]
+			subtitle: "Upgrade your power network."
+			tasks: [
+				{
+					count: 2L
+					id: "2AE523B136F2DA4A"
+					item: "createaddition:large_connector"
+					type: "item"
+				}
+				{
+					id: "0A614E5E266F6434"
+					item: "createaddition:electrum_spool"
+					type: "item"
+				}
+			]
+			title: "&cHigh Current Wires \\& Connectors&r"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: ["The &9alternator&r transforms &brotational force&r into &eforge energy (fe)&r. Connect it to a kinetic source like a &7shaft&r or &7gearbox&r to start generating power."]
+			id: "5EAF561416F131B0"
+			rewards: [{
+				id: "0E6AE35C0CA6F4FF"
+				item: "createdeco:yellow_decal"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Convert rotation into forge energy."
+			tasks: [{
+				id: "4D3B2EDE67950A3D"
+				item: "createaddition:alternator"
+				type: "item"
+			}]
+			title: "&ePower Generation&r"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F3882D92EF387E0"]
+			description: ["The &9portable energy interface&r allows contraptions to send or receive &eforge energy&r. Did you know you can put &7batteries&r on trains?"]
+			id: "63429158668BC3A1"
+			rewards: [{
+				id: "46BA13C52496F800"
+				item: {
+					Count: 1b
+					id: "create:super_glue"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			subtitle: "Transport energy with contraptions."
+			tasks: [{
+				count: 2L
+				id: "1B9898761A88FD7B"
+				item: "createaddition:portable_energy_interface"
+				type: "item"
+			}]
+			title: "&ePlug \\& Power&r"
+			x: 3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["3F3882D92EF387E0"]
+			description: [
+				"The &9electric motor&r converts &eforge energy&r back into &brotational force&r."
+				""
+				"&dScroll&r on the back panel to change the RPM of the &9electric motor&r. At max speed, one motor produces &b16,384 SU&r."
+			]
+			id: "429BCDD17F18F391"
+			rewards: [{
+				count: 4
+				id: "0F671EDF07B33F11"
+				item: "create:shaft"
+				type: "item"
+			}]
+			subtitle: "Convert forge energy into rotation."
+			tasks: [{
+				id: "475C6C71BC2553D1"
+				item: "createaddition:electric_motor"
+				type: "item"
+			}]
+			title: "&bKinetic Motors&r"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3F3882D92EF387E0"]
+			description: [
+				"The &9tesla coil&r charges items below it. It can even reduce &6oxidized copper&r back to its original state."
+				""
+				"But more interestingly, when powered with a &credstone signal&r, it will zap players and mobs in range. You have been warned!"
+			]
+			id: "3A7EFEE9E033D4AB"
+			rewards: [{
+				count: 4
+				id: "19822D6E4112385E"
+				item: "minecraft:oxidized_copper"
+				type: "item"
+			}]
+			subtitle: "Charge stuff."
+			tasks: [{
+				id: "0B479775834AEA02"
+				item: "createaddition:tesla_coil"
+				type: "item"
+			}]
+			title: "&eA Shocking Discovery!&r"
+			x: 4.5d
+			y: -1.5d
+		}
+		{
+			description: [
+				"&9Ochrum&r yields &6gold&r and &6electrum&r nuggets when crushed."
+				""
+				"Time to get mining... or maybe farming it is more your style?"
+			]
+			id: "45EF5112B6D5229D"
+			rewards: [
+				{
+					count: 3
+					id: "5EB6E10BD78E5B7E"
+					item: "minecraft:gold_nugget"
+					type: "item"
+				}
+				{
+					count: 3
+					id: "753FC406736F5F0A"
+					item: "createaddition:electrum_nugget"
+					type: "item"
+				}
+			]
+			shape: "rsquare"
+			size: 1.5d
+			subtitle: "Gather ochrum."
+			tasks: [{
+				count: 16L
+				id: "2F713546354ABEEC"
+				item: "create:ochrum"
+				type: "item"
+			}]
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45EF5112B6D5229D"]
+			description: ["Collect enough &7electrum nuggets&r to craft a steady supply of &9electrum ingots&r."]
+			id: "74356BAB318984B5"
+			rewards: [{
+				count: 2
+				id: "235AAF13963B113B"
+				item: "createaddition:electrum_wire"
+				type: "item"
+			}]
+			subtitle: "Nugget by nugget."
+			tasks: [{
+				id: "5FC0C24EB91573A2"
+				item: "createaddition:electrum_ingot"
+				type: "item"
+			}]
+			title: "&eElectrum Ingot&r"
+			x: 3.0d
+			y: 1.5d
+		}
+	]
+	title: "Electrify your World"
+}
