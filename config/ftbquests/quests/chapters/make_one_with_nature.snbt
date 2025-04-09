@@ -5,7 +5,7 @@
 	group: ""
 	icon: "farmersdelight:wild_onions"
 	id: "1AAC12ECBE43B3D7"
-	order_index: 5
+	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
@@ -18,7 +18,7 @@
 			}]
 			subtitle: "Farm wheat seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "0D14E8A7AD519FD8"
 				item: "minecraft:wheat_seeds"
 				type: "item"
@@ -36,7 +36,7 @@
 			}]
 			subtitle: "Farm pumpkin seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "22692CCE49E59C35"
 				item: "minecraft:pumpkin_seeds"
 				type: "item"
@@ -54,7 +54,7 @@
 			}]
 			subtitle: "Farm melon seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "129FB0B71CB9DEE8"
 				item: "minecraft:melon_seeds"
 				type: "item"
@@ -73,7 +73,7 @@
 			}]
 			subtitle: "Farm beetroot seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "7B985AD3A4098537"
 				item: "minecraft:beetroot_seeds"
 				type: "item"
@@ -91,7 +91,7 @@
 			}]
 			subtitle: "Farm corn seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "0C52427726E40506"
 				item: "corndelight:corn_seeds"
 				type: "item"
@@ -109,7 +109,7 @@
 			}]
 			subtitle: "Farm asparagus seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "7D4BE85FF2516533"
 				item: "expandeddelight:asparagus_seeds"
 				type: "item"
@@ -128,7 +128,7 @@
 			}]
 			subtitle: "Farm tomato seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "081A065E4CC2E7DA"
 				item: "farmersdelight:tomato_seeds"
 				type: "item"
@@ -146,7 +146,7 @@
 			}]
 			subtitle: "Farm flax seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "5388D5DC806BBBE7"
 				item: "supplementaries:flax_seeds"
 				type: "item"
@@ -164,7 +164,7 @@
 			}]
 			subtitle: "Farm cabbage seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "2E23523F5750FC9E"
 				item: "farmersdelight:cabbage_seeds"
 				type: "item"
@@ -182,7 +182,7 @@
 			}]
 			subtitle: "Farm chili pepper seeds."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "2A76BD69D6351760"
 				item: "expandeddelight:chili_pepper_seeds"
 				type: "item"
@@ -200,7 +200,7 @@
 			}]
 			subtitle: "Farm rice."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "67D7166CAE93B50B"
 				item: "farmersdelight:rice"
 				type: "item"
@@ -249,7 +249,7 @@
 			}]
 			subtitle: "Farm oak trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "4EC8E642360318B3"
 				item: "minecraft:oak_sapling"
 				type: "item"
@@ -268,7 +268,7 @@
 			}]
 			subtitle: "Farm spruce trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "35258EE166A2DFBD"
 				item: "minecraft:spruce_sapling"
 				type: "item"
@@ -287,7 +287,7 @@
 			}]
 			subtitle: "Farm birch trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "7EBD52943A5764BD"
 				item: "minecraft:birch_sapling"
 				type: "item"
@@ -306,7 +306,7 @@
 			}]
 			subtitle: "Farm jungle trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "5381EE18BED6E92B"
 				item: "minecraft:jungle_sapling"
 				type: "item"
@@ -325,7 +325,7 @@
 			}]
 			subtitle: "Farm acacia trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "1879726E88F87284"
 				item: "minecraft:acacia_sapling"
 				type: "item"
@@ -344,7 +344,7 @@
 			}]
 			subtitle: "Farm dark oak trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "088DE80B254ABC9B"
 				item: "minecraft:dark_oak_sapling"
 				type: "item"
@@ -363,7 +363,7 @@
 			}]
 			subtitle: "Farm mangrove trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "296D098B596DBC19"
 				item: "minecraft:mangrove_propagule"
 				type: "item"
@@ -382,7 +382,7 @@
 			}]
 			subtitle: "Farm walnut trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "39FBBAC9C888F97E"
 				item: "ecologics:walnut_sapling"
 				type: "item"
@@ -401,7 +401,7 @@
 			}]
 			subtitle: "Farm azalea trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "7BAE271D6981CD72"
 				item: "minecraft:azalea"
 				type: "item"
@@ -420,7 +420,7 @@
 			}]
 			subtitle: "Farm flowering azalea trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "553D5D86FD98A179"
 				item: "minecraft:flowering_azalea"
 				type: "item"
@@ -439,7 +439,7 @@
 			}]
 			subtitle: "Farm cinnamon trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "45F499BA81084A93"
 				item: "expandeddelight:cinnamon_sapling"
 				type: "item"
@@ -458,7 +458,7 @@
 			}]
 			subtitle: "Farm coconut trees."
 			tasks: [{
-				count: 64L
+				count: 4L
 				id: "0F247721EBA3C3A5"
 				item: "ecologics:coconut_seedling"
 				type: "item"
@@ -1787,12 +1787,18 @@
 			description: [""]
 			icon: "corndelight:caramel_popcorn"
 			id: "3230411277E5E234"
-			rewards: [{
-				count: 8
-				id: "22FA9576C827CC59"
-				item: "create:mechanical_harvester"
-				type: "item"
-			}]
+			rewards: [
+				{
+					id: "36682ADAE9877310"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "3B9119B111D4D096"
+					item: "create:basin"
+					type: "item"
+				}
+			]
 			shape: "square"
 			size: 2.0d
 			title: "&eLord of the Seeds&r"
@@ -1917,7 +1923,22 @@
 			y: 7.0d
 		}
 		{
+			dependencies: [
+				"4E03E39219275397"
+				"28C1900F97D3127C"
+				"60F56BB3A2135784"
+				"185451363A6F447E"
+				"376E133AD595DD65"
+				"45D7FAB4BCEF22BB"
+				"50CB3AD8C9E3EA99"
+				"36C369853E5C5E20"
+				"5B4A4672CCC9096D"
+				"4A768305DA354828"
+				"408C50BB1823EABB"
+			]
+			dependency_requirement: "one_completed"
 			description: ["Use a press to extract &9seed oil&r from seeds. It is a valuable fuel for your &eblaze burners&r."]
+			hide_dependency_lines: true
 			id: "6FFC4BFDA8BEC010"
 			rewards: [{
 				id: "100C890852899FC3"
@@ -1979,7 +2000,7 @@
 		}
 		{
 			dependencies: ["0ABD23E4EB97117A"]
-			description: ["Mix sugar, cinder flour, and biomass to create &9biofuel&r. This ultimate liquid fuel will &bsuper-heat&r your &eblaze burners&r for maximum power!"]
+			description: ["Mix &7sugar&r, &7cinder flour&r, and &7biomass&r to create &9biofuel&r. This ultimate liquid fuel will &bsuper-heat&r your &eblaze burners&r for maximum power!"]
 			id: "4FF8DA5D58D0E600"
 			rewards: [{
 				id: "2AB7C80534232E5F"
@@ -2353,7 +2374,7 @@
 			}]
 			subtitle: "Craft dried kelp."
 			tasks: [{
-				count: 4L
+				count: 6L
 				id: "111FD982AE7350DC"
 				item: "minecraft:dried_kelp"
 				type: "item"
