@@ -197,6 +197,7 @@
 			y: -3.0d
 		}
 		{
+			dependencies: ["658A8C5090C631C1"]
 			description: ["A key component for entry-level aircraft, the &9large propeller&r keeps your budget planes flying without breaking the bank."]
 			id: "429644CB9420127B"
 			rewards: [{
@@ -1018,6 +1019,21 @@
 			title: "&8Smart Switching&r"
 			x: 15.0d
 			y: -7.5d
+		}
+		{
+			dependencies: ["15C5F92952113F3B"]
+			description: ["The &9mechanical roller&r lets you clear and pave whilst riding a train. Shape the landscape as you travel!"]
+			id: "06254670C5962A83"
+			subtitle: "Craft mechanical rollers."
+			tasks: [{
+				count: 3L
+				id: "6F37A20D256A60AB"
+				item: "create:mechanical_roller"
+				type: "item"
+			}]
+			title: "&fClearing \\& Paving&r"
+			x: 7.5d
+			y: -8.5d
 		}
 	]
 	title: "Transportation"
