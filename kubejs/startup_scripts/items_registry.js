@@ -11,6 +11,15 @@ StartupEvents.registry('item', event => {
                 .saturation(0.3)
         });
 
+    // Add incomplete peperonata for sequenced assembly recipe
+    event.create('incomplete_peperonata')
+        .texture('delightfulcreators:item/incomplete_peperonata')
+        .food(food => {
+            food
+                .hunger(3)
+                .saturation(0.3)
+        });
+
     // Add incomplete squid ink pasta dish for sequenced assembly recipe
     event.create('incomplete_squid_ink_pasta')
         .texture('delightfulcreators:item/incomplete_squid_ink_pasta')

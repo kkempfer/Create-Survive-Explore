@@ -37,6 +37,18 @@
       },
       "trigger": "minecraft:inventory_changed"
     },
+    "incomplete_peperonata": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "kubejs:incomplete_peperonata"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
     "incomplete_squid_ink_pasta": {
       "conditions": {
         "items": [
@@ -322,6 +334,7 @@
     [
       "incomplete_pasta_with_meatballs",
       "incomplete_pasta_with_mutton_chop",
+      "incomplete_peperonata",
       "incomplete_squid_ink_pasta",
       "incomplete_vegetable_noodles",
       "incomplete_egg_sandwich",

@@ -61,6 +61,7 @@ ServerEvents.tags('item', event => {
         'farmersdelight:squid_ink_pasta',
         'farmersdelight:vegetable_noodles',
         'kubejs:incomplete_pasta_dish',
+        'kubejs:incomplete_peperonata',
         'kubejs:incomplete_squid_ink_pasta',
         'kubejs:incomplete_vegetable_noodles',
         // Pies
