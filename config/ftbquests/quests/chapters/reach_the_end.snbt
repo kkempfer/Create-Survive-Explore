@@ -5,7 +5,7 @@
 	group: ""
 	icon: "minecraft:end_crystal"
 	id: "67431C1E8CD0E925"
-	order_index: 8
+	order_index: 9
 	quest_links: [ ]
 	quests: [
 		{
@@ -34,7 +34,7 @@
 		}
 		{
 			dependencies: ["3239DAFA8E7A178F"]
-			description: ["The true purpose of the &6cold eye&r remains a mistery. We only know that it was left by the Iceologers before their mysterious disappearance."]
+			description: ["The true purpose of the &6cold eye&r remains a mistery. We only know that it was left by the &diceologers&r before their mysterious disappearance."]
 			id: "505BAE34AD3987BA"
 			rewards: [{
 				count: 16
@@ -178,7 +178,7 @@
 		}
 		{
 			dependencies: ["1BF2D0A4189776FF"]
-			description: ["The &6cursed eye&r is a weapon wielded by &dpiglins&r to fend off &8wither skeletons&r from the &9castle walls&r. Only &dpiglins&r know how to activate its power."]
+			description: ["The &6cursed eye&r is a weapon wielded by &dpiglins&r to fend off &dwither skeletons&r from the &9castle walls&r. Only &dpiglins&r know how to activate its power."]
 			id: "187E6084AF5E284D"
 			rewards: [{
 				id: "7992CFBB10CA56E1"
@@ -244,7 +244,7 @@
 		{
 			dependencies: ["2C9790BA5F4F9E8F"]
 			dependency_requirement: "all_started"
-			description: ["Sometimes, elder guardian drop their &6eye&r upon death. Will you be lucky enough to get one?"]
+			description: ["Sometimes, &delder guardian&r drop their &6eye&r upon death. Will you be lucky enough to get one?"]
 			id: "7F3B10E87B783017"
 			rewards: [{
 				count: 4
@@ -268,7 +268,7 @@
 				"3A74DDF80745A4A3"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &6illusioner's eye&r is yours for the taking. This artifact holds untold power, but what will you do with it?"]
+			description: ["The &6illusioner's eye&r is yours! This artifact holds untold power, but what will you do with it?"]
 			id: "1F01B492C2A5E007"
 			rewards: [{
 				id: "0666F36C72B3ECC7"
@@ -342,7 +342,7 @@
 			description: ["Combine the &9undead soul&r with &9rare ingredients&r to create the &6undead eye&r."]
 			id: "3F83BFC0393A2669"
 			rewards: [{
-				count: 5
+				count: 16
 				id: "0DDB1CE9EEE9754D"
 				item: "railways:track_phantom"
 				type: "item"
@@ -496,7 +496,7 @@
 		}
 		{
 			dependencies: ["3AAAEFDA6D4212ED"]
-			description: ["Did you already spot cute &6frogs&r? Their colorful appearance hides dangerous properties, but we might be able to use them to our advantage."]
+			description: ["Did you already spot cute &dfrogs&r? Their colorful appearance hides dangerous properties, but we might be able to use them to our advantage."]
 			id: "3CF285CB9FAABC25"
 			rewards: [{
 				count: 3
@@ -538,7 +538,7 @@
 		}
 		{
 			dependencies: ["1C84E24467DE2116"]
-			description: ["Venture into the &9abandoned pipelines&r, filled with &bsentries&r still guarding their territory. The purpose and creators of these structures remain a mystery."]
+			description: ["Venture into the &9abandoned pipelines&r, filled with &dsentries&r guarding their territory. The purpose and creators of these structures remain a mystery."]
 			id: "242E8EF5ADBD1043"
 			rewards: [{
 				id: "1746C6980D32EBE8"
@@ -600,7 +600,7 @@
 		}
 		{
 			dependencies: ["3AAAEFDA6D4212ED"]
-			description: ["Venture into the depths and seek the &9deep dark&r, a place corrupted by sculk. Can you navigate the darkness and uncover the mysteries hidden within?"]
+			description: ["Venture into the depths and seek the &9deep dark&r, a place corrupted by &7sculk&r. Can you navigate the darkness and uncover the mysteries hidden within?"]
 			id: "563F171A63E89C73"
 			rewards: [
 				{
@@ -689,7 +689,7 @@
 		}
 		{
 			dependencies: ["16A69636D494F090"]
-			description: ["Witches lurk in the shadows, brewing potions and causing mischief. &9Eliminate them&r restore peace to the land."]
+			description: ["&dWitches&r lurk in the shadows, brewing &7potions&r and causing mischief. &9Eliminate them&r and restore peace to the land."]
 			id: "0AE4228EA38545A8"
 			rewards: [{
 				count: 16
@@ -733,7 +733,7 @@
 		{
 			dependencies: ["0AE4228EA38545A8"]
 			dependency_requirement: "all_started"
-			description: ["Defeated witches sometimes leave behind their &9pupils&r."]
+			description: ["Defeated &dwitches&r sometimes leave behind their &9pupils&r."]
 			id: "7670EB12FEEE0A12"
 			rewards: [{
 				count: 4
@@ -841,7 +841,7 @@
 		}
 		{
 			dependencies: ["3A74DDF80745A4A3"]
-			description: ["The &3illusioner&r is a cunning and dangerous foe. Defeat him to claim his &6powerful relic&r!"]
+			description: ["The &dillusioner&r is a cunning and dangerous foe. &9Defeat him&r to claim his &6powerful relic&r!"]
 			id: "0E918EFB38AFC197"
 			rewards: [{
 				count: 16
@@ -863,11 +863,11 @@
 		}
 		{
 			dependencies: ["3BFF9CCB6EB3A1DB"]
-			description: ["The ocean monument is guarded by &93 elder guardians&r. Defeat them to prove your strength and claim their &6treasures&r."]
+			description: ["The ocean monument is guarded by &93 elder guardians&r. &9Defeat them&r to prove your strength and claim their &6treasures&r."]
 			id: "2C9790BA5F4F9E8F"
 			rewards: [{
 				count: 4
-				id: "7D82ADC74AD77A73"
+				id: "0E63B2AB86FE34DB"
 				item: "oceansdelight:elder_guardian_slice"
 				type: "item"
 			}]
@@ -1002,7 +1002,7 @@
 				"3AAAEFDA6D4212ED"
 			]
 			dependency_requirement: "one_completed"
-			description: ["The &3illusioner&r is said to dwell in the &9woodland mansion&r or the &9sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
+			description: ["The &dillusioner&r is said to dwell in the &9woodland mansion&r or the &9sanctum&r, deep in the Nether. Track him down! We cannot let him escape."]
 			icon: "minecraft:dark_oak_planks"
 			id: "3A74DDF80745A4A3"
 			min_required_tasks: 1
@@ -1081,7 +1081,6 @@
 		}
 		{
 			dependencies: ["3AAAEFDA6D4212ED"]
-			description: [""]
 			id: "1E6856EF52EC12F1"
 			rewards: [{
 				id: "32C47BD34F6BF64F"
@@ -1106,7 +1105,6 @@
 		}
 		{
 			dependencies: ["3AAAEFDA6D4212ED"]
-			description: [""]
 			id: "7FA375B190607968"
 			rewards: [{
 				count: 3
@@ -1147,10 +1145,10 @@
 		}
 		{
 			dependencies: ["3AAAEFDA6D4212ED"]
-			description: ["Explore the blue waters of the &9warm ocean&r, where colorful corals thrive in shallow waters."]
+			description: ["Explore the blue waters of the &9warm ocean&r, where colorful &6corals&r thrive in shallow waters."]
 			id: "788045F2F8750F48"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "307CA88726D343A8"
 				item: "minecraft:bubble_coral_block"
 				type: "item"
@@ -1171,7 +1169,7 @@
 			description: ["The &9heart of the sea&r is said to hold the power of the ocean."]
 			id: "68C6EE403694A933"
 			rewards: [{
-				count: 3
+				count: 4
 				id: "06F282015C91B082"
 				item: "ecologics:coconut"
 				type: "item"
@@ -1210,7 +1208,7 @@
 		}
 		{
 			dependencies: ["7E295AA49432D973"]
-			description: ["Pirates once roamed these seas. A &9treasure map&r might help you uncover the &6riches&r they buried."]
+			description: ["&dPirates&r once roamed these seas. A &9treasure map&r might help you uncover the &6riches&r they buried."]
 			id: "51E39731F4382B63"
 			rewards: [{
 				id: "2C7421B2BE059812"
@@ -1235,8 +1233,8 @@
 			id: "47778E636CF2C968"
 			rewards: [{
 				count: 3
-				id: "52AF5C94232FB0ED"
-				item: "minecraft:bone_meal"
+				id: "0E605566EB9146D1"
+				item: "oceansdelight:fugu_roll"
 				type: "item"
 			}]
 			subtitle: "Collect all coral types."
@@ -1298,7 +1296,7 @@
 		}
 		{
 			dependencies: ["1C84E24467DE2116"]
-			description: ["The &9Nether fortress&r belongs to the fearsome &8wither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
+			description: ["The &9Nether fortress&r belongs to the fearsome &dwither skeletons&r. It stands as a stronghold amidst the chaos of the Nether."]
 			id: "53987D543B4BCFC3"
 			rewards: [{
 				count: 16
@@ -1459,11 +1457,11 @@
 				type: "dimension"
 			}]
 			x: -5.0d
-			y: -3.5d
+			y: -3.75d
 		}
 		{
 			dependencies: ["16A69636D494F090"]
-			description: ["The &9Will-o'-the-Wisp&r spawns in &9swamps&r at night. Try to catch one!"]
+			description: ["The &9Will-o'-the-Wisp&r spawns in &9swamps&r at night. Try to catch one in a &7bottle&r!"]
 			id: "0659EE2214E12C74"
 			rewards: [{
 				count: 4
@@ -1514,6 +1512,66 @@
 			title: "&2Explore The Overworld&r"
 			x: 0.0d
 			y: 0.0d
+		}
+		{
+			description: ["That &6structure&r isn’t going to find itself. The &9explorer’s compass&r saves you hours of aimless wandering."]
+			id: "365F7546F5B87E5B"
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft an explorer's compass."
+			tasks: [{
+				id: "33C1B55C3E6FE8D9"
+				item: {
+					Count: 1b
+					id: "explorerscompass:explorerscompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&cLooking for a Specific Structure?&r"
+			x: -5.0d
+			y: 5.5d
+		}
+		{
+			dependency_requirement: "one_completed"
+			description: ["Tired of wandering in circles? A &9nature’s compass&r help you find any &6biome&r with ease. Some consider it cheaty..."]
+			id: "54C198701BCF7A67"
+			min_required_dependencies: 5
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a nature's compass."
+			tasks: [{
+				id: "5A405C9401CCA519"
+				item: {
+					Count: 1b
+					id: "naturescompass:naturescompass"
+					tag: { }
+				}
+				type: "item"
+			}]
+			title: "&2Looking for a Specific Biome?&r"
+			x: -5.0d
+			y: 3.5d
+		}
+		{
+			description: ["The &9recovery compass&r helps you find the exact spot where you died... if you dare go back."]
+			id: "58C6CEFCC8B7FA8A"
+			rewards: [{
+				id: "1012A3FA1D3E2468"
+				item: "yigd:grave"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.5d
+			subtitle: "Craft a recovery compass."
+			tasks: [{
+				id: "447E53A34456949A"
+				item: "minecraft:recovery_compass"
+				type: "item"
+			}]
+			title: "&5Back From the Grave&r"
+			x: 5.0d
+			y: -4.0d
 		}
 	]
 	title: "Reach The End"

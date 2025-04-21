@@ -352,6 +352,16 @@ ServerEvents.recipes(event => {
         [Fluid.of('milk:still_milk', 27000), 'farmersdelight:pumpkin_slice', { tag: 'c:crops/cabbage' }, { tag: 'c:raw_pork' }]
     ).heated();
 
+    // Ecologics
+
+    // Add alternative recipes using bowls
+    event.remove({ input: 'ecologics:coconut_husk' });
+    event.replaceInput(
+        { input: 'minecraft:bowl' },
+        'minecraft:bowl',
+        '#c:bowls',
+    );
+
     // Every Compat
 
     // This block should not exist
@@ -367,10 +377,24 @@ ServerEvents.recipes(event => {
 
     // Replace cheese recipes
     event.remove({ output: 'expandeddelight:cheese_wheel' });
-    event.recipes.createMixing(
+    event.recipes.createCompacting(
         'expandeddelight:cheese_wheel',
         [Fluid.of('milk:still_milk', 81000), 'expandeddelight:ground_salt']
     ).heated();
+
+    // Add alternative recipes for cookies
+    event.recipes.createCompacting(
+        '8x expandeddelight:chocolate_cookie',
+        ['2x minecraft:cocoa_beans', 'create:wheat_flour']
+    );
+    event.recipes.createCompacting(
+        '8x expandeddelight:sugar_cookie',
+        ['minecraft:sugar', '2x create:wheat_flour']
+    );
+    event.recipes.createCompacting(
+        '8x expandeddelight:snickerdoodle',
+        ['expandeddelight:ground_cinnamon', '2x create:wheat_flour']
+    );
 
     // Add ground salt recipe to make it renewable
     event.recipes.createMixing(

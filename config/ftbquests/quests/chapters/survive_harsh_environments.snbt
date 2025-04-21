@@ -41,11 +41,11 @@
 		{
 			dependencies: ["7C66F189E0E18403"]
 			description: [
-				"The &9bamboo pump&r draws &bgroundwater&r. However, it requires bamboo to craft, so keep an eye out for &2jungle biomes&r."
+				"The &9bamboo pump&r draws &bgroundwater&r. However, it requires &7bamboo&r to craft, so keep an eye out for jungle biomes."
 				""
-				"&dClick&r with a bucket, &6flask&r, or bottle to place it onto the pump, then &dright-click&r the pump to fill it. &dShift-click&r with an empty hand to pick it up."
+				"&dClick&r with a &7bucket&r, &6flask&r, or &7bottle&r to place it onto the &9pump&r, then &dright-click&r the &9pump&r to fill it. &dShift-click&r with an empty hand to pick it up."
 				""
-				"The pump refreshes every minute. Can you think of a way to automate &bgroundwater&r extraction?"
+				"The &9pump&r refreshes every minute. Can you think of a way to automate &bgroundwater&r extraction?"
 			]
 			id: "5078242F91B3DE2B"
 			rewards: [{
@@ -66,7 +66,7 @@
 		{
 			dependencies: ["35C71829BA508BC8"]
 			description: [
-				"Drinking &2dirty water&r is risky. Use the &9campfire cauldron&r to purify water by boiling it. Place the cauldron over a lit &9campfire&r and add water to start the purification process. After a few seconds, &dright-click&r with a bucket, &6flask&r, or bottle to get &bpurified water&r."
+				"Drinking &2dirty water&r is risky. Use the &9campfire cauldron&r to purify &2water&r by boiling it. Place the &9cauldron&r over a lit &9campfire&r and add &2water&r to start the purification process. After a few seconds, &dright-click&r with a &7bucket&r, &6flask&r, or &7bottle&r to get &bpurified water&r."
 				""
 				"Remember to carry the &9campfire cauldron&r with you when adventuring."
 				""
@@ -125,7 +125,7 @@
 		{
 			dependencies: ["7C66F189E0E18403"]
 			description: [
-				"Brew &6purified water bottles&r by mixing &9kelp&r and water in a &9brewing stand&r."
+				"Brew &6purified water bottles&r by mixing &9kelp&r and &2water&r in a &9brewing stand&r."
 				""
 				"We need to automate the production of &bpurified water&r. Can you help out?"
 			]
@@ -162,7 +162,7 @@
 		}
 		{
 			dependencies: ["6972B2D70BB37D64"]
-			description: ["Use your &9flint knife&r to cut grass or wheat and gather &9straw&r fibers, which you can craft into a &9rope&r. Ropes are perfect for climbing, making them invaluable for exploring deep caves or scaling high places. To fold the rope back, &dshift-right-click&r on it."]
+			description: ["Use your &7flint knife&r to cut &7grass&r or &7wheat&r and gather &9straw&r fibers, which you can craft into a &9rope&r. &9Ropes&r are perfect for climbing, making them invaluable for exploring deep caves or scaling high places. To fold the &9rope&r back, &dshift-right-click&r on it."]
 			id: "41EB50E106E704C7"
 			rewards: [{
 				id: "7EB857C983EA154B"
@@ -182,7 +182,7 @@
 		}
 		{
 			dependencies: ["41EB50E106E704C7"]
-			description: ["The &9rope arrow&r is a must-have for adventurers! Shoot it to deploy a rope. Do not forget to retrieve your arrow."]
+			description: ["The &9rope arrow&r is a must-have for adventurers! Shoot it to deploy a &7rope&r. Do not forget to retrieve your &7arrow&r."]
 			icon: {
 				Count: 1b
 				id: "supplementaries:rope_arrow"
@@ -239,13 +239,13 @@
 			description: ["The &9safety net&r cushions your falls, letting you land safely from dangerous heights. Place it wisely to avoid injuries while exploring."]
 			id: "1011B8774A05BBCF"
 			rewards: [{
-				count: 3
 				id: "3006BCB332349595"
 				item: "farmersdelight:safety_net"
 				type: "item"
 			}]
 			subtitle: "Craft a safety net."
 			tasks: [{
+				count: 3L
 				id: "4153650588E719E0"
 				item: "farmersdelight:safety_net"
 				type: "item"
@@ -423,9 +423,9 @@
 		{
 			dependencies: ["58228F0652E3D94B"]
 			description: [
-				"Equip yourself with a full set of &9wolf pelt armor&r to stay warm in freezing temperatures. It is crafted from the pelts of wolves, providing both protection and insulation. Perfect for surviving the harshest climates!"
+				"Equip yourself with a full set of &9wolf pelt armor&r to stay warm in freezing temperatures. It is crafted from the &7pelts of wolves&r, providing both protection and insulation. Perfect for surviving the harshest climates!"
 				""
-				"They say leather armor works just as well, but where is the fun in that?"
+				"They say &7leather armor&r works just as well, but where is the fun in that?"
 			]
 			icon: {
 				Count: 1b
@@ -630,9 +630,9 @@
 		{
 			dependencies: ["68A4E345A4C7939E"]
 			description: [
-				"Improve your hookshot at a &6smithing table&r to unlock extra perks:"
+				"Improve your &9hookshot&r at a &6smithing table&r to unlock extra perks:"
 				""
-				"- &dAquatic upgrade&r using &9prismarine shard&r allows the hookshot to glide through water,"
+				"- &dAquatic upgrade&r using &9prismarine shard&r allows the hook to glide through water,"
 				"- &dEnderic upgrade&r with an &9eye of ender&r enables teleportation instead of pulling,"
 				"- &dQuick upgrade&r using a &9piston&r increases the hook speed by 50%,"
 				"- &dLong upgrade&r with a &9chain&r doubles the range,"
@@ -734,7 +734,7 @@
 		}
 		{
 			dependencies: ["68A4E345A4C7939E"]
-			description: ["Craft a &9quiver&r to hold your &6arrows&r and make them easily accessible. Simply right-click to add &6arrows&r to your quiver. With the quiver in hand, right-click and scroll to select the &6arrow&r you want to use."]
+			description: ["Craft a &9quiver&r to hold your &6arrows&r and make them easily accessible. Simply right-click to add &6arrows&r to your &9quiver&r. With the &9quiver&r in hand, &dright-click&r and &dscroll&r to select the &6arrow&r you want to use."]
 			id: "7EE4B90620C5A104"
 			rewards: [{
 				count: 4
@@ -766,7 +766,7 @@
 		}
 		{
 			dependencies: ["7EE4B90620C5A104"]
-			description: ["Launch potatoes at your enemies or for fun! Experiment with different vegetables and enjoy the chaos!"]
+			description: ["Launch &epotatoes&r at your enemies or for fun! Experiment with different &6vegetables&r and enjoy the chaos!"]
 			id: "176D8E600507295E"
 			rewards: [{
 				count: 16
