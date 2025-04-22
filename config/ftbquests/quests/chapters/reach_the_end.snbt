@@ -82,9 +82,8 @@
 			description: ["Did someone really forged the &6lost eye&r?"]
 			id: "43CBA7384A4FAE89"
 			rewards: [{
-				count: 4
-				id: "3F199C79C29FBBAD"
-				item: "create:minecart_coupling"
+				id: "06B74EADA85E75B2"
+				item: "mining_helmet:miner_charm"
 				type: "item"
 			}]
 			subtitle: "Seek the lost eye."
