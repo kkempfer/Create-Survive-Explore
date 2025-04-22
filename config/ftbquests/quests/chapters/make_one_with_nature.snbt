@@ -1357,9 +1357,9 @@
 			description: ["Automate your &9sweet berry&r production!"]
 			id: "61373A0507C51B0B"
 			rewards: [{
-				count: 4
-				id: "068F853DCBE680EC"
-				item: "create:chocolate_glazed_berries"
+				count: 8
+				id: "4C6D1FC9AAA8AE3F"
+				item: "supplementaries:pancake"
 				type: "item"
 			}]
 			subtitle: "Farm sweet berries."

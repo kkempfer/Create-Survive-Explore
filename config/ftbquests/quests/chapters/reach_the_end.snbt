@@ -82,7 +82,8 @@
 			description: ["Did someone really forged the &6lost eye&r?"]
 			id: "43CBA7384A4FAE89"
 			rewards: [{
-				id: "486FD5C9F6FC1447"
+				count: 4
+				id: "3F199C79C29FBBAD"
 				item: "create:minecart_coupling"
 				type: "item"
 			}]
@@ -561,9 +562,14 @@
 			description: ["Venture into the underground and search for the &9mineshafts&r, remnants of a bygone industrial age. These ancient tunnels, once bustling with activity, now hold untold secrets and forgotten machinery."]
 			id: "3608DC9063DCE786"
 			rewards: [{
-				count: 2
-				icon: "minecraft:raw_gold"
-				id: "06ED5B67168A072F"
+				id: "0CF435328143D17E"
+				item: {
+					Count: 1b
+					id: "mining_helmet:mining_helmet"
+					tag: {
+						Damage: 0
+					}
+				}
 				type: "item"
 			}]
 			subtitle: "Discover mineshafts."

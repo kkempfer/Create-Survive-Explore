@@ -1407,8 +1407,8 @@
 			description: ["Compact your &7chocolate&r to form bars, like a master chocolatier!"]
 			id: "67CF3D7F90B9181D"
 			rewards: [{
-				id: "54D157477FF9D974"
-				item: "create:bar_of_chocolate"
+				id: "37B913D5B5A0BC23"
+				item: "supplementaries:pancake"
 				type: "item"
 			}]
 			subtitle: "Craft a bar of chocolate."
@@ -1608,6 +1608,26 @@
 			title: "&dChocolate Chip&r"
 			x: -7.0d
 			y: -7.0d
+		}
+		{
+			dependencies: ["3EE558FBA2D2D8B8"]
+			description: ["Mix &7wheat flour&r, &7sugar&r, an &7egg&r and &7milk&r to prepare &9pancakes&r. Best served stacked and sweet."]
+			id: "0E6923A00F56FA8B"
+			rewards: [{
+				id: "5678087BBFA932D6"
+				item: "minecraft:honey_bottle"
+				type: "item"
+			}]
+			subtitle: "Make pancakes."
+			tasks: [{
+				count: 3L
+				id: "347CAA2089C8DADB"
+				item: "supplementaries:pancake"
+				type: "item"
+			}]
+			title: "&ePerfect Breakfast&r"
+			x: -2.5d
+			y: -7.5d
 		}
 	]
 	title: "Master the Kitchen"

@@ -529,6 +529,17 @@ ServerEvents.recipes(event => {
         C: 'farmersdelight:canvas'
     });
 
+    // Modify pancake recipe and add a new recipe
+    event.replaceInput(
+        { id: 'supplementaries:pancake' },
+        'minecraft:milk_bucket',
+        '#c:milk',
+    );
+    event.recipes.createCompacting(
+        '3x supplementaries:pancake',
+        [Fluid.of('milk:still_milk', 27000), 'minecraft:egg', 'minecraft:sugar', 'create:wheat_flour']
+    );
+
     // Add quiver recipe
     event.shaped('supplementaries:quiver', [
         'L L',
